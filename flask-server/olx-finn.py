@@ -1,5 +1,6 @@
 import requests
 import re
+import json
 
 def normalize_name(name):
     return re.sub(r'\W+', '', name).lower()
@@ -62,7 +63,6 @@ def match_car(finn_car, olx_car):
         return abs(finn_year - olx_year) <= 2
     return False
 
-# Function to pair and organize the data
 def pair_car_data(finn_data, olx_data):
     car_pairs = {}
 
@@ -103,16 +103,23 @@ olx_data = fetch_olx_data()
 
 paired_data = pair_car_data(finn_data, olx_data)
 
-#Display organized data, only if there are olx prices associated with a finn price car: 
-#For debug purpouses, this has to be made into JSON format and hten made into its own API to finally have proper data to send to frontend.
+olx_finn_output = []
 for car_name, data in paired_data.items():
     olx_prices = data['olx_prices']
     if olx_prices:
         finn_price = data['finn_price']
         year = data['year']
         link = data['link']
-        print(f"Car: {car_name} (Year: {year})")
-        print(f"  Finn price: {finn_price} NOK")
-        print(f"  Finn link: {link}")
-        print(f"  OLX prices: {', '.join(map(str, olx_prices))} KM")
-        print()
+
+        #creating json entry for each car
+        car_entry = {
+            'car_name': car_name,
+            'year': year,
+            'finn_price': finn_price,
+            'finn_link': link,
+            'olx_prices': olx_prices
+        }
+        olx_finn_output.append(car_entry)
+
+with open('olx_finn_data.json', 'w', encoding='utf-8') as json_file:
+    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
