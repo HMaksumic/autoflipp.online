@@ -16,6 +16,9 @@ def finn_search_api():
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+#app.route("api/olx-finn-pairs")
+#future api endpoint for the compared entries;
    
 if __name__ == '__main__':
     app.run(port=8080,debug=True)

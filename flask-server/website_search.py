@@ -82,7 +82,7 @@ if script_tag:
             remove_filler(json_data)
             json.dump(json_data, json_file, indent=4)
 
-        print("JSON data saved to website_search.json")
+        print("finn.no JSON data saved to website_search.json")
 
     except json.JSONDecodeError as e:
         print("Error decoding JSON:", e)
