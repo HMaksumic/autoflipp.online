@@ -10,11 +10,8 @@ def fetch_finn_data():
     try:
         response = requests.get(finn_url)
         response.raise_for_status()
-        data = response.json()
-        props = data.get('props', {})
-        page_props = props.get('pageProps', {})
-        search_data = page_props.get('search', {}).get('docs', [])
-        return search_data
+        data = response.json() 
+        return data
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data from Finn API: {e}")
         return []
