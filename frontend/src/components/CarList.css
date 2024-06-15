@@ -1,0 +1,33 @@
+/* CarList.css */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.car-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 600px; /* Increased the width */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car-card h2 {
+  margin-top: 0;
+}
+
+.car-card p {
+  margin: 8px 0;
+}
+
+.car-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.car-card a:hover {
+  text-decoration: underline;
+}

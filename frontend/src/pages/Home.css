@@ -1,0 +1,18 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 70px; /* Space between the logo and the text */
+  }

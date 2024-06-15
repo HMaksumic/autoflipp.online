@@ -1,4 +1,3 @@
-import header from '../components/Header'
 
 
 export default function Contact() {
