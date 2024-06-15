@@ -23,10 +23,7 @@ base_url = "https://www.finn.no/car/used/search.html?fuel=2&price_to=100000&sale
 
 all_data = []
 
-def fetch_and_process_page(url):
-    driver.get(url)
-
-    #clicking the "accept cookies button"
+def accept_cookies():
     button_clicked = False
     try:
         #looping through all iframes and attempt to find and click the button
@@ -48,6 +45,9 @@ def fetch_and_process_page(url):
             print("Could not find the 'Godta alle' button in any iframe.")
     except Exception as e:
         print("Error during the process:", e)
+
+def fetch_and_process_page(url):
+    driver.get(url)
 
     time.sleep(3) 
     webpage_content = driver.page_source
@@ -78,10 +78,18 @@ def remove_filler(data):
             remove_filler(item)
 
 #number of finn pages to fetch
-total_pages = 10
+total_pages = 30
 
-#fetching data from each page
-for page in range(1, total_pages + 1):
+#fetching data from the first page
+url = base_url + str(1)
+driver.get(url)
+accept_cookies()
+data = fetch_and_process_page(url)
+if data:
+    all_data.extend(data['props']['pageProps']['search'].get('docs', []))
+
+#fetching data from the remaining pages
+for page in range(2, total_pages + 1):
     url = base_url + str(page)
     data = fetch_and_process_page(url)
     if data:

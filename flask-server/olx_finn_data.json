@@ -1,62 +1,588 @@
 [
     {
+        "car_name": "volvoxc90automat5seter4x4nyeunyservicenyregreimcruise",
+        "year": 2005,
+        "finn_price": 99000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357352732",
+        "olx_prices": [
+            13300
+        ]
+    },
+    {
+        "car_name": "peugeot3083081690d",
+        "year": 2010,
+        "finn_price": 34845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357346593",
+        "olx_prices": [
+            8300,
+            11000,
+            8600,
+            0,
+            9200,
+            8000
+        ]
+    },
+    {
+        "car_name": "volkswagencaddymaxicaddymaxi19105d",
+        "year": 2009,
+        "finn_price": 59000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357338345",
+        "olx_prices": [
+            15500,
+            15000
+        ]
+    },
+    {
+        "car_name": "volkswagengolf16tdi105hkhighlineccdabeuokhf",
+        "year": 2010,
+        "finn_price": 71845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357351125",
+        "olx_prices": [
+            13299,
+            11990,
+            18500,
+            13700,
+            13900,
+            13700,
+            12950,
+            12700,
+            11300,
+            12600,
+            12500,
+            14200,
+            10300,
+            14500,
+            11700,
+            9900,
+            12600,
+            0,
+            13500,
+            12100,
+            11650,
+            12300,
+            0,
+            9499
+        ]
+    },
+    {
+        "car_name": "volkswagenpassatpassat20110dcrhighlinerline",
+        "year": 2010,
+        "finn_price": 11845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=351506811",
+        "olx_prices": [
+            12600,
+            16700,
+            15499,
+            10499,
+            11300,
+            9799,
+            12800,
+            11000,
+            21400,
+            11900,
+            10200,
+            15600,
+            0,
+            10700,
+            9900,
+            15000,
+            11700,
+            11500,
+            18000,
+            11650,
+            15900
+        ]
+    },
+    {
+        "car_name": "volvoxc6024163hkklimakrokautomatskinneu052025",
+        "year": 2009,
+        "finn_price": 99900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357350009",
+        "olx_prices": [
+            19600
+        ]
+    },
+    {
+        "car_name": "fordfiesta1eierisofixauxklimasvsvarmenyligeu062026",
+        "year": 2010,
+        "finn_price": 44729,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357349907",
+        "olx_prices": [
+            9000,
+            7300,
+            10600
+        ]
+    },
+    {
+        "car_name": "citroenc4aircrossc4aircross16114d4x4",
+        "year": 2012,
+        "finn_price": 90845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357344175",
+        "olx_prices": [
+            12000,
+            9100,
+            10990,
+            11850,
+            14000,
+            0
+        ]
+    },
+    {
+        "car_name": "peugeot20716hdigteugodkjentbrastandinnbytte",
+        "year": 2006,
+        "finn_price": 49000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357349118",
+        "olx_prices": [
+            6200
+        ]
+    },
+    {
+        "car_name": "opelcorsacorsa1295d",
+        "year": 2011,
+        "finn_price": 35000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357339884",
+        "olx_prices": [
+            6500,
+            7400
+        ]
+    },
+    {
+        "car_name": "bmwx530d29184d",
+        "year": 2002,
+        "finn_price": 59000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=348882878",
+        "olx_prices": [
+            11000
+        ]
+    },
+    {
+        "car_name": "opelinsignia20cdti130hkecoflexeditionsportstourer",
+        "year": 2010,
+        "finn_price": 36845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357339811",
+        "olx_prices": [
+            13500,
+            12300,
+            9999,
+            12500,
+            10300,
+            10600,
+            12200
+        ]
+    },
+    {
+        "car_name": "volvov40v4016114d",
+        "year": 2014,
+        "finn_price": 92305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357335887",
+        "olx_prices": [
+            17500
+        ]
+    },
+    {
+        "car_name": "fordcmaxcmax20163d",
+        "year": 2011,
+        "finn_price": 53845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357327141",
+        "olx_prices": [
+            11800
+        ]
+    },
+    {
+        "car_name": "bmwx1sdrive18d20136d",
+        "year": 2010,
+        "finn_price": 48845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357336353",
+        "olx_prices": [
+            17400,
+            17300,
+            18500
+        ]
+    },
+    {
+        "car_name": "bmwx3x320d20150d",
+        "year": 2006,
+        "finn_price": 27845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357230389",
+        "olx_prices": [
+            11300
+        ]
+    },
+    {
+        "car_name": "audia4a420140d",
+        "year": 2006,
+        "finn_price": 16845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357333230",
+        "olx_prices": [
+            11690,
+            7950,
+            11250,
+            13800,
+            0,
+            0,
+            14200,
+            0
+        ]
+    },
+    {
+        "car_name": "volkswagentouran16tdi105hkhighlinekrokinnredningeu25nyservice",
+        "year": 2012,
+        "finn_price": 79000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357337786",
+        "olx_prices": [
+            11500,
+            17300,
+            15500,
+            17000
+        ]
+    },
+    {
+        "car_name": "audia420tdi120hk",
+        "year": 2013,
+        "finn_price": 61845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355122795",
+        "olx_prices": [
+            15999,
+            20500,
+            21000,
+            0,
+            28500,
+            21000
+        ]
+    },
+    {
+        "car_name": "bmwx3xdrive20dautomat",
+        "year": 2010,
+        "finn_price": 89845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352658205",
+        "olx_prices": [
+            23900
+        ]
+    },
+    {
+        "car_name": "mazda622dieselmaneulkrokauxlavkmnyeu",
+        "year": 2011,
+        "finn_price": 69999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357336073",
+        "olx_prices": [
+            24900,
+            13200
+        ]
+    },
+    {
+        "car_name": "volkswagenpassat20140hkautomatskinnpsensoracccruisewebastof1",
+        "year": 2012,
+        "finn_price": 69900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357335851",
+        "olx_prices": [
+            15900,
+            0,
+            26000,
+            0,
+            20100,
+            22500
+        ]
+    },
+    {
+        "car_name": "citroenberlingo16hdi90hkautomatnyservicenyeuregrembyttet",
+        "year": 2012,
+        "finn_price": 69000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357335057",
+        "olx_prices": [
+            13900
+        ]
+    },
+    {
+        "car_name": "audiq5q520143dquattro",
+        "year": 2012,
+        "finn_price": 99845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357328542",
+        "olx_prices": [
+            25000,
+            23900,
+            34800
+        ]
+    },
+    {
+        "car_name": "volkswagengolfgolf16105d",
+        "year": 2012,
+        "finn_price": 99305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=341141551",
+        "olx_prices": [
+            20700,
+            0,
+            19400
+        ]
+    },
+    {
+        "car_name": "fordfocusfocus16116dtitanium",
+        "year": 2012,
+        "finn_price": 44500,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=269375308",
+        "olx_prices": [
+            8000
+        ]
+    },
+    {
+        "car_name": "audia420143d",
+        "year": 2009,
+        "finn_price": 78845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357311331",
+        "olx_prices": [
+            13600,
+            15999,
+            15900,
+            16500,
+            17900,
+            18950,
+            0
+        ]
+    },
+    {
+        "car_name": "audia620drustfridabeumai2026",
+        "year": 2006,
+        "finn_price": 49000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357315071",
+        "olx_prices": [
+            10500,
+            10000
+        ]
+    },
+    {
+        "car_name": "volkswagensharan20tdi140hk4hjulstrekkpano7seterisofix",
+        "year": 2011,
+        "finn_price": 64900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357309988",
+        "olx_prices": [
+            18400,
+            16900,
+            0
+        ]
+    },
+    {
+        "car_name": "skodaoctaviabilligoctavia16105d4x4euok2025",
+        "year": 2012,
+        "finn_price": 59845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357303272",
+        "olx_prices": [
+            12650
+        ]
+    },
+    {
+        "car_name": "fordmondeomondeo20140d",
+        "year": 2008,
+        "finn_price": 14345,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=349483695",
+        "olx_prices": [
+            8500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500,
+            7500
+        ]
+    },
+    {
+        "car_name": "volkswagencaddymaxi20tdiautomatrefusjon13300krforeksport",
+        "year": 2018,
+        "finn_price": 95000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352916033",
+        "olx_prices": [
+            0
+        ]
+    },
+    {
+        "car_name": "volkswagengolfgolf19105d",
+        "year": 2008,
+        "finn_price": 24345,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357164224",
+        "olx_prices": [
+            9700
+        ]
+    },
+    {
+        "car_name": "volvov50v50rdesign16109d",
+        "year": 2010,
+        "finn_price": 56845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357295878",
+        "olx_prices": [
+            12800
+        ]
+    },
+    {
+        "car_name": "hyundaii4017crdibluedrivenyservicesvhjulnesteeu032026",
+        "year": 2013,
+        "finn_price": 99995,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357300343",
+        "olx_prices": [
+            17950
+        ]
+    },
+    {
+        "car_name": "mitsubishipajeropajero28125d4wd",
+        "year": 1999,
+        "finn_price": 36845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357290312",
+        "olx_prices": [
+            13400
+        ]
+    },
+    {
+        "car_name": "peugeot50816",
+        "year": 2014,
+        "finn_price": 81305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=54933427",
+        "olx_prices": [
+            18900,
+            0,
+            13900,
+            14900,
+            14950,
+            15990,
+            0,
+            14900
+        ]
+    },
+    {
+        "car_name": "audia620136d",
+        "year": 2010,
+        "finn_price": 81845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357279177",
+        "olx_prices": [
+            17500,
+            28000,
+            17500,
+            0,
+            24900,
+            23500,
+            0,
+            0,
+            25600,
+            20400
+        ]
+    },
+    {
+        "car_name": "volkswagentiguan",
+        "year": 2009,
+        "finn_price": 38000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357282720",
+        "olx_prices": [
+            19999,
+            18900,
+            22500,
+            18999,
+            18900,
+            19500,
+            16250,
+            20500,
+            18500,
+            19500,
+            20100,
+            21000,
+            0,
+            19900,
+            17300,
+            16400,
+            16900,
+            0,
+            16900,
+            19900,
+            21400,
+            20000,
+            18900,
+            16400,
+            16999,
+            19000,
+            19300,
+            17800,
+            19900,
+            18300,
+            18700,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500,
+            22500
+        ]
+    },
+    {
+        "car_name": "peugeot300816hdi114hkallurepanoramaxenoncruisenavikamera",
+        "year": 2014,
+        "finn_price": 89900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357267503",
+        "olx_prices": [
+            0,
+            13800,
+            26900,
+            0,
+            14750
+        ]
+    },
+    {
+        "car_name": "volkswagengolf20tdiautomateugodkjentrimeliginnbytte",
+        "year": 2008,
+        "finn_price": 15845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357276594",
+        "olx_prices": [
+            10999
+        ]
+    },
+    {
+        "car_name": "nissanpathfinderpathfinder25171d4x4",
+        "year": 2007,
+        "finn_price": 96777,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=305413394",
+        "olx_prices": [
+            25000
+        ]
+    },
+    {
+        "car_name": "volkswagengolfgolf16110d",
+        "year": 2015,
+        "finn_price": 98000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357204490",
+        "olx_prices": [
+            27800
+        ]
+    },
+    {
+        "car_name": "volkswagengolf16tdi105hkhighlinedsgk",
+        "year": 2014,
+        "finn_price": 89305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356958220",
+        "olx_prices": [
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900,
+            21900
+        ]
+    },
+    {
         "car_name": "volkswagengolfgolf5stasjonsvognmanuell",
         "year": 2008,
         "finn_price": 32000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357253763",
         "olx_prices": [
-            13299,
-            11990,
-            18500,
-            12950,
-            11300,
-            13900,
-            13700,
-            12600,
-            12500,
-            14200,
-            7700,
-            9900,
-            7450,
-            12600,
-            0,
-            12100,
-            18900,
-            9300,
-            13500,
-            0,
-            6300,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "car_name": "volvoxc90xc9024163dawd",
-        "year": 2004,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357245463",
-        "olx_prices": [
-            13300
+            7700
         ]
     },
     {
@@ -66,79 +592,7 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357243733",
         "olx_prices": [
             2100,
-            1300,
-            2250,
-            3600,
-            3000
-        ]
-    },
-    {
-        "car_name": "volkswagengolfgolf16tdibluemotionbluetootheuok",
-        "year": 2013,
-        "finn_price": 64305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357240825",
-        "olx_prices": [
-            13700,
-            10300,
-            20700,
-            14500,
-            0,
-            13200,
-            14600,
-            19400,
-            13500,
-            10500,
-            24800,
-            11000
-        ]
-    },
-    {
-        "car_name": "volkswagenpassatpassat20140d4motion",
-        "year": 2011,
-        "finn_price": 91845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357242533",
-        "olx_prices": [
-            12600,
-            16700,
-            10499,
-            11300,
-            15499,
-            9799,
-            12800,
-            12800,
-            11700,
-            11500,
-            21400,
-            11900,
-            10200,
-            15500,
-            26000,
-            15600,
-            0,
-            10700,
-            0,
-            19500,
-            9900,
-            12000,
-            11200,
-            0,
-            18800,
-            10000,
-            16000,
-            0,
-            16000,
-            16200,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900,
-            10900
+            1300
         ]
     },
     {
@@ -147,20 +601,12 @@
         "finn_price": 36845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357241207",
         "olx_prices": [
-            11000,
-            5500,
-            3350,
             9150,
-            9000,
             9500,
             6000,
-            10700,
-            10400,
-            10800,
-            9750,
-            8800,
-            10900,
-            6200
+            5500,
+            8400,
+            9800
         ]
     },
     {
@@ -182,6 +628,17 @@
         ]
     },
     {
+        "car_name": "volkswagentiguantiguan20110dlavkilometerstand",
+        "year": 2012,
+        "finn_price": 86845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357235259",
+        "olx_prices": [
+            26000,
+            24900,
+            0
+        ]
+    },
+    {
         "car_name": "opelzafira19cdtiaut120hkenjoy",
         "year": 2006,
         "finn_price": 36845,
@@ -191,13 +648,12 @@
         ]
     },
     {
-        "car_name": "volkswagentouran19tdidsgautomatskinnhengerfeste",
-        "year": 2009,
-        "finn_price": 49900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357238226",
+        "car_name": "volkswagengolf20tdi150hkhighline4motion",
+        "year": 2014,
+        "finn_price": 99305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357226700",
         "olx_prices": [
-            11500,
-            15500
+            23200
         ]
     },
     {
@@ -206,16 +662,7 @@
         "finn_price": 21845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357232048",
         "olx_prices": [
-            0
-        ]
-    },
-    {
-        "car_name": "volvov5016114d",
-        "year": 2011,
-        "finn_price": 16845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356962877",
-        "olx_prices": [
-            12800
+            7300
         ]
     },
     {
@@ -225,30 +672,7 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357231837",
         "olx_prices": [
             13600,
-            28000,
-            27900,
-            28000
-        ]
-    },
-    {
-        "car_name": "audia4tdi20120hkattractioncchfesteeu62026",
-        "year": 2011,
-        "finn_price": 69900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357230494",
-        "olx_prices": [
-            20500,
-            15999,
-            0,
-            15999,
-            16500,
-            17900,
-            21000,
-            18950,
-            0,
-            18500,
-            13650,
-            0,
-            19900
+            27900
         ]
     },
     {
@@ -257,42 +681,7 @@
         "finn_price": 51845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357225283",
         "olx_prices": [
-            23990,
             26500
-        ]
-    },
-    {
-        "car_name": "peugeot300816hdi114hkpremiumskinnheaduppanobttlfrkam",
-        "year": 2014,
-        "finn_price": 99999,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357227710",
-        "olx_prices": [
-            0,
-            13800,
-            26900,
-            0
-        ]
-    },
-    {
-        "car_name": "audia4a419116d",
-        "year": 2005,
-        "finn_price": 8845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357222791",
-        "olx_prices": [
-            11690,
-            11250,
-            0,
-            0,
-            9299
-        ]
-    },
-    {
-        "car_name": "skodaoctaviarsrsutgave20170hknyregreimnyservice",
-        "year": 2012,
-        "finn_price": 88000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356952472",
-        "olx_prices": [
-            12650
         ]
     },
     {
@@ -319,12 +708,10 @@
         "finn_price": 59305,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357219244",
         "olx_prices": [
-            0,
+            24700,
             0,
             25000,
-            23500,
-            17400,
-            19950
+            23500
         ]
     },
     {
@@ -335,7 +722,6 @@
         "olx_prices": [
             6750,
             8000,
-            7650,
             7400
         ]
     },
@@ -349,24 +735,14 @@
         ]
     },
     {
-        "car_name": "audia420tdi140hkautslineskinnkrokrattgirpdccruise",
-        "year": 2008,
-        "finn_price": 99000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357221491",
-        "olx_prices": [
-            13800,
-            14200
-        ]
-    },
-    {
         "car_name": "audia3a319101d",
         "year": 2002,
         "finn_price": 14845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356164214",
         "olx_prices": [
-            7100,
-            7200,
-            6000
+            8300,
+            5300,
+            7100
         ]
     },
     {
@@ -379,21 +755,22 @@
         ]
     },
     {
-        "car_name": "nissanxtrailxtrail20150d4x4",
-        "year": 2007,
-        "finn_price": 69000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357207105",
-        "olx_prices": [
-            15000
-        ]
-    },
-    {
-        "car_name": "volvos60momentum16d114hkeu25",
+        "car_name": "opelvivarovivaro20114d",
         "year": 2011,
-        "finn_price": 99000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357219534",
+        "finn_price": 96231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357211074",
         "olx_prices": [
-            0
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300,
+            5300
         ]
     },
     {
@@ -420,10 +797,23 @@
         "finn_price": 72000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357211889",
         "olx_prices": [
-            0,
+            18900,
             13500,
             0,
-            13900
+            13900,
+            18000,
+            0,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500,
+            16500
         ]
     },
     {
@@ -433,21 +823,10 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=84495931",
         "olx_prices": [
             0,
-            8600
-        ]
-    },
-    {
-        "car_name": "peugeot3081692d",
-        "year": 2011,
-        "finn_price": 35845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355194219",
-        "olx_prices": [
-            8300,
-            11000,
-            8600,
-            9200,
-            8000,
-            8300
+            11200,
+            10600,
+            6400,
+            10500
         ]
     },
     {
@@ -456,48 +835,50 @@
         "finn_price": 89900,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357211325",
         "olx_prices": [
-            13900,
-            25800,
-            15350,
-            20500,
             18900,
-            15999,
+            14300,
             14999,
             21900,
             20980,
             15900,
+            13400,
+            13700,
+            13900,
+            25800,
+            15350,
+            12500,
+            16300,
+            16400,
+            13800,
+            0,
+            29500,
+            0,
+            15999,
             15900,
             26999,
-            0,
-            31700,
             23700,
             22300,
-            14300,
             24800,
             13990,
-            16300,
-            10750,
             15550,
-            33500,
             16500,
             16999,
-            13700,
-            18350,
-            19500,
-            12500,
-            26900,
             30500,
             0,
-            34900,
+            19400,
+            14000,
+            17990,
+            17000,
+            20000,
+            22900,
             28900,
+            15900,
             20000,
             32300,
-            14000,
             16950,
             16399,
             39500,
             13900,
-            17000,
             0,
             25000,
             15900,
@@ -505,17 +886,10 @@
             15900,
             14900,
             28900,
-            19400,
-            0,
-            24600,
             15850,
             17000,
             14900,
             14000,
-            15900,
-            16800,
-            20000,
-            32300,
             17600,
             13999,
             28000,
@@ -523,15 +897,12 @@
             19499,
             25000,
             15990,
-            29900,
             16500,
-            0,
             15500,
             15950,
             16300,
             19200,
-            14500,
-            17500,
+            13990,
             13200,
             0,
             17250,
@@ -540,67 +911,26 @@
             20300,
             14000,
             14100,
-            20100,
             14950,
             18500,
             29990,
-            22900,
-            13800,
+            35000,
+            19000,
             0,
-            0,
-            15999,
-            14200,
-            15900,
-            25900,
-            15000,
-            26000,
+            24600,
             16900,
-            16900,
-            0,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500,
-            29000,
-            16500,
-            15900,
-            21500
+            32300,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750,
+            10750
         ]
     },
     {
@@ -609,16 +939,9 @@
         "finn_price": 46845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357204836",
         "olx_prices": [
-            4750
-        ]
-    },
-    {
-        "car_name": "volkswagengolf20td150hk4wdeu0326historikk2eiereoutletseher",
-        "year": 2014,
-        "finn_price": 89900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357200391",
-        "olx_prices": [
-            27800
+            4750,
+            5500,
+            5000
         ]
     },
     {
@@ -631,22 +954,11 @@
         ]
     },
     {
-        "car_name": "volkswagengolf20tdi140hk4motionhighlinexenoncruiseauxklima",
-        "year": 2010,
-        "finn_price": 79900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357161189",
-        "olx_prices": [
-            10999,
-            13900
-        ]
-    },
-    {
         "car_name": "mitsubishipajerosportpajerosport2599d4wd",
         "year": 2000,
         "finn_price": 46845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357187928",
         "olx_prices": [
-            13400,
             13000
         ]
     },
@@ -667,7 +979,8 @@
         "finn_price": 55000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357191068",
         "olx_prices": [
-            10000
+            10000,
+            10900
         ]
     },
     {
@@ -682,37 +995,13 @@
         ]
     },
     {
-        "car_name": "bmwx320d20177dmsporteugodkjtilmars2026",
-        "year": 2008,
-        "finn_price": 59745,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356770262",
-        "olx_prices": [
-            11300
-        ]
-    },
-    {
-        "car_name": "toyotaavensisavensis20116d",
-        "year": 2005,
-        "finn_price": 34845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357181247",
-        "olx_prices": [
-            5750
-        ]
-    },
-    {
         "car_name": "citroenc4picassoautomatnyeu7setersvdekk",
         "year": 2011,
         "finn_price": 69900,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357186936",
         "olx_prices": [
-            12000,
-            9100,
-            10990,
-            18000,
-            11850,
-            10500,
-            14800,
-            12500
+            12300,
+            18000
         ]
     },
     {
@@ -725,15 +1014,6 @@
         ]
     },
     {
-        "car_name": "bmwx3billigbileuoktil02022025",
-        "year": 2011,
-        "finn_price": 78845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357185732",
-        "olx_prices": [
-            23900
-        ]
-    },
-    {
         "car_name": "volkswagenpolocross14tdi",
         "year": 2008,
         "finn_price": 21845,
@@ -741,9 +1021,9 @@
         "olx_prices": [
             8999,
             12800,
-            10700,
             9600,
-            10500
+            10550,
+            10700
         ]
     },
     {
@@ -752,48 +1032,9 @@
         "finn_price": 95000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357184246",
         "olx_prices": [
-            14500,
             16900,
-            15100,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999,
-            14999
-        ]
-    },
-    {
-        "car_name": "bmwx530d29184d",
-        "year": 2002,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357178570",
-        "olx_prices": [
-            11000,
-            12500
-        ]
-    },
-    {
-        "car_name": "nissanpathfinderpathfinder25171d4x4",
-        "year": 2009,
-        "finn_price": 48000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357155664",
-        "olx_prices": [
-            25000
-        ]
-    },
-    {
-        "car_name": "peugeot3083081690d",
-        "year": 2008,
-        "finn_price": 13845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357160279",
-        "olx_prices": [
-            0
+            14500,
+            15100
         ]
     },
     {
@@ -802,53 +1043,8 @@
         "finn_price": 65845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357169223",
         "olx_prices": [
-            14500,
-            0
-        ]
-    },
-    {
-        "car_name": "fordfiestafiesta1469d",
-        "year": 2010,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353481652",
-        "olx_prices": [
-            9000,
-            10600,
-            7300
-        ]
-    },
-    {
-        "car_name": "opelinsignia20cdti131hkcosmosportstourerautdelskinnhfester",
-        "year": 2009,
-        "finn_price": 79000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357166864",
-        "olx_prices": [
-            11400,
-            12300,
-            9999,
-            10300,
-            10600,
-            12200
-        ]
-    },
-    {
-        "car_name": "opelvivarovivaro16120d",
-        "year": 2015,
-        "finn_price": 95000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357155806",
-        "olx_prices": [
-            26950
-        ]
-    },
-    {
-        "car_name": "volkswagencaddycaddy20110d4motion",
-        "year": 2011,
-        "finn_price": 59000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356726416",
-        "olx_prices": [
-            15500,
-            15000,
-            0
+            0,
+            14500
         ]
     },
     {
@@ -861,27 +1057,33 @@
         ]
     },
     {
+        "car_name": "nissanxtrailxtrail22114d4x4",
+        "year": 2002,
+        "finn_price": 14845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357152097",
+        "olx_prices": [
+            5000
+        ]
+    },
+    {
         "car_name": "audia6",
         "year": 2006,
         "finn_price": 31845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357149367",
         "olx_prices": [
             9900,
-            10550,
             0,
+            10550,
             10500,
             12999,
-            0,
-            0,
             12200,
-            5500,
             0,
+            0,
+            5500,
             11500,
-            10500,
-            11000,
             15000,
-            10900,
-            11700
+            8500,
+            15500
         ]
     },
     {
@@ -890,13 +1092,9 @@
         "finn_price": 86845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357147388",
         "olx_prices": [
-            25000,
-            0,
-            23900,
             0,
             0,
-            25700,
-            29999
+            0
         ]
     },
     {
@@ -914,9 +1112,7 @@
         "finn_price": 98000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357149129",
         "olx_prices": [
-            17300,
-            21000,
-            17000
+            21000
         ]
     },
     {
@@ -930,17 +1126,18 @@
             7500,
             4000,
             7700,
+            8350,
             7800,
-            4200
-        ]
-    },
-    {
-        "car_name": "audiq730tdiquattrotiptronic7seterdpf",
-        "year": 2007,
-        "finn_price": 63845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357137395",
-        "olx_prices": [
-            18999
+            7800,
+            7800,
+            7800,
+            7800,
+            7800,
+            7800,
+            7800,
+            7800,
+            7800,
+            7800
         ]
     },
     {
@@ -949,7 +1146,7 @@
         "finn_price": 39845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357127923",
         "olx_prices": [
-            4000
+            3700
         ]
     },
     {
@@ -967,8 +1164,7 @@
         "finn_price": 49900,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357135217",
         "olx_prices": [
-            0,
-            17300
+            14490
         ]
     },
     {
@@ -977,9 +1173,7 @@
         "finn_price": 26845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357125891",
         "olx_prices": [
-            15700,
-            14900,
-            14900
+            15700
         ]
     },
     {
@@ -988,23 +1182,9 @@
         "finn_price": 26845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357122016",
         "olx_prices": [
+            5500,
             6500,
-            5300,
-            5500
-        ]
-    },
-    {
-        "car_name": "audia6allroad27tdi180quattrotiptronic",
-        "year": 2008,
-        "finn_price": 70000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357114775",
-        "olx_prices": [
-            17500,
-            17500,
-            0,
-            0,
-            20400,
-            19500
+            5600
         ]
     },
     {
@@ -1013,8 +1193,7 @@
         "finn_price": 16845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357084313",
         "olx_prices": [
-            8800,
-            8500
+            8800
         ]
     },
     {
@@ -1032,35 +1211,18 @@
         "finn_price": 69900,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357115831",
         "olx_prices": [
+            9600,
             9300,
             11300
         ]
     },
     {
-        "car_name": "hyundaii40i4017116d",
-        "year": 2013,
-        "finn_price": 70000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352848623",
-        "olx_prices": [
-            17950
-        ]
-    },
-    {
         "car_name": "audia1a116105d",
         "year": 2011,
-        "finn_price": 49880,
+        "finn_price": 47880,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=290399339",
         "olx_prices": [
             13900
-        ]
-    },
-    {
-        "car_name": "audia4a420120davant",
-        "year": 2013,
-        "finn_price": 70000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357094534",
-        "olx_prices": [
-            28500
         ]
     },
     {
@@ -1069,27 +1231,8 @@
         "finn_price": 13845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357095375",
         "olx_prices": [
-            10900,
-            9000
-        ]
-    },
-    {
-        "car_name": "volvov40v4016114d",
-        "year": 2013,
-        "finn_price": 85000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=335636767",
-        "olx_prices": [
-            17500
-        ]
-    },
-    {
-        "car_name": "fordgalaxygalaxy20131d",
-        "year": 2006,
-        "finn_price": 17845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356891725",
-        "olx_prices": [
-            8400,
-            8400
+            9900,
+            9500
         ]
     },
     {
@@ -1099,7 +1242,8 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357086628",
         "olx_prices": [
             9400,
-            9200
+            9200,
+            7300
         ]
     },
     {
@@ -1108,7 +1252,7 @@
         "finn_price": 99990,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357082946",
         "olx_prices": [
-            17500
+            0
         ]
     },
     {
@@ -1117,7 +1261,7 @@
         "finn_price": 39845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357069553",
         "olx_prices": [
-            0
+            1200
         ]
     },
     {
@@ -1130,31 +1274,12 @@
         ]
     },
     {
-        "car_name": "hyundaiterracan",
-        "year": 2002,
-        "finn_price": 10000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357034210",
-        "olx_prices": [
-            10000
-        ]
-    },
-    {
         "car_name": "volkswagencaddy16tdi",
         "year": 2011,
         "finn_price": 51386,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357050854",
         "olx_prices": [
-            16350,
-            14990
-        ]
-    },
-    {
-        "car_name": "fordmondeo20tdci115hktitanium",
-        "year": 2008,
-        "finn_price": 29000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357048214",
-        "olx_prices": [
-            8200
+            16350
         ]
     },
     {
@@ -1172,24 +1297,8 @@
         "finn_price": 89000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357047344",
         "olx_prices": [
-            28000,
-            26200,
-            34500,
-            23500,
-            25600,
-            24000,
-            0,
-            26000,
-            37500
-        ]
-    },
-    {
-        "car_name": "peugeot308sw3081690d",
-        "year": 2010,
-        "finn_price": 27845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357039328",
-        "olx_prices": [
-            9500
+            37500,
+            24000
         ]
     },
     {
@@ -1198,25 +1307,8 @@
         "finn_price": 31000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=260428824",
         "olx_prices": [
+            20000,
             8000
-        ]
-    },
-    {
-        "car_name": "fordtransit22tdci9setercruisemanuellvarmerdobledørerbak",
-        "year": 2009,
-        "finn_price": 89900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357025981",
-        "olx_prices": [
-            2500
-        ]
-    },
-    {
-        "car_name": "fordcmaxcmax1695dnypris",
-        "year": 2010,
-        "finn_price": 26845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=346733409",
-        "olx_prices": [
-            11800
         ]
     },
     {
@@ -1226,7 +1318,8 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=347796661",
         "olx_prices": [
             8200,
-            7550
+            7550,
+            4200
         ]
     },
     {
@@ -1236,6 +1329,350 @@
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357016346",
         "olx_prices": [
             11900
+        ]
+    },
+    {
+        "car_name": "toyotarav422d4d150hkawdskinncchfkeyless",
+        "year": 2010,
+        "finn_price": 96845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357013649",
+        "olx_prices": [
+            21500,
+            0
+        ]
+    },
+    {
+        "car_name": "renaultmeganemegane15110d",
+        "year": 2011,
+        "finn_price": 56845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357003801",
+        "olx_prices": [
+            10700,
+            7800
+        ]
+    },
+    {
+        "car_name": "toyotaversoverso20126d",
+        "year": 2010,
+        "finn_price": 32186,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=318304243",
+        "olx_prices": [
+            15400
+        ]
+    },
+    {
+        "car_name": "renaultgrandscenicgrandscenic19131d",
+        "year": 2010,
+        "finn_price": 6289,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356975740",
+        "olx_prices": [
+            10000
+        ]
+    },
+    {
+        "car_name": "opelvectravectra19120d",
+        "year": 2005,
+        "finn_price": 16845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356971283",
+        "olx_prices": [
+            4600
+        ]
+    },
+    {
+        "car_name": "mercedesbenzglk220cdi4matic",
+        "year": 2009,
+        "finn_price": 99845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356968105",
+        "olx_prices": [
+            22500,
+            22900
+        ]
+    },
+    {
+        "car_name": "fordmondeo20tdci115hkghia",
+        "year": 2008,
+        "finn_price": 10845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355993265",
+        "olx_prices": [
+            8200
+        ]
+    },
+    {
+        "car_name": "volkswagenamarok20tdi140hk4mdobbelcablavseriewebasto",
+        "year": 2015,
+        "finn_price": 89000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356953737",
+        "olx_prices": [
+            84500,
+            39800
+        ]
+    },
+    {
+        "car_name": "mercedesbenzcitan15cdi90hkcruise3seterlavkm",
+        "year": 2016,
+        "finn_price": 89800,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356940148",
+        "olx_prices": [
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900,
+            18900
+        ]
+    },
+    {
+        "car_name": "audia620tdi136hk2010modautomattaklukeskinn",
+        "year": 2010,
+        "finn_price": 59900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356925550",
+        "olx_prices": [
+            19400
+        ]
+    },
+    {
+        "car_name": "suzukigrandvitara19tdiexecutiveskinnsoltakkrokdab",
+        "year": 2006,
+        "finn_price": 64900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356913903",
+        "olx_prices": [
+            13200,
+            0
+        ]
+    },
+    {
+        "car_name": "nissanxtrail",
+        "year": 2007,
+        "finn_price": 10000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356780878",
+        "olx_prices": [
+            9500,
+            7800
+        ]
+    },
+    {
+        "car_name": "hyundaisantafesantafe22150d",
+        "year": 2006,
+        "finn_price": 19745,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356877806",
+        "olx_prices": [
+            13000
+        ]
+    },
+    {
+        "car_name": "bmwx1xdrive18d20136hkaut5dørskombi",
+        "year": 2011,
+        "finn_price": 69999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356878090",
+        "olx_prices": [
+            25000,
+            21500
+        ]
+    },
+    {
+        "car_name": "fordfocus16tdci116hkstvmanuelltitaniumskinnnavi",
+        "year": 2013,
+        "finn_price": 79000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356877338",
+        "olx_prices": [
+            11400
+        ]
+    },
+    {
+        "car_name": "opelvectrastationwagonmegetspesiell1eiermåsees",
+        "year": 2007,
+        "finn_price": 59000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356852131",
+        "olx_prices": [
+            0
+        ]
+    },
+    {
+        "car_name": "volkswagenpolo16tdiautomateuok012026cruise",
+        "year": 2012,
+        "finn_price": 84900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356842894",
+        "olx_prices": [
+            11990,
+            8900,
+            10500
+        ]
+    },
+    {
+        "car_name": "mercedesbenz814d",
+        "year": 1993,
+        "finn_price": 37231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356830449",
+        "olx_prices": [
+            8500
+        ]
+    },
+    {
+        "car_name": "volkswagengolfgolf19101d",
+        "year": 2003,
+        "finn_price": 21845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356823188",
+        "olx_prices": [
+            4400,
+            5600,
+            5000,
+            5999,
+            5100
+        ]
+    },
+    {
+        "car_name": "audia6a620140d",
+        "year": 2007,
+        "finn_price": 24995,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356819995",
+        "olx_prices": [
+            0
+        ]
+    },
+    {
+        "car_name": "bmw3seriebmw318d20136d",
+        "year": 2009,
+        "finn_price": 56845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356811905",
+        "olx_prices": [
+            14800
+        ]
+    },
+    {
+        "car_name": "landroverrangerover29177d4wdeugodkjenttil25012026krokluke",
+        "year": 2003,
+        "finn_price": 89999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356803555",
+        "olx_prices": [
+            7000
+        ]
+    },
+    {
+        "car_name": "opelinsigniainsignia20160dawd",
+        "year": 2012,
+        "finn_price": 88845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356793482",
+        "olx_prices": [
+            17000
+        ]
+    },
+    {
+        "car_name": "peugeot20716hdi90hk2010modisofixpanoramatakeutil26",
+        "year": 2010,
+        "finn_price": 49900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356780949",
+        "olx_prices": [
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700,
+            9700
+        ]
+    },
+    {
+        "car_name": "mercedesbenzvito163hkautomatog4x4nyacradiator",
+        "year": 2013,
+        "finn_price": 99900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356684847",
+        "olx_prices": [
+            43000
+        ]
+    },
+    {
+        "car_name": "volkswagenpassat20tdi140hkbmtbusinessedition4m",
+        "year": 2014,
+        "finn_price": 79305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356748953",
+        "olx_prices": [
+            28000
+        ]
+    },
+    {
+        "car_name": "renaultscenicscenic15106d",
+        "year": 2006,
+        "finn_price": 25845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356714061",
+        "olx_prices": [
+            1500
+        ]
+    },
+    {
+        "car_name": "peugeot307sw16109d",
+        "year": 2007,
+        "finn_price": 26845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356359540",
+        "olx_prices": [
+            4250,
+            0,
+            4500
+        ]
+    },
+    {
+        "car_name": "volkswagenjettajetta1660d",
+        "year": 1990,
+        "finn_price": 51845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356663252",
+        "olx_prices": [
+            1350
+        ]
+    },
+    {
+        "car_name": "volkswagengolfpluscross19tdihskinnautomat",
+        "year": 2008,
+        "finn_price": 89900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356629264",
+        "olx_prices": [
+            7800
+        ]
+    },
+    {
+        "car_name": "landroverdiscoverydiscovery27190d4wd7setereu42026",
+        "year": 2007,
+        "finn_price": 86845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352588804",
+        "olx_prices": [
+            11500,
+            25000
+        ]
+    },
+    {
+        "car_name": "volkswagenpassat19tdi",
+        "year": 2001,
+        "finn_price": 9745,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356594122",
+        "olx_prices": [
+            6200,
+            6700
+        ]
+    },
+    {
+        "car_name": "opelinsigniainsignia20120d",
+        "year": 2014,
+        "finn_price": 84305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356576093",
+        "olx_prices": [
+            15500
+        ]
+    },
+    {
+        "car_name": "fordfiesta",
+        "year": 2006,
+        "finn_price": 16845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356551590",
+        "olx_prices": [
+            4950,
+            4100
         ]
     }
 ]
