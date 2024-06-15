@@ -23,11 +23,18 @@ const CarList = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading data: {error.message}</p>;
 
+function formatCarName(name) {
+    return name.replace(/([a-z])([A-Z])/g, '$1 $2')
+               .replace(/(\d)/g, ' $1 ')             
+               .replace(/ {2,}/g, ' ')               
+               .trim();                              
+}
+
   return (
     <div className="car-list">
       {carData.map((car, index) => (
         <div key={index} className="car-card">
-          <h2>{car.car_name}</h2>
+          <h2>{formatCarName(car.car_name)}</h2>
           <p><strong>finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
           <p><strong>finn.no price:</strong> {car.finn_price} NOK</p>
           <p><strong>OLX.ba prices:</strong> {car.olx_prices.join(', ')} BAM/KM</p>

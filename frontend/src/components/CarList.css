@@ -11,7 +11,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
-  width: 600px; /* Increased the width */
+  width: 600px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,4 +30,9 @@
 
 .car-card a:hover {
   text-decoration: underline;
+}
+
+.car-card:hover {
+  border: 1px solid #007bff;
+
 }
