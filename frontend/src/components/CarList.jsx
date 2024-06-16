@@ -9,7 +9,8 @@ const CarList = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8080/api/olx_finn_data')
+    //axios.get('http://127.0.0.1:8080/api/olx_finn_data')
+    axios.get('https://autoflipp-online.onrender.com/api/olx_finn_data') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
         setLoading(false);
