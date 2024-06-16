@@ -88,7 +88,8 @@ def pair_car_data(finn_data, olx_data):
                     'link': car_link,
                     'original_name': car_original_name,
                     'image_url': car_image_url,
-                    'regno': car_regno
+                    'regno': car_regno,
+                    'olx_ids' : []
                 }
 
     #pairing with corresponding olx cars and their prices
@@ -96,10 +97,14 @@ def pair_car_data(finn_data, olx_data):
         if isinstance(car, dict):  # Ensure car is a dictionary
             olx_name = normalize_name(car.get('title', ''))
             olx_price = car.get('price')
+            olx_id = car.get('id')
+
             if olx_name and olx_price is not None:
+
                 for finn_name, data in car_pairs.items():
                     if match_car({'heading': finn_name, 'year': data['year']}, car):
                         car_pairs[finn_name]['olx_prices'].append(olx_price)
+                        car_pairs[finn_name]['olx_ids'].append(olx_id)
                         break
 
     return car_pairs
@@ -119,6 +124,7 @@ for car_name, data in paired_data.items():
         original_name = data['original_name']
         image_url = data['image_url']
         regno = data['regno']
+        olx_ids = data['olx_ids']
 
         #creating json entry for each car
         car_entry = {
@@ -129,7 +135,8 @@ for car_name, data in paired_data.items():
             'finn_link': link,
             'image_url': image_url,
             'regno': regno,
-            'olx_prices': olx_prices
+            'olx_prices': olx_prices,
+            'olx_ids' : olx_ids
         }
         olx_finn_output.append(car_entry)
 
