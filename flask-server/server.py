@@ -27,6 +27,9 @@ def olx_finn_data():
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+def create_app():
+    return app
    
 if __name__ == '__main__':
     app.run(port=8080,debug=True)
