@@ -8,7 +8,7 @@ export default function Home() {
       <header style={headerStyle}>
         <h1 style={titleStyle}>
           autoflipp.online
-          <img src="/icon-white.png" alt="missing" style={logoStyle} />
+          <img src="/icon-white.png" alt="" style={logoStyle} />
         </h1>
       </header>
       <main style={mainStyle}>
