@@ -76,13 +76,19 @@ def pair_car_data(finn_data, olx_data):
         car_price = car.get('price', {}).get('amount')
         car_link = car.get('canonical_url', '')
         car_year = car.get('year', 0)
+        car_original_name = car.get('heading', '')
+        car_image_url = car.get('image', {}).get('url', '')
+        car_regno = car.get('regno', '')
         if car_name and car_price is not None:
             if car_name not in car_pairs:
                 car_pairs[car_name] = {
                     'finn_price': car_price,
                     'olx_prices': [],
                     'year': car_year,
-                    'link': car_link
+                    'link': car_link,
+                    'original_name': car_original_name,
+                    'image_url': car_image_url,
+                    'regno': car_regno
                 }
 
     #pairing with corresponding olx cars and their prices
@@ -110,13 +116,19 @@ for car_name, data in paired_data.items():
         finn_price = data['finn_price']
         year = data['year']
         link = data['link']
+        original_name = data['original_name']
+        image_url = data['image_url']
+        regno = data['regno']
 
         #creating json entry for each car
         car_entry = {
-            'car_name': car_name,
+            'car_name': original_name,
+            'normalized_name': car_name,
             'year': year,
             'finn_price': finn_price,
             'finn_link': link,
+            'image_url': image_url,
+            'regno': regno,
             'olx_prices': olx_prices
         }
         olx_finn_output.append(car_entry)
