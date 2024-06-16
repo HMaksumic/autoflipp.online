@@ -9,7 +9,7 @@ const CarList = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    //axios.get('http://127.0.0.1:8080/api/olx_finn_data')
+    //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
     axios.get('https://autoflipp-online.onrender.com/api/olx_finn_data') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
@@ -27,6 +27,7 @@ const CarList = () => {
   function TurnToBAM(parameter) {
     return (parameter / 5.85).toFixed(0)
   }
+  const BaseOLXUrl = "https://olx.ba/artikal/";
 
   return (
     <div className="car-list">
@@ -36,8 +37,21 @@ const CarList = () => {
           <img src={car.image_url} alt={car.car_name} className="car-image" />
 
           <p><strong>finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
-          <p><strong>finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM/KM </p>
-          <p><strong>OLX.ba prices:</strong> {car.olx_prices.join(', ')} BAM/KM</p>
+          <p><strong>finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </p>
+
+          <p><strong>OLX.ba prices:</strong> {
+            car.olx_prices
+              .map((price, i) => (
+                <span key={i}>
+                  <a href={`${BaseOLXUrl}${car.olx_ids[i]}`} target="_blank" rel="noopener noreferrer" className="olx-link">
+                    {price === 0 ? 'Na upit' : `${price}`}
+                  </a>
+                  {i < car.olx_prices.length - 1 && ', '}
+                  
+                </span>
+              ))
+          }&nbsp; </p>
+    
           <p><strong>year:</strong> {car.year}</p>
         </div>
       ))}

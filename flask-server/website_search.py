@@ -78,7 +78,7 @@ def remove_filler(data):
             remove_filler(item)
 
 #number of finn pages to fetch
-total_pages = 20
+total_pages = 30
 
 #fetching data from the first page
 url = base_url + str(1)
