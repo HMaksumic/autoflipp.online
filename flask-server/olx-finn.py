@@ -28,7 +28,7 @@ def fetch_olx_data(max_pages=60):
         'attr_encoded': '1',
         'category_id': '18',
         'page': 1,
-        'per_page': 100  
+        'per_page': 150  
     }
     
     olx_data = []
