@@ -19,7 +19,7 @@ options.add_argument('--disable-dev-shm-usage')
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
 
-base_url = "https://www.finn.no/car/used/search.html?fuel=2&price_to=200000&sales_form=1&page="
+base_url = "https://www.finn.no/car/used/search.html?fuel=2&price_to=300000&sales_form=1&page="
 
 all_data = []
 
@@ -78,7 +78,7 @@ def remove_filler(data):
             remove_filler(item)
 
 #number of finn pages to fetch
-total_pages = 30
+total_pages = 50
 
 #fetching data from the first page
 url = base_url + str(1)
