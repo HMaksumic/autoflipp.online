@@ -37,8 +37,8 @@ const titleStyle = {
 };
 
 const logoStyle = {
-  marginLeft: '10px',
-  height: '40px',
+  marginLeft: '0px',
+  height: '35px',
 };
 
 const mainStyle = {
