@@ -7,6 +7,7 @@ const CarList = () => {
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
@@ -31,8 +32,18 @@ const CarList = () => {
 
   return (
     <div className="car-list">
-      {carData.map((car, index) => (
+      <div className="search-bar-container">
+        <input
+          type="text"
+          placeholder="Search"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
+          className="search-bar"
+        />
+      </div>
+      {carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)).map((car, index) => (
         <div key={index} className="car-card">
+
           <h2>{car.car_name}</h2>
           <img src={car.image_url} alt={car.car_name} className="car-image" />
 
@@ -47,7 +58,6 @@ const CarList = () => {
                     {price === 0 ? 'Na upit' : `${price}`}
                   </a>
                   {i < car.olx_prices.length - 1 && ', '}
-                  
                 </span>
               ))
           }&nbsp; </p>

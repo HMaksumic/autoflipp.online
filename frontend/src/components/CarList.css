@@ -4,6 +4,10 @@
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 125px;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .car-card {
@@ -36,3 +40,25 @@
   border: 1px solid #007bff;
 
 }
+
+.search-bar {
+  height: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-bar-container {
+  position: fixed; 
+  top: 30px;           
+  left: 50%;        
+  transform: translateX(-50%); 
+  width: 100%;      
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 999;    
+  background-color: rgb(18, 159, 254); 
+  height: 107px;
+}
+

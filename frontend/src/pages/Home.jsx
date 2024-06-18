@@ -42,5 +42,5 @@ const logoStyle = {
 };
 
 const mainStyle = {
-  paddingTop: '70px', 
+  paddingTop: '35px', 
 };
