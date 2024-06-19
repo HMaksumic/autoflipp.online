@@ -28,7 +28,7 @@ def fetch_olx_data(max_pages=60):
         'attr_encoded': '1',
         'category_id': '18',
         'page': 1,
-        'per_page': 150  
+        'per_page': 175  
     }
     
     olx_data = []
@@ -60,7 +60,7 @@ def match_car(finn_car, olx_car):
         finn_year = finn_car.get('year', 0)
         olx_year = olx_car.get('special_labels', [])
         olx_year = next((int(label.get('value')) for label in olx_year if label.get('label') == 'Godište'), 0)
-        return abs(finn_year - olx_year) <= 2
+        return abs(finn_year - olx_year) <= 1
     return False
 
 def pair_car_data(finn_data, olx_data):
