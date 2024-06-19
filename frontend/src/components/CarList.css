@@ -62,3 +62,13 @@
   height: 107px;
 }
 
+.result-count {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px 8px;
+  border-radius: 3px;
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 100px;
+
+}

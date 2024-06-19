@@ -30,6 +30,9 @@ const CarList = () => {
   }
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
+  carData.sort((a, b) => b.olx_prices.length - a.olx_prices.length); //sorts cars with most olx matches first
+  const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)); //for displaying number of results on page
+
   return (
     <div className="car-list">
       <div className="search-bar-container">
@@ -40,6 +43,8 @@ const CarList = () => {
           onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
           className="search-bar"
         />
+        <div className="result-count">Results: {filteredCars.length}</div>
+
       </div>
       {carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)).map((car, index) => (
         <div key={index} className="car-card">
