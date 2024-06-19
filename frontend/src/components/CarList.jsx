@@ -11,7 +11,7 @@ const CarList = () => {
 
   useEffect(() => {
     //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
-    axios.get('https://autoflipp-online.onrender.com/api/olx_finn_data') //above api hosted by third party
+    axios.get('https://backend-server-hcvn.onrender.com/api/olx_finn_data') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
         setLoading(false);
