@@ -5,19 +5,21 @@ import json
 def normalize_name(name):
     return re.sub(r'\W+', '', name).lower()
 
-#fetching data from own finn.no API
+#fetching data directly from file
 def fetch_finn_data():
-    finn_url = 'http://127.0.0.1:8080/api/finn_website_search'
+    json_file_path = 'website_search.json'
     try:
-        response = requests.get(finn_url)
-        response.raise_for_status()
-        data = response.json() 
-        return data
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching data from Finn API: {e}")
+        with open(json_file_path, 'r') as file:
+            data = json.load(file)
+            return data
+    except FileNotFoundError:
+        print("Error: The JSON file was not found.")
         return []
-    except ValueError as e:
-        print(f"Error parsing JSON from Finn API: {e}")
+    except json.JSONDecodeError:
+        print("Error decoding JSON from the file.")
+        return []
+    except Exception as e:
+        print(f"An error occurred: {e}")
         return []
 
 #fetching from olx (several pages of JSON)
