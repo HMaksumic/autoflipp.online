@@ -7,7 +7,7 @@ def normalize_name(name):
 
 #fetching data directly from file
 def fetch_finn_data():
-    json_file_path = 'website_search.json'
+    json_file_path = 'finn_search_before2015.json'
     try:
         with open(json_file_path, 'r') as file:
             data = json.load(file)
@@ -142,5 +142,5 @@ for car_name, data in paired_data.items():
         }
         olx_finn_output.append(car_entry)
 
-with open('olx_finn_data.json', 'w', encoding='utf-8') as json_file:
+with open('olx_finn_before2015.json', 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)

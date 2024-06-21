@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 
+
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--start-maximized')
@@ -19,7 +20,7 @@ options.add_argument('--disable-dev-shm-usage')
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
 
-base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.744&make=0.749&make=0.757&make=0.767&make=0.785&make=0.792&make=0.787&make=0.796&make=0.795&make=0.804&make=0.808&make=0.813&make=0.817&make=0.818&price_to=200000&sales_form=1&year_from=2008&page="
+base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.744&make=0.749&make=0.757&make=0.785&make=0.792&make=0.787&make=0.796&make=0.795&make=0.808&make=0.813&make=0.817&make=0.818&price_to=200000&sales_form=1&year_from=2008&year_to=2014&page="
 
 all_data = []
 
@@ -66,6 +67,7 @@ def fetch_and_process_page(url):
         print("No JSON data found in the script tag")
     return None
 
+
 def remove_filler(data):
     if isinstance(data, dict):
         for key in ["filters", "appGip", "assetPrefix", "buildId", "customServer", "gssp", "isFallback", "page", "runtimeConfig"]:
@@ -95,10 +97,11 @@ for page in range(2, total_pages + 1):
     if data:
         all_data.extend(data['props']['pageProps']['search'].get('docs', []))
 
+
 #saving the collected data to JSON file.
-with open('website_search.json', 'w', encoding='utf-8') as json_file:
+with open('finn_search_before2015.json', 'w', encoding='utf-8') as json_file:
     json.dump(all_data, json_file, indent=4)
 
-print(f"Data from {total_pages} pages saved to 'website_search.json'")
+print(f"Data from {total_pages} pages saved to 'finn_search_before2015.json'")
 
 driver.quit()
