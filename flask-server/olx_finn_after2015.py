@@ -1,13 +1,168 @@
 import requests
 import re
 import json
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import time
+import logging
+
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--start-maximized')
+options.add_argument('--disable-infobars')
+options.add_argument('--disable-extensions')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+
+service = Service(executable_path="chromedriver.exe")
+driver = webdriver.Chrome(service=service, options=options)
+
+logging.basicConfig(level=logging.INFO)
+def TAX_AUTHORITY_COOKIE():
+    try:
+        logging.info("Checking for cookie consent button...")
+        time.sleep(1)
+        accept_cookies = driver.find_element(By.CSS_SELECTOR, "#cookie-recommended-desktop-button")
+        driver.execute_script("arguments[0].click();", accept_cookies)
+        logging.info("Cookie consent has been accepted from Tax Authority.")
+    except Exception as e:
+        logging.error("Error accepting cookies: %s", e)
+
+def fetch_tax_return(regno):
+    tax_url = "https://www.skatteetaten.no/person/avgifter/bil/eksportere/regn-ut/"
+    driver.get(tax_url)
+
+    try:
+        TAX_AUTHORITY_COOKIE()
+
+        for iframe in driver.find_elements(By.TAG_NAME, 'iframe'):
+            driver.switch_to.frame(iframe)
+            try:
+                time.sleep(1)
+                reg_field = driver.find_element(By.CSS_SELECTOR, "#Regnummer")
+                logging.info("inputting regno into site...")
+                reg_field.send_keys(regno)
+                reg_field.send_keys(Keys.RETURN)
+                break
+            except Exception as e:
+                logging.info("Element not found in this iframe, continuing to next iframe: %s", e)
+                driver.switch_to.default_content()
+
+        driver.switch_to.default_content()
+
+        print("Pressing next button...")
+        time.sleep(1) 
+        #FIX specify which iframe the button is in. 
+        for iframe in driver.find_elements(By.TAG_NAME, 'iframe'):
+            driver.switch_to.frame(iframe)
+            try:
+                next_button = driver.find_element(By.CSS_SELECTOR, "button.button[type='button']")
+                driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
+                time.sleep(1)
+                
+                #due to errors in clicking button regularly i opted for this approach, should probably be revised later
+                for _ in range(5):
+                    driver.execute_script("arguments[0].click();", next_button)
+                    time.sleep(1)
+                    if "Ut av landet" in driver.page_source:
+                        logging.info("Next section loaded successfully.")
+                        break
+                    else:
+                        logging.info("Next section did not load. Retrying click.")
+                break
+            except Exception as e:
+                logging.info("Element not found in this iframe, continuing to next iframe: %s", e)
+                driver.switch_to.default_content()
+
+        driver.switch_to.default_content()
+
+
+        print("Attempting to input the export date...")
+        time.sleep(1) 
+        #switch to the same iframe to find the date input field
+        driver.switch_to.frame(driver.find_element(By.CSS_SELECTOR, "iframe#iFrameResizer0"))
+        try:
+            time.sleep(1)  
+            date_input = driver.find_element(By.CSS_SELECTOR, "input.form-control.input[placeholder='dd.mm.åååå'][type='text']")
+            logging.info("Inputting export date into site...")
+            
+            driver.execute_script("arguments[0].scrollIntoView(true);", date_input)
+            time.sleep(1)
+            date_input.click()
+            date_input.clear()
+            date_input.send_keys("10.10.2024")
+            date_input.send_keys(Keys.RETURN)
+        except Exception as e:
+            logging.error("Date input field not found: %s", e)
+            driver.switch_to.default_content()
+            return
+
+        driver.switch_to.default_content()
+
+        print("pressing seocnd next button...")
+
+        driver.switch_to.frame(driver.find_element(By.CSS_SELECTOR, "iframe#iFrameResizer0"))
+        second_next_button = driver.find_element(By.CSS_SELECTOR, "button.button[type='button']")
+                
+        driver.execute_script("arguments[0].scrollIntoView(true);", second_next_button)
+        time.sleep(1)
+                
+                #due to errors in clicking button regularly i opted for this approach, should probably be revised later
+        for _ in range(5):
+            driver.execute_script("arguments[0].click();", second_next_button)
+            time.sleep(1)  
+            if "Regn ut" in driver.page_source:
+                logging.info("Next section loaded successfully.")
+                break
+            else:
+                logging.info("Next section did not load. Retrying click.")
+                break
+        driver.switch_to.default_content()
+
+        print("pressing calculate button...")
+        driver.switch_to.frame(driver.find_element(By.CSS_SELECTOR, "iframe#iFrameResizer0"))
+        calculate_button = driver.find_element(By.CSS_SELECTOR, "button.button[type='button']")
+                
+        driver.execute_script("arguments[0].scrollIntoView(true);", calculate_button)
+        time.sleep(1)
+                
+                #due to errors in clicking button regularly i opted for this approach, should probably be revised later
+        for _ in range(5):
+            driver.execute_script("arguments[0].click();", calculate_button)
+            time.sleep(1)
+            if "Beregnet refusjon av engangsavgift på oppgitt utførselstidspunkt" in driver.page_source:
+                logging.info("Next section loaded successfully.")
+                break
+            else:
+                logging.info("Next section did not load. Retrying click.")
+                break
+        driver.switch_to.default_content()
+
+        time.sleep(1)  #grabbing tax return from site and formatting it
+        driver.switch_to.frame(driver.find_element(By.CSS_SELECTOR, "iframe#iFrameResizer0"))
+        tax_return_element = driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div.wiz-result2.is-success > div > div:nth-child(2) > div:nth-child(2) > div.calculation-red > div > div > div:nth-child(2)')
+        tax_return = tax_return_element.text.strip()
+        tax_return = tax_return.replace(" kroner", "")
+        tax_return = tax_return.replace(",",".")
+        tax_return = tax_return.replace(" ","")
+        print(f"{regno}: tax return: {int(float(tax_return))}")
+        return int(float(tax_return))
+
+    except Exception as e:
+        logging.error("Failed to fetch tax-return for %s: %s", regno, e)
+        return None
 
 def normalize_name(name):
     return re.sub(r'\W+', '', name).lower()
 
 #fetching data directly from file
 def fetch_finn_data():
-    json_file_path = 'finn_search_after2015.json'
+    json_file_path = 'data/finn_search_after2015.json'
     try:
         with open(json_file_path, 'r') as file:
             data = json.load(file)
@@ -26,7 +181,7 @@ def fetch_finn_data():
 def fetch_olx_data(max_pages=60):
     olx_url = 'https://olx.ba/api/search'
     params = {
-        'attr': '372844697a656c29',
+        'attr': '3228323031352d393939393939293a372844697a656c29',
         'attr_encoded': '1',
         'category_id': '18',
         'page': 1,
@@ -81,7 +236,6 @@ def pair_car_data(finn_data, olx_data):
         car_original_name = car.get('heading', '')
         car_image_url = car.get('image', {}).get('url', '')
         car_regno = car.get('regno', '')
-        car_tax = car.get('tax_return')
         if car_name and car_price is not None:
             if car_name not in car_pairs:
                 car_pairs[car_name] = {
@@ -93,7 +247,6 @@ def pair_car_data(finn_data, olx_data):
                     'image_url': car_image_url,
                     'regno': car_regno,
                     'olx_ids' : [],
-                    'tax_return' : car_tax
                 }
 
     #pairing with corresponding olx cars and their prices
@@ -129,7 +282,6 @@ for car_name, data in paired_data.items():
         image_url = data['image_url']
         regno = data['regno']
         olx_ids = data['olx_ids']
-        tax_return = data['tax_return']
 
         #creating json entry for each car
         car_entry = {
@@ -142,9 +294,17 @@ for car_name, data in paired_data.items():
             'regno': regno,
             'olx_prices': olx_prices,
             'olx_ids' : olx_ids,
-            'tax_return' : tax_return
         }
         olx_finn_output.append(car_entry)
 
-with open('olx_finn_after2015.json', 'w', encoding='utf-8') as json_file:
+for car in olx_finn_output:
+    if car['year'] >= 2015 and car.get('regno'):
+            registration_number = car['regno'] 
+            tax_return = fetch_tax_return(registration_number)
+            car['tax_return'] = tax_return
+    
+    else:
+        car['tax_return'] = None
+
+with open('data/olx_finn_after2015.json', 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)

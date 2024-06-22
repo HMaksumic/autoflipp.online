@@ -7,7 +7,7 @@ def normalize_name(name):
 
 #fetching data directly from file
 def fetch_finn_data():
-    json_file_path = 'finn_search_before2015.json'
+    json_file_path = 'data/finn_search_before2015.json'
     try:
         with open(json_file_path, 'r') as file:
             data = json.load(file)
@@ -26,7 +26,7 @@ def fetch_finn_data():
 def fetch_olx_data(max_pages=60):
     olx_url = 'https://olx.ba/api/search'
     params = {
-        'attr': '372844697a656c29',
+        'attr': '3228323030382d32303134293a372844697a656c29',
         'attr_encoded': '1',
         'category_id': '18',
         'page': 1,
@@ -142,5 +142,5 @@ for car_name, data in paired_data.items():
         }
         olx_finn_output.append(car_entry)
 
-with open('olx_finn_before2015.json', 'w', encoding='utf-8') as json_file:
+with open('data/olx_finn_before2015.json', 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
