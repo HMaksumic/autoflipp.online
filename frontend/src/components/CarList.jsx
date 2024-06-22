@@ -65,16 +65,18 @@ const CarList = () => {
           <p><strong>Finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </p>
 
           <p><strong>OLX.ba prices:</strong> {
-            car.olx_prices
-              .map((price, i) => (
-                <span key={i}>
-                  <a href={`${BaseOLXUrl}${car.olx_ids[i]}`} target="_blank" rel="noopener noreferrer" className="olx-link">
-                    {price === 0 ? 'Na upit' : `${price}`}
-                  </a>
-                  {i < car.olx_prices.length - 1 && ', '}
-                </span>
-              ))
-          }&nbsp; </p>
+          car.olx_prices
+          .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` })) 
+          .sort((a, b) => b.price - a.price) 
+          .map((item, i, arr) => (
+            <span key={i}>
+          <a href={item.url} target="_blank" rel="noopener noreferrer" className="olx-link">
+            {item.price === 0 ? 'Na upit' : item.price}
+          </a>
+          {i < arr.length - 1 && ', '}
+        </span>
+      ))
+  }&nbsp; </p>
     
           <p><strong>Year:</strong> {car.year}</p>
         </div>
