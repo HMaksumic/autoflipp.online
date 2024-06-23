@@ -8,6 +8,7 @@ const CarList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showAllPrices, setShowAllPrices] = useState({});
 
   useEffect(() => {
     //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
@@ -28,6 +29,11 @@ const CarList = () => {
   function TurnToBAM(parameter) {
     return (parameter / 5.85).toFixed(0)
   }
+
+  const toggleShowPrices = (id) => {
+    setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
+  }
+
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
   carData.sort((a, b) => b.olx_prices.length - a.olx_prices.length); //sorts cars with most olx matches first
@@ -65,18 +71,25 @@ const CarList = () => {
           <p><strong>Finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </p>
 
           <p><strong>OLX.ba prices:</strong> {
-          car.olx_prices
-          .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` })) 
-          .sort((a, b) => b.price - a.price) 
-          .map((item, i, arr) => (
-            <span key={i}>
-          <a href={item.url} target="_blank" rel="noopener noreferrer" className="olx-link">
-            {item.price === 0 ? 'Na upit' : item.price}
-          </a>
-          {i < arr.length - 1 && ', '}
-        </span>
-      ))
-  }&nbsp; </p>
+            car.olx_prices
+            .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
+            .sort((a, b) => b.price - a.price)
+            .slice(0, showAllPrices[car.car_name] ? car.olx_prices.length : 5)
+            .map((item, i, arr) => (
+              <span key={i}>
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className="olx-link">
+                  {item.price === 0 ? 'Na upit' : item.price}
+                </a>
+                {i < arr.length - 1 && ', '}
+              </span>
+            ))
+          }
+          {car.olx_prices.length > 5 && (
+            <button onClick={() => toggleShowPrices(car.car_name)} className="more-button">
+              {showAllPrices[car.car_name] ? 'Less' : 'Show more...'}
+            </button>
+          )}
+          </p>
     
           <p><strong>Year:</strong> {car.year}</p>
         </div>

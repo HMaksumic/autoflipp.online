@@ -91,4 +91,17 @@
   height: 107px;
 }
 
+.more-button {
+  margin-left: 1px;
+  height: 30px;
+  background-color: transparent;
+  color: #007bff;
+}
+
+.more-button:hover {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: #004793;
+}
 
