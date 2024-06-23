@@ -1,9 +1,9 @@
-import './CarList.css';
-import { Link } from 'react-router-dom'
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './CarList.css';
+import { Link } from 'react-router-dom'
 
-const CarList = () => {
+const BMWCarList = () => {
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -12,7 +12,7 @@ const CarList = () => {
 
   useEffect(() => {
     //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
-    axios.get('https://backend-server-hcvn.onrender.com/api/olx_finn_data') //above api hosted by third party
+    axios.get('https://backend-server-hcvn.onrender.com/api/olx_bmw') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
         setLoading(false);
@@ -29,12 +29,11 @@ const CarList = () => {
   function TurnToBAM(parameter) {
     return (parameter / 5.85).toFixed(0)
   }
+  const BaseOLXUrl = "https://olx.ba/artikal/";
 
   const toggleShowPrices = (id) => {
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
   }
-
-  const BaseOLXUrl = "https://olx.ba/artikal/";
 
   carData.sort((a, b) => b.olx_prices.length - a.olx_prices.length); //sorts cars with most olx matches first
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)); //for displaying number of results on page
@@ -42,8 +41,8 @@ const CarList = () => {
   return (
     <div className="car-list">
       <div className="buttonbar">
-        <div className="button">
-        <Link to="/Home" style={{ textDecoration: 'none' }}>
+      <div className="button">
+      <Link to="/Home" style={{ textDecoration: 'none' }}>
             <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
                 Any before 2015
             </button>
@@ -84,7 +83,8 @@ const CarList = () => {
                 Volkswagen
             </button>
         </Link>
-        </div>
+        
+      </div>
       </div>
       <div className="search-bar-container">
         <input
@@ -105,7 +105,6 @@ const CarList = () => {
 
           <p><strong>Finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
           <p><strong>Finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </p>
-
           <p><strong>OLX.ba prices:</strong> {
             car.olx_prices
             .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
@@ -128,10 +127,13 @@ const CarList = () => {
           </p>
     
           <p><strong>Year:</strong> {car.year}</p>
+          {car.tax_return > 0 && (
+            <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+          )}
         </div>
       ))}
     </div>
   );
 };
 
-export default CarList;
+export default BMWCarList;

@@ -3,7 +3,7 @@ import axios from 'axios';
 import './CarList.css';
 import { Link } from 'react-router-dom'
 
-const CarList = () => {
+const VolvoCarList = () => {
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -12,7 +12,7 @@ const CarList = () => {
 
   useEffect(() => {
     //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
-    axios.get('https://backend-server-hcvn.onrender.com/api/olx_finn_data_after2015') //above api hosted by third party
+    axios.get('https://backend-server-hcvn.onrender.com/api/olx_volvo') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
         setLoading(false);
@@ -42,11 +42,48 @@ const CarList = () => {
     <div className="car-list">
       <div className="buttonbar">
       <div className="button">
-        <Link to="/Home" style={{ textDecoration: 'none' }}>
+      <Link to="/Home" style={{ textDecoration: 'none' }}>
             <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
-                Before 2015
+                Any before 2015
             </button>
         </Link>
+
+        <Link to="/audi" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                Audi
+            </button>
+        </Link>
+
+        <Link to="/bmw" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                BMW
+            </button>
+        </Link>
+
+        <Link to="/mercedes" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                Mercedes-Benz
+            </button>
+        </Link>
+
+        <Link to="/peugeot" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                Peugeot
+            </button>
+        </Link>
+
+        <Link to="/volvo" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                Volvo
+            </button>
+        </Link>
+
+        <Link to="/volkswagen" style={{ textDecoration: 'none' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
+                Volkswagen
+            </button>
+        </Link>
+        
       </div>
       </div>
       <div className="search-bar-container">
@@ -90,11 +127,13 @@ const CarList = () => {
           </p>
     
           <p><strong>Year:</strong> {car.year}</p>
-          <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+          {car.tax_return > 0 && (
+            <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+          )}
         </div>
       ))}
     </div>
   );
 };
 
-export default CarList;
+export default VolvoCarList;

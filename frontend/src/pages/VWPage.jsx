@@ -1,8 +1,8 @@
 import React from 'react';
-import CarListAfter2015 from "../components/CarListAfter2015";
+import VWCarList from "../components/VWCarList";
 import "../pages/Home.css";
 
-export default function Home() {
+export default function VWPage() {
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarListAfter2015 />
+        <VWCarList />
       </main>
     </div>
   );

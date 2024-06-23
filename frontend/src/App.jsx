@@ -1,8 +1,12 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'
 import NoPage from './pages/NoPage'
-import After2015 from './pages/After2015';
-
+import AudiPage from './pages/AudiPage';
+import BMWPage from './pages/BMWPage';
+import MercedesPage from './pages/MercedesPage';
+import PeugeotPage from './pages/PeugeotPage';
+import VolvoPage from './pages/VolvoPage';
+import VWPage from './pages/VWPage';
 
 
 function App() {
@@ -13,7 +17,12 @@ function App() {
           <Routes>
             <Route index element = {<Home />} />
             <Route path="/home" element = {<Home />} />
-            <Route path="/after2015" element = {<After2015 />} />
+            <Route path="/audi" element = {<AudiPage />} />
+            <Route path="/bmw" element = {<BMWPage />} />
+            <Route path="/mercedes" element = {<MercedesPage />} />
+            <Route path="/peugeot" element = {<PeugeotPage />} />
+            <Route path="/volvo" element = {<VolvoPage />} />
+            <Route path="/volkswagen" element = {<VWPage />} />
             <Route path="*" element = {<NoPage />} />
 
           </Routes>
