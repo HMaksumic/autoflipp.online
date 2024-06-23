@@ -49,6 +49,74 @@ def olx_finn_data_after2015():
         return jsonify(data)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route("/api/olx_audi")
+def olx_audi():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_AUDI.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/olx_bmw")
+def olx_bmw():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_BMW.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/olx_mercedes")
+def olx_mercedes():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_MERCEDES.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/olx_peugeot")
+def olx_peugeot():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_PEUGEOT.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+@app.route("/api/olx_volvo")
+def olx_volvo():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_VOLVO.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+@app.route("/api/olx_vw")
+def olx_vw():
+    try:
+        json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_VW.json")
+        with open(json_file_path, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
         
 def create_app():
     return app
