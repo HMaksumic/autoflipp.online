@@ -158,7 +158,12 @@ def fetch_tax_return(regno):
         return None
 
 def normalize_name(name):
-    return re.sub(r'\W+', '', name).lower()
+    name = re.sub(r'(?i)\b(4matic|masse|utstyr|eu|ny|kontroll|service|oljeskift|cdi|tdi|dci|mpi|gdi|tdci|tfsi|tsi|td|cd|thp|blueefficiency|novi|model|triptonic|stanje|top|gtd|god|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|quattro|facelift|mercedes|benz|motion|tek|uvezana|uvoz|limited|edition|luxury|premium|base|sport|advanced|line|drive|paket|paket|edition|automatic|manual|diesel|sedan|hatchback|coupe|convertible|wagon|suv|compact|electric|hybrid|awd|fwd|rwd|l|xl|xxl|plus|pro|classic|comfort|executive|elegance|exclusive|design|performance|dynamic|style|active|emotion|innovation|limited|classic|supreme|highline|comfortline|trendline|elite|cosmo|prestige|allroad|cross|drive|line|connect|base|executive|essential|value|p|performance|track|trail|sportback|touring|all4|countryman|clubman|john|cooper|works|crosstrek|outback|forester|brz|wrx|sti|limited|touring|premium|black|edition|signature|select|preferred|standard|touring|cx|forester|sport|special|series|2dr|4dr|5dr|7dr|12dr|15dr|21dr|23dr|32dr|40dr|45dr|5seater|7seater|compact|mpv|minivan|roadster|crossover|gtline|cabrio|cabriolet|estate|estate|saloon|super|base|lifestyle|lux|xdrive|xdrive20d|d|rline|spaceback|vision|entry|entryline|life|light|ultimate|evo|ambiente|sve|sve|emotion|dynamic|action|line|tek|tronic|select|stand|entry|vtx|ls|dl|sx|hx|xe|xt|kt|xt|tm|hk|tl|luxe|intense|shine|pure|prestige|legend|premium|premium|supreme|gt|sline|audi|bmw|volkswagen|vw|peugeot|opel|mazda|mitsubishi|toyota|honda|kia|hyundai|nissan|seat|skoda|volvo|renault|suzuki|mini|subaru|chrysler|dodge|jeep|ram|chevrolet|ford|gmc|lincoln|buick|cadillac|lexus|infiniti|acura|jaguar|land|rover|alfa|romeo|fiat|maserati|ferrari|lamborghini|porsche|bugatti|aston|martin|bentley|rolls|royce|polestar|tesla|lucid|rivian|bollinger|canoo|byton|faraday|future|karma|nikola|nobe|regen|gordon|murray|automotive|hendrickson|hewes|hill|hino|hisun|honda|husqvarna|indian|infiniti|ironhorse|isuzu|jaguar|jeep|jensen|john|deere|karma|kia|lancia|land|rover|lincoln|lotus|lucid|mclaren|maserati|mazda|mercedes|mg|mini|mitsubishi|morgan|nimble|nissan|peugeot|pontiac|porsche|ram|renault|rolls|royce|saab|saturn|scion|seat|skoda|smart|ssangyong|subaru|suzuki|tesla|toyota|triumph|vauxhall|volkswagen|volvo|smart|uaz|ura|vespa|vortex|volkswagen|westfield|yamaha|yellow|zastava|zaz|zins|zundapp|zundapp|)\b', '', name)
+
+    name = re.sub(r'\W+', ' ', name)
+    name = re.sub(r'\b\d+hk\b', '', name, flags=re.IGNORECASE)
+    return ' '.join(sorted(name.lower().split()))
+
 
 #fetching data directly from file
 def fetch_finn_data():
@@ -188,7 +193,7 @@ def fetch_olx_data(max_pages=50):
             'models': '0',
             'brands': '56',
             'page': 1,
-            'per_page': 40
+            'per_page': 175
         }
     
     olx_data = []
@@ -227,10 +232,9 @@ def pair_car_data(finn_data, olx_data):
     car_pairs = {}
 
     if not isinstance(finn_data, list) or not isinstance(olx_data, list):
-        print("Error: Expected list format for API data")
+        logging.error("Error: Expected list format for API data")
         return car_pairs
 
-    #creating dictionaries with normalized names for finn api
     for car in finn_data:
         car_name = normalize_name(car.get('heading', ''))
         car_price = car.get('price', {}).get('amount')
@@ -249,18 +253,16 @@ def pair_car_data(finn_data, olx_data):
                     'original_name': car_original_name,
                     'image_url': car_image_url,
                     'regno': car_regno,
-                    'olx_ids' : [],
+                    'olx_ids': [],
                 }
 
-    #pairing with corresponding olx cars and their prices
     for car in olx_data:
-        if isinstance(car, dict):  # Ensure car is a dictionary
+        if isinstance(car, dict):
             olx_name = normalize_name(car.get('title', ''))
             olx_price = car.get('price')
             olx_id = car.get('id')
 
             if olx_name and olx_price is not None:
-
                 for finn_name, data in car_pairs.items():
                     if match_car({'heading': finn_name, 'year': data['year']}, car):
                         car_pairs[finn_name]['olx_prices'].append(olx_price)

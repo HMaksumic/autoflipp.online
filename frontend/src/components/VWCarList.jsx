@@ -11,7 +11,7 @@ const VWCarList = () => {
   const [showAllPrices, setShowAllPrices] = useState({});
 
   useEffect(() => {
-    //axios.get('http://127.0.0.1:8080/api/olx_finn_data') //for dev testing
+    //axios.get('http://127.0.0.1:8080/api/olx_vw') //for dev testing
     axios.get('https://backend-server-hcvn.onrender.com/api/olx_vw') //above api hosted by third party
       .then(response => {
         setCarData(response.data);
