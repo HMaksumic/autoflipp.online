@@ -105,3 +105,7 @@ with open('data/finn_search_before2015.json', 'w', encoding='utf-8') as json_fil
 print(f"Data from {total_pages} pages saved to 'finn_search_before2015.json'")
 
 driver.quit()
+
+import datetime
+with open('__LOG__.txt', 'a', encoding='utf-8') as file:
+    file.write(f"{datetime.datetime.now()} - _finn_search_before2015.py ran\n")

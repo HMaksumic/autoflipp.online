@@ -105,3 +105,7 @@ with open('data/AUDI_SEARCH.json', 'w', encoding='utf-8') as json_file:
 print(f"Data from {total_pages} pages saved to 'AUDI_SEARCH.json'")
 
 driver.quit()
+
+import datetime
+with open('__LOG__.txt', 'a', encoding='utf-8') as file:
+    file.write(f"{datetime.datetime.now()} - _AUDI_SEARCH.py ran\n")

@@ -315,3 +315,7 @@ for car in olx_finn_output:
 
 with open('data/=OLX_AUDI.json', 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+
+import datetime
+with open('__LOG__.txt', 'a', encoding='utf-8') as file:
+    file.write(f"{datetime.datetime.now()} - =OLX_AUDI.py ran\n")
