@@ -83,12 +83,15 @@
   top: 45px;           
   left: 50%;        
   transform: translateX(-50%); 
-  width: 100%;      
+  width: 100%;     
   padding: 0px;
   box-sizing: border-box;
   z-index: 998;    
   background-color: #007bff;
   height: 107px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 .more-button {
