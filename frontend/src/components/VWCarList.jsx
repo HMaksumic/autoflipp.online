@@ -29,13 +29,19 @@ const VWCarList = () => {
   function TurnToBAM(parameter) {
     return (parameter / 5.85).toFixed(0)
   }
-  const BaseOLXUrl = "https://olx.ba/artikal/";
+  const CalculateProfitRate = (olxPrices, finnPriceNOK) => {
+    const averageOLXPrice = olxPrices.reduce((sum, price) => sum + price, 0) / olxPrices.length;
+    const finnPriceBAM = TurnToBAM(finnPriceNOK);
+    return finnPriceBAM / averageOLXPrice;
+  };
 
   const toggleShowPrices = (id) => {
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
   }
 
-  carData.sort((a, b) => b.olx_prices.length - a.olx_prices.length); //sorts cars with most olx matches first
+  const BaseOLXUrl = "https://olx.ba/artikal/";
+
+  carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price) - CalculateProfitRate(a.olx_prices, a.finn_price)); //sorts most profitable cars first
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)); //for displaying number of results on page
 
   return (
