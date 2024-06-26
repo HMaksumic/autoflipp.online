@@ -1,38 +1,1415 @@
 [
     {
         "type": "motor",
-        "id": "358647412",
+        "id": "358758480",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-140 D 4MOTION",
-        "location": "Stathelle",
+        "heading": "Volkswagen Passat PASSAT 2.0-140 D 4MOTION",
+        "location": "Sogndal",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/2/358/647/412_312358fc-e5c0-41f4-af78-e24d1b06e7af.jpg",
-            "path": "2024/6/vertical-0/24/2/358/647/412_312358fc-e5c0-41f4-af78-e24d1b06e7af.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/0/358/758/480_e9d2e6e3-fb98-438d-9917-9e336a7b6411.jpg",
+            "path": "2024/6/vertical-0/26/0/358/758/480_e9d2e6e3-fb98-438d-9917-9e336a7b6411.jpg",
+            "height": 1500,
+            "width": 2000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719410940000,
+        "coordinates": {
+            "lat": 61.21319,
+            "lon": 7.14166
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358758480",
+        "extras": [],
+        "price": {
+            "amount": 91845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 198663,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DN81537",
+        "ad_id": 358758480
+    },
+    {
+        "type": "motor",
+        "id": "356916829",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Passat PASSAT 1.9-105 D",
+        "location": "Straumgjerde",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/9/356/916/829_beabfd66-1fd6-469c-96fd-9d402b0524c8.jpg",
+            "path": "2024/6/vertical-0/12/9/356/916/829_beabfd66-1fd6-469c-96fd-9d402b0524c8.jpg",
+            "height": 4000,
+            "width": 2250,
+            "aspect_ratio": 0.5625
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719409500000,
+        "coordinates": {
+            "lat": 62.3337,
+            "lon": 6.5942
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356916829",
+        "extras": [],
+        "price": {
+            "amount": 13845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2008,
+        "mileage": 250170,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "RZ30705",
+        "ad_id": 356916829
+    },
+    {
+        "type": "motor",
+        "id": "358834239",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Polo POLO 1.6-90 D",
+        "location": "Skjetten",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/9/358/834/239_0611e960-1ce0-482d-a000-c4dd78dd963e.jpg",
+            "path": "2024/6/vertical-0/26/9/358/834/239_0611e960-1ce0-482d-a000-c4dd78dd963e.jpg",
             "height": 1200,
             "width": 1600,
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719334080000,
+        "timestamp": 1719409466434,
         "coordinates": {
-            "lat": 59.02748,
-            "lon": 9.71526
+            "lat": 59.97322,
+            "lon": 11.00451
         },
         "ad_type": 20,
         "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358647412",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358834239",
         "extras": [],
         "price": {
-            "amount": 32845,
+            "amount": 68000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 126500,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SD51047",
+        "ad_id": 358834239
+    },
+    {
+        "type": "motor",
+        "id": "349740749",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 2.0-179 D 4MOTION",
+        "location": "S\u00f8rstraumen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/22/9/349/740/749_e65aa549-4611-4668-bfbe-9269363ac47d.jpg",
+            "path": "2024/5/vertical-0/22/9/349/740/749_e65aa549-4611-4668-bfbe-9269363ac47d.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719408840000,
+        "coordinates": {
+            "lat": 69.8257,
+            "lon": 21.967
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349740749",
+        "extras": [],
+        "price": {
+            "amount": 121476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 244000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DP65287",
+        "ad_id": 349740749
+    },
+    {
+        "type": "motor",
+        "id": "348124669",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D 4MOTION",
+        "location": "Lillehammer",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/11/9/348/124/669_91383eea-06c6-4865-81ec-77d7fb8809f1.jpg",
+            "path": "2024/4/vertical-0/11/9/348/124/669_91383eea-06c6-4865-81ec-77d7fb8809f1.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719405180000,
+        "coordinates": {
+            "lat": 61.15009,
+            "lon": 10.53046
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348124669",
+        "extras": [],
+        "price": {
+            "amount": 121845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 103000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "AJ76037",
+        "ad_id": 348124669
+    },
+    {
+        "type": "motor",
+        "id": "358821190",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Passat PASSAT 1.6-105 D",
+        "location": "Son",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/0/358/821/190_1fa69faf-5d14-44b5-8016-1ae0f45893c8.jpg",
+            "path": "2024/6/vertical-0/26/0/358/821/190_1fa69faf-5d14-44b5-8016-1ae0f45893c8.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719404220000,
+        "coordinates": {
+            "lat": 59.5237,
+            "lon": 10.6862
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358821190",
+        "extras": [],
+        "price": {
+            "amount": 64000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 193500,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "JD67221",
+        "ad_id": 358821190
+    },
+    {
+        "type": "motor",
+        "id": "349704027",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy 2,0 TDI 122hk 4Motion",
+        "location": "Drammen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/22/7/349/704/027_0d175e96-212b-4224-83f9-bb836c46216d.jpg",
+            "path": "2024/4/vertical-0/22/7/349/704/027_0d175e96-212b-4224-83f9-bb836c46216d.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719402120000,
+        "coordinates": {
+            "lat": 59.7282,
+            "lon": 10.22304
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349704027",
+        "extras": [],
+        "price": {
+            "amount": 180000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2019,
+        "mileage": 101686,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "NV75447",
+        "ad_id": 349704027
+    },
+    {
+        "type": "motor",
+        "id": "358820275",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D",
+        "location": "Sandefjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/5/358/820/275_e2c9c789-d5cd-474c-a43d-2715654d7832.jpg",
+            "path": "2024/6/vertical-0/26/5/358/820/275_e2c9c789-d5cd-474c-a43d-2715654d7832.jpg",
+            "height": 885,
+            "width": 1179,
+            "aspect_ratio": 1.3322033898305086
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719401580000,
+        "coordinates": {
+            "lat": 59.13112,
+            "lon": 10.26893
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358820275",
+        "extras": [],
+        "price": {
+            "amount": 59645,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2011,
-        "mileage": 187000,
+        "mileage": 162194,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "LY69730",
+        "ad_id": 358820275
+    },
+    {
+        "type": "motor",
+        "id": "358820871",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Touran TOURAN 2.0-140 D  Automat Eu til 01.07.2026",
+        "location": "Vennesla",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/1/358/820/871_f2037d82-021f-4925-8ff2-b6a231a614e8.jpg",
+            "path": "2024/6/vertical-0/26/1/358/820/871_f2037d82-021f-4925-8ff2-b6a231a614e8.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719401226473,
+        "coordinates": {
+            "lat": 58.2928,
+            "lon": 7.99261
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358820871",
+        "extras": [],
+        "price": {
+            "amount": 49918,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2009,
+        "mileage": 161000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PX51076",
+        "ad_id": 358820871
+    },
+    {
+        "type": "motor",
+        "id": "358816404",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D",
+        "location": "Steinkjer",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/4/358/816/404_5445af8c-046a-4b49-9504-6566860825b1.jpg",
+            "path": "2024/6/vertical-0/26/4/358/816/404_5445af8c-046a-4b49-9504-6566860825b1.jpg",
+            "height": 1280,
+            "width": 960,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719399840000,
+        "coordinates": {
+            "lat": 64.0066,
+            "lon": 11.50833
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358816404",
+        "extras": [],
+        "price": {
+            "amount": 143305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 83500,
         "dealer_segment": "Privat",
         "service_documents": [],
-        "regno": "BS17933",
-        "ad_id": 358647412
+        "regno": "BT12621",
+        "ad_id": 358816404
+    },
+    {
+        "type": "motor",
+        "id": "358814262",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Amarok AMAROK 2.0-179 D 4MOTION",
+        "location": "\u00c6nes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/2/358/814/262_2cf46c97-b87b-4edb-b596-e98c8a09d7ce.jpg",
+            "path": "2024/6/vertical-0/26/2/358/814/262_2cf46c97-b87b-4edb-b596-e98c8a09d7ce.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719398847422,
+        "coordinates": {
+            "lat": 60.09193,
+            "lon": 6.11929
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358814262",
+        "extras": [],
+        "price": {
+            "amount": 196476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 160000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK63079",
+        "ad_id": 358814262
+    },
+    {
+        "type": "motor",
+        "id": "358785990",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy Maxi CADDY MAXI 1.6-102 D",
+        "location": "Maura",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/0/358/785/990_6de029ca-f21e-4a53-895a-813476aac8b7.jpg",
+            "path": "2024/6/vertical-0/26/0/358/785/990_6de029ca-f21e-4a53-895a-813476aac8b7.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719395888470,
+        "coordinates": {
+            "lat": 60.25955,
+            "lon": 11.05414
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358785990",
+        "extras": [],
+        "price": {
+            "amount": 129476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 50000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SV60824",
+        "ad_id": 358785990
+    },
+    {
+        "type": "motor",
+        "id": "358551182",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Tiguan TIGUAN 2.0-110 D",
+        "location": "Odda",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/2/358/551/182_0c7627e6-d4d4-45f3-b469-ce4c8402e5a0.jpg",
+            "path": "2024/6/vertical-0/26/2/358/551/182_0c7627e6-d4d4-45f3-b469-ce4c8402e5a0.jpg",
+            "height": 4096,
+            "width": 3072,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719395700000,
+        "coordinates": {
+            "lat": 60.0691,
+            "lon": 6.5457
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358551182",
+        "extras": [],
+        "price": {
+            "amount": 80000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 157155,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "TS26703",
+        "ad_id": 358551182
+    },
+    {
+        "type": "motor",
+        "id": "356350499",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Tiguan TIGUAN 2.0-116 D",
+        "location": "Valder\u00f8ya",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/9/356/350/499_178a1558-f2b5-4108-9e72-96cc2d7d0e93.jpg",
+            "path": "2024/6/vertical-0/26/9/356/350/499_178a1558-f2b5-4108-9e72-96cc2d7d0e93.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719383841543,
+        "coordinates": {
+            "lat": 62.50357,
+            "lon": 6.10516
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356350499",
+        "extras": [],
+        "price": {
+            "amount": 189305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 128990,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UF73856",
+        "ad_id": 356350499
+    },
+    {
+        "type": "motor",
+        "id": "358739110",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D",
+        "location": "Stavanger",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/0/358/739/110_2971117d-afe3-4821-93fd-03c3563636ee.jpg",
+            "path": "2024/6/vertical-0/25/0/358/739/110_2971117d-afe3-4821-93fd-03c3563636ee.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719378199539,
+        "coordinates": {
+            "lat": 58.93499,
+            "lon": 5.74997
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358739110",
+        "extras": [],
+        "price": {
+            "amount": 53850,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 201300,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "RK22195",
+        "ad_id": 358739110
+    },
+    {
+        "type": "motor",
+        "id": "358774866",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D",
+        "location": "Ilseng",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/6/358/774/866_35d4ec50-250b-4b03-a376-ee6b9e4f1d51.jpg",
+            "path": "2024/6/vertical-0/25/6/358/774/866_35d4ec50-250b-4b03-a376-ee6b9e4f1d51.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719353280000,
+        "coordinates": {
+            "lat": 60.77488,
+            "lon": 11.22455
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358774866",
+        "extras": [],
+        "price": {
+            "amount": 87845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 160100,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "LJ43657",
+        "ad_id": 358774866
+    },
+    {
+        "type": "motor",
+        "id": "328712613",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Touran 2,0 140 HK TDI DSG. Webasto,skinnseter,hengerfeste",
+        "location": "Mosby",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/3/328/712/613_8e8fee29-c177-4eef-bf18-10cd3d98c0ab.jpg",
+            "path": "2024/6/vertical-0/25/3/328/712/613_8e8fee29-c177-4eef-bf18-10cd3d98c0ab.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719352689475,
+        "coordinates": {
+            "lat": 58.2173,
+            "lon": 7.9233
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=328712613",
+        "extras": [],
+        "price": {
+            "amount": 60000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 215100,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "AE33824",
+        "ad_id": 328712613
+    },
+    {
+        "type": "motor",
+        "id": "358775881",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Passat 1,6 TDI 120hk Businessline DSG",
+        "location": "Sarpsborg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/775/881_a5427f3c-e594-4dfa-b138-dcd376fbe5a4.jpg",
+            "path": "2024/6/vertical-0/25/1/358/775/881_a5427f3c-e594-4dfa-b138-dcd376fbe5a4.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719352140000,
+        "coordinates": {
+            "lat": 59.296,
+            "lon": 11.10225
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358775881",
+        "extras": [],
+        "price": {
+            "amount": 149305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 164000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BT30772",
+        "ad_id": 358775881
+    },
+    {
+        "type": "motor",
+        "id": "343600624",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 2.0-179 D 4MOTION",
+        "location": "Kortgarden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/4/343/600/624_e468b209-cfe8-4e37-abcc-23ee7f9e2926.jpg",
+            "path": "2024/6/vertical-0/25/4/343/600/624_e468b209-cfe8-4e37-abcc-23ee7f9e2926.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719351900000,
+        "coordinates": {
+            "lat": 62.7767,
+            "lon": 7.62871
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=343600624",
+        "extras": [],
+        "price": {
+            "amount": 31231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 231839,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "YZ99573",
+        "ad_id": 343600624
+    },
+    {
+        "type": "motor",
+        "id": "358769444",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy Maxi CADDY MAXI 2.0-110 D 4X4,HENGERFESTE,WEBASTO, MYE NYTT",
+        "location": "Fosser",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/4/358/769/444_a0aa7fca-d7b4-4498-8e23-738412f0b100.jpg",
+            "path": "2024/6/vertical-0/25/4/358/769/444_a0aa7fca-d7b4-4498-8e23-738412f0b100.jpg",
+            "height": 1728,
+            "width": 2592,
+            "aspect_ratio": 1.5
+        },
+        "flags": [],
+        "timestamp": 1719348840000,
+        "coordinates": {
+            "lat": 59.8185,
+            "lon": 11.47976
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358769444",
+        "extras": [],
+        "price": {
+            "amount": 116476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 198955,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AY22442",
+        "ad_id": 358769444
+    },
+    {
+        "type": "motor",
+        "id": "358767810",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy Maxi CADDY MAXI 2.0-110 D 4MOTION",
+        "location": "Gj\u00f8ra",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/0/358/767/810_99626893-8a7c-42ad-b3ea-0975ddf269b2.jpg",
+            "path": "2024/6/vertical-0/25/0/358/767/810_99626893-8a7c-42ad-b3ea-0975ddf269b2.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719347906460,
+        "coordinates": {
+            "lat": 62.5487,
+            "lon": 9.11331
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358767810",
+        "extras": [],
+        "price": {
+            "amount": 61231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 204356,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "NV63578",
+        "ad_id": 358767810
+    },
+    {
+        "type": "motor",
+        "id": "350705261",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy CADDY 2.0-140 D 4MOTION",
+        "location": "Os i \u00d8sterdalen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/1/350/705/261_d639eda4-c1f4-47cc-89f5-05474050b4d7.jpg",
+            "path": "2024/6/vertical-0/21/1/350/705/261_d639eda4-c1f4-47cc-89f5-05474050b4d7.jpg",
+            "height": 398,
+            "width": 299,
+            "aspect_ratio": 0.7512562814070352
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719346800000,
+        "coordinates": {
+            "lat": 62.51388,
+            "lon": 11.1136
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350705261",
+        "extras": [],
+        "price": {
+            "amount": 110476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 175000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "UN34051",
+        "ad_id": 350705261
+    },
+    {
+        "type": "motor",
+        "id": "358765871",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D 4MOTION",
+        "location": "Tranby",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/765/871_d574b37b-118c-412a-b1af-ff920ad73d1b.jpg",
+            "path": "2024/6/vertical-0/25/1/358/765/871_d574b37b-118c-412a-b1af-ff920ad73d1b.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719346278448,
+        "coordinates": {
+            "lat": 59.8081,
+            "lon": 10.2666
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358765871",
+        "extras": [],
+        "price": {
+            "amount": 59900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 212500,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "KH90104",
+        "ad_id": 358765871
+    },
+    {
+        "type": "motor",
+        "id": "358756926",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 1.6-105 D",
+        "location": "Indre Arna",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/6/358/756/926_75260f42-63b2-4d74-8bdf-bb39faeed194.jpg",
+            "path": "2024/6/vertical-0/25/6/358/756/926_75260f42-63b2-4d74-8bdf-bb39faeed194.jpg",
+            "height": 1512,
+            "width": 2016,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719345616743,
+        "coordinates": {
+            "lat": 60.4308,
+            "lon": 5.46892
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358756926",
+        "extras": [],
+        "price": {
+            "amount": 50845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 118500,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SX33376",
+        "ad_id": 358756926
+    },
+    {
+        "type": "motor",
+        "id": "358762306",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Touran TOURAN 1.9-105 D",
+        "location": "Kristiansand S",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/6/358/762/306_a0d09ab4-871f-4f2f-a844-b80ab320d4be.jpg",
+            "path": "2024/6/vertical-0/25/6/358/762/306_a0d09ab4-871f-4f2f-a844-b80ab320d4be.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719345087453,
+        "coordinates": {
+            "lat": 58.15686,
+            "lon": 8.05804
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358762306",
+        "extras": [],
+        "price": {
+            "amount": 11845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 254000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PP88708",
+        "ad_id": 358762306
+    },
+    {
+        "type": "motor",
+        "id": "358759558",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 2.5-131 D",
+        "location": "Torpo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/8/358/759/558_ae005385-3fe3-46a5-8a41-2e772c160c5d.jpg",
+            "path": "2024/6/vertical-0/25/8/358/759/558_ae005385-3fe3-46a5-8a41-2e772c160c5d.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719345000000,
+        "coordinates": {
+            "lat": 60.6644,
+            "lon": 8.7199
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358759558",
+        "extras": [],
+        "price": {
+            "amount": 49731,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2009,
+        "mileage": 205897,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AJ67095",
+        "ad_id": 358759558
+    },
+    {
+        "type": "motor",
+        "id": "358753217",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Golf GOLF 2.0-140 D",
+        "location": "Ranheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/7/358/753/217_faa52da2-be82-4bef-8a75-6d119b537f27.jpg",
+            "path": "2024/6/vertical-0/25/7/358/753/217_faa52da2-be82-4bef-8a75-6d119b537f27.jpg",
+            "height": 1118,
+            "width": 1600,
+            "aspect_ratio": 1.4311270125223614
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719343816462,
+        "coordinates": {
+            "lat": 63.41632,
+            "lon": 10.55267
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358753217",
+        "extras": [],
+        "price": {
+            "amount": 86845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 172000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "YU41178",
+        "ad_id": 358753217
+    },
+    {
+        "type": "motor",
+        "id": "358752978",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Tiguan TIGUAN 2.0-140 D 4MOTION",
+        "location": "Drammen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/8/358/752/978_b4db3e25-0a05-4cee-b130-8e21d240151d.jpg",
+            "path": "2024/6/vertical-0/25/8/358/752/978_b4db3e25-0a05-4cee-b130-8e21d240151d.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719343635449,
+        "coordinates": {
+            "lat": 59.73918,
+            "lon": 10.19159
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358752978",
+        "extras": [],
+        "price": {
+            "amount": 46845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 212600,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "PA19004",
+        "ad_id": 358752978
+    },
+    {
+        "type": "motor",
+        "id": "358754806",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy CADDY 2.0-122 D 4MOTION",
+        "location": "Tomrefjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/6/358/754/806_a07c25fa-038c-422f-bc5f-df585938691e.jpg",
+            "path": "2024/6/vertical-0/25/6/358/754/806_a07c25fa-038c-422f-bc5f-df585938691e.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719343104547,
+        "coordinates": {
+            "lat": 62.5934,
+            "lon": 6.9383
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358754806",
+        "extras": [],
+        "price": {
+            "amount": 161476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 181200,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "UF73464",
+        "ad_id": 358754806
+    },
+    {
+        "type": "motor",
+        "id": "358671837",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 2.0-102 D",
+        "location": "Mo i Rana",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/7/358/671/837_77e4364a-c694-4ca6-897a-f3bff1ec23d7.jpg",
+            "path": "2024/6/vertical-0/25/7/358/671/837_77e4364a-c694-4ca6-897a-f3bff1ec23d7.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719342626767,
+        "coordinates": {
+            "lat": 66.3136,
+            "lon": 14.1712
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358671837",
+        "extras": [],
+        "price": {
+            "amount": 53231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 167518,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BD66815",
+        "ad_id": 358671837
+    },
+    {
+        "type": "motor",
+        "id": "358746869",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volkswagen Polo POLO 1.2-75 D",
+        "location": "Gj\u00f8vik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/9/358/746/869_4860afd7-cd54-43db-9e60-7b095ae6a21a.jpg",
+            "path": "2024/6/vertical-0/25/9/358/746/869_4860afd7-cd54-43db-9e60-7b095ae6a21a.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719340740000,
+        "coordinates": {
+            "lat": 60.7957,
+            "lon": 10.6794
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358746869",
+        "extras": [],
+        "price": {
+            "amount": 41845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 139800,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "NV62233",
+        "ad_id": 358746869
+    },
+    {
+        "type": "motor",
+        "id": "358749314",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 1.9-102 D",
+        "location": "Randaberg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/4/358/749/314_6483684a-18a9-4ea0-89bc-de28485b889d.jpg",
+            "path": "2024/6/vertical-0/25/4/358/749/314_6483684a-18a9-4ea0-89bc-de28485b889d.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719340622547,
+        "coordinates": {
+            "lat": 59.00864,
+            "lon": 5.65148
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358749314",
+        "extras": [],
+        "price": {
+            "amount": 56231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2009,
+        "mileage": 180517,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "RJ96276",
+        "ad_id": 358749314
+    },
+    {
+        "type": "motor",
+        "id": "348821349",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Caddy Maxi CADDY MAXI 1.9-105 D",
+        "location": "Oppaker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/9/348/821/349_37bf1760-c1fc-4fe3-975b-4e0f185c59a9.jpg",
+            "path": "2024/6/vertical-0/25/9/348/821/349_37bf1760-c1fc-4fe3-975b-4e0f185c59a9.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719337920000,
+        "coordinates": {
+            "lat": 60.1775,
+            "lon": 11.5146
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348821349",
+        "extras": [],
+        "price": {
+            "amount": 69231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 180000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "KZ57195",
+        "ad_id": 348821349
+    },
+    {
+        "type": "motor",
+        "id": "358742564",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Volkswagen Transporter TRANSPORTER 2.0-102 D",
+        "location": "Fana",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/4/358/742/564_02f93e53-c599-455f-86f9-70a7ba96bb47.jpg",
+            "path": "2024/6/vertical-0/25/4/358/742/564_02f93e53-c599-455f-86f9-70a7ba96bb47.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719337215463,
+        "coordinates": {
+            "lat": 60.2637,
+            "lon": 5.33322
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358742564",
+        "extras": [],
+        "price": {
+            "amount": 70231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 229900,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SU96550",
+        "ad_id": 358742564
     },
     {
         "type": "motor",
@@ -58,7 +1435,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358735144",
         "extras": [],
         "price": {
-            "amount": 46845,
+            "amount": 50000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -119,55 +1496,6 @@
         ],
         "regno": "SV55543",
         "ad_id": 358722351
-    },
-    {
-        "type": "motor",
-        "id": "328375364",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy CADDY 2.0-69 D",
-        "location": "Sortland",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/4/328/375/364_aa242549-5c6d-48f1-bc7e-7f6253d61007.jpg",
-            "path": "2024/6/vertical-0/20/4/328/375/364_aa242549-5c6d-48f1-bc7e-7f6253d61007.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719329880000,
-        "coordinates": {
-            "lat": 68.6945,
-            "lon": 15.4087
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=328375364",
-        "extras": [],
-        "price": {
-            "amount": 29000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2008,
-        "mileage": 140000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "SU76366",
-        "ad_id": 328375364
     },
     {
         "type": "motor",
@@ -403,7 +1731,7 @@
             "price_unit": "kr"
         },
         "year": 2008,
-        "mileage": 22900,
+        "mileage": 229000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "PP78144",
@@ -619,7 +1947,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358709613",
         "extras": [],
         "price": {
-            "amount": 66845,
+            "amount": 61845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -892,41 +2220,6 @@
     },
     {
         "type": "motor",
-        "id": "351990300",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-110 D",
-        "location": "H\u00f8vik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/07/0/351/990/300_14576e9e-05a1-4f65-80ac-15e5d971c95c.jpg",
-            "path": "2024/5/vertical-0/07/0/351/990/300_14576e9e-05a1-4f65-80ac-15e5d971c95c.jpg",
-            "height": 919,
-            "width": 1225,
-            "aspect_ratio": 1.3329706202393907
-        },
-        "flags": [],
-        "timestamp": 1719307410740,
-        "coordinates": {
-            "lat": 59.8991,
-            "lon": 10.57008
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=351990300",
-        "extras": [],
-        "price": {
-            "amount": 66845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 133000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN17229",
-        "ad_id": 351990300
-    },
-    {
-        "type": "motor",
         "id": "357990679",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Touran TOURAN 1.9-105 D, H-Feste, Isofix, Skinn++",
@@ -1008,41 +2301,6 @@
         "service_documents": [],
         "regno": "LS78341",
         "ad_id": 312605728
-    },
-    {
-        "type": "motor",
-        "id": "358670671",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy Maxi CADDY MAXI 1.9-105 D",
-        "location": "Furnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/670/671_887dbec7-b6c9-4947-ba23-3648a0f61592.jpg",
-            "path": "2024/6/vertical-0/25/1/358/670/671_887dbec7-b6c9-4947-ba23-3648a0f61592.jpg",
-            "height": 4096,
-            "width": 3072,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719303240000,
-        "coordinates": {
-            "lat": 60.8363,
-            "lon": 11.0237
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358670671",
-        "extras": [],
-        "price": {
-            "amount": 4900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 170000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BR75416",
-        "ad_id": 358670671
     },
     {
         "type": "motor",
@@ -1263,55 +2521,6 @@
     },
     {
         "type": "motor",
-        "id": "357637118",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-110 D",
-        "location": "Haslum",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/8/357/637/118_964f4de3-e3a1-4f31-acb0-2f5062af3993.jpg",
-            "path": "2024/6/vertical-0/25/8/357/637/118_964f4de3-e3a1-4f31-acb0-2f5062af3993.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719294480000,
-        "coordinates": {
-            "lat": 59.91597,
-            "lon": 10.56415
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357637118",
-        "extras": [],
-        "price": {
-            "amount": 9845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 195000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN20925",
-        "ad_id": 357637118
-    },
-    {
-        "type": "motor",
         "id": "358657811",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Golf GOLF 1.6-105 D",
@@ -1523,7 +2732,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358643911",
         "extras": [],
         "price": {
-            "amount": 31231,
+            "amount": 26231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1533,41 +2742,6 @@
         "service_documents": [],
         "regno": "FT34949",
         "ad_id": 358643911
-    },
-    {
-        "type": "motor",
-        "id": "358639371",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat PASSAT 1.9-105 D",
-        "location": "Fredrikstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/1/358/639/371_7b32a8b1-6ebf-4dec-8c5c-157b08a0bd93.jpg",
-            "path": "2024/6/vertical-0/24/1/358/639/371_7b32a8b1-6ebf-4dec-8c5c-157b08a0bd93.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719261857170,
-        "coordinates": {
-            "lat": 59.21105,
-            "lon": 10.94161
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358639371",
-        "extras": [],
-        "price": {
-            "amount": 9845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2008,
-        "mileage": 388900,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "JD47449",
-        "ad_id": 358639371
     },
     {
         "type": "motor",
@@ -1762,41 +2936,6 @@
     },
     {
         "type": "motor",
-        "id": "358622767",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-150 D",
-        "location": "Furnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/7/358/622/767_d921c28b-5e43-447b-8caa-a63b3954df22.jpg",
-            "path": "2024/6/vertical-0/24/7/358/622/767_d921c28b-5e43-447b-8caa-a63b3954df22.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719259260000,
-        "coordinates": {
-            "lat": 60.82589,
-            "lon": 11.0039
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358622767",
-        "extras": [],
-        "price": {
-            "amount": 114305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 179900,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "FT48079",
-        "ad_id": 358622767
-    },
-    {
-        "type": "motor",
         "id": "358632726",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Touran 1,6 105 TDI DSG  Highline",
@@ -1938,7 +3077,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358625902",
         "extras": [],
         "price": {
-            "amount": 76000,
+            "amount": 69990,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2205,41 +3344,6 @@
     },
     {
         "type": "motor",
-        "id": "358586230",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat 2,0 TDI 140hk BMT Highline DSG",
-        "location": "Kristiansand S",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/0/358/586/230_4bfaa51c-e3b7-4180-8f20-91aa68eaefdb.jpg",
-            "path": "2024/6/vertical-0/24/0/358/586/230_4bfaa51c-e3b7-4180-8f20-91aa68eaefdb.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719247440000,
-        "coordinates": {
-            "lat": 58.15565,
-            "lon": 8.06326
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358586230",
-        "extras": [],
-        "price": {
-            "amount": 119999,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 138900,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "PR18498",
-        "ad_id": 358586230
-    },
-    {
-        "type": "motor",
         "id": "358598398",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Volkswagen Caddy CADDY 1.6-102 D",
@@ -2274,57 +3378,6 @@
         ],
         "regno": "DN98003",
         "ad_id": 358598398
-    },
-    {
-        "type": "motor",
-        "id": "358598354",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Touran TOURAN 2.0-140 D",
-        "location": "Billingstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/4/358/598/354_26c3c660-1bd4-4aed-bd90-c7c94ad10a8d.jpg",
-            "path": "2024/6/vertical-0/24/4/358/598/354_26c3c660-1bd4-4aed-bd90-c7c94ad10a8d.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719244920000,
-        "coordinates": {
-            "lat": 59.87146,
-            "lon": 10.47199
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358598354",
-        "extras": [],
-        "price": {
-            "amount": 96476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 147600,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "LJ57068",
-        "ad_id": 358598354
     },
     {
         "type": "motor",
@@ -2509,55 +3562,6 @@
         ],
         "regno": "BR95929",
         "ad_id": 358457111
-    },
-    {
-        "type": "motor",
-        "id": "358159046",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat 2,0 TDI 140hk BMT Highline R",
-        "location": "Notodden",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/6/358/159/046_31b173ff-1988-45e6-bbb3-5e54b2cfb2a9.jpg",
-            "path": "2024/6/vertical-0/21/6/358/159/046_31b173ff-1988-45e6-bbb3-5e54b2cfb2a9.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719236820000,
-        "coordinates": {
-            "lat": 59.56001,
-            "lon": 9.17598
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358159046",
-        "extras": [],
-        "price": {
-            "amount": 99305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 168995,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "JD67690",
-        "ad_id": 358159046
     },
     {
         "type": "motor",
@@ -2825,7 +3829,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358548053",
         "extras": [],
         "price": {
-            "amount": 96231,
+            "amount": 86231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3009,7 +4013,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358499749",
         "extras": [],
         "price": {
-            "amount": 109305,
+            "amount": 99999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3545,41 +4549,6 @@
     },
     {
         "type": "motor",
-        "id": "358445154",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Touran TOURAN 2.0-170 D",
-        "location": "Kristiansand S",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/4/358/445/154_500312f4-5f57-45a1-8db2-bc0d20794c11.jpg",
-            "path": "2024/6/vertical-0/23/4/358/445/154_500312f4-5f57-45a1-8db2-bc0d20794c11.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719152598201,
-        "coordinates": {
-            "lat": 58.16187,
-            "lon": 7.99648
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358445154",
-        "extras": [],
-        "price": {
-            "amount": 39845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2008,
-        "mileage": 238270,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "PX50276",
-        "ad_id": 358445154
-    },
-    {
-        "type": "motor",
         "id": "358437124",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Passat PASSAT 1.6-105 D",
@@ -3612,41 +4581,6 @@
         "service_documents": [],
         "regno": "VH27556",
         "ad_id": 358437124
-    },
-    {
-        "type": "motor",
-        "id": "358431825",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan 2,0 TDI 110hk 2WD BMT Exclusive",
-        "location": "V\u00e5ler i Sol\u00f8r",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/5/358/431/825_f3d0cadf-ac90-421d-ad98-4b5bf27b2953.jpg",
-            "path": "2024/6/vertical-0/23/5/358/431/825_f3d0cadf-ac90-421d-ad98-4b5bf27b2953.jpg",
-            "height": 2048,
-            "width": 1536,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719149234502,
-        "coordinates": {
-            "lat": 60.67177,
-            "lon": 11.84805
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358431825",
-        "extras": [],
-        "price": {
-            "amount": 139305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2016,
-        "mileage": 97344,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "HB79591",
-        "ad_id": 358431825
     },
     {
         "type": "motor",
@@ -3770,7 +4704,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358417974",
         "extras": [],
         "price": {
-            "amount": 46845,
+            "amount": 43845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3779,55 +4713,6 @@
         "dealer_segment": "Privat",
         "service_documents": [],
         "ad_id": 358417974
-    },
-    {
-        "type": "motor",
-        "id": "358414580",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat PASSAT 1.6-105 D",
-        "location": "Moss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/0/358/414/580_2d30e1a4-decc-4e17-98c2-76dd10514d68.jpg",
-            "path": "2024/6/vertical-0/23/0/358/414/580_2d30e1a4-decc-4e17-98c2-76dd10514d68.jpg",
-            "height": 2268,
-            "width": 4032,
-            "aspect_ratio": 1.7777777777777777
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719143640000,
-        "coordinates": {
-            "lat": 59.47035,
-            "lon": 10.69296
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358414580",
-        "extras": [],
-        "price": {
-            "amount": 60845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 127490,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "RK34378",
-        "ad_id": 358414580
     },
     {
         "type": "motor",
@@ -4177,7 +5062,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358349401",
         "extras": [],
         "price": {
-            "amount": 61845,
+            "amount": 58845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4680,7 +5565,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=256296375",
         "extras": [],
         "price": {
-            "amount": 130000,
+            "amount": 125000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4825,57 +5710,6 @@
         "service_documents": [],
         "regno": "SU90770",
         "ad_id": 358233553
-    },
-    {
-        "type": "motor",
-        "id": "350837871",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan TIGUAN 2.0-140 D 4MOTION",
-        "location": "Sandnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/29/1/350/837/871_59ea1d16-a31e-48d3-b702-069143527d07.jpg",
-            "path": "2024/4/vertical-0/29/1/350/837/871_59ea1d16-a31e-48d3-b702-069143527d07.jpg",
-            "height": 3264,
-            "width": 2448,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719004260000,
-        "coordinates": {
-            "lat": 58.86127,
-            "lon": 5.73076
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350837871",
-        "extras": [],
-        "price": {
-            "amount": 102845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 165000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "RJ95854",
-        "ad_id": 350837871
     },
     {
         "type": "motor",
@@ -5469,7 +6303,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358086399",
         "extras": [],
         "price": {
-            "amount": 71845,
+            "amount": 68845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5504,7 +6338,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358182047",
         "extras": [],
         "price": {
-            "amount": 9845,
+            "amount": 8845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5549,41 +6383,6 @@
         "service_documents": [],
         "regno": "XR54568",
         "ad_id": 358175530
-    },
-    {
-        "type": "motor",
-        "id": "358171764",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 1.6-105 D",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/4/358/171/764_5acb7832-7234-49b1-b4a5-87e110ccf37e.jpg",
-            "path": "2024/6/vertical-0/21/4/358/171/764_5acb7832-7234-49b1-b4a5-87e110ccf37e.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718971802558,
-        "coordinates": {
-            "lat": 59.93885,
-            "lon": 10.67004
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358171764",
-        "extras": [],
-        "price": {
-            "amount": 71845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 82360,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN52114",
-        "ad_id": 358171764
     },
     {
         "type": "motor",
@@ -5947,92 +6746,6 @@
         "service_documents": [],
         "regno": "TS27611",
         "ad_id": 358128336
-    },
-    {
-        "type": "motor",
-        "id": "358126350",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy CADDY 1.6-102 D",
-        "location": "Trondheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/0/358/126/350_ed7d915f-8fd8-4023-ab09-65d06da8249e.jpg",
-            "path": "2024/6/vertical-0/20/0/358/126/350_ed7d915f-8fd8-4023-ab09-65d06da8249e.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718919000000,
-        "coordinates": {
-            "lat": 63.39232,
-            "lon": 10.42637
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358126350",
-        "extras": [],
-        "price": {
-            "amount": 59000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 182979,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "VH35709",
-        "ad_id": 358126350
-    },
-    {
-        "type": "motor",
-        "id": "357992589",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan TIGUAN 2.0-140 D 4MOTION. Se denne ! EU til 06.26. m.m",
-        "location": "Kvelde",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/9/357/992/589_cd233e01-bec4-49d5-93c4-132683d69eed.jpg",
-            "path": "2024/6/vertical-0/20/9/357/992/589_cd233e01-bec4-49d5-93c4-132683d69eed.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718913556662,
-        "coordinates": {
-            "lat": 59.19462,
-            "lon": 9.97914
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357992589",
-        "extras": [],
-        "price": {
-            "amount": 149305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 161125,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KT85279",
-        "ad_id": 357992589
     },
     {
         "type": "motor",
@@ -6659,14 +7372,28 @@
             "width": 3024,
             "aspect_ratio": 0.75
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1718861520000,
         "coordinates": {
             "lat": 60.3515,
             "lon": 5.24122
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357988543",
         "extras": [],
         "price": {
@@ -6676,7 +7403,7 @@
         },
         "year": 2014,
         "mileage": 162800,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "CV69952",
         "ad_id": 357988543
@@ -6731,55 +7458,6 @@
         ],
         "regno": "BD65275",
         "ad_id": 354196062
-    },
-    {
-        "type": "motor",
-        "id": "333115495",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Transporter TRANSPORTER 2.0-179 D 4MOTION",
-        "location": "Melandsj\u00f8",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/5/333/115/495_5605ff16-bbb1-4c56-a15b-157857da3fc8.jpg",
-            "path": "2024/6/vertical-0/19/5/333/115/495_5605ff16-bbb1-4c56-a15b-157857da3fc8.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718831948979,
-        "coordinates": {
-            "lat": 63.6288,
-            "lon": 8.7299
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=333115495",
-        "extras": [],
-        "price": {
-            "amount": 106422,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 183058,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "VX38519",
-        "ad_id": 333115495
     },
     {
         "type": "motor",
@@ -6852,41 +7530,6 @@
         "service_documents": [],
         "regno": "RK49443",
         "ad_id": 357990748
-    },
-    {
-        "type": "motor",
-        "id": "357981949",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy CADDY 1.6-75 D",
-        "location": "N\u00e6rb\u00f8",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/9/357/981/949_543310e5-f8a8-41db-8b11-3ddb97d0bcec.jpg",
-            "path": "2024/6/vertical-0/19/9/357/981/949_543310e5-f8a8-41db-8b11-3ddb97d0bcec.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718824569920,
-        "coordinates": {
-            "lat": 58.65752,
-            "lon": 5.66173
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357981949",
-        "extras": [],
-        "price": {
-            "amount": 70476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 163700,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RK66815",
-        "ad_id": 357981949
     },
     {
         "type": "motor",
@@ -7926,7 +8569,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357892827",
         "extras": [],
         "price": {
-            "amount": 24231,
+            "amount": 19731,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7961,7 +8604,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353490875",
         "extras": [],
         "price": {
-            "amount": 71231,
+            "amount": 66231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7996,7 +8639,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357859786",
         "extras": [],
         "price": {
-            "amount": 90845,
+            "amount": 80845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -8092,14 +8735,28 @@
             "width": 2208,
             "aspect_ratio": 1.3333333333333333
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1718737936369,
         "coordinates": {
             "lat": 61.63408,
             "lon": 5.72168
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357845699",
         "extras": [],
         "price": {
@@ -8109,7 +8766,7 @@
         },
         "year": 2015,
         "mileage": 176000,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "SD72900",
         "ad_id": 357845699
@@ -8256,8 +8913,8 @@
         "heading": "Volkswagen Caddy CADDY 1.6-102 D",
         "location": "Follebu",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/0/357/839/630_9bb4c633-4b56-476b-aeb8-9ea3210d19bd.jpg",
-            "path": "2024/6/vertical-0/18/0/357/839/630_9bb4c633-4b56-476b-aeb8-9ea3210d19bd.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/0/357/839/630_6b6eb1f8-cbdc-4199-b65e-fef669104a1b.jpg",
+            "path": "2024/6/vertical-0/18/0/357/839/630_6b6eb1f8-cbdc-4199-b65e-fef669104a1b.jpg",
             "height": 3000,
             "width": 4000,
             "aspect_ratio": 1.3333333333333333
@@ -8273,7 +8930,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357839630",
         "extras": [],
         "price": {
-            "amount": 48231,
+            "amount": 46231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -8580,7 +9237,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357824612",
         "extras": [],
         "price": {
-            "amount": 79999,
+            "amount": 75000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -8641,41 +9298,6 @@
         ],
         "regno": "SV62762",
         "ad_id": 142035486
-    },
-    {
-        "type": "motor",
-        "id": "357804479",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Transporter TRANSPORTER 2.0-114 D",
-        "location": "S\u00e6b\u00f8v\u00e5gen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/9/357/804/479_d4bfb097-27ad-40f7-b834-8bb76688eea3.jpg",
-            "path": "2024/6/vertical-0/18/9/357/804/479_d4bfb097-27ad-40f7-b834-8bb76688eea3.jpg",
-            "height": 3096,
-            "width": 4128,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718719080000,
-        "coordinates": {
-            "lat": 60.6111,
-            "lon": 5.14482
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357804479",
-        "extras": [],
-        "price": {
-            "amount": 91476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 211050,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "FT41755",
-        "ad_id": 357804479
     },
     {
         "type": "motor",
@@ -9489,57 +10111,6 @@
     },
     {
         "type": "motor",
-        "id": "354020385",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy Maxi 2.0/140HK/Websto/Komf.vegg/DSG/EU26/Ny service",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/17/5/354/020/385_1aa6be9d-4223-456a-9a9a-e29ae1d5318f.jpg",
-            "path": "2024/6/vertical-0/17/5/354/020/385_1aa6be9d-4223-456a-9a9a-e29ae1d5318f.jpg",
-            "height": 5712,
-            "width": 4284,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718633363740,
-        "coordinates": {
-            "lat": 59.9245,
-            "lon": 10.7571
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354020385",
-        "extras": [],
-        "price": {
-            "amount": 87476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 189500,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "LJ57556",
-        "ad_id": 354020385
-    },
-    {
-        "type": "motor",
         "id": "357651050",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Volkswagen Caddy CADDY 2.0-69 D",
@@ -10008,14 +10579,28 @@
             "width": 1200,
             "aspect_ratio": 0.75
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1718604740409,
         "coordinates": {
             "lat": 59.7389,
             "lon": 7.6005
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357601146",
         "extras": [],
         "price": {
@@ -10024,8 +10609,8 @@
             "price_unit": "kr"
         },
         "year": 2014,
-        "mileage": 177500,
-        "dealer_segment": "Privat",
+        "mileage": 178600,
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "SV54777",
         "ad_id": 357601146
@@ -11540,43 +12125,6 @@
     },
     {
         "type": "motor",
-        "id": "357330857",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat PASSAT 1.6-105 D eu.2026",
-        "location": "H\u00f8nefoss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/7/357/330/857_5cfdd828-89b0-41fe-8e17-7da9ccd3c42c.jpg",
-            "path": "2024/6/vertical-0/15/7/357/330/857_5cfdd828-89b0-41fe-8e17-7da9ccd3c42c.jpg",
-            "height": 1868,
-            "width": 4000,
-            "aspect_ratio": 2.1413276231263385
-        },
-        "flags": [],
-        "timestamp": 1718450460330,
-        "coordinates": {
-            "lat": 60.1703,
-            "lon": 10.26889
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357330857",
-        "extras": [],
-        "price": {
-            "amount": 22845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 275000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "UR83101",
-        "ad_id": 357330857
-    },
-    {
-        "type": "motor",
         "id": "341141551",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Golf GOLF 1.6-105 D",
@@ -11697,7 +12245,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357276987",
         "extras": [],
         "price": {
-            "amount": 165000,
+            "amount": 151000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -11829,55 +12377,6 @@
     },
     {
         "type": "motor",
-        "id": "357256234",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat PASSAT 2.0-110 D",
-        "location": "Kyrks\u00e6ter\u00f8ra",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/4/357/256/234_1285bccf-ab96-40f3-9ead-286cedb7f0cd.jpg",
-            "path": "2024/6/vertical-0/14/4/357/256/234_1285bccf-ab96-40f3-9ead-286cedb7f0cd.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718388420000,
-        "coordinates": {
-            "lat": 63.2906,
-            "lon": 9.08911
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357256234",
-        "extras": [],
-        "price": {
-            "amount": 11845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 254779,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN22780",
-        "ad_id": 357256234
-    },
-    {
-        "type": "motor",
         "id": "357079254",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Touran TOURAN 1.6-105 D Highline",
@@ -11945,57 +12444,6 @@
         "service_documents": [],
         "regno": "PP91972",
         "ad_id": 357237339
-    },
-    {
-        "type": "motor",
-        "id": "357226700",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf 2,0 TDI 150hk Highline 4Motion",
-        "location": "Oppeg\u00e5rd",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/0/357/226/700_ffbe4000-388f-472f-81b7-39e8bb2989df.jpg",
-            "path": "2024/6/vertical-0/14/0/357/226/700_ffbe4000-388f-472f-81b7-39e8bb2989df.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718376443299,
-        "coordinates": {
-            "lat": 59.77336,
-            "lon": 10.79537
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357226700",
-        "extras": [],
-        "price": {
-            "amount": 74305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 255000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BD86138",
-        "ad_id": 357226700
     },
     {
         "type": "motor",
@@ -12671,41 +13119,6 @@
     },
     {
         "type": "motor",
-        "id": "357046286",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Caddy CADDY 1.9-105 D 4MOTION 5 seter",
-        "location": "\u00d8vre Vats",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/13/6/357/046/286_eb30c5ea-0b38-48fa-8b51-7b91827bebf4.jpg",
-            "path": "2024/6/vertical-0/13/6/357/046/286_eb30c5ea-0b38-48fa-8b51-7b91827bebf4.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718276307841,
-        "coordinates": {
-            "lat": 59.5285,
-            "lon": 5.67411
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357046286",
-        "extras": [],
-        "price": {
-            "amount": 53845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 255200,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "KH67768",
-        "ad_id": 357046286
-    },
-    {
-        "type": "motor",
         "id": "357066447",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Passat PASSAT 1.6-105 D",
@@ -13025,41 +13438,6 @@
     },
     {
         "type": "motor",
-        "id": "356976606",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Caddy CADDY 1.9-105 D",
-        "location": "Vormsund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/6/356/976/606_98fbddaf-b785-4962-865b-35ba5da0ce61.jpg",
-            "path": "2024/6/vertical-0/12/6/356/976/606_98fbddaf-b785-4962-865b-35ba5da0ce61.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718212080000,
-        "coordinates": {
-            "lat": 60.1534,
-            "lon": 11.41599
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356976606",
-        "extras": [],
-        "price": {
-            "amount": 49231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 142300,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN49190",
-        "ad_id": 356976606
-    },
-    {
-        "type": "motor",
         "id": "355153066",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Golf GOLF 1.9-90 D // NY EU 06.2026 // DAB + // ISOFIX ++",
@@ -13179,41 +13557,6 @@
     },
     {
         "type": "motor",
-        "id": "356957325",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Polo POLO 1.6-75 D",
-        "location": "Sandnessj\u00f8en",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/5/356/957/325_a1123476-2316-44a2-a66c-df033b08b406.jpg",
-            "path": "2024/6/vertical-0/12/5/356/957/325_a1123476-2316-44a2-a66c-df033b08b406.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718200819359,
-        "coordinates": {
-            "lat": 66.016,
-            "lon": 12.61051
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356957325",
-        "extras": [],
-        "price": {
-            "amount": 36845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 187000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "YE87694",
-        "ad_id": 356957325
-    },
-    {
-        "type": "motor",
         "id": "356955129",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Golf GOLF 1.9-105 D",
@@ -13246,43 +13589,6 @@
         "service_documents": [],
         "regno": "KB37290",
         "ad_id": 356955129
-    },
-    {
-        "type": "motor",
-        "id": "354352966",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan TIGUAN 2.0-140 D 4MOTION",
-        "location": "Ilseng",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/25/6/354/352/966_71b756c4-cee3-44b0-8657-8f843b507d0f.jpg",
-            "path": "2024/5/vertical-0/25/6/354/352/966_71b756c4-cee3-44b0-8657-8f843b507d0f.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718198117078,
-        "coordinates": {
-            "lat": 60.75232,
-            "lon": 11.23238
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354352966",
-        "extras": [],
-        "price": {
-            "amount": 168605,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 183000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "FT47050",
-        "ad_id": 354352966
     },
     {
         "type": "motor",
@@ -13358,55 +13664,6 @@
     },
     {
         "type": "motor",
-        "id": "356916829",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Passat PASSAT 1.9-105 D",
-        "location": "Straumgjerde",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/9/356/916/829_beabfd66-1fd6-469c-96fd-9d402b0524c8.jpg",
-            "path": "2024/6/vertical-0/12/9/356/916/829_beabfd66-1fd6-469c-96fd-9d402b0524c8.jpg",
-            "height": 4000,
-            "width": 2250,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718184508440,
-        "coordinates": {
-            "lat": 62.3337,
-            "lon": 6.5942
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356916829",
-        "extras": [],
-        "price": {
-            "amount": 15845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2008,
-        "mileage": 250170,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "RZ30705",
-        "ad_id": 356916829
-    },
-    {
-        "type": "motor",
         "id": "356909775",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Passat PASSAT 2.0-140 D 4MOTION/R-LINE/CRUISEKONTROLL/WEBASTO+",
@@ -13439,41 +13696,6 @@
         "service_documents": [],
         "regno": "DN33101",
         "ad_id": 356909775
-    },
-    {
-        "type": "motor",
-        "id": "352803810",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Transporter TRANSPORTER 2.0-140 D 4MOTION",
-        "location": "Ryfoss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/0/352/803/810_a18e67a8-8f9d-4264-ae12-2feb7ba36d11.jpg",
-            "path": "2024/5/vertical-0/12/0/352/803/810_a18e67a8-8f9d-4264-ae12-2feb7ba36d11.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718183820000,
-        "coordinates": {
-            "lat": 61.1383,
-            "lon": 8.8228
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352803810",
-        "extras": [],
-        "price": {
-            "amount": 121476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 206886,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "ZA13476",
-        "ad_id": 352803810
     },
     {
         "type": "motor",
@@ -13651,55 +13873,6 @@
         "service_documents": [],
         "regno": "HB71807",
         "ad_id": 356874181
-    },
-    {
-        "type": "motor",
-        "id": "356872072",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-110 D DSG EURO5 EU-OK 03/25",
-        "location": "Fredrikstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/2/356/872/072_0da036bf-00e8-4be0-907e-d080ff205a08.jpg",
-            "path": "2024/6/vertical-0/15/2/356/872/072_0da036bf-00e8-4be0-907e-d080ff205a08.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718138663310,
-        "coordinates": {
-            "lat": 59.23463,
-            "lon": 10.97029
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356872072",
-        "extras": [],
-        "price": {
-            "amount": 33900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2009,
-        "mileage": 256000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN20933",
-        "ad_id": 356872072
     },
     {
         "type": "motor",
@@ -15120,55 +15293,6 @@
     },
     {
         "type": "motor",
-        "id": "355993165",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Sharan SHARAN 2.0-140 D",
-        "location": "Porsgrunn",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/09/5/355/993/165_9ce48efb-32af-4e22-8d77-d9d65433d546.jpg",
-            "path": "2024/6/vertical-0/09/5/355/993/165_9ce48efb-32af-4e22-8d77-d9d65433d546.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717915260000,
-        "coordinates": {
-            "lat": 59.14521,
-            "lon": 9.65907
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355993165",
-        "extras": [],
-        "price": {
-            "amount": 99845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 194000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "AE32845",
-        "ad_id": 355993165
-    },
-    {
-        "type": "motor",
         "id": "356255602",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Golf Plus GOLF PLUS 1.6-105 D",
@@ -15646,11 +15770,11 @@
         "type": "motor",
         "id": "356211977",
         "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Touran TOURAN 1.9-105 D - Freestyle-lav km-Ny pris",
+        "heading": "Volkswagen Touran TOURAN 1.9-105 D-Freestyle-lav km-Ny pris",
         "location": "\u00c5s",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/7/356/211/977_66715928-ba40-4966-b457-96484cc3a60e.jpg",
-            "path": "2024/6/vertical-0/07/7/356/211/977_66715928-ba40-4966-b457-96484cc3a60e.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/7/356/211/977_f2f104c5-a975-4a16-b766-30f6604cf44e.jpg",
+            "path": "2024/6/vertical-0/07/7/356/211/977_f2f104c5-a975-4a16-b766-30f6604cf44e.jpg",
             "height": 3456,
             "width": 4608,
             "aspect_ratio": 1.3333333333333333
@@ -15680,7 +15804,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356211977",
         "extras": [],
         "price": {
-            "amount": 61231,
+            "amount": 56231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -15857,7 +15981,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355994522",
         "extras": [],
         "price": {
-            "amount": 59999,
+            "amount": 49999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -16314,7 +16438,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356053217",
         "extras": [],
         "price": {
-            "amount": 96845,
+            "amount": 91845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -16419,7 +16543,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356043320",
         "extras": [],
         "price": {
-            "amount": 59231,
+            "amount": 51231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -16516,41 +16640,6 @@
     },
     {
         "type": "motor",
-        "id": "356015239",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Transporter 2,0 TDI 110hk Kort man",
-        "location": "Gj\u00f8vik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/9/356/015/239_d0873ef1-ed2c-45ea-8db8-1014537ec9cd.jpg",
-            "path": "2024/6/vertical-0/06/9/356/015/239_d0873ef1-ed2c-45ea-8db8-1014537ec9cd.jpg",
-            "height": 733,
-            "width": 909,
-            "aspect_ratio": 1.2401091405184175
-        },
-        "flags": [],
-        "timestamp": 1717665078841,
-        "coordinates": {
-            "lat": 60.7758,
-            "lon": 10.67369
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356015239",
-        "extras": [],
-        "price": {
-            "amount": 96476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2016,
-        "mileage": 234500,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DP85188",
-        "ad_id": 356015239
-    },
-    {
-        "type": "motor",
         "id": "344580052",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Tiguan 2.0-110 D",
@@ -16588,7 +16677,7 @@
         "type": "motor",
         "id": "355917392",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan TIGUAN 2.0-140 D 4MOTION TRACK",
+        "heading": "Volkswagen Tiguan (RESERVERT) TIGUAN 2.0-140 D 4MOTION TRACK",
         "location": "Hol",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/05/2/355/917/392_5be63d2c-7e1f-4df2-be1c-43bb93c62b67.jpg",
@@ -17483,41 +17572,6 @@
     },
     {
         "type": "motor",
-        "id": "355565594",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Golf GOLF 2.0-140 D 4MOTION Sport, alcantara, BILLIG!!",
-        "location": "Vigra",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/4/355/565/594_05c163cf-e50d-4c21-95ff-bcbd2b9a08c6.jpg",
-            "path": "2024/6/vertical-0/21/4/355/565/594_05c163cf-e50d-4c21-95ff-bcbd2b9a08c6.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1717400220000,
-        "coordinates": {
-            "lat": 62.5436,
-            "lon": 6.04421
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355565594",
-        "extras": [],
-        "price": {
-            "amount": 33900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2008,
-        "mileage": 215000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "LY66407",
-        "ad_id": 355565594
-    },
-    {
-        "type": "motor",
         "id": "348768393",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Volkswagen Transporter TRANSPORTER 2.0-179 D 4MOTION",
@@ -17589,7 +17643,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355547614",
         "extras": [],
         "price": {
-            "amount": 106845,
+            "amount": 101845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -18210,8 +18264,8 @@
         "heading": "Volkswagen Caddy Maxi CADDY MAXI 1.6-102 D",
         "location": "Harstad",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/2/355/422/182_eafa8c48-2331-466b-b8fb-115c3cc8b2b7.jpg",
-            "path": "2024/6/vertical-0/20/2/355/422/182_eafa8c48-2331-466b-b8fb-115c3cc8b2b7.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/2/355/422/182_8fea15ce-2aff-49d7-9b06-c760bb2aba27.jpg",
+            "path": "2024/6/vertical-0/20/2/355/422/182_8fea15ce-2aff-49d7-9b06-c760bb2aba27.jpg",
             "height": 1600,
             "width": 1200,
             "aspect_ratio": 0.75
@@ -18290,7 +18344,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355388006",
         "extras": [],
         "price": {
-            "amount": 89900,
+            "amount": 84900,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -18817,14 +18871,28 @@
             "width": 1600,
             "aspect_ratio": 1.3333333333333333
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1717176745249,
         "coordinates": {
             "lat": 60.3588,
             "lon": 10.57089
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353805696",
         "extras": [],
         "price": {
@@ -18834,7 +18902,7 @@
         },
         "year": 2013,
         "mileage": 273000,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "AE37208",
         "ad_id": 353805696
@@ -19154,7 +19222,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355158138",
         "extras": [],
         "price": {
-            "amount": 140000,
+            "amount": 138000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -20278,7 +20346,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354722936",
         "extras": [],
         "price": {
-            "amount": 163305,
+            "amount": 161305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -21033,92 +21101,6 @@
     },
     {
         "type": "motor",
-        "id": "354130302",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Polo Cross POLO CROSS 1.6-75 D",
-        "location": "Stokke",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/23/2/354/130/302_2a0e931b-33fa-4b53-8a6f-be459d091569.jpg",
-            "path": "2024/5/vertical-0/23/2/354/130/302_2a0e931b-33fa-4b53-8a6f-be459d091569.jpg",
-            "height": 1500,
-            "width": 2000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716823935282,
-        "coordinates": {
-            "lat": 59.21827,
-            "lon": 10.27881
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354130302",
-        "extras": [],
-        "price": {
-            "amount": 76845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 67000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS11156",
-        "ad_id": 354130302
-    },
-    {
-        "type": "motor",
-        "id": "354663309",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Touran 1,6 115 TDI Businessline",
-        "location": "Brevik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/9/354/663/309_193d37ca-010a-4ebd-b90c-a4abcda6bbd7.jpg",
-            "path": "2024/5/vertical-0/27/9/354/663/309_193d37ca-010a-4ebd-b90c-a4abcda6bbd7.jpg",
-            "height": 4624,
-            "width": 3472,
-            "aspect_ratio": 0.7508650519031141
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716819480000,
-        "coordinates": {
-            "lat": 59.05431,
-            "lon": 9.69497
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354663309",
-        "extras": [],
-        "price": {
-            "amount": 190305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2017,
-        "mileage": 103000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PR44989",
-        "ad_id": 354663309
-    },
-    {
-        "type": "motor",
         "id": "354653111",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Touran 2,0 TDI Exclusive DSG",
@@ -21170,41 +21152,6 @@
     },
     {
         "type": "motor",
-        "id": "354644302",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Crafter CRAFTER 2.0-163 D",
-        "location": "Byglandsfjord",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/2/354/644/302_0e340037-ce5d-4b17-baa9-10a612dcc3ac.jpg",
-            "path": "2024/5/vertical-0/27/2/354/644/302_0e340037-ce5d-4b17-baa9-10a612dcc3ac.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716809700000,
-        "coordinates": {
-            "lat": 58.66428,
-            "lon": 7.81264
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354644302",
-        "extras": [],
-        "price": {
-            "amount": 151476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2016,
-        "mileage": 114141,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DP96535",
-        "ad_id": 354644302
-    },
-    {
-        "type": "motor",
         "id": "354634410",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volkswagen Passat PASSAT 1.6-105 D",
@@ -21253,92 +21200,6 @@
         ],
         "regno": "DN48610",
         "ad_id": 354634410
-    },
-    {
-        "type": "motor",
-        "id": "348766730",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Volkswagen Amarok AMAROK 2.0-122 (185hk) D 4MOTION",
-        "location": "Vettre",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/15/0/348/766/730_e0c906bc-6919-49b0-b877-63cbf0ebfb5e.jpg",
-            "path": "2024/4/vertical-0/15/0/348/766/730_e0c906bc-6919-49b0-b877-63cbf0ebfb5e.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716805200000,
-        "coordinates": {
-            "lat": 59.82619,
-            "lon": 10.48256
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348766730",
-        "extras": [],
-        "price": {
-            "amount": 141231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 213000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KB40698",
-        "ad_id": 348766730
-    },
-    {
-        "type": "motor",
-        "id": "354613482",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Caddy 2.0tdi 160hk 4motion",
-        "location": "Skien",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/2/354/613/482_fb6cf827-66c4-4337-b4e7-770fe99189a6.jpg",
-            "path": "2024/5/vertical-0/27/2/354/613/482_fb6cf827-66c4-4337-b4e7-770fe99189a6.jpg",
-            "height": 3060,
-            "width": 4080,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716795900000,
-        "coordinates": {
-            "lat": 59.2698,
-            "lon": 9.55051
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354613482",
-        "extras": [],
-        "price": {
-            "amount": 49500,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 299000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "CF65883",
-        "ad_id": 354613482
     },
     {
         "type": "motor",
@@ -22167,7 +22028,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353606144",
         "extras": [],
         "price": {
-            "amount": 89931,
+            "amount": 81931,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -22538,7 +22399,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353249652",
         "extras": [],
         "price": {
-            "amount": 74999,
+            "amount": 64999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -22944,57 +22805,6 @@
         "service_documents": [],
         "regno": "HF24474",
         "ad_id": 352695656
-    },
-    {
-        "type": "motor",
-        "id": "321950944",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volkswagen Tiguan 4x4,R-Line/Highline, panorama,el sete++",
-        "location": "Frosta",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/26/4/321/950/944_5139c8ef-8e7d-49f7-8c84-c74199ae6029.jpg",
-            "path": "2024/5/vertical-0/26/4/321/950/944_5139c8ef-8e7d-49f7-8c84-c74199ae6029.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1715510580000,
-        "coordinates": {
-            "lat": 63.5513,
-            "lon": 10.6558
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=321950944",
-        "extras": [],
-        "price": {
-            "amount": 129147,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 202600,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KH94739",
-        "ad_id": 321950944
     },
     {
         "type": "motor",
