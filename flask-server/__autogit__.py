@@ -2,8 +2,8 @@ import datetime
 from git import Repo
 
 repo_dir = r'C:\Users\admin\fullstack-project\fullstack-project'
-#commit_message = f"chore: automatic JSON data sync {datetime.datetime.now().strftime('%d-%m-%Y')}"
-commit_message = "feat(automation): implement automatic updates via external API for JSON data sync"
+commit_message = f"chore: automatic JSON data sync {datetime.datetime.now().strftime('%d-%m-%Y')}"
+#commit_message = "feat(automation): implement automatic updates via external API for JSON data sync"
 
 def git_push():
     try:

@@ -10,6 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 import logging
+from datetime import datetime, timedelta
+
+current_date = datetime.now()
+one_week_ahead = current_date + timedelta(weeks=1)
+formatted_date = one_week_ahead.strftime("%d.%m.%Y")
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -95,7 +100,7 @@ def fetch_tax_return(regno):
             time.sleep(1)
             date_input.click()
             date_input.clear()
-            date_input.send_keys("10.10.2024")
+            date_input.send_keys(formatted_date)
             date_input.send_keys(Keys.RETURN)
         except Exception as e:
             logging.error("Date input field not found: %s", e)
@@ -182,7 +187,7 @@ def fetch_finn_data():
         return []
 
 #fetching from olx (several pages of JSON)
-def fetch_olx_data(max_pages=3):
+def fetch_olx_data(max_pages=5):
     olx_url = 'https://olx.ba/api/search'
     params = {
             'attr': '3228323030382d393939393939293a372844697a656c29',
