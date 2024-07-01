@@ -191,7 +191,7 @@ def fetch_finn_data():
 def fetch_olx_data(max_pages=50):
     olx_url = 'https://olx.ba/api/search'
     params = {
-            'attr': '3228323030382d393939393939293a372844697a656c29',
+            'attr': '3228323031302d393939393939293a372844697a656c29',
             'attr_encoded': '1',
             'category_id': '18',
             'brand': '56',

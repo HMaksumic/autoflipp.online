@@ -20,7 +20,7 @@ options.add_argument('--disable-dev-shm-usage')
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
 
-base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.817&price_to=200000&sales_form=1&year_from=2008&page="
+base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.817&price_to=200000&sales_form=1&year_from=2010&page="
 
 all_data = []
 

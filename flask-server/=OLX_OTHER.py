@@ -26,7 +26,6 @@ options.add_argument('--disable-dev-shm-usage')
 
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
-
 logging.basicConfig(level=logging.INFO)
 def TAX_AUTHORITY_COOKIE():
     try:
@@ -163,7 +162,7 @@ def fetch_tax_return(regno):
         return None
 
 def normalize_name(name):
-    name = re.sub(r'(?i)\b(4matic|masse|utstyr|eu|ny|kontroll|service|oljeskift|cdi|tdi|dci|mpi|gdi|tdci|tfsi|tsi|td|cd|thp|blueefficiency|novi|model|triptonic|stanje|top|gtd|god|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|quattro|facelift|mercedes|benz|motion|tek|uvezana|uvoz|limited|edition|luxury|premium|base|sport|advanced|line|drive|paket|paket|edition|automatic|manual|diesel|sedan|hatchback|coupe|convertible|wagon|suv|compact|electric|hybrid|awd|fwd|rwd|l|xl|xxl|plus|pro|classic|comfort|executive|elegance|exclusive|design|performance|dynamic|style|active|emotion|innovation|limited|classic|supreme|highline|comfortline|trendline|elite|cosmo|prestige|cross|drive|line|connect|base|executive|essential|value|p|performance|track|trail|sportback|touring|all4|countryman|clubman|john|cooper|works|crosstrek|outback|forester|brz|wrx|sti|limited|touring|premium|black|edition|signature|select|preferred|standard|touring|cx|forester|sport|special|series|2dr|4dr|5dr|7dr|12dr|15dr|21dr|23dr|32dr|40dr|45dr|5seater|7seater|compact|mpv|minivan|roadster|crossover|gtline|cabrio|cabriolet|estate|estate|saloon|super|base|lifestyle|lux|xdrive|xdrive20d|d|rline|spaceback|vision|entry|entryline|life|light|ultimate|evo|ambiente|sve|sve|emotion|dynamic|action|line|tek|tronic|select|stand|entry|vtx|ls|dl|sx|hx|xe|xt|kt|xt|tm|hk|tl|luxe|intense|shine|pure|prestige|legend|premium|premium|supreme|gt|sline|audi|bmw|volkswagen|vw|peugeot|opel|mazda|mitsubishi|toyota|honda|kia|hyundai|nissan|seat|skoda|volvo|renault|suzuki|mini|subaru|chrysler|dodge|jeep|ram|chevrolet|ford|gmc|lincoln|buick|cadillac|lexus|infiniti|acura|jaguar|land|rover|alfa|romeo|fiat|maserati|ferrari|lamborghini|porsche|bugatti|aston|martin|bentley|rolls|royce|polestar|tesla|lucid|rivian|bollinger|canoo|byton|faraday|future|karma|nikola|nobe|regen|gordon|murray|automotive|hendrickson|hewes|hill|hino|hisun|honda|husqvarna|indian|infiniti|ironhorse|isuzu|jaguar|jeep|jensen|john|deere|karma|kia|lancia|land|rover|lincoln|lotus|lucid|mclaren|maserati|mazda|mercedes|mg|mini|mitsubishi|morgan|nimble|nissan|peugeot|pontiac|porsche|ram|renault|rolls|royce|saab|saturn|scion|seat|skoda|smart|ssangyong|subaru|suzuki|tesla|toyota|triumph|vauxhall|volkswagen|volvo|smart|uaz|ura|vespa|vortex|volkswagen|westfield|yamaha|yellow|zastava|zaz|zins|zundapp|zundapp|)\b', '', name)
+    name = re.sub(r'(?i)\b(4matic|masse|utstyr|eu|ny|kontroll|service|oljeskift|cdi|tdi|dci|mpi|gdi|tdci|tfsi|tsi|td|cd|thp|blueefficiency|novi|model|triptonic|stanje|top|gtd|god|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|quattro|facelift|motion|tek|uvezana|uvoz|limited|edition|luxury|premium|base|sport|advanced|line|drive|paket|paket|edition|automatic|manual|diesel|sedan|hatchback|coupe|convertible|wagon|suv|compact|electric|hybrid|awd|fwd|rwd|l|xl|xxl|plus|pro|classic|comfort|executive|elegance|exclusive|design|performance|dynamic|style|active|emotion|innovation|limited|classic|supreme|highline|comfortline|trendline|elite|cosmo|prestige|cross|drive|line|connect|base|executive|essential|value|p|performance|track|trail|sportback|touring|all4|countryman|clubman|john|cooper|works|crosstrek|outback|forester|brz|wrx|sti|limited|touring|premium|black|edition|signature|select|preferred|standard|touring|cx|forester|sport|special|series|2dr|4dr|5dr|7dr|12dr|15dr|21dr|23dr|32dr|40dr|45dr|5seater|7seater|compact|mpv|minivan|roadster|crossover|gtline|cabrio|cabriolet|estate|estate|saloon|super|base|lifestyle|lux|xdrive|xdrive20d|d|rline|spaceback|vision|entry|entryline|life|light|ultimate|evo|ambiente|sve|sve|emotion|dynamic|action|line|tek|tronic|select|stand|entry|vtx|ls|dl|sx|hx|xe|xt|kt|xt|tm|hk|tl)\b', '', name)
 
     name = re.sub(r'\W+', ' ', name)
     name = re.sub(r'\b\d+hk\b', '', name, flags=re.IGNORECASE)
@@ -171,7 +170,7 @@ def normalize_name(name):
 
 #fetching data directly from file
 def fetch_finn_data():
-    json_file_path = 'data/VW_SEARCH.json'
+    json_file_path = 'data/finn_search_before2015.json'
     try:
         with open(json_file_path, 'r') as file:
             data = json.load(file)
@@ -187,18 +186,15 @@ def fetch_finn_data():
         return []
 
 #fetching from olx (several pages of JSON)
-def fetch_olx_data(max_pages=38):
+def fetch_olx_data(max_pages=60):
     olx_url = 'https://olx.ba/api/search'
     params = {
-            'attr': '3228323031302d393939393939293a372844697a656c29',
-            'attr_encoded': '1',
-            'category_id': '18',
-            'brand': '89',
-            'models': '0',
-            'brands': '89',
-            'page': 1,
-            'per_page': 175
-        }
+        'attr': '3228323030382d32303134293a372844697a656c29',
+        'attr_encoded': '1',
+        'category_id': '18',
+        'page': 1,
+        'per_page': 175  
+    }
     
     olx_data = []
     
@@ -211,6 +207,7 @@ def fetch_olx_data(max_pages=38):
             #car entries are under data in the olx api
             page_data = data.get('data', [])
             olx_data.extend(page_data)
+            print(f"Page {params['page']} fetched, {len(page_data)} items.")
             params['page'] += 1
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data from OLX API: {e}")
@@ -223,13 +220,18 @@ def fetch_olx_data(max_pages=38):
 
 #car matching logic
 def match_car(finn_car, olx_car):
-    finn_name = normalize_name(finn_car.get('heading', ''))
-    olx_name = normalize_name(olx_car.get('title', ''))
-    if finn_name in olx_name or olx_name in finn_name:
-        finn_year = finn_car.get('year', 0)
-        olx_year = olx_car.get('special_labels', [])
-        olx_year = next((int(label.get('value')) for label in olx_year if label.get('label') == 'Godište'), 0)
-        return abs(finn_year - olx_year) <= 0
+    # Extracting year information
+    finn_year = finn_car.get('year', 0)
+    olx_labels = olx_car.get('special_labels', [])
+    olx_year = next((int(label.get('value')) for label in olx_labels if label.get('label') == 'Godište'), 0)
+    
+    # First check if the years match closely
+    if abs(finn_year - olx_year) <= 0:
+        # Normalize and compare names if years are close
+        finn_name = normalize_name(finn_car.get('heading', ''))
+        olx_name = normalize_name(olx_car.get('title', ''))
+        print(f"Matching {finn_name} and {olx_name}")
+        return finn_name in olx_name or olx_name in finn_name
     return False
 
 def pair_car_data(finn_data, olx_data):
@@ -258,7 +260,7 @@ def pair_car_data(finn_data, olx_data):
                     'original_name': car_original_name,
                     'image_url': car_image_url,
                     'regno': car_regno,
-                    'olx_ids' : [],
+                    'olx_ids' : []
                 }
 
     #pairing with corresponding olx cars and their prices
@@ -305,7 +307,7 @@ for car_name, data in paired_data.items():
             'image_url': image_url,
             'regno': regno,
             'olx_prices': olx_prices,
-            'olx_ids' : olx_ids,
+            'olx_ids' : olx_ids
         }
         olx_finn_output.append(car_entry)
 
@@ -318,9 +320,9 @@ for car in olx_finn_output:
     else:
         car['tax_return'] = None
 
-with open('data/=OLX_VW.json', 'w', encoding='utf-8') as json_file:
+with open('data/olx_finn_before2015.json', 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
 
 import datetime
 with open('__LOG__.txt', 'a', encoding='utf-8') as file:
-    file.write(f"{datetime.datetime.now()} - =OLX_VW.py ran\n")
+    file.write(f"{datetime.datetime.now()} - olx_finn_before2015.py ran\n")
