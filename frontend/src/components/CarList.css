@@ -43,10 +43,11 @@
 
 .search-bar {
   height: 20px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   font-size: 16px;
   margin-top: 0px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: #007bff;
 }
 
 .search-bar-container {

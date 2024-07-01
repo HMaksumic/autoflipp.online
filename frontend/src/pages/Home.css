@@ -22,3 +22,14 @@
     height: auto;
     margin-right: 50px;
   }
+
+  html {
+    transform: scale(0.65);
+    transform-origin: top left;
+    width: 153.85%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

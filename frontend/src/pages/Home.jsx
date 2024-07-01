@@ -1,8 +1,18 @@
 import React from 'react';
-import CarList from "../components/CarList";
-import "../pages/Home.css";
+import "../pages/HomeActual.css";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
+  const categories = [
+    { name: 'Volkswagen', link: '/volkswagen', image: 'volkswagen.jpg' },
+    { name: 'Audi', link: '/audi', image: 'audi.jpg' },
+    { name: 'BMW', link: '/bmw', image: 'bmw.jpg' },
+    { name: 'Mercedes-Benz', link: '/mercedes', image: 'mercedes.jpg' },
+    { name: 'Peugeot', link: '/peugeot', image: 'peugeot.webp' },
+    { name: 'Volvo', link: '/volvo', image: 'volvo.jpg' },
+    { name: 'Other', link: '/other', image: 'other.jpg' }
+  ];
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -11,8 +21,22 @@ export default function Home() {
           <img src="/icon-white.png" alt="" style={logoStyle} />
         </h1>
       </header>
-      <main style={mainStyle}>
-        <CarList />
+      
+      <main className="main">
+        <div className="intro-text">
+        <h2> Welcome to autoflipp.online!</h2>
+        Simplify your search and check out our comprehensive listings.
+        </div>
+        <div className="category-container">
+          {categories.map(category => (
+            <Link to={category.link} className="category-card" key={category.name}>
+              <img src={category.image} alt={category.name} />
+              <div className="card-content">
+                {category.name}
+              </div>
+            </Link>
+          ))}
+        </div>
       </main>
     </div>
   );
@@ -39,8 +63,4 @@ const titleStyle = {
 const logoStyle = {
   marginLeft: '0px',
   height: '35px',
-};
-
-const mainStyle = {
-  paddingTop: '35px', 
 };

@@ -49,9 +49,9 @@ const CarList = () => {
     <div className="car-list">
       <div className="buttonbar">
         <div className="button">
-        <Link to="/Home" style={{ textDecoration: 'none' }}>
+        <Link to="/volkswagen" style={{ textDecoration: 'none' }}>
             <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
-                Any before 2015
+                Volkswagen
             </button>
         </Link>
 
@@ -85,9 +85,9 @@ const CarList = () => {
             </button>
         </Link>
 
-        <Link to="/volkswagen" style={{ textDecoration: 'none' }}>
+        <Link to="/other" style={{ textDecoration: 'none' }}>
             <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer',position: 'sticky' }}>
-                Volkswagen
+                Other
             </button>
         </Link>
         </div>

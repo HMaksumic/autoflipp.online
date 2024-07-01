@@ -7,7 +7,7 @@ import MercedesPage from './pages/MercedesPage';
 import PeugeotPage from './pages/PeugeotPage';
 import VolvoPage from './pages/VolvoPage';
 import VWPage from './pages/VWPage';
-
+import OtherPage from './pages/OtherPage';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element = {<Home />} />
+            <Route path="/other" element = {<OtherPage />} />
             <Route path="/home" element = {<Home />} />
             <Route path="/audi" element = {<AudiPage />} />
             <Route path="/bmw" element = {<BMWPage />} />
