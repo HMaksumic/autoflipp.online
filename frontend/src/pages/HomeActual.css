@@ -20,6 +20,7 @@
     text-align: center;
     color: #333;
     margin-top: 0;
+    margin-left: 40px;
   }
   
   h1 {
@@ -53,8 +54,8 @@
   
   .category-card {
     flex: 0 1 45%;
-    max-width: 45%;
-    margin: 10px;
+    max-width: 40%;
+    margin: 5px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-decoration: none;
@@ -80,4 +81,9 @@
   .category-card:focus,
   .category-card:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  .text {
+    margin-right: 50px;
+    margin-left: 50px;
   }

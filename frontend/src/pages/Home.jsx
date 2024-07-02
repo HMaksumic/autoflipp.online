@@ -37,6 +37,10 @@ export default function Home() {
             </Link>
           ))}
         </div>
+        <div className="text">
+          autoflipp.online is an app designed to streamline the process of identifying profitable export opportunities for diesel cars. It includes a selection of diesel cars from various makes and models, with vehicles from 2010 onwards. For cars manufactured after 2015, the Norwegian tax return estimate is included in the car ads. The app compares each car fetched from Finn.no with numerous similar listings on OLX.ba, allowing users to determine if exporting the car would be profitable. This feature helps users easily identify undervalued diesel cars in Norway and compare them with prices in Bosnia and Herzegovina, facilitating informed purchasing decisions.
+        </div>
+
       </main>
     </div>
   );
