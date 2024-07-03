@@ -17,17 +17,6 @@ def finn_search_api():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-@app.route("/api/finn_website_search_after2015", methods=['GET'])
-def finn_search_api_after2015():
-    try:
-        json_file_path = os.path.join(os.path.dirname(__file__), "data/finn_search_after2015.json")
-        with open(json_file_path, 'r', encoding='utf-8') as json_file:
-            data = json.load(json_file)
-            
-        return jsonify(data)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-    
 @app.route("/api/olx_finn_data")
 def olx_finn_data():
     try:
