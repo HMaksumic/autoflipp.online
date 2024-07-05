@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "../pages/HomeActual.css";
 import { Link } from 'react-router-dom';
+import AuthBox from "../components/AuthBox"
 
 export default function Home() {
   const categories = [
@@ -12,7 +13,12 @@ export default function Home() {
     { name: 'Volvo', link: '/volvo', image: 'volvo.jpg' },
     { name: 'Other', link: '/other', image: 'other.jpg' }
   ];
+  const [showAuthBox, setShowAuthBox] = useState(false);
 
+  const handleLoginClick = () => {
+    setShowAuthBox(!showAuthBox);
+  };
+  
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -27,6 +33,14 @@ export default function Home() {
         <h2> Welcome to autoflipp.online!</h2>
         Simplify your search and check out our comprehensive listings.
         </div>
+        <div className="login-button">
+          <button className="button_1" onClick={handleLoginClick}>Log in and gain extra perks</button>
+        </div>
+        {showAuthBox && (
+          <div className="auth-box-container">
+            <AuthBox />
+          </div>
+        )}
         <div className="category-container">
           {categories.map(category => (
             <Link to={category.link} className="category-card" key={category.name}>
