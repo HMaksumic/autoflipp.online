@@ -1,39 +1,445 @@
 [
     {
-        "car_name": "Ford Mondeo MONDEO 1.6-116 D",
-        "normalized_name": "1 116 6 ford mondeo mondeo",
-        "year": 2012,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359092003",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/3/359/092/003_b0b25d87-daed-4de5-806f-f09d0c65dfd2.jpg",
-        "regno": "PR16464",
+        "car_name": "Ford Focus FOCUS 1.6-90 D",
+        "normalized_name": "1 6 90 focus focus ford",
+        "year": 2010,
+        "finn_price": 21845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=346570480",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/01/0/346/570/480_79457a1b-cbb4-40be-a7e2-568e3a3a3ba1.jpg",
+        "regno": "AE28517",
         "olx_prices": [
-            9000,
-            12000,
-            12500
+            8900,
+            8700,
+            9400,
+            7500,
+            8500,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900,
+            8900
         ],
         "olx_ids": [
-            60601941,
-            61882234,
-            61709753
+            62448811,
+            62431166,
+            62368011,
+            62387842,
+            56533735,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083,
+            61496083
         ],
         "tax_return": null
     },
     {
-        "car_name": "Nissan Qashqai 1,5 dCi 110 hk DPF Tekna",
-        "normalized_name": "1 110 5 dpf nissan qashqai tekna",
-        "year": 2012,
-        "finn_price": 64147,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=333077603",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/12/vertical-0/17/3/333/077/603_169721578.jpg",
-        "regno": "PD42691",
+        "car_name": "Nissan Qashqai 1,5 dCI Tekna",
+        "normalized_name": "1 5 nissan qashqai tekna",
+        "year": 2010,
+        "finn_price": 59845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360106847",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/7/360/106/847_a7f152c7-e18e-4f64-8e2f-3e676fdbb5f3.jpg",
+        "regno": "SU83048",
         "olx_prices": [
-            16100,
-            17300
+            15500
         ],
         "olx_ids": [
-            54126642,
-            62307085
+            59031585
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mitsubishi Pajero PAJERO 3.2-200 D 4WD",
+        "normalized_name": "2 200 3 4wd mitsubishi pajero pajero",
+        "year": 2011,
+        "finn_price": 161845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360103648",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/8/360/103/648_a7529d05-12a8-44eb-9683-dffce7737adf.jpg",
+        "regno": "KT80282",
+        "olx_prices": [
+            39900
+        ],
+        "olx_ids": [
+            59476577
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Opel Insignia Country Tourer 2,0 CDTi 110hk Cosmo S-tourer",
+        "normalized_name": "0 2 cdti country insignia opel s tourer tourer",
+        "year": 2011,
+        "finn_price": 26845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360103747",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/7/360/103/747_c7b8eb1b-9e22-469f-87f1-1070d2728668.jpg",
+        "regno": "BT32749",
+        "olx_prices": [
+            10000,
+            0,
+            11000,
+            10000,
+            11700,
+            0,
+            4800
+        ],
+        "olx_ids": [
+            62467248,
+            59661824,
+            62388269,
+            62341488,
+            58422466,
+            56604911,
+            62392693
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Toyota Avensis AVENSIS 2.0-126 D",
+        "normalized_name": "0 126 2 avensis avensis toyota",
+        "year": 2010,
+        "finn_price": 29999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360090449",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/9/360/090/449_be4a8d1a-754b-482b-a9be-49e8d341d277.jpg",
+        "regno": "YZ99933",
+        "olx_prices": [
+            7900
+        ],
+        "olx_ids": [
+            60173549
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen Berlingo BERLINGO 1.6-90 D",
+        "normalized_name": "1 6 90 berlingo berlingo citroen",
+        "year": 2011,
+        "finn_price": 15231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360074538",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/8/360/074/538_a7b4014e-653f-427c-85c5-485177456f29.jpg",
+        "regno": "SV14286",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            62131462
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Focus FOCUS 1.5-120 D Titanium x",
+        "normalized_name": "1 120 5 focus focus ford titanium x",
+        "year": 2014,
+        "finn_price": 114305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360064819",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/9/360/064/819_c5c58584-46fc-4d22-a17a-0487ebd5a09b.jpg",
+        "regno": "FT48457",
+        "olx_prices": [
+            10900,
+            14500,
+            10200
+        ],
+        "olx_ids": [
+            62445624,
+            62364137,
+            62324222
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen C3 1.4-68 D eu ok til 2026",
+        "normalized_name": "1 2026 4 68 c3 citroen ok til",
+        "year": 2010,
+        "finn_price": 29000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358778793",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/3/358/778/793_32c3eaf5-9251-450c-ae0f-f6f7e9e85ca2.jpg",
+        "regno": "NF43394",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            61118639
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Galaxy GALAXY 2.0-163 D",
+        "normalized_name": "0 163 2 ford galaxy galaxy",
+        "year": 2014,
+        "finn_price": 145000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360057833",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/3/360/057/833_b5ee3f65-ae88-4b0e-9c0e-e6347db0d91f.jpg",
+        "regno": "NF74178",
+        "olx_prices": [
+            20900,
+            15000
+        ],
+        "olx_ids": [
+            62483464,
+            62401869
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Focus FOCUS 1.6-116 D",
+        "normalized_name": "1 116 6 focus focus ford",
+        "year": 2012,
+        "finn_price": 67845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360057476",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/6/360/057/476_704cb301-c28a-42d3-842f-085cc7b7af44.jpg",
+        "regno": "ZH35481",
+        "olx_prices": [
+            6000
+        ],
+        "olx_ids": [
+            62393040
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford C-Max C-MAX 1.6-95 D Titanium Panorama",
+        "normalized_name": "1 6 95 c c ford max max panorama titanium",
+        "year": 2011,
+        "finn_price": 54000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359908801",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/359/908/801_35333885-7b04-45af-b364-2cc713ef4604.jpg",
+        "regno": "SU99358",
+        "olx_prices": [
+            8900,
+            9900
+        ],
+        "olx_ids": [
+            62480308,
+            56617849
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Kuga KUGA 2.0-140 D AWD",
+        "normalized_name": "0 140 2 ford kuga kuga",
+        "year": 2011,
+        "finn_price": 86845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359716522",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/2/359/716/522_93b66fb5-e153-422c-a338-cc26f8b48afd.jpg",
+        "regno": "RK29023",
+        "olx_prices": [
+            19900,
+            17500,
+            17500,
+            16200
+        ],
+        "olx_ids": [
+            55952666,
+            61646360,
+            61646178,
+            61923259
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Mondeo MONDEO 2.0-140 D",
+        "normalized_name": "0 140 2 ford mondeo mondeo",
+        "year": 2011,
+        "finn_price": 51745,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360014501",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/360/014/501_9935c833-e088-4775-b62f-5b36c2b040ac.jpg",
+        "regno": "DN93697",
+        "olx_prices": [
+            11100
+        ],
+        "olx_ids": [
+            60980779
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Transit Connect TRANSIT CONNECT 1.8-90 D",
+        "normalized_name": "1 8 90 ford transit transit",
+        "year": 2010,
+        "finn_price": 36231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=343160099",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/07/9/343/160/099_1278741373.jpg",
+        "regno": "YT67679",
+        "olx_prices": [
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000,
+            10000
+        ],
+        "olx_ids": [
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921,
+            62330921
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen Berlingo BERLINGO 1.6-90 D E-HDI",
+        "normalized_name": "1 6 90 berlingo berlingo citroen e hdi",
+        "year": 2012,
+        "finn_price": 29231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360029406",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/6/360/029/406_009a4017-ca6f-4f62-91bc-f829b2a4744c.jpg",
+        "regno": "DN91306",
+        "olx_prices": [
+            12000
+        ],
+        "olx_ids": [
+            62210503
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Transit Courier 1,5 TDCi 75hk",
+        "normalized_name": "1 5 courier ford transit",
+        "year": 2014,
+        "finn_price": 69976,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360015640",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/0/360/015/640_7564a983-9974-4c12-9838-c01de1fb35ca.jpg",
+        "regno": "LJ64024",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            62339223
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen C3 1.6-92 D",
+        "normalized_name": "1 6 92 c3 citroen",
+        "year": 2011,
+        "finn_price": 47999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360002841",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/360/002/841_cd44b432-b303-42c1-b087-febf42086f6d.jpg",
+        "regno": "DN68537",
+        "olx_prices": [
+            9250,
+            0,
+            8450,
+            7500
+        ],
+        "olx_ids": [
+            61128346,
+            53736800,
+            62289938,
+            61867685
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mitsubishi ASX ASX 1.8-116 D 4WD",
+        "normalized_name": "1 116 4wd 8 asx asx mitsubishi",
+        "year": 2011,
+        "finn_price": 89990,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359925684",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/4/359/925/684_dbb719d8-16d2-4853-8c80-f392fa716866.jpg",
+        "regno": "VH33400",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            61136002
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Fiat Doblo DOBLO 1.2-90 D",
+        "normalized_name": "1 2 90 doblo doblo fiat",
+        "year": 2012,
+        "finn_price": 26845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355931464",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/05/4/355/931/464_258d6500-cd0d-4580-8ca2-bc3c15d4da10.jpg",
+        "regno": "DP39340",
+        "olx_prices": [
+            14500
+        ],
+        "olx_ids": [
+            62468419
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Skoda Yeti YETI 2.0-110 D 4X4",
+        "normalized_name": "0 110 2 4x4 skoda yeti yeti",
+        "year": 2010,
+        "finn_price": 61835,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354686043",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/3/354/686/043_a8344574-8bfe-4055-b3f9-cb141b3a0cad.jpg",
+        "regno": "CV56108",
+        "olx_prices": [
+            14200
+        ],
+        "olx_ids": [
+            60481242
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Fiesta FIESTA 1.4-68 D EU-godkjent til 3/7-2026",
+        "normalized_name": "1 2026 3 4 68 7 fiesta fiesta ford godkjent til",
+        "year": 2010,
+        "finn_price": 34000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357739456",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/6/357/739/456_c41cdb47-5b9a-4dd0-93fe-1c07b714e249.jpg",
+        "regno": "YZ99653",
+        "olx_prices": [
+            10500,
+            8800
+        ],
+        "olx_ids": [
+            48740151,
+            60875889
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen Grand C4 Picasso GRAND C4 PICASSO 1.6-109 D",
+        "normalized_name": "1 109 6 c4 c4 citroen grand grand picasso picasso",
+        "year": 2011,
+        "finn_price": 49845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359475552",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/2/359/475/552_c7d05933-98c5-41a0-b27e-bd62dc1ccc39.jpg",
+        "regno": "AE29431",
+        "olx_prices": [
+            9100,
+            0,
+            12950,
+            11800,
+            14500
+        ],
+        "olx_ids": [
+            62238366,
+            62432809,
+            62419029,
+            61264677,
+            61170245
         ],
         "tax_return": null
     },
@@ -41,10 +447,10 @@
         "car_name": "Mazda 6 6 2.2-150 D",
         "normalized_name": "150 2 2 6 6 mazda",
         "year": 2013,
-        "finn_price": 54305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359371164",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/4/359/371/164_1c1d87ba-9c95-484c-a9ff-0da5597c9690.jpg",
-        "regno": "ZT48682",
+        "finn_price": 134305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359871043",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/3/359/871/043_4958a662-4f5b-4550-ac72-d27bdac6ee93.jpg",
+        "regno": "DP32124",
         "olx_prices": [
             24300
         ],
@@ -54,18 +460,388 @@
         "tax_return": null
     },
     {
-        "car_name": "Renault Kangoo KANGOO 1.5-86 D",
-        "normalized_name": "1 5 86 kangoo kangoo renault",
-        "year": 2010,
-        "finn_price": 11231,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359426025",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/5/359/426/025_019d794a-3ef9-437b-9c44-dea94d4e4b6d.jpg",
-        "regno": "PX51276",
+        "car_name": "Skoda Octavia OCTAVIA 2.0-150 D",
+        "normalized_name": "0 150 2 octavia octavia skoda",
+        "year": 2014,
+        "finn_price": 74305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359858428",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/8/359/858/428_4e0aa5fa-7095-4b26-90bb-e53ab327b1c1.jpg",
+        "regno": "DP49664",
         "olx_prices": [
-            8500
+            18500
         ],
         "olx_ids": [
-            60923727
+            62350242
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Hyundai i40 I40,PREMIUM PANORAMA,EU 07/2026 ,DEFA/SKIN",
+        "normalized_name": "07 2026 defa hyundai i40 i40 panorama skin",
+        "year": 2012,
+        "finn_price": 72845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359704900",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/0/359/704/900_88bdea51-07b5-452e-bfd4-2275db1c1ac2.jpg",
+        "regno": "NF57560",
+        "olx_prices": [
+            17950
+        ],
+        "olx_ids": [
+            59373330
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Transit Connect TRANSIT CONNECT 1.8-75 D",
+        "normalized_name": "1 75 8 ford transit transit",
+        "year": 2011,
+        "finn_price": 22231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359854702",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/2/359/854/702_2ca90f43-0ff3-49b9-85a8-a0debb9dfe28.jpg",
+        "regno": "SV16669",
+        "olx_prices": [
+            18500
+        ],
+        "olx_ids": [
+            62288854
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Fiesta 1,4 TDCI 70 HK",
+        "normalized_name": "1 4 70 fiesta ford",
+        "year": 2011,
+        "finn_price": 25000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359833137",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/7/359/833/137_92688684-0ceb-4b7a-99f7-3b21571cf04b.jpg",
+        "regno": "BS27119",
+        "olx_prices": [
+            9400,
+            7800,
+            6600,
+            8900,
+            6900,
+            9500,
+            3600
+        ],
+        "olx_ids": [
+            60511787,
+            62473252,
+            62442239,
+            54372520,
+            61043675,
+            62416007,
+            62371660
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Suzuki SX4 SX4 2.0-135 D 4X4",
+        "normalized_name": "0 135 2 4x4 suzuki sx4 sx4",
+        "year": 2010,
+        "finn_price": 10745,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359798162",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/2/359/798/162_c5b69648-872b-41d0-8ee9-6688f149c3c4.jpg",
+        "regno": "VH25859",
+        "olx_prices": [
+            11500
+        ],
+        "olx_ids": [
+            62406772
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "MINI Cooper 1.6-109 D",
+        "normalized_name": "1 109 6 mini",
+        "year": 2010,
+        "finn_price": 39845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356224165",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/17/5/356/224/165_2a1a2bba-11ca-4541-8abe-66e9e0fbd852.jpg",
+        "regno": "JV12612",
+        "olx_prices": [
+            16800
+        ],
+        "olx_ids": [
+            62385772
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mitsubishi Outlander OUTLANDER 2.3-150 D 4WD/AUT dieselvarmer m/fj.k",
+        "normalized_name": "150 2 3 4wd aut dieselvarmer fj k m mitsubishi outlander outlander",
+        "year": 2014,
+        "finn_price": 199995,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359748588",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/8/359/748/588_460d51e3-7b8f-4363-8515-549acc8b1447.jpg",
+        "regno": "KT87252",
+        "olx_prices": [
+            21800
+        ],
+        "olx_ids": [
+            50683790
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mazda CX-5 CX-5 2.2-150 D 4WD",
+        "normalized_name": "150 2 2 4wd 5 5 mazda",
+        "year": 2012,
+        "finn_price": 89305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=341495660",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/0/341/495/660_d47a3a1d-c33f-492e-be93-d0ba0174a86e.jpg",
+        "regno": "CV65018",
+        "olx_prices": [
+            26300,
+            10900,
+            20800
+        ],
+        "olx_ids": [
+            62480539,
+            59221603,
+            59057605
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Opel Meriva MERIVA 1.7-101 D",
+        "normalized_name": "1 101 7 meriva meriva opel",
+        "year": 2011,
+        "finn_price": 36845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=337964701",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/1/vertical-0/28/1/337/964/701_679948891.jpg",
+        "regno": "YE88877",
+        "olx_prices": [
+            8800,
+            9000
+        ],
+        "olx_ids": [
+            55165909,
+            62390403
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Kia Rio RIO 1.1 75 D Exlusive eco Dynamics. CRDI 75hk",
+        "normalized_name": "1 1 75 crdi dynamics eco exlusive kia rio rio",
+        "year": 2012,
+        "finn_price": 36000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359160011",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/1/359/160/011_2b2b6954-a282-4613-b155-80fcbb8cd132.jpg",
+        "regno": "ZD17499",
+        "olx_prices": [
+            11800
+        ],
+        "olx_ids": [
+            62224347
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Nissan Qashqai QASHQAI 1.5-110 D",
+        "normalized_name": "1 110 5 nissan qashqai qashqai",
+        "year": 2011,
+        "finn_price": 16845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359628442",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/2/359/628/442_56b6cbb8-1141-41c6-9d96-560882c0599a.jpg",
+        "regno": "SV13913",
+        "olx_prices": [
+            13600
+        ],
+        "olx_ids": [
+            61965306
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Citroen C5 1.6-111 D",
+        "normalized_name": "1 111 6 c5 citroen",
+        "year": 2011,
+        "finn_price": 17845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359538201",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/1/359/538/201_8885cf1b-d175-4f65-bb0d-8150a0d574ab.jpg",
+        "regno": "AY14153",
+        "olx_prices": [
+            9600,
+            9600,
+            8800,
+            12400
+        ],
+        "olx_ids": [
+            62295042,
+            62295150,
+            62331480,
+            62375317
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mazda CX-5 VISION 2.2-150 D 4WD",
+        "normalized_name": "150 2 2 4wd 5 mazda",
+        "year": 2013,
+        "finn_price": 99147,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=305960076",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/6/305/960/076_5f16d13c-b427-47cd-a668-bdba56f251d5.jpg",
+        "regno": "ZH37383",
+        "olx_prices": [
+            25300
+        ],
+        "olx_ids": [
+            60674647
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Transit Custom TRANSIT CUSTOM 2.2-125 D",
+        "normalized_name": "125 2 2 custom custom ford transit transit",
+        "year": 2013,
+        "finn_price": 114800,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359531641",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/1/359/531/641_1ec92c07-bd35-4171-974f-f7ee27155c9a.jpg",
+        "regno": "UR90395",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            61921475
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Kuga 2,0 TDCi 140hk Titanium aut",
+        "normalized_name": "0 2 aut ford kuga titanium",
+        "year": 2014,
+        "finn_price": 164305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353610364",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/4/353/610/364_431f063e-40b4-49b1-bfeb-4af6531ea57e.jpg",
+        "regno": "XR60145",
+        "olx_prices": [
+            22500,
+            0,
+            22500,
+            28000
+        ],
+        "olx_ids": [
+            57005639,
+            61929483,
+            59827251,
+            61613331
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mazda 3 2.2-150 D",
+        "normalized_name": "150 2 2 3 mazda",
+        "year": 2014,
+        "finn_price": 83305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359122849",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/9/359/122/849_c1d37c98-d8ca-4596-8253-dd8beeff8ae7.jpg",
+        "regno": "AY25159",
+        "olx_prices": [
+            22000
+        ],
+        "olx_ids": [
+            61171488
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Opel Mokka MOKKA 1.7-131 D AWD",
+        "normalized_name": "1 131 7 mokka mokka opel",
+        "year": 2013,
+        "finn_price": 44305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358730730",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/0/358/730/730_4caebc48-decb-4bca-95ab-4c1255d12ee3.jpg",
+        "regno": "AE38183",
+        "olx_prices": [
+            20950
+        ],
+        "olx_ids": [
+            58145891
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Skoda Octavia OCTAVIA 2.0-140 D",
+        "normalized_name": "0 140 2 octavia octavia skoda",
+        "year": 2011,
+        "finn_price": 49995,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355462498",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/8/355/462/498_06e3a9aa-33c4-4e61-8c72-c0f249feab8d.jpg",
+        "regno": "BD71022",
+        "olx_prices": [
+            9900
+        ],
+        "olx_ids": [
+            61278234
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Focus 1,6 Tdci 116HK",
+        "normalized_name": "1 6 focus ford",
+        "year": 2012,
+        "finn_price": 63845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353192498",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/15/8/353/192/498_cd6d5c88-ef22-4614-8bf6-4938df43d59c.jpg",
+        "regno": "",
+        "olx_prices": [
+            8900
+        ],
+        "olx_ids": [
+            62407570
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Renault Kangoo KANGOO 1.5-90 D",
+        "normalized_name": "1 5 90 kangoo kangoo renault",
+        "year": 2014,
+        "finn_price": 54476,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=349812788",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/22/8/349/812/788_5815d8ff-ac4c-4b87-b5e1-1900e4355218.jpg",
+        "regno": "SD71440",
+        "olx_prices": [
+            9500,
+            14950
+        ],
+        "olx_ids": [
+            62460957,
+            52526871
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Ford Galaxy",
+        "normalized_name": "ford galaxy",
+        "year": 2014,
+        "finn_price": 125000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=228457208",
+        "image_url": "https://images.finncdn.no/dynamic/default/2021/8/vertical-0/15/8/228/457/208_29952111.jpg",
+        "regno": "XN41004",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            62440875
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Nissan Qashqai 1,5 dCi 110 hk DPF Tekna",
+        "normalized_name": "1 110 5 dpf nissan qashqai tekna",
+        "year": 2012,
+        "finn_price": 61845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=333077603",
+        "image_url": "https://images.finncdn.no/dynamic/default/2023/12/vertical-0/17/3/333/077/603_169721578.jpg",
+        "regno": "PD42691",
+        "olx_prices": [
+            16100,
+            17777
+        ],
+        "olx_ids": [
+            54126642,
+            56718583
         ],
         "tax_return": null
     },
@@ -78,76 +854,40 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/3/359/412/793_5c720c28-0e80-4291-a191-352083f5d7f5.jpg",
         "regno": "DN54078",
         "olx_prices": [
-            10800,
-            9000,
+            12350,
+            8800,
             11300,
+            10800,
             9900,
             10800,
-            6800,
-            8900
+            10800,
+            10800,
+            10800,
+            10800,
+            10800,
+            10800,
+            10800,
+            10800,
+            10800,
+            10800
         ],
         "olx_ids": [
-            62322556,
-            62375911,
+            62414343,
+            62375776,
             57886260,
+            62322556,
             60263908,
             61391956,
-            62328374,
-            62318975
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen Berlingo BERLINGO 1.6-92 D",
-        "normalized_name": "1 6 92 berlingo berlingo citroen",
-        "year": 2014,
-        "finn_price": 128000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359404966",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/6/359/404/966_0ab5c9f2-d42c-4381-8b61-a45ed3165f04.jpg",
-        "regno": "BS93010",
-        "olx_prices": [
-            13500
-        ],
-        "olx_ids": [
-            61644919
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mazda CX-5 CX-5 2.2-150 D 4WD",
-        "normalized_name": "150 2 2 4wd 5 5 mazda",
-        "year": 2012,
-        "finn_price": 106845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359393983",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/3/359/393/983_cd3e294f-72b7-4111-92da-48c66b6fb70b.jpg",
-        "regno": "ZZ13435",
-        "olx_prices": [
-            10900,
-            20800,
-            24990
-        ],
-        "olx_ids": [
-            59221603,
-            59057605,
-            62302317
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Nissan Qashqai +2 QASHQAI+2 1.5-110 D",
-        "normalized_name": "1 110 2 2 5 nissan qashqai qashqai",
-        "year": 2011,
-        "finn_price": 16845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359392022",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/2/359/392/022_afcc1e86-971f-4c23-a2aa-485ba04d7b82.jpg",
-        "regno": "VH35289",
-        "olx_prices": [
-            13600,
-            16000
-        ],
-        "olx_ids": [
-            61965306,
-            58598168
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956,
+            61391956
         ],
         "tax_return": null
     },
@@ -160,80 +900,56 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/9/359/372/699_602bd00a-e745-4e39-902b-e136c710e762.jpg",
         "regno": "BR96349",
         "olx_prices": [
-            8700,
-            8490,
+            8900,
             10500,
-            8100,
-            9500,
-            8500,
-            9500,
+            5200,
+            8700,
+            85000,
             10400,
+            7500,
+            9450,
+            8100,
             8500,
-            9400,
-            9900
+            9500,
+            8490,
+            8500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500,
+            9500
         ],
         "olx_ids": [
-            62236948,
-            62366783,
+            62076343,
             59853511,
+            62095637,
+            62236948,
+            62399888,
+            60769368,
+            62428770,
+            62417756,
             59043130,
+            60923727,
             62332039,
+            62366783,
             61389946,
             62332109,
-            60769368,
-            62304365,
-            62076343,
-            62176321
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Transit TRANSIT 2.2-140 D",
-        "normalized_name": "140 2 2 ford transit transit",
-        "year": 2011,
-        "finn_price": 55000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359358002",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/2/359/358/002_b005daca-c05c-44d1-8976-09a01d53f299.jpg",
-        "regno": "CF58500",
-        "olx_prices": [
-            18500
-        ],
-        "olx_ids": [
-            62288854
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Opel Mokka MOKKA 1.7-131 D",
-        "normalized_name": "1 131 7 mokka mokka opel",
-        "year": 2013,
-        "finn_price": 94034,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=278273073",
-        "image_url": "https://images.finncdn.no/dynamic/default/2022/10/vertical-0/23/3/278/273/073_616351334.jpg",
-        "regno": "UC27727",
-        "olx_prices": [
-            20950
-        ],
-        "olx_ids": [
-            58145891
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Fiesta FIESTA 1.4-68 D",
-        "normalized_name": "1 4 68 fiesta fiesta ford",
-        "year": 2010,
-        "finn_price": 27845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359350300",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/0/359/350/300_c979304f-ff02-4623-9894-03e16a70c88f.jpg",
-        "regno": "RK29686",
-        "olx_prices": [
-            10500,
-            9200
-        ],
-        "olx_ids": [
-            48740151,
-            60745256
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109,
+            62332109
         ],
         "tax_return": null
     },
@@ -254,46 +970,18 @@
         "tax_return": null
     },
     {
-        "car_name": "Ford Mondeo 1,6 TDCI 115hk Titanium",
-        "normalized_name": "1 6 ford mondeo titanium",
-        "year": 2011,
-        "finn_price": 56845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355205721",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/31/1/355/205/721_ea382a60-9676-47b6-8231-8149ddce80c6.jpg",
-        "regno": "KH76912",
+        "car_name": "Subaru Forester LAV KILOMETER FORESTER 2.0-147 D AWD",
+        "normalized_name": "0 147 2 kilometer lav subaru",
+        "year": 2013,
+        "finn_price": 199305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=343486250",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/09/0/343/486/250_1830572146.jpg",
+        "regno": "UF61242",
         "olx_prices": [
-            11950
-        ],
-        "olx_ids": [
-            62114703
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Opel Insignia 2,0 CDTi 160hk AWD Cos S-tourer",
-        "normalized_name": "0 2 cdti cos insignia opel s tourer",
-        "year": 2011,
-        "finn_price": 45845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359332286",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/6/359/332/286_df4e2a39-faeb-48fd-bd0a-8b8213579ab1.jpg",
-        "regno": "XK18888",
-        "olx_prices": [
-            0,
-            11000,
-            11700,
-            0,
-            4800,
-            12000,
             14800
         ],
         "olx_ids": [
-            59661824,
-            62388269,
-            58422466,
-            56604911,
-            62392693,
-            59889475,
-            62268116
+            62423989
         ],
         "tax_return": null
     },
@@ -307,17 +995,15 @@
         "regno": "HJ93563",
         "olx_prices": [
             12800,
-            14300,
             0,
-            11650,
-            11000
+            0,
+            14300
         ],
         "olx_ids": [
             62163554,
-            62363831,
-            62405668,
-            62213558,
-            62110919
+            62401275,
+            62463683,
+            62363831
         ],
         "tax_return": null
     },
@@ -331,35 +1017,17 @@
         "regno": "AE25919",
         "olx_prices": [
             12850,
-            12400,
+            9100,
             10700,
-            11100,
-            8200
+            10900,
+            12400
         ],
         "olx_ids": [
             61198245,
-            62327098,
+            62435218,
             62074572,
-            62165347,
-            58175061
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C3 C3 1.4-68 D",
-        "normalized_name": "1 4 68 c3 c3 citroen",
-        "year": 2010,
-        "finn_price": 18845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359307311",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/1/359/307/311_057497e6-f866-4392-9ef6-df72ce1fe191.jpg",
-        "regno": "JD55536",
-        "olx_prices": [
-            7799,
-            6800
-        ],
-        "olx_ids": [
-            60218676,
-            61331943
+            62426818,
+            62327098
         ],
         "tax_return": null
     },
@@ -372,128 +1040,10 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/7/350/504/327_ce3a3eef-6e64-4dc9-99f9-308d996200eb.jpg",
         "regno": "SD60098",
         "olx_prices": [
-            10700,
-            12500
+            10700
         ],
         "olx_ids": [
-            50982022,
-            60933520
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C5 C5 1.6-111 D",
-        "normalized_name": "1 111 6 c5 c5 citroen",
-        "year": 2011,
-        "finn_price": 47645,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357205842",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/2/357/205/842_12a53ad8-523e-484d-a7a1-af1a54874871.jpg",
-        "regno": "BS28874",
-        "olx_prices": [
-            12400,
-            9600,
-            8800,
-            9600,
-            8800
-        ],
-        "olx_ids": [
-            62375317,
-            62295150,
-            62331480,
-            62295042,
-            62353435
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Focus FOCUS 1.6TDCi 116Hk- Titanium ST-line +++",
-        "normalized_name": "1 6tdci focus focus ford st titanium",
-        "year": 2012,
-        "finn_price": 81845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359004711",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/1/359/004/711_1fe3dd08-c46e-485d-9bc8-eef2c2bfc373.jpg",
-        "regno": "DN85155",
-        "olx_prices": [
-            8900,
-            6000,
-            0
-        ],
-        "olx_ids": [
-            62407570,
-            62393040,
-            62168962
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "MINI Countryman COUNTRYMAN 1.6-111 D ALL4",
-        "normalized_name": "1 111 6 mini",
-        "year": 2011,
-        "finn_price": 60845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359267790",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/0/359/267/790_6c86b3bd-b975-467c-998c-92382f83ce3f.jpg",
-        "regno": "BS34178",
-        "olx_prices": [
-            17500
-        ],
-        "olx_ids": [
-            61676191
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Renault Grand Scenic GRAND SCENIC 1.5-110 D",
-        "normalized_name": "1 110 5 grand grand renault scenic scenic",
-        "year": 2012,
-        "finn_price": 60850,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=342221541",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/29/1/342/221/541_517794362.jpg",
-        "regno": "AY18955",
-        "olx_prices": [
-            11600,
-            14700,
-            15000,
-            11300
-        ],
-        "olx_ids": [
-            62215666,
-            61780663,
-            62384748,
-            62224525
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Opel Insignia INSIGNIA 2.0-131 D",
-        "normalized_name": "0 131 2 insignia insignia opel",
-        "year": 2012,
-        "finn_price": 56845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359179945",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/5/359/179/945_f0c017af-28d6-4e08-8e64-58a1564a6fd2.jpg",
-        "regno": "DP10438",
-        "olx_prices": [
-            15000,
-            9900
-        ],
-        "olx_ids": [
-            62269725,
-            55054346
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Hyundai ix35 IX35 2.0-136 D 4WD",
-        "normalized_name": "0 136 2 4wd hyundai ix35 ix35",
-        "year": 2011,
-        "finn_price": 81845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359208629",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/9/359/208/629_adb3d7ad-2739-4970-a1c5-a2381083440d.jpg",
-        "regno": "UX60113",
-        "olx_prices": [
-            18350
-        ],
-        "olx_ids": [
-            62401335
+            50982022
         ],
         "tax_return": null
     },
@@ -506,10 +1056,12 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/1/358/754/851_11884661-9e1a-478e-b648-c19b880630f0.jpg",
         "regno": "PP87400",
         "olx_prices": [
-            19000
+            10400,
+            0
         ],
         "olx_ids": [
-            62313580
+            62147071,
+            61174354
         ],
         "tax_return": null
     },
@@ -530,44 +1082,6 @@
         "tax_return": null
     },
     {
-        "car_name": "Ford Kuga KUGA 2.0-140 D AWD",
-        "normalized_name": "0 140 2 ford kuga kuga",
-        "year": 2012,
-        "finn_price": 79845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359172769",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/9/359/172/769_87ce14d2-4b01-4094-8589-a397cbe18b78.jpg",
-        "regno": "NF54464",
-        "olx_prices": [
-            21000
-        ],
-        "olx_ids": [
-            62313576
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C4 C4 1.6-92 D",
-        "normalized_name": "1 6 92 c4 c4 citroen",
-        "year": 2011,
-        "finn_price": 81345,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359160083",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/3/359/160/083_a7dcac62-871f-433d-844c-9a573518567b.jpg",
-        "regno": "UF49207",
-        "olx_prices": [
-            14800,
-            9500,
-            12900,
-            9900
-        ],
-        "olx_ids": [
-            61170245,
-            62238366,
-            62392767,
-            61614551
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "Citroen C5 1.6-109 D",
         "normalized_name": "1 109 6 c5 citroen",
         "year": 2010,
@@ -576,20 +1090,24 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/6/356/843/906_a27ea0e9-3cbb-4b28-bb6b-a793fe65915b.jpg",
         "regno": "BR95165",
         "olx_prices": [
-            8000,
-            5500,
+            9999,
+            7800,
+            11200,
+            8550,
+            10599,
             9800,
-            12200,
-            0,
-            11700
+            5500,
+            12200
         ],
         "olx_ids": [
-            62405843,
-            62344662,
+            62477698,
+            62459589,
+            62461861,
+            62437736,
+            62421304,
             61436900,
-            37346455,
-            58052644,
-            62288085
+            62344662,
+            37346455
         ],
         "tax_return": null
     },
@@ -603,65 +1121,41 @@
         "regno": "PD34763",
         "olx_prices": [
             17500,
+            17000,
+            19900,
+            16700,
+            15200,
             17200,
             18500,
-            19900,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500,
-            16500
+            18500,
+            18500,
+            18500,
+            18500,
+            18500,
+            18500,
+            18500,
+            18500,
+            18500,
+            18500
         ],
         "olx_ids": [
             61310125,
+            61589258,
+            62110348,
+            53959698,
+            62409617,
             61390963,
             62330991,
-            62110348,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287,
-            46841287
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Focus FOCUS 1.6-90 D",
-        "normalized_name": "1 6 90 focus focus ford",
-        "year": 2010,
-        "finn_price": 36845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=348386552",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/18/2/348/386/552_29bd0086-3820-405a-8819-23351b6b9b6a.jpg",
-        "regno": "SU86553",
-        "olx_prices": [
-            5000,
-            8999,
-            7500,
-            8500,
-            8900,
-            7900,
-            8490
-        ],
-        "olx_ids": [
-            59075806,
-            62368011,
-            62387842,
-            56533735,
-            61496083,
-            62107472,
-            61246643
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991,
+            62330991
         ],
         "tax_return": null
     },
@@ -669,51 +1163,15 @@
         "car_name": "Ford Transit Custom 2,2 TDCi 125hk 290S Trend",
         "normalized_name": "2 2 290s custom ford transit trend",
         "year": 2012,
-        "finn_price": 100476,
+        "finn_price": 91476,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359114017",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/7/359/114/017_23e2588a-e352-44f7-845e-abbebf7336f3.jpg",
         "regno": "XR58763",
         "olx_prices": [
-            0,
-            0,
-            15500
+            0
         ],
         "olx_ids": [
-            62376771,
-            62269047,
-            62230708
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C4 C4 1.6-114 D",
-        "normalized_name": "1 114 6 c4 c4 citroen",
-        "year": 2014,
-        "finn_price": 73305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359112845",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/5/359/112/845_d9614571-01d4-48f5-b7bf-b913eaad56c9.jpg",
-        "regno": "ZH43058",
-        "olx_prices": [
-            13100
-        ],
-        "olx_ids": [
-            48284914
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Skoda Yeti YETI 2.0-140 D 4X4",
-        "normalized_name": "0 140 2 4x4 skoda yeti yeti",
-        "year": 2010,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359076803",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/3/359/076/803_57872d5c-11be-47fc-818f-50a026fb2727.jpg",
-        "regno": "NF40715",
-        "olx_prices": [
-            14200
-        ],
-        "olx_ids": [
-            60481242
+            62376771
         ],
         "tax_return": null
     },
@@ -726,10 +1184,12 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/3/359/030/383_1d8cd76e-964f-48b2-beb3-a30c1c3acdec.jpg",
         "regno": "SU96406",
         "olx_prices": [
-            11900
+            11900,
+            8500
         ],
         "olx_ids": [
-            62146064
+            62146064,
+            61417804
         ],
         "tax_return": null
     },
@@ -742,124 +1202,34 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/0/358/748/490_2f435dca-f748-4542-8d36-65979655c662.jpg",
         "regno": "HJ88813",
         "olx_prices": [
-            8200
+            8200,
+            7800,
+            7400
         ],
         "olx_ids": [
-            60728444
+            60728444,
+            62394665,
+            61801411
         ],
         "tax_return": null
     },
     {
-        "car_name": "Mitsubishi Pajero PAJERO 3.2-200 D 4WD",
-        "normalized_name": "2 200 3 4wd mitsubishi pajero pajero",
-        "year": 2010,
-        "finn_price": 199995,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358987739",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/9/358/987/739_c8afdaa1-59dd-4584-b5d5-2c72027f36bf.jpg",
-        "regno": "RZ33198",
-        "olx_prices": [
-            38500
-        ],
-        "olx_ids": [
-            62329457
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen DS5 5 1.6-111 D",
-        "normalized_name": "1 111 5 6 citroen ds5",
+        "car_name": "Opel Insignia 2.0L - 131Hk - D",
+        "normalized_name": "0l 2 insignia opel",
         "year": 2012,
-        "finn_price": 71845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358403410",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/0/358/403/410_fd25f07d-a10d-4bd0-ad3d-772bdd10c6a8.jpg",
-        "regno": "KH81955",
+        "finn_price": 89845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358878091",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/1/358/878/091_c69c37db-bbed-454d-bd3d-2eef295a4c60.jpg",
+        "regno": "HJ90689",
         "olx_prices": [
-            17500
+            0,
+            16000,
+            15000
         ],
         "olx_ids": [
-            52135050
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen DS3 1.6-111 D",
-        "normalized_name": "1 111 6 citroen ds3",
-        "year": 2012,
-        "finn_price": 39845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358905798",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/8/358/905/798_8c7a49b3-2b54-4c10-bddf-5d59fadeda67.jpg",
-        "regno": "JV15845",
-        "olx_prices": [
-            13000
-        ],
-        "olx_ids": [
-            62317011
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Hyundai i40 I40 1.7-136 D",
-        "normalized_name": "1 136 7 hyundai i40 i40",
-        "year": 2012,
-        "finn_price": 31845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358825465",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/5/358/825/465_2e6a0c65-3208-4c37-8b9a-8588ddf73fd0.jpg",
-        "regno": "XN37891",
-        "olx_prices": [
-            17950
-        ],
-        "olx_ids": [
-            59373330
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Subaru Impreza IMPREZA 2.0-150 D AWD",
-        "normalized_name": "0 150 2 impreza impreza subaru",
-        "year": 2010,
-        "finn_price": 21845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358851657",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/7/358/851/657_05569d95-6023-446c-a121-33a48c9d407d.jpg",
-        "regno": "UC26247",
-        "olx_prices": [
-            13000
-        ],
-        "olx_ids": [
-            60874562
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford C-Max C-MAX 1.6-116 D",
-        "normalized_name": "1 116 6 c c ford max max",
-        "year": 2011,
-        "finn_price": 41845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=346570657",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/01/7/346/570/657_fed43071-ec56-4fc6-a048-967a4872a7a4.jpg",
-        "regno": "SD55830",
-        "olx_prices": [
-            9900
-        ],
-        "olx_ids": [
-            56617849
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Opel Meriva MERIVA 1.7-110 D/ NY EU-kontroll",
-        "normalized_name": "1 110 7 meriva meriva opel",
-        "year": 2011,
-        "finn_price": 63000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352821854",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/4/352/821/854_63989961-3ab7-43c3-8bb9-df76915f4f05.jpg",
-        "regno": "JD58909",
-        "olx_prices": [
-            9000,
-            9900
-        ],
-        "olx_ids": [
-            62390403,
-            62079776
+            62482574,
+            57662705,
+            62269725
         ],
         "tax_return": null
     },
@@ -872,138 +1242,28 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/5/358/676/255_cdc8089f-ffbc-4d1f-b58a-3b80760b34e0.jpg",
         "regno": "JV10895",
         "olx_prices": [
+            0,
             17350
         ],
         "olx_ids": [
+            60528955,
             62327375
         ],
         "tax_return": null
     },
     {
-        "car_name": "Opel Corsa CORSA 1.2-95 D",
-        "normalized_name": "1 2 95 corsa corsa opel",
-        "year": 2010,
-        "finn_price": 28845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358640821",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/1/358/640/821_4c7e157f-201f-411e-a6be-1d53f245afd8.jpg",
-        "regno": "SU88973",
-        "olx_prices": [
-            6900,
-            8000,
-            7200
-        ],
-        "olx_ids": [
-            60565083,
-            61081036,
-            61325175
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mitsubishi ASX 1.8-116 D",
-        "normalized_name": "1 116 8 asx mitsubishi",
-        "year": 2010,
-        "finn_price": 76845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358622323",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/3/358/622/323_ee7fabed-1271-42a8-b92b-a22b21d88ffb.jpg",
-        "regno": "AA58725",
-        "olx_prices": [
-            15000
-        ],
-        "olx_ids": [
-            61742679
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Fiesta FIESTA 1.4-69 D",
-        "normalized_name": "1 4 69 fiesta fiesta ford",
+        "car_name": "Subaru Outback 2.0D Premium",
+        "normalized_name": "0d 2 subaru",
         "year": 2011,
-        "finn_price": 31845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358623623",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/3/358/623/623_fe3a106b-0922-4337-864e-e3bc43bb4a9d.jpg",
-        "regno": "ZP45122",
+        "finn_price": 96845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358507170",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/0/358/507/170_1a783a42-38f6-46a0-9be9-7d84ff91dc42.jpg",
+        "regno": "PP96245",
         "olx_prices": [
-            3600,
-            8900
+            16000
         ],
         "olx_ids": [
-            62371660,
-            54372520
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Kuga KUGA 2.0-140 D AWD Automat/Powershift",
-        "normalized_name": "0 140 2 automat ford kuga kuga powershift",
-        "year": 2014,
-        "finn_price": 129305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358619516",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/6/358/619/516_1950b7c0-5584-45bf-a774-5a54f85bf160.jpg",
-        "regno": "BD85853",
-        "olx_prices": [
-            23000,
-            0,
-            22500
-        ],
-        "olx_ids": [
-            59827251,
-            61613331,
-            57005639
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Transit Connect TRANSIT CONNECT 1.8-90 D",
-        "normalized_name": "1 8 90 ford transit transit",
-        "year": 2010,
-        "finn_price": 28231,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358577382",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/2/358/577/382_06928ca7-b5c1-4c54-97de-121294883829.jpg",
-        "regno": "",
-        "olx_prices": [
-            10000,
-            10000,
-            17500
-        ],
-        "olx_ids": [
-            62330860,
-            62330921,
-            62229544
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Subaru Impreza Sport Premium 2.0-109 D AWD",
-        "normalized_name": "0 109 2 impreza subaru",
-        "year": 2011,
-        "finn_price": 44000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358555406",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/6/358/555/406_57743873-9b94-418c-80f4-87fccce13626.jpg",
-        "regno": "YE89126",
-        "olx_prices": [
-            13200
-        ],
-        "olx_ids": [
-            62377103
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mitsubishi Outlander OUTLANDER 2.3-150 D 4WD",
-        "normalized_name": "150 2 3 4wd mitsubishi outlander outlander",
-        "year": 2012,
-        "finn_price": 129147,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=319961464",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/16/4/319/961/464_1990467083.jpg",
-        "regno": "BS75760",
-        "olx_prices": [
-            7500,
-            18000
-        ],
-        "olx_ids": [
-            62385833,
-            62384918
+            61453994
         ],
         "tax_return": null
     },
@@ -1016,12 +1276,14 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/2/358/398/042_1c53f1b2-6529-4371-9560-83bf5b4d0a67.jpg",
         "regno": "",
         "olx_prices": [
+            9999,
             11400,
-            12500
+            12100
         ],
         "olx_ids": [
+            62426470,
             61279305,
-            60800322
+            61112733
         ],
         "tax_return": null
     },
@@ -1042,84 +1304,6 @@
         "tax_return": null
     },
     {
-        "car_name": "Ford Transit Courier 1,5 TDCi 75hk",
-        "normalized_name": "1 5 courier ford transit",
-        "year": 2014,
-        "finn_price": 51476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358121243",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/3/358/121/243_ace73b2e-55af-4bab-a492-553b583992c1.jpg",
-        "regno": "HJ95817",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            62339223
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Transit Custom TRANSIT CUSTOM 2.2-101 D",
-        "normalized_name": "101 2 2 custom custom ford transit transit",
-        "year": 2013,
-        "finn_price": 81476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=351432607",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/03/7/351/432/607_c0e2fd2f-232b-4920-8c94-d4d8d0821c2a.jpg",
-        "regno": "SD67526",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            61921475
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Opel Insignia INSIGNIA 2.0-110 D",
-        "normalized_name": "0 110 2 insignia insignia opel",
-        "year": 2010,
-        "finn_price": 28845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358226436",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/6/358/226/436_418f6a3b-9efd-47aa-b594-ca62c710a76f.jpg",
-        "regno": "BR88491",
-        "olx_prices": [
-            13500,
-            14000,
-            12700,
-            14000,
-            10900,
-            0,
-            10900,
-            13000,
-            13000,
-            0,
-            10900,
-            11000,
-            12000,
-            13000,
-            13700,
-            7000
-        ],
-        "olx_ids": [
-            62407698,
-            62401745,
-            62266266,
-            62309543,
-            62379405,
-            62375454,
-            62372559,
-            59577187,
-            61176056,
-            62347610,
-            59102410,
-            57358770,
-            57827318,
-            54766337,
-            59839752,
-            62239773
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "Citroen C4 Aircross e-HDi 115 Exclusive 4WD",
         "normalized_name": "115 4wd aircross c4 citroen e hdi",
         "year": 2012,
@@ -1128,44 +1312,34 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/3/263/610/093_9499abca-2d3e-4de6-9242-e76956b629d2.jpg",
         "regno": "BS48818",
         "olx_prices": [
+            0,
             13500,
             11000,
-            12500,
-            12500,
-            0,
-            0,
-            13800,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400,
-            11400
+            12200,
+            12500
         ],
         "olx_ids": [
+            62404663,
             61389124,
             61386424,
             62287427,
-            62339590,
-            62202428,
-            62180390,
-            62265660,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483,
-            59490483
+            62339590
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Fiat Freemont 2,0 Multijet 4WD 170hk 7s All Incl. Aut",
+        "normalized_name": "0 2 4wd 7s all aut fiat freemont incl multijet",
+        "year": 2013,
+        "finn_price": 103305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356309298",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/08/8/356/309/298_9169693e-d5b4-4a3d-bdf6-1f024cbebed7.jpg",
+        "regno": "DP27887",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            55415628
         ],
         "tax_return": null
     },
@@ -1186,78 +1360,20 @@
         "tax_return": null
     },
     {
-        "car_name": "Mazda 3 3 2.2-150 D",
-        "normalized_name": "150 2 2 3 3 mazda",
-        "year": 2014,
-        "finn_price": 114305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357953912",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/2/357/953/912_e5c6e15c-6c3e-4923-9d35-5cc39f6f7038.jpg",
-        "regno": "KT88042",
+        "car_name": "Renault Grand Scenic GRAND SCENIC 1.5-110 D",
+        "normalized_name": "1 110 5 grand grand renault scenic scenic",
+        "year": 2013,
+        "finn_price": 59905,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356973702",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/2/356/973/702_9a71d6ff-f02a-4795-bff6-b719ba0ca372.jpg",
+        "regno": "SV43254",
         "olx_prices": [
-            22000
+            12900,
+            12500
         ],
         "olx_ids": [
-            61171488
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C3 1.4-68 D",
-        "normalized_name": "1 4 68 c3 citroen",
-        "year": 2011,
-        "finn_price": 51845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357388151",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/1/357/388/151_43c802df-7ecc-4990-ad2f-69792abc28d6.jpg",
-        "regno": "HJ88939",
-        "olx_prices": [
-            8450,
-            4000,
-            10000,
-            7500,
-            9900,
-            9200,
-            8950
-        ],
-        "olx_ids": [
-            62289938,
-            62373731,
-            62112150,
-            61867685,
-            61822459,
-            61739401,
-            61128346
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Fiat Punto Evo GRANDE PUNTO 1.2-75 D",
-        "normalized_name": "1 2 75 fiat grande punto punto",
-        "year": 2010,
-        "finn_price": 28845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355525871",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/16/1/355/525/871_4f38fd5f-86d5-469b-aff3-8929576b5f8f.jpg",
-        "regno": "RK14847",
-        "olx_prices": [
-            5200
-        ],
-        "olx_ids": [
-            62383852
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mazda 6 2.2-150 D Optimum",
-        "normalized_name": "150 2 2 6 mazda optimum",
-        "year": 2014,
-        "finn_price": 114900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357251103",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/3/357/251/103_c67c440f-5d7c-4d83-b30f-f62f572d3b23.jpg",
-        "regno": "DP43658",
-        "olx_prices": [
-            17800
-        ],
-        "olx_ids": [
-            61737632
+            62180303,
+            58994336
         ],
         "tax_return": null
     },
@@ -1270,90 +1386,18 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/10/2/343/616/732_1817500387.jpg",
         "regno": "DP48644",
         "olx_prices": [
-            20800,
+            20100,
             26500,
+            27500,
             24500,
             23999
         ],
         "olx_ids": [
             56111510,
             59643462,
+            62374217,
             61407886,
             58468608
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mitsubishi Outlander Instyle+ 2.2-150 DI-D aut",
-        "normalized_name": "150 2 2 aut di instyle mitsubishi outlander",
-        "year": 2014,
-        "finn_price": 164305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357124069",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/13/9/357/124/069_9c2d6f05-2837-4382-baf6-9b38c89f135e.jpg",
-        "regno": "CV72442",
-        "olx_prices": [
-            21800
-        ],
-        "olx_ids": [
-            50683790
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Renault Megane MEGANE 1.5-110 D",
-        "normalized_name": "1 110 5 megane megane renault",
-        "year": 2011,
-        "finn_price": 56845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357003801",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/1/357/003/801_4810915e-897a-4df2-8883-5be28b4fa1a0.jpg",
-        "regno": "CF60185",
-        "olx_prices": [
-            0,
-            10300,
-            12000,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800,
-            9800
-        ],
-        "olx_ids": [
-            62393087,
-            61810471,
-            62161002,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956,
-            62030956
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Toyota Verso VERSO 2.0-126 D",
-        "normalized_name": "0 126 2 toyota verso verso",
-        "year": 2010,
-        "finn_price": 32186,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=318304243",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/04/3/318/304/243_629179921.jpg",
-        "regno": "RZ33355",
-        "olx_prices": [
-            14500
-        ],
-        "olx_ids": [
-            60705121
         ],
         "tax_return": null
     },
@@ -1366,12 +1410,10 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/3/352/815/943_29cba70d-5687-4778-857b-f234ef5c9209.jpg",
         "regno": "BS98187",
         "olx_prices": [
-            13800,
-            15400
+            13800
         ],
         "olx_ids": [
-            62341067,
-            62157200
+            62341067
         ],
         "tax_return": null
     },
@@ -1384,32 +1426,10 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/9/356/935/139_11a915bc-dc16-45eb-82c1-3695707ab04e.jpg",
         "regno": "BS64285",
         "olx_prices": [
-            12000,
-            13850,
-            10800,
-            13850
+            12000
         ],
         "olx_ids": [
-            59797241,
-            62191692,
-            62310277,
-            62222685
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Skoda Superb 2,0 TDI 140hk 4x4 Elegance WEBASTO",
-        "normalized_name": "0 2 4x4 skoda superb webasto",
-        "year": 2014,
-        "finn_price": 140000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=344173081",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/14/1/344/173/081_57763220-c4ac-45bd-aaab-2b950f0ee6fa.jpg",
-        "regno": "DP59000",
-        "olx_prices": [
-            18500
-        ],
-        "olx_ids": [
-            58535108
+            59797241
         ],
         "tax_return": null
     },
@@ -1433,7 +1453,7 @@
         "car_name": "Opel Insignia Sports Tourer 2,0 CDTi 140hk Premium",
         "normalized_name": "0 2 cdti insignia opel sports tourer",
         "year": 2014,
-        "finn_price": 114305,
+        "finn_price": 104305,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356674836",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/10/6/356/674/836_c19d0a41-4b0e-46cd-86d7-e48ee6e77be4.jpg",
         "regno": "NV68427",
@@ -1462,18 +1482,18 @@
         "tax_return": null
     },
     {
-        "car_name": "Fiat Croma CROMA 1.9-120 D",
-        "normalized_name": "1 120 9 croma croma fiat",
-        "year": 2010,
-        "finn_price": 29845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356147963",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/3/356/147/963_7124b8af-75b0-46f1-9d49-574f5c650a0f.jpg",
-        "regno": "CF69912",
+        "car_name": "Citroen Berlingo BERLINGO 1.6-90 D BOBIL |MINICAMPER - NY EU OK!!",
+        "normalized_name": "1 6 90 berlingo berlingo bobil citroen minicamper ok",
+        "year": 2012,
+        "finn_price": 91231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356200411",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/1/356/200/411_bf136713-f139-40f8-a895-66b8992843be.jpg",
+        "regno": "DN89606",
         "olx_prices": [
-            9600
+            18000
         ],
         "olx_ids": [
-            62375241
+            62416042
         ],
         "tax_return": null
     },
@@ -1481,53 +1501,35 @@
         "car_name": "Renault Grand Scenic GRAND SCENIC 1.9-131 D",
         "normalized_name": "1 131 9 grand grand renault scenic scenic",
         "year": 2011,
-        "finn_price": 37000,
+        "finn_price": 35000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355615121",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/03/1/355/615/121_b571c957-8526-4fa8-a9ab-57219543e7b0.jpg",
         "regno": "YE89944",
         "olx_prices": [
             10444,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000,
-            5000
+            10999,
+            7400
         ],
         "olx_ids": [
             59696051,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967,
-            62196967
+            62452073,
+            62378830
         ],
         "tax_return": null
     },
     {
-        "car_name": "Kia Sportage 2.0-136 Exclusive AWD",
-        "normalized_name": "0 136 2 kia sportage",
-        "year": 2012,
-        "finn_price": 119000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=256076445",
-        "image_url": "https://images.finncdn.no/dynamic/default/2022/4/vertical-0/25/5/256/076/445_1085707844.jpg",
-        "regno": "DN71550",
+        "car_name": "Citroen Berlingo BERLINGO 1.6-90 D, (e-HDI 90 EMG L2)",
+        "normalized_name": "1 6 90 90 berlingo berlingo citroen e emg hdi l2",
+        "year": 2014,
+        "finn_price": 95976,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355678641",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/03/1/355/678/641_a108f2f8-54e2-4a5c-a1d8-c5ebbe574181.jpg",
+        "regno": "DP48092",
         "olx_prices": [
-            24400
+            13500
         ],
         "olx_ids": [
-            62316267
+            61644919
         ],
         "tax_return": null
     },
@@ -1540,14 +1542,10 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/08/7/339/483/057_1600170889.jpg",
         "regno": "ZH30190",
         "olx_prices": [
-            7600,
-            8400,
-            7950
+            7600
         ],
         "olx_ids": [
-            59239096,
-            61276682,
-            58745214
+            59239096
         ],
         "tax_return": null
     },
@@ -1555,7 +1553,7 @@
         "car_name": "Citroen DS3 1.6-111 hk DS3 SPORT/EU Godkjent/6 trinns manuell",
         "normalized_name": "1 111 6 6 citroen ds3 ds3 godkjent manuell trinns",
         "year": 2011,
-        "finn_price": 61845,
+        "finn_price": 67845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355366268",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/01/8/355/366/268_bb1e5a27-7534-4ee6-b0f0-351a2daf0bd4.jpg",
         "regno": "NF47791",
@@ -1576,32 +1574,32 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/28/0/354/763/180_f99ffaf2-384b-4341-9a82-0930f780ef2f.jpg",
         "regno": "DP50538",
         "olx_prices": [
+            17400,
+            19950,
             16000,
-            15900,
-            19950
+            15900
         ],
         "olx_ids": [
+            50347559,
+            62101806,
             52518017,
-            62319450,
-            62101806
+            62319450
         ],
         "tax_return": null
     },
     {
-        "car_name": "Ford Fiesta FIESTA 1.6-95 DURATORQ D *//ALPINE BLUETOOTH+*",
-        "normalized_name": "1 6 95 alpine bluetooth duratorq fiesta fiesta ford",
+        "car_name": "Ford Fiesta FIESTA 1.6-95 FACELIFT D *NY PRIS! BLUETOOTH+*",
+        "normalized_name": "1 6 95 bluetooth fiesta fiesta ford pris",
         "year": 2013,
-        "finn_price": 59999,
+        "finn_price": 58999,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=345237926",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/6/345/237/926_4d39dd85-e980-4894-939a-c0d815c9de9d.jpg",
         "regno": "SV39862",
         "olx_prices": [
-            10500,
-            10999
+            10500
         ],
         "olx_ids": [
-            62323050,
-            62196113
+            62323050
         ],
         "tax_return": null
     },
@@ -1614,88 +1612,28 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/26/2/354/498/732_9394fdb3-35d3-4077-832d-6c176c5d7b1c.jpg",
         "regno": "NV67460",
         "olx_prices": [
-            0,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000,
-            40000
+            0
         ],
         "olx_ids": [
-            62338432,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744,
-            58064744
+            62338432
         ],
         "tax_return": null
     },
     {
-        "car_name": "Ford Focus",
-        "normalized_name": "focus ford",
-        "year": 2012,
-        "finn_price": 49990,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354434829",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/9/354/434/829_1603d594-576b-42e2-b3e9-240bc92b093b.jpg",
-        "regno": "Bs33719",
+        "car_name": "Subaru Impreza IMPREZA 2.0-109 D AWD",
+        "normalized_name": "0 109 2 impreza impreza subaru",
+        "year": 2011,
+        "finn_price": 26845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=351679933",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/05/3/351/679/933_9548cd49-193c-44f6-a74c-434c9f410f5c.jpg",
+        "regno": "DN72393",
         "olx_prices": [
-            13650,
-            10600,
-            12500,
-            13400,
-            13500
+            9000,
+            13200
         ],
         "olx_ids": [
-            59771821,
-            61032888,
-            51730268,
-            55032335,
-            61852917
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford Galaxy 1,6 TDCi 115hk Ghia",
-        "normalized_name": "1 6 ford galaxy ghia",
-        "year": 2012,
-        "finn_price": 90000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354415358",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/25/8/354/415/358_31cc23c4-79d9-46e7-9f6b-464a603a27f3.jpg",
-        "regno": "DP21694",
-        "olx_prices": [
-            9500
-        ],
-        "olx_ids": [
-            62328164
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mitsubishi Outlander Instyle+ 2.2-150 DI-D 7-seter",
-        "normalized_name": "150 2 2 7 di instyle mitsubishi outlander seter",
-        "year": 2013,
-        "finn_price": 160000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354072021",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/22/1/354/072/021_aa825109-2dbe-4fb3-88a4-d6af7dbe61a3.jpg",
-        "regno": "SV33674",
-        "olx_prices": [
-            13000
-        ],
-        "olx_ids": [
-            62142807
+            62441931,
+            62377103
         ],
         "tax_return": null
     },
@@ -1708,112 +1646,78 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/22/4/354/019/514_7cc20fdd-d13f-4146-96de-a7d8a5b7e4b8.jpg",
         "regno": "LJ44712",
         "olx_prices": [
-            9300,
+            8900,
+            9900,
             11300,
             10500,
-            14500,
+            11000,
             9800,
-            9900,
-            9900,
-            4490
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500,
+            9800,
+            9500
         ],
         "olx_ids": [
             60052083,
+            58405656,
             62369129,
             62359976,
             61860522,
             61628819,
-            58405656,
             62328279,
-            62231611
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279,
+            61628819,
+            62328279
         ],
         "tax_return": null
     },
     {
-        "car_name": "Ford Kuga 2,0 TDCi 140hk Titan X",
-        "normalized_name": "0 2 ford kuga titan x",
-        "year": 2013,
-        "finn_price": 100000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352753410",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/0/352/753/410_f4c2ad43-b3ac-4a19-8d40-ba338b03ce86.jpg",
-        "regno": "AS39095",
-        "olx_prices": [
-            24500,
-            24000,
-            23900
-        ],
-        "olx_ids": [
-            62388197,
-            62398092,
-            56756773
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Ford S-MAX 2,0 TDCi 140hk Titanium S",
-        "normalized_name": "0 2 ford max s s titanium",
-        "year": 2011,
-        "finn_price": 111845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353130621",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/15/1/353/130/621_38acd017-18c3-4863-b220-9eae6f247880.jpg",
-        "regno": "RK29350",
-        "olx_prices": [
-            5200
-        ],
-        "olx_ids": [
-            61272195
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mazda CX-5 CX-5 2.2-150 D 4WD Optimum",
-        "normalized_name": "150 2 2 4wd 5 5 mazda optimum",
-        "year": 2013,
-        "finn_price": 129305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353361289",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/17/9/353/361/289_d5e3e9cb-3557-4605-8fd5-a542247254f2.jpg",
-        "regno": "DP33977",
-        "olx_prices": [
-            20500
-        ],
-        "olx_ids": [
-            62318601
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Citroen C4 C4 1.6-109 D",
-        "normalized_name": "1 109 6 c4 c4 citroen",
+        "car_name": "Fiat Doblo DOBLO MAXI 1.2-75 D EU OK 02/26",
+        "normalized_name": "02 1 2 26 75 doblo doblo fiat maxi ok",
         "year": 2010,
-        "finn_price": 36845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352829209",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/9/352/829/209_45ba0efd-3b71-46ca-8f33-b2b43870135a.jpg",
-        "regno": "KT78343",
+        "finn_price": 37186,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=328486020",
+        "image_url": "https://images.finncdn.no/dynamic/default/2023/11/vertical-0/13/0/328/486/020_1997860391.jpg",
+        "regno": "PD33321",
         "olx_prices": [
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800,
-            10800
+            10200
         ],
         "olx_ids": [
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084,
-            62027084
+            61049785
         ],
         "tax_return": null
     }
