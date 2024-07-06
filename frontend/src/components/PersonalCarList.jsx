@@ -44,17 +44,28 @@ const PersonalCarList = () => {
   }, [user]);
 
   if (loading) return <p>This should not take more than 50 seconds...</p>;
-  if (error) return <p>Error loading data: {error.message}</p>;
+  if (error) {
+    if (error.response && error.response.status === 401) {
+      return (
+        <div>
+          <p>Session expired... You were logged out</p>
+          <p>Log in again at the <Link to="/home">home page</Link></p>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <p>Error loading data: {error.message}</p>
+        </div>
+      );
+    }
+  }
+
 
   function TurnToBAM(parameter) {
     return (parameter / 5.85).toFixed(0);
   }
 
-  const CalculateProfitRate = (olxPrices, finnPriceNOK) => {
-    const averageOLXPrice = olxPrices.reduce((sum, price) => sum + price, 0) / olxPrices.length;
-    const finnPriceBAM = TurnToBAM(finnPriceNOK);
-    return finnPriceBAM / averageOLXPrice;
-  };
 
   const toggleShowPrices = (id) => {
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
@@ -83,7 +94,6 @@ const PersonalCarList = () => {
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
-  //carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price) - CalculateProfitRate(a.olx_prices, a.finn_price));
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm));
 
   return (
@@ -197,6 +207,10 @@ const PersonalCarList = () => {
           )}
         </div>
       ))}
+      {filteredCars.length == 0 && (
+        <p>All saved cars will be displayed here</p>
+      )
+      }
     </div>
   );
 };
