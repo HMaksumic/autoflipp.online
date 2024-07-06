@@ -167,7 +167,9 @@ const PeugeotCarList = () => {
       </div>
       {carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)).map((car, index) => (
         <div key={index} className="car-card">
-          <h2>{car.car_name}</h2>
+          <div className="car-name-container">
+          <h2 className="car-name">{car.car_name}</h2>
+          </div>
           <img src={car.image_url} alt={car.car_name} className="car-image" />
           <p><strong>Finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
           <p><strong>Finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </p>

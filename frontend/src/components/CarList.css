@@ -19,6 +19,24 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.car-image {
+  height: 300px;
+  width: 92%;   
+  object-fit: cover; 
+  object-position: center;  
+}
+
+.car-name-container {
+  min-height: 80px;
+  display: flex;       
+  align-items: center;  
+  justify-content: center; 
+}
+
+.car-name {
+  text-align: center;  
+}
+
 .car-card h2 {
   margin-top: 0;
 }

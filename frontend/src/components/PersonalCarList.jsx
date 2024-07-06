@@ -22,6 +22,9 @@ const PersonalCarList = () => {
           },
         });
         if (response.data.success) {
+          const fetchedFavorites = response.data.favorites;
+          fetchedFavorites.reverse(); //for displaying the newly favorited cars first
+
           setFavorites(response.data.favorites);
           setCarData(response.data.favorites);
         } else {
@@ -80,7 +83,7 @@ const PersonalCarList = () => {
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
-  carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price) - CalculateProfitRate(a.olx_prices, a.finn_price));
+  //carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price) - CalculateProfitRate(a.olx_prices, a.finn_price));
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm));
 
   return (
@@ -157,7 +160,9 @@ const PersonalCarList = () => {
       </div>
       {filteredCars.map((car, index) => (
         <div key={index} className="car-card">
-          <h2>{car.car_name}</h2>
+          <div className="car-name-container">
+          <h2 className="car-name">{car.car_name}</h2>
+          </div>
           <img src={car.image_url} alt={car.car_name} className="car-image" />
           <p><strong>Finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
           <p><strong>Finn.no price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
