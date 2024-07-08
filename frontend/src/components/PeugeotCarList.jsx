@@ -31,9 +31,9 @@ const PeugeotCarList = () => {
     return (parameter / 5.85).toFixed(0);
   }
 
-  const CalculateProfitRate = (olxPrices, finnPriceNOK) => {
+  const CalculateProfitRate = (olxPrices, finnPriceNOK, taxReturn=0) => {
     const averageOLXPrice = olxPrices.reduce((sum, price) => sum + price, 0) / olxPrices.length;
-    const finnPriceBAM = TurnToBAM(finnPriceNOK);
+    const finnPriceBAM = TurnToBAM(finnPriceNOK) - TurnToBAM(taxReturn);
     return finnPriceBAM / averageOLXPrice;
   };
 
@@ -43,7 +43,7 @@ const PeugeotCarList = () => {
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
-  carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price) - CalculateProfitRate(a.olx_prices, a.finn_price));
+  carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price,b.tax_return) - CalculateProfitRate(a.olx_prices, a.finn_price,a.tax_return));
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm));
 
   const isFavorited = (carId) => {
