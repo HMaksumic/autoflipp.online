@@ -1,6 +1,913 @@
 [
     {
         "type": "motor",
+        "id": "359528858",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi Q5 Q5 2.0-163 D QUATTRO",
+        "location": "Kristiansand S",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/8/359/528/858_dbcfe2fb-40b2-416c-b8e2-582dd0b01e58.jpg",
+            "path": "2024/7/vertical-0/01/8/359/528/858_dbcfe2fb-40b2-416c-b8e2-582dd0b01e58.jpg",
+            "height": 1600,
+            "width": 900,
+            "aspect_ratio": 0.5625
+        },
+        "flags": [],
+        "timestamp": 1720380300000,
+        "coordinates": {
+            "lat": 58.2024,
+            "lon": 8.03804
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359528858",
+        "extras": [],
+        "price": {
+            "amount": 96305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 192000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PR19183",
+        "ad_id": 359528858
+    },
+    {
+        "type": "motor",
+        "id": "360350575",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad 2.0 TDI 177 hk quattro S tronic",
+        "location": "Larvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/5/360/350/575_7ebb8bbb-0359-48e4-a854-63498a8a7370.jpg",
+            "path": "2024/7/vertical-0/07/5/360/350/575_7ebb8bbb-0359-48e4-a854-63498a8a7370.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720378861210,
+        "coordinates": {
+            "lat": 59.08897,
+            "lon": 10.07636
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360350575",
+        "extras": [],
+        "price": {
+            "amount": 169305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 157130,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "RK77365",
+        "ad_id": 360350575
+    },
+    {
+        "type": "motor",
+        "id": "234419204",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A6 A6 3.0 300hk  2X S-line D QUATTRO",
+        "location": "Valestrandsfossen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/5/vertical-0/02/4/234/419/204_1916463159.jpg",
+            "path": "2023/5/vertical-0/02/4/234/419/204_1916463159.jpg",
+            "height": 1282,
+            "width": 1036,
+            "aspect_ratio": 0.8081123244929798
+        },
+        "flags": [],
+        "timestamp": 1720378800000,
+        "coordinates": {
+            "lat": 60.5057,
+            "lon": 5.43272
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=234419204",
+        "extras": [],
+        "price": {
+            "amount": 199982,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 209000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BT49254",
+        "ad_id": 234419204
+    },
+    {
+        "type": "motor",
+        "id": "360269716",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 A4 2.0-120 D/EU GODKJENT TIL 05.2026",
+        "location": "Hafrsfjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/6/360/269/716_ede4668c-cfa0-4c5a-9ab3-80f786cec8e1.jpg",
+            "path": "2024/7/vertical-0/07/6/360/269/716_ede4668c-cfa0-4c5a-9ab3-80f786cec8e1.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720370483175,
+        "coordinates": {
+            "lat": 58.94192,
+            "lon": 5.67511
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360269716",
+        "extras": [],
+        "price": {
+            "amount": 124990,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 161874,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PD41769",
+        "ad_id": 360269716
+    },
+    {
+        "type": "motor",
+        "id": "360289813",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A1 Sportback 1,6 TDI 90 Hk Attraction",
+        "location": "Froland",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/3/360/289/813_05d34799-3bcc-4fb6-b051-8ab03f896f84.jpg",
+            "path": "2024/7/vertical-0/07/3/360/289/813_05d34799-3bcc-4fb6-b051-8ab03f896f84.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720366881027,
+        "coordinates": {
+            "lat": 58.49748,
+            "lon": 8.6409
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360289813",
+        "extras": [],
+        "price": {
+            "amount": 75000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 131000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PD41256",
+        "ad_id": 360289813
+    },
+    {
+        "type": "motor",
+        "id": "345486564",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 Avant Sport 2,0 TDI 150hk S tronic",
+        "location": "Etne",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/24/4/345/486/564_215cc6bc-1e6f-49f6-8519-5b550ee06a56.jpg",
+            "path": "2024/3/vertical-0/24/4/345/486/564_215cc6bc-1e6f-49f6-8519-5b550ee06a56.jpg",
+            "height": 2592,
+            "width": 3456,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720364880000,
+        "coordinates": {
+            "lat": 59.67407,
+            "lon": 5.95076
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=345486564",
+        "extras": [],
+        "price": {
+            "amount": 199000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 128000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BT37944",
+        "ad_id": 345486564
+    },
+    {
+        "type": "motor",
+        "id": "360292864",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A6 allroad A6 ALLROAD 2.7-190 D QUATTRO",
+        "location": "Stavsj\u00f8",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/4/360/292/864_f273caed-fb85-4c85-913e-aa99a8c12417.jpg",
+            "path": "2024/7/vertical-0/07/4/360/292/864_f273caed-fb85-4c85-913e-aa99a8c12417.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720361280000,
+        "coordinates": {
+            "lat": 60.80558,
+            "lon": 10.83883
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360292864",
+        "extras": [],
+        "price": {
+            "amount": 121845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 295941,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "kh82799",
+        "ad_id": 360292864
+    },
+    {
+        "type": "motor",
+        "id": "360290858",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 2,0 TDI 120 hk",
+        "location": "Eidsv\u00e5gneset",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/8/360/290/858_899d0db2-d1c7-4669-bdfa-af847131c2a0.jpg",
+            "path": "2024/7/vertical-0/07/8/360/290/858_899d0db2-d1c7-4669-bdfa-af847131c2a0.jpg",
+            "height": 480,
+            "width": 640,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720359180000,
+        "coordinates": {
+            "lat": 60.44372,
+            "lon": 5.28741
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360290858",
+        "extras": [],
+        "price": {
+            "amount": 71845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 215000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BS31426",
+        "ad_id": 360290858
+    },
+    {
+        "type": "motor",
+        "id": "360264146",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A3 Sportback 2,0 TDI 150hk Sport Quattro",
+        "location": "Horten",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/6/360/264/146_a1b1258c-7411-4e7e-ad76-2456369ee9d0.jpg",
+            "path": "2024/7/vertical-0/07/6/360/264/146_a1b1258c-7411-4e7e-ad76-2456369ee9d0.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720353540000,
+        "coordinates": {
+            "lat": 59.41457,
+            "lon": 10.46806
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360264146",
+        "extras": [],
+        "price": {
+            "amount": 184205,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2018,
+        "mileage": 223383,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BT71876",
+        "ad_id": 360264146
+    },
+    {
+        "type": "motor",
+        "id": "359133764",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 AUDI A4 B8 Avant (8K5)2.0 TDI (136Hk",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/4/359/133/764_8c1dd9eb-9202-4d8f-9870-83545e02c1aa.jpg",
+            "path": "2024/7/vertical-0/07/4/359/133/764_8c1dd9eb-9202-4d8f-9870-83545e02c1aa.jpg",
+            "height": 2048,
+            "width": 1536,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720350240988,
+        "coordinates": {
+            "lat": 63.43189,
+            "lon": 10.41082
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359133764",
+        "extras": [],
+        "price": {
+            "amount": 81845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 159000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "DP12700",
+        "ad_id": 359133764
+    },
+    {
+        "type": "motor",
+        "id": "360030621",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad 2.0 TDI 143 hk quattro manuell",
+        "location": "Jar",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/360/030/621_881b5326-74c4-4d61-b566-32d89ef171a6.jpg",
+            "path": "2024/7/vertical-0/05/1/360/030/621_881b5326-74c4-4d61-b566-32d89ef171a6.jpg",
+            "height": 2856,
+            "width": 2142,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720347551001,
+        "coordinates": {
+            "lat": 59.93001,
+            "lon": 10.61386
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360030621",
+        "extras": [],
+        "price": {
+            "amount": 80845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 275000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "VH23704",
+        "ad_id": 360030621
+    },
+    {
+        "type": "motor",
+        "id": "360209718",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A6 Avant 2,0 TDI 136 hk multitronic",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/8/360/209/718_fb094ad1-cae1-4308-b171-d44b8fd87ac3.jpg",
+            "path": "2024/7/vertical-0/06/8/360/209/718_fb094ad1-cae1-4308-b171-d44b8fd87ac3.jpg",
+            "height": 1536,
+            "width": 2048,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720302420000,
+        "coordinates": {
+            "lat": 59.93037,
+            "lon": 10.79077
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360209718",
+        "extras": [],
+        "price": {
+            "amount": 173305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 189000,
+        "dealer_segment": "Privat",
+        "warranty_duration": 3,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BS93918",
+        "ad_id": 360209718
+    },
+    {
+        "type": "motor",
+        "id": "360205503",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad A4 ALLROAD 2.0-170hk D QUATTRO",
+        "location": "Volda",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/3/360/205/503_83069c97-ff31-45a7-9ea1-dc7d954a0c2d.jpg",
+            "path": "2024/7/vertical-0/06/3/360/205/503_83069c97-ff31-45a7-9ea1-dc7d954a0c2d.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720299180000,
+        "coordinates": {
+            "lat": 62.17291,
+            "lon": 6.0348
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360205503",
+        "extras": [],
+        "price": {
+            "amount": 101845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 256650,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SU82704",
+        "ad_id": 360205503
+    },
+    {
+        "type": "motor",
+        "id": "360126875",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad A4 ALLROAD 2.0-143 D QUATTRO",
+        "location": "Steinkjer",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/5/360/126/875_6f3d536b-1291-4e8b-b9fe-7be3f126f524.jpg",
+            "path": "2024/7/vertical-0/06/5/360/126/875_6f3d536b-1291-4e8b-b9fe-7be3f126f524.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720288047000,
+        "coordinates": {
+            "lat": 64.0358,
+            "lon": 11.48543
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360126875",
+        "extras": [],
+        "price": {
+            "amount": 111845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 192862,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "VH18323",
+        "ad_id": 360126875
+    },
+    {
+        "type": "motor",
+        "id": "339004180",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A6 A6 3.0-245 D QUATTRO",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/04/0/339/004/180_948315720.jpg",
+            "path": "2024/2/vertical-0/04/0/339/004/180_948315720.jpg",
+            "height": 714,
+            "width": 1080,
+            "aspect_ratio": 1.5126050420168067
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720272780000,
+        "coordinates": {
+            "lat": 63.40837,
+            "lon": 10.43717
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339004180",
+        "extras": [],
+        "price": {
+            "amount": 190000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 183000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BS78235",
+        "ad_id": 339004180
+    },
+    {
+        "type": "motor",
+        "id": "358389422",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad A4 ALLROAD 2.0-163 D QUATTRO",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/2/358/389/422_20176a88-c2d5-4c58-a80f-2e3d7926d513.jpg",
+            "path": "2024/7/vertical-0/06/2/358/389/422_20176a88-c2d5-4c58-a80f-2e3d7926d513.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720261995948,
+        "coordinates": {
+            "lat": 63.40175,
+            "lon": 10.42898
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358389422",
+        "extras": [],
+        "price": {
+            "amount": 100845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 247000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PR15944",
+        "ad_id": 358389422
+    },
+    {
+        "type": "motor",
+        "id": "360115275",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi Q5 2.0-170 D QUATTRO",
+        "location": "Gl\u00e5mos",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/5/360/115/275_246fdbbe-0149-4427-aa9e-52ae3ecf633f.jpg",
+            "path": "2024/7/vertical-0/06/5/360/115/275_246fdbbe-0149-4427-aa9e-52ae3ecf633f.jpg",
+            "height": 2240,
+            "width": 4608,
+            "aspect_ratio": 2.057142857142857
+        },
+        "flags": [],
+        "timestamp": 1720259460000,
+        "coordinates": {
+            "lat": 62.6738,
+            "lon": 11.4186
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360115275",
+        "extras": [],
+        "price": {
+            "amount": 111845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 262143,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DN41031",
+        "ad_id": 360115275
+    },
+    {
+        "type": "motor",
+        "id": "350556388",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A4 allroad A4 ALLROAD 2.0-143 D QUATTRO",
+        "location": "Mo i Rana",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/8/350/556/388_36d6a542-4af1-4c57-8b05-47feb05f80b8.jpg",
+            "path": "2024/4/vertical-0/27/8/350/556/388_36d6a542-4af1-4c57-8b05-47feb05f80b8.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720205542953,
+        "coordinates": {
+            "lat": 66.307,
+            "lon": 14.13221
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350556388",
+        "extras": [],
+        "price": {
+            "amount": 110845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 212000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "VH31710",
+        "ad_id": 350556388
+    },
+    {
+        "type": "motor",
+        "id": "360037551",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A6 A6 2.0-177 D 2x/Sline/ full skinnseter",
+        "location": "Larvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/360/037/551_2ead3425-dd49-4a8c-a2bb-fb3f98fecbb6.jpg",
+            "path": "2024/7/vertical-0/05/1/360/037/551_2ead3425-dd49-4a8c-a2bb-fb3f98fecbb6.jpg",
+            "height": 864,
+            "width": 1284,
+            "aspect_ratio": 1.4861111111111112
+        },
+        "flags": [],
+        "timestamp": 1720194360000,
+        "coordinates": {
+            "lat": 59.0774,
+            "lon": 10.0511
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360037551",
+        "extras": [],
+        "price": {
+            "amount": 170845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 179500,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK42155",
+        "ad_id": 360037551
+    },
+    {
+        "type": "motor",
+        "id": "360029395",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A3 A3 1.6-105 D",
+        "location": "R\u00e5holt",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/5/360/029/395_427293b1-b676-4fb9-a5c3-579236db0633.jpg",
+            "path": "2024/7/vertical-0/05/5/360/029/395_427293b1-b676-4fb9-a5c3-579236db0633.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720189980000,
+        "coordinates": {
+            "lat": 60.2751,
+            "lon": 11.179
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360029395",
+        "extras": [],
+        "price": {
+            "amount": 74305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 206000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PR16596",
+        "ad_id": 360029395
+    },
+    {
+        "type": "motor",
+        "id": "360021902",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A3 2.0-180 D RS-Design. Lav km!",
+        "location": "R\u00e5dal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/2/360/021/902_374ddde7-2dfb-45b4-a4cf-f2838b0d926b.jpg",
+            "path": "2024/7/vertical-0/05/2/360/021/902_374ddde7-2dfb-45b4-a4cf-f2838b0d926b.jpg",
+            "height": 2340,
+            "width": 1080,
+            "aspect_ratio": 0.46153846153846156
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720189080000,
+        "coordinates": {
+            "lat": 60.29562,
+            "lon": 5.34282
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360021902",
+        "extras": [],
+        "price": {
+            "amount": 99000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 125000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BS59063",
+        "ad_id": 360021902
+    },
+    {
+        "type": "motor",
+        "id": "263472004",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A3 1.6-105 D",
+        "location": "Brumunddal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2022/6/vertical-0/26/4/263/472/004_116587639.jpg",
+            "path": "2022/6/vertical-0/26/4/263/472/004_116587639.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720156440000,
+        "coordinates": {
+            "lat": 60.883,
+            "lon": 10.9418
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=263472004",
+        "extras": [],
+        "price": {
+            "amount": 129034,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 179800,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UF59241",
+        "ad_id": 263472004
+    },
+    {
+        "type": "motor",
         "id": "359924382",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A4 allroad A4 ALLROAD 2.0-170 D QUATTRO",
@@ -107,7 +1014,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359913106",
         "extras": [],
         "price": {
-            "amount": 117805,
+            "amount": 114305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -144,7 +1051,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359787325",
         "extras": [],
         "price": {
-            "amount": 185000,
+            "amount": 179000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -363,7 +1270,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359766701",
         "extras": [],
         "price": {
-            "amount": 152505,
+            "amount": 142505,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -720,57 +1627,6 @@
     },
     {
         "type": "motor",
-        "id": "359656394",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 allroad A6 ALLROAD 2.7-190 D QUATTRO",
-        "location": "Sira",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/4/359/656/394_aaf567e1-5265-4375-944c-bec408f832da.jpg",
-            "path": "2024/7/vertical-0/02/4/359/656/394_aaf567e1-5265-4375-944c-bec408f832da.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719944611584,
-        "coordinates": {
-            "lat": 58.42441,
-            "lon": 6.66214
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359656394",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 276900,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PD32132",
-        "ad_id": 359656394
-    },
-    {
-        "type": "motor",
         "id": "359605630",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A4 A4 2.0-143 D QUATTRO",
@@ -1014,55 +1870,6 @@
     },
     {
         "type": "motor",
-        "id": "359388304",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 A4 2.0-143 D",
-        "location": "Notodden",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/4/359/388/304_4fdc7429-db62-4584-9b3c-f9f895871623.jpg",
-            "path": "2024/6/vertical-0/30/4/359/388/304_4fdc7429-db62-4584-9b3c-f9f895871623.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719827732778,
-        "coordinates": {
-            "lat": 59.5646,
-            "lon": 9.3066
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359388304",
-        "extras": [],
-        "price": {
-            "amount": 159995,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 208000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "VH40090",
-        "ad_id": 359388304
-    },
-    {
-        "type": "motor",
         "id": "359333838",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A3 A3 1.6-105 D",
@@ -1085,7 +1892,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359333838",
         "extras": [],
         "price": {
-            "amount": 122305,
+            "amount": 119305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1232,106 +2039,6 @@
         ],
         "regno": "DP20939",
         "ad_id": 78609668
-    },
-    {
-        "type": "motor",
-        "id": "359384284",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 A3 2.0-140 D QUATTRO EUOK",
-        "location": "Heggedal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/4/359/384/284_bd1bb68f-afed-4e6e-8cb3-7c3c04ba0c33.jpg",
-            "path": "2024/6/vertical-0/30/4/359/384/284_bd1bb68f-afed-4e6e-8cb3-7c3c04ba0c33.jpg",
-            "height": 1848,
-            "width": 4000,
-            "aspect_ratio": 2.1645021645021645
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719774720000,
-        "coordinates": {
-            "lat": 59.78471,
-            "lon": 10.44668
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359384284",
-        "extras": [],
-        "price": {
-            "amount": 48845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 193000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN22887",
-        "ad_id": 359384284
-    },
-    {
-        "type": "motor",
-        "id": "359114325",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 Sportback 1,6 TDI",
-        "location": "Tromsdalen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/5/359/114/325_8cbc213c-3ed4-4d7d-ac31-edd84bdfea46.jpg",
-            "path": "2024/6/vertical-0/30/5/359/114/325_8cbc213c-3ed4-4d7d-ac31-edd84bdfea46.jpg",
-            "height": 1536,
-            "width": 2048,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719754500000,
-        "coordinates": {
-            "lat": 69.65534,
-            "lon": 18.96708
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359114325",
-        "extras": [],
-        "price": {
-            "amount": 65000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 75863,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BD68236",
-        "ad_id": 359114325
     },
     {
         "type": "motor",
@@ -1806,43 +2513,6 @@
     },
     {
         "type": "motor",
-        "id": "359090368",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 allroad quattro 3.0 TDI 204 hk S tronic",
-        "location": "\u00c5sgreina",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/8/359/090/368_5e991076-28d3-4ab9-9207-af0de5b6f54e.jpg",
-            "path": "2024/6/vertical-0/28/8/359/090/368_5e991076-28d3-4ab9-9207-af0de5b6f54e.jpg",
-            "height": 2252,
-            "width": 4000,
-            "aspect_ratio": 1.7761989342806395
-        },
-        "flags": [],
-        "timestamp": 1719593068465,
-        "coordinates": {
-            "lat": 60.1777,
-            "lon": 10.986
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359090368",
-        "extras": [],
-        "price": {
-            "amount": 199999,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 192883,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "CV70783",
-        "ad_id": 359090368
-    },
-    {
-        "type": "motor",
         "id": "262721807",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A4 allroad 2.0 TDI/Motorvarmer/Krok",
@@ -1879,7 +2549,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=262721807",
         "extras": [],
         "price": {
-            "amount": 84729,
+            "amount": 82729,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2037,14 +2707,28 @@
             "width": 836,
             "aspect_ratio": 1.4050420168067226
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1719552851860,
         "coordinates": {
             "lat": 63.43,
             "lon": 10.38701
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359017880",
         "extras": [],
         "price": {
@@ -2054,7 +2738,7 @@
         },
         "year": 2015,
         "mileage": 221000,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [
             "Service"
         ],
@@ -2132,6 +2816,57 @@
         ],
         "regno": "PD33186",
         "ad_id": 354858860
+    },
+    {
+        "type": "motor",
+        "id": "358994954",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Audi A7 3.0 TDI 245 hk quattro S tronic",
+        "location": "Bergen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/4/358/994/954_7dbb951f-8f0d-4a5d-b3ba-3f61cc1be9f8.jpg",
+            "path": "2024/6/vertical-0/27/4/358/994/954_7dbb951f-8f0d-4a5d-b3ba-3f61cc1be9f8.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719516802425,
+        "coordinates": {
+            "lat": 60.3586,
+            "lon": 5.36231
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358994954",
+        "extras": [],
+        "price": {
+            "amount": 196845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 239500,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DN66277",
+        "ad_id": 358994954
     },
     {
         "type": "motor",
@@ -2395,7 +3130,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358912261",
         "extras": [],
         "price": {
-            "amount": 86845,
+            "amount": 81845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2516,7 +3251,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=334604400",
         "extras": [],
         "price": {
-            "amount": 89845,
+            "amount": 84845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2969,41 +3704,6 @@
     },
     {
         "type": "motor",
-        "id": "358641820",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A1 A1 1.6-105hk Diesel - EU GODKJENT 21/6-24",
-        "location": "Gj\u00f8vik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/0/358/641/820_f9cbbc21-0da4-4058-81f8-6fbc7bceaedc.jpg",
-            "path": "2024/6/vertical-0/24/0/358/641/820_f9cbbc21-0da4-4058-81f8-6fbc7bceaedc.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719263283935,
-        "coordinates": {
-            "lat": 60.84188,
-            "lon": 10.62943
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358641820",
-        "extras": [],
-        "price": {
-            "amount": 69900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 193108,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS38084",
-        "ad_id": 358641820
-    },
-    {
-        "type": "motor",
         "id": "348886023",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A3 A3 2.0-140 D",
@@ -3026,7 +3726,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348886023",
         "extras": [],
         "price": {
-            "amount": 54845,
+            "amount": 50845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3113,43 +3813,6 @@
     },
     {
         "type": "motor",
-        "id": "325734675",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 A3 1.9-105 D",
-        "location": "\u00c5rnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/25/5/325/734/675_1798425885.jpg",
-            "path": "2023/10/vertical-0/25/5/325/734/675_1798425885.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719224040000,
-        "coordinates": {
-            "lat": 60.1211,
-            "lon": 11.4663
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=325734675",
-        "extras": [],
-        "price": {
-            "amount": 51777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 203415,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "VH16247",
-        "ad_id": 325734675
-    },
-    {
-        "type": "motor",
         "id": "358499751",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi Q5 Q5 2.0-163 D QUATTRO",
@@ -3209,7 +3872,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358466039",
         "extras": [],
         "price": {
-            "amount": 129845,
+            "amount": 124845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3303,92 +3966,6 @@
         "service_documents": [],
         "regno": "DN64634",
         "ad_id": 358412538
-    },
-    {
-        "type": "motor",
-        "id": "335061621",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 A3 1.6-105 D",
-        "location": "Larkollen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/1/335/061/621_9b53b2f0-0004-40e6-8d81-411a18032311.jpg",
-            "path": "2024/6/vertical-0/23/1/335/061/621_9b53b2f0-0004-40e6-8d81-411a18032311.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719154951530,
-        "coordinates": {
-            "lat": 59.32741,
-            "lon": 10.67972
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=335061621",
-        "extras": [],
-        "price": {
-            "amount": 51845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 175900,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BR94756",
-        "ad_id": 335061621
-    },
-    {
-        "type": "motor",
-        "id": "358413354",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 2,0 TDI 120 hk",
-        "location": "Nittedal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/4/358/413/354_f3250777-2436-4b77-8956-6eb7a291210b.jpg",
-            "path": "2024/6/vertical-0/23/4/358/413/354_f3250777-2436-4b77-8956-6eb7a291210b.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719148680000,
-        "coordinates": {
-            "lat": 60.06075,
-            "lon": 10.85152
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358413354",
-        "extras": [],
-        "price": {
-            "amount": 59845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 187027,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "VT18296",
-        "ad_id": 358413354
     },
     {
         "type": "motor",
@@ -3570,12 +4147,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358151913",
         "extras": [],
         "price": {
-            "amount": 73845,
+            "amount": 69845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2013,
-        "mileage": 183773,
+        "mileage": 185000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "UF56634",
@@ -3704,57 +4281,6 @@
     },
     {
         "type": "motor",
-        "id": "349491358",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A5 A5 Sportback 2.0-170 D QUATTRO",
-        "location": "Brumunddal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/21/8/349/491/358_5c5d0742-f840-4bde-b04e-31ec2ee66a08.jpg",
-            "path": "2024/4/vertical-0/21/8/349/491/358_5c5d0742-f840-4bde-b04e-31ec2ee66a08.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718875740000,
-        "coordinates": {
-            "lat": 60.8785,
-            "lon": 10.8733
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349491358",
-        "extras": [],
-        "price": {
-            "amount": 120000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 174227,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "NF41485",
-        "ad_id": 349491358
-    },
-    {
-        "type": "motor",
         "id": "325156386",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A1 A1 1.6-90 D",
@@ -3862,57 +4388,6 @@
     },
     {
         "type": "motor",
-        "id": "357939908",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 A6 2.0-163 D",
-        "location": "Br\u00f8nn\u00f8ysund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/8/357/939/908_64bba762-7b74-4d59-a946-0aa54a01cdec.jpg",
-            "path": "2024/6/vertical-0/19/8/357/939/908_64bba762-7b74-4d59-a946-0aa54a01cdec.jpg",
-            "height": 773,
-            "width": 1170,
-            "aspect_ratio": 1.5135834411384217
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718820438872,
-        "coordinates": {
-            "lat": 65.4593,
-            "lon": 12.1368
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357939908",
-        "extras": [],
-        "price": {
-            "amount": 106845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 217000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KH86810",
-        "ad_id": 357939908
-    },
-    {
-        "type": "motor",
         "id": "357952545",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A6 A6 2.0-136 D",
@@ -3948,57 +4423,6 @@
         ],
         "regno": "XN36073",
         "ad_id": 357952545
-    },
-    {
-        "type": "motor",
-        "id": "357911210",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi Q5 2.0-170 D QUATTRO",
-        "location": "Sandnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/0/357/911/210_2efa0a90-0a0f-4a28-8d58-a5d1f811c5ee.jpg",
-            "path": "2024/6/vertical-0/19/0/357/911/210_2efa0a90-0a0f-4a28-8d58-a5d1f811c5ee.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718792220000,
-        "coordinates": {
-            "lat": 58.8422,
-            "lon": 5.67271
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357911210",
-        "extras": [],
-        "price": {
-            "amount": 131745,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 180000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "RL37395",
-        "ad_id": 357911210
     },
     {
         "type": "motor",
@@ -4061,7 +4485,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353350146",
         "extras": [],
         "price": {
-            "amount": 171845,
+            "amount": 156845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4437,41 +4861,6 @@
     },
     {
         "type": "motor",
-        "id": "351152018",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 A3 2.0-170 D Eu ok 10.2025, ny service/ Sline",
-        "location": "H\u00f8nefoss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/01/8/351/152/018_cc3efa71-1f9d-41f2-8d65-0cc2d8291733.jpg",
-            "path": "2024/5/vertical-0/01/8/351/152/018_cc3efa71-1f9d-41f2-8d65-0cc2d8291733.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718548260000,
-        "coordinates": {
-            "lat": 60.1703,
-            "lon": 10.26889
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=351152018",
-        "extras": [],
-        "price": {
-            "amount": 60000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 194000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS73988",
-        "ad_id": 351152018
-    },
-    {
-        "type": "motor",
         "id": "357499047",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A4 2,0 TDI 177 hk",
@@ -4530,7 +4919,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357491313",
         "extras": [],
         "price": {
-            "amount": 64999,
+            "amount": 59999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4788,7 +5177,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=347373682",
         "extras": [],
         "price": {
-            "amount": 169305,
+            "amount": 164305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4874,7 +5263,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357195687",
         "extras": [],
         "price": {
-            "amount": 129305,
+            "amount": 127305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5062,11 +5451,11 @@
         "heading": "Audi A4 A4 2.0-177 D QUATTRO",
         "location": "Sande i Vestfold",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/08/3/356/395/053_3a0e772f-5d25-4b18-abb4-ba8a0b7054f0.jpg",
-            "path": "2024/6/vertical-0/08/3/356/395/053_3a0e772f-5d25-4b18-abb4-ba8a0b7054f0.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/3/356/395/053_16bc54d2-2180-43c8-8538-b3d978020832.jpg",
+            "path": "2024/7/vertical-0/06/3/356/395/053_16bc54d2-2180-43c8-8538-b3d978020832.jpg",
             "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
+            "width": 1294,
+            "aspect_ratio": 0.80875
         },
         "flags": [],
         "timestamp": 1718295311770,
@@ -5079,7 +5468,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356395053",
         "extras": [],
         "price": {
-            "amount": 191845,
+            "amount": 185845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5844,11 +6233,11 @@
         "heading": "Audi A4 allroad A4 ALLROAD 2.0-163 D QUATTRO",
         "location": "Skoppum",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/8/356/460/898_571ac3c7-8404-4aec-8aa3-935a7fcf06c1.jpg",
-            "path": "2024/6/vertical-0/11/8/356/460/898_571ac3c7-8404-4aec-8aa3-935a7fcf06c1.jpg",
-            "height": 869,
-            "width": 1170,
-            "aspect_ratio": 1.3463751438434983
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/8/356/460/898_06d48252-4597-4330-a331-e90959042256.jpg",
+            "path": "2024/7/vertical-0/07/8/356/460/898_06d48252-4597-4330-a331-e90959042256.jpg",
+            "height": 1600,
+            "width": 900,
+            "aspect_ratio": 0.5625
         },
         "flags": [
             "user_verified",
@@ -5875,12 +6264,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356460898",
         "extras": [],
         "price": {
-            "amount": 159860,
+            "amount": 149305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2013,
-        "mileage": 205000,
+        "mileage": 207000,
         "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [
             "Service"
@@ -5962,180 +6351,6 @@
     },
     {
         "type": "motor",
-        "id": "340890626",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 allroad A4 ALLROAD 2.0-177 D QUATTRO",
-        "location": "Levanger",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/19/6/340/890/626_1593277324.jpg",
-            "path": "2024/2/vertical-0/19/6/340/890/626_1593277324.jpg",
-            "height": 1140,
-            "width": 1600,
-            "aspect_ratio": 1.4035087719298245
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717774920000,
-        "coordinates": {
-            "lat": 63.7566,
-            "lon": 11.27198
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=340890626",
-        "extras": [],
-        "price": {
-            "amount": 174305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 210000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "VH54128",
-        "ad_id": 340890626
-    },
-    {
-        "type": "motor",
-        "id": "356178965",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 allroad 2.0 TDI 177hk quattro S tronic",
-        "location": "Skoppum",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/5/356/178/965_3e48278a-f330-4b16-be90-e852959b974c.jpg",
-            "path": "2024/6/vertical-0/07/5/356/178/965_3e48278a-f330-4b16-be90-e852959b974c.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717767564422,
-        "coordinates": {
-            "lat": 59.3834,
-            "lon": 10.4239
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356178965",
-        "extras": [],
-        "price": {
-            "amount": 159305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 199704,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KJ16529",
-        "ad_id": 356178965
-    },
-    {
-        "type": "motor",
-        "id": "356185505",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 A6 2.0-136 D",
-        "location": "Stranda",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/5/356/185/505_bdd2a77f-db97-4603-a6de-22fd525264a3.jpg",
-            "path": "2024/6/vertical-0/07/5/356/185/505_bdd2a77f-db97-4603-a6de-22fd525264a3.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717766648084,
-        "coordinates": {
-            "lat": 62.31351,
-            "lon": 6.9418
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356185505",
-        "extras": [],
-        "price": {
-            "amount": 84999,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 194900,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "UF44976",
-        "ad_id": 356185505
-    },
-    {
-        "type": "motor",
-        "id": "353971234",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A5 A5 2.0-170 D QUATTRO",
-        "location": "Mo i Rana",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/4/353/971/234_c2869945-55b8-4944-892a-d405ca68b389.jpg",
-            "path": "2024/6/vertical-0/07/4/353/971/234_c2869945-55b8-4944-892a-d405ca68b389.jpg",
-            "height": 1600,
-            "width": 900,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [],
-        "timestamp": 1717762200000,
-        "coordinates": {
-            "lat": 66.3083,
-            "lon": 14.29001
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353971234",
-        "extras": [],
-        "price": {
-            "amount": 101845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 240000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN41461",
-        "ad_id": 353971234
-    },
-    {
-        "type": "motor",
         "id": "356111997",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A3 1.6-105 D",
@@ -6170,178 +6385,6 @@
         ],
         "regno": "SV25504",
         "ad_id": 356111997
-    },
-    {
-        "type": "motor",
-        "id": "356112626",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 Sportback 2,0 TDI 140 hk quattro",
-        "location": "Nittedal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/6/356/112/626_5c99d84a-0688-4a6c-a4f8-4120eb11d23d.jpg",
-            "path": "2024/6/vertical-0/06/6/356/112/626_5c99d84a-0688-4a6c-a4f8-4120eb11d23d.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717707094538,
-        "coordinates": {
-            "lat": 60.06117,
-            "lon": 10.85835
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356112626",
-        "extras": [],
-        "price": {
-            "amount": 106845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 155000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "CF61471",
-        "ad_id": 356112626
-    },
-    {
-        "type": "motor",
-        "id": "272788262",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 A6 3.0-239 D QUATTRO",
-        "location": "Sandnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2022/9/vertical-0/12/2/272/788/262_617410289.jpg",
-            "path": "2022/9/vertical-0/12/2/272/788/262_617410289.jpg",
-            "height": 2016,
-            "width": 1512,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717699200000,
-        "coordinates": {
-            "lat": 58.88087,
-            "lon": 5.73257
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=272788262",
-        "extras": [],
-        "price": {
-            "amount": 151729,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 273000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "JV23961",
-        "ad_id": 272788262
-    },
-    {
-        "type": "motor",
-        "id": "356064275",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi Q5 2,0 TDI 170 hk quattro",
-        "location": "\u00c5lesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/5/356/064/275_8bc4db8c-a7c4-4f0d-9daa-60ff6e451ed2.jpg",
-            "path": "2024/6/vertical-0/06/5/356/064/275_8bc4db8c-a7c4-4f0d-9daa-60ff6e451ed2.jpg",
-            "height": 640,
-            "width": 480,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717698488934,
-        "coordinates": {
-            "lat": 62.46286,
-            "lon": 6.30852
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356064275",
-        "extras": [],
-        "price": {
-            "amount": 191845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 197385,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "HT10915",
-        "ad_id": 356064275
-    },
-    {
-        "type": "motor",
-        "id": "355994814",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 1.6-105 D",
-        "location": "Bod\u00f8",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/4/355/994/814_66a0017b-048b-4e1f-a4c9-381c508ed015.jpg",
-            "path": "2024/6/vertical-0/06/4/355/994/814_66a0017b-048b-4e1f-a4c9-381c508ed015.jpg",
-            "height": 3000,
-            "width": 1770,
-            "aspect_ratio": 0.59
-        },
-        "flags": [],
-        "timestamp": 1717657627680,
-        "coordinates": {
-            "lat": 67.29417,
-            "lon": 14.56178
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355994814",
-        "extras": [],
-        "price": {
-            "amount": 66845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 218000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "KH83029",
-        "ad_id": 355994814
     },
     {
         "type": "motor",
@@ -6380,55 +6423,6 @@
     },
     {
         "type": "motor",
-        "id": "349638852",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 allroad A4 ALLROAD 2.0-170 D QUATTRO",
-        "location": "J\u00f8rpeland",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/21/2/349/638/852_e61dadd7-05d8-48e5-af8f-835028a3fc6c.jpg",
-            "path": "2024/4/vertical-0/21/2/349/638/852_e61dadd7-05d8-48e5-af8f-835028a3fc6c.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717594560000,
-        "coordinates": {
-            "lat": 59.0225,
-            "lon": 6.04081
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349638852",
-        "extras": [],
-        "price": {
-            "amount": 106845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 212515,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "LY67334",
-        "ad_id": 349638852
-    },
-    {
-        "type": "motor",
         "id": "355766755",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Audi A4 A4 2.0-120 D",
@@ -6461,78 +6455,6 @@
         "service_documents": [],
         "regno": "SU79005",
         "ad_id": 355766755
-    },
-    {
-        "type": "motor",
-        "id": "346584393",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 2,0 TDI 120 hk /Neste-EU: 31.01.2026!!",
-        "location": "Harstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/02/3/346/584/393_2c8ed9ab-2330-4f10-941e-019ab9ba043f.jpg",
-            "path": "2024/4/vertical-0/02/3/346/584/393_2c8ed9ab-2330-4f10-941e-019ab9ba043f.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1717592760000,
-        "coordinates": {
-            "lat": 68.8011,
-            "lon": 16.53629
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=346584393",
-        "extras": [],
-        "price": {
-            "amount": 99305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 186000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "KH87941",
-        "ad_id": 346584393
-    },
-    {
-        "type": "motor",
-        "id": "334628467",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 allroad 2.0 TDI 143 hk quattro manuell",
-        "location": "Flisa",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/1/vertical-0/04/7/334/628/467_1338321331.jpg",
-            "path": "2024/1/vertical-0/04/7/334/628/467_1338321331.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717585800000,
-        "coordinates": {
-            "lat": 60.59283,
-            "lon": 12.00982
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=334628467",
-        "extras": [],
-        "price": {
-            "amount": 69000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 315000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "HB73386",
-        "ad_id": 334628467
     },
     {
         "type": "motor",
@@ -6584,55 +6506,6 @@
         ],
         "regno": "RK18372",
         "ad_id": 288109801
-    },
-    {
-        "type": "motor",
-        "id": "355331292",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi Q5 2.0-170 D QUATTRO, Automat,Webasto",
-        "location": "Ranheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/01/2/355/331/292_6809ebf1-5430-439b-a819-34ffdad96f15.jpg",
-            "path": "2024/6/vertical-0/01/2/355/331/292_6809ebf1-5430-439b-a819-34ffdad96f15.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717248123351,
-        "coordinates": {
-            "lat": 63.41041,
-            "lon": 10.53615
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355331292",
-        "extras": [],
-        "price": {
-            "amount": 99900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 155000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN72091",
-        "ad_id": 355331292
     },
     {
         "type": "motor",
@@ -6721,7 +6594,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355228200",
         "extras": [],
         "price": {
-            "amount": 101845,
+            "amount": 96845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6840,125 +6713,6 @@
         "service_documents": [],
         "regno": "BS88244",
         "ad_id": 354616832
-    },
-    {
-        "type": "motor",
-        "id": "349826097",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A6 Avant 2,0 TDI 136 hk multitronic",
-        "location": "Stavanger",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/23/7/349/826/097_6b72f6f9-6c09-40ba-8138-9e7b47e720d7.jpg",
-            "path": "2024/5/vertical-0/23/7/349/826/097_6b72f6f9-6c09-40ba-8138-9e7b47e720d7.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716487020000,
-        "coordinates": {
-            "lat": 58.93099,
-            "lon": 5.74977
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349826097",
-        "extras": [],
-        "price": {
-            "amount": 178305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 159300,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DP40177",
-        "ad_id": 349826097
-    },
-    {
-        "type": "motor",
-        "id": "353514626",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A3 A3 2.0-170 D",
-        "location": "Tranby",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/19/6/353/514/626_f9b6fc08-1d61-436a-b546-b50a8b4244ef.jpg",
-            "path": "2024/5/vertical-0/19/6/353/514/626_f9b6fc08-1d61-436a-b546-b50a8b4244ef.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716483509340,
-        "coordinates": {
-            "lat": 59.81689,
-            "lon": 10.28697
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353514626",
-        "extras": [],
-        "price": {
-            "amount": 69845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 192200,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "PP95820",
-        "ad_id": 353514626
-    },
-    {
-        "type": "motor",
-        "id": "348738846",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Audi A4 A4 2.0-143 D",
-        "location": "Vallset",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/15/6/348/738/846_15adcbd5-22a6-45d5-9549-ce1e76ae55c8.jpg",
-            "path": "2024/4/vertical-0/15/6/348/738/846_15adcbd5-22a6-45d5-9549-ce1e76ae55c8.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1716451451531,
-        "coordinates": {
-            "lat": 60.6852,
-            "lon": 11.34371
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348738846",
-        "extras": [],
-        "price": {
-            "amount": 65000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 274000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "AE27128",
-        "ad_id": 348738846
     },
     {
         "type": "motor",
