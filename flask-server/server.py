@@ -6,6 +6,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity, decode_token
 from dotenv import load_dotenv
 from datetime import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_migrate import Migrate
 
 load_dotenv()
 
@@ -17,11 +19,12 @@ app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
 
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
+migrate = Migrate(app, db)
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
-    password = db.Column(db.String(120), nullable=False)
+    password = db.Column(db.String(256), nullable=False)
 
 class Car(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -50,6 +53,10 @@ def register():
     existing_user = User.query.filter_by(username=username).first()
     if existing_user:
         return jsonify({"success": False, "message": "Username already exists"}), 400
+    
+    hashed_password = generate_password_hash(password)
+    new_user = User(username=username, password=hashed_password)
+    db.session.add(new_user)
 
     new_user = User(username=username, password=password)
     db.session.add(new_user)
@@ -67,7 +74,7 @@ def login():
     password = data['password']
 
     user = User.query.filter_by(username=username).first()
-    if user and user.password == password:
+    if user and check_password_hash(user.password, password):
         access_token = create_access_token(identity=user.id)
         return jsonify({"success": True, "message": "Login successful", "user": {"username": user.username, "access_token": access_token}})
     else:
