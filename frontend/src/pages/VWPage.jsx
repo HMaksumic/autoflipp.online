@@ -1,8 +1,10 @@
 import React from 'react';
-import VWCarList from "../components/VWCarList";
+import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function VWPage() {
+  const URL = "https://backend-server-hcvn.onrender.com/api/olx_vw"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function VWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <VWCarList />
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='bold'></CarList>
       </main>
     </div>
   );

@@ -4,7 +4,7 @@ import './CarList.css';
 import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 
-const CarList = () => {
+const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) => {
   const { user, favorites, addFavorite, removeFavorite, logout} = useContext(AuthContext);
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -13,7 +13,7 @@ const CarList = () => {
   const [showAllPrices, setShowAllPrices] = useState({});
 
   useEffect(() => {
-    axios.get('https://backend-server-hcvn.onrender.com/api/olx_finn_data')
+    axios.get(url)
       .then(response => {
         setCarData(response.data);
         setLoading(false);
@@ -98,43 +98,43 @@ const CarList = () => {
       <div className="buttonbar">
         <div className="button">
           <Link to="/volkswagen" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: volkswagen }}>
               Volkswagen
             </button>
           </Link>
 
           <Link to="/audi" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: audi }}>
               Audi
             </button>
           </Link>
 
           <Link to="/bmw" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: bmw }}>
               BMW
             </button>
           </Link>
 
           <Link to="/mercedes" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: mercedes }}>
               Mercedes-Benz
             </button>
           </Link>
 
           <Link to="/peugeot" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: peugeot }}>
               Peugeot
             </button>
           </Link>
 
           <Link to="/volvo" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: volvo }}>
               Volvo
             </button>
           </Link>
 
           <Link to="/other" style={{ textDecoration: 'none' }}>
-            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' , fontWeight: 'bold'}}>
+            <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' , fontWeight: other  }}>
               Other
             </button>
           </Link>

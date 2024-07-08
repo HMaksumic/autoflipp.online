@@ -1,8 +1,10 @@
 import React from 'react';
-import BMWCarList from "../components/BMWCarList";
+import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function BMWPage() {
+  const URL = "https://backend-server-hcvn.onrender.com/api/olx_bmw"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function BMWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <BMWCarList />
+      <CarList url={URL} audi='none' bmw='bold' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none'></CarList>
       </main>
     </div>
   );

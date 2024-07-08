@@ -1,8 +1,10 @@
 import React from 'react';
-import PeugeotCarList from "../components/PeugeotCarList";
+import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function PeugeotPage() {
+  const URL ="https://backend-server-hcvn.onrender.com/api/olx_peugeot"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function PeugeotPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <PeugeotCarList />
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='bold' volvo='none' volkswagen='none'></CarList>
       </main>
     </div>
   );

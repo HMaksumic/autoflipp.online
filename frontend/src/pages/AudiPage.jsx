@@ -1,8 +1,10 @@
 import React from 'react';
-import AudiCarList from "../components/AudiCarList";
+import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function AudiPage() {
+  const URL = "https://backend-server-hcvn.onrender.com/api/olx_audi"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function AudiPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <AudiCarList />
+        <CarList url={URL} audi='bold' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none'></CarList>
       </main>
     </div>
   );

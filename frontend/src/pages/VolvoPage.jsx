@@ -1,8 +1,10 @@
 import React from 'react';
-import VolvoCarList from "../components/VolvoCarList";
+import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function VolvoPage() {
+  const URL = "https://backend-server-hcvn.onrender.com/api/olx_volvo"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function VolvoPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <VolvoCarList />
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='bold' volkswagen='none'></CarList>
       </main>
     </div>
   );

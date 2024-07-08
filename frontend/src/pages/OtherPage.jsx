@@ -3,6 +3,8 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function OtherPage() {
+  const URL = "https://backend-server-hcvn.onrender.com/api/olx_finn_data"
+
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -12,7 +14,7 @@ export default function OtherPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList />
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='bold' peugeot='none' volvo='none' volkswagen='none'></CarList>
       </main>
     </div>
   );
