@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function BMWPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_bmw"
+  const URL = "https://autoflipp-backend.online/api/olx_bmw"
 
   return (
     <div className="home-container">

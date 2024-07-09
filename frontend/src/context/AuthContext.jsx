@@ -22,7 +22,7 @@ export const AuthProvider = ({ children }) => {
             return;
         }
         try {
-            const response = await fetch('https://backend-server-hcvn.onrender.com/favorites', {
+            const response = await fetch('https://autoflipp-backend.online/favorites', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
 
     const register = async (username, password) => {
         try {
-            const response = await axios.post('https://backend-server-hcvn.onrender.com/register', {
+            const response = await axios.post('https://autoflipp-backend.online/register', {
                 username,
                 password
             });
@@ -55,7 +55,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (username, password) => {
         try {
-            const response = await fetch('https://backend-server-hcvn.onrender.com/login', {
+            const response = await fetch('https://autoflipp-backend.online/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -87,7 +87,7 @@ export const AuthProvider = ({ children }) => {
     const addFavorite = async (car) => {
         try {
             console.log('Adding favorite with car data:', car);
-            const response = await fetch('https://backend-server-hcvn.onrender.com/favorites', {
+            const response = await fetch('https://autoflipp-backend.online/favorites', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -114,7 +114,7 @@ export const AuthProvider = ({ children }) => {
 
     const removeFavorite = async (carId) => {
         try {
-            const response = await fetch(`https://backend-server-hcvn.onrender.com/favorites/${carId}`, {
+            const response = await fetch(`https://autoflipp-backend.online/favorites/${carId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${user.token}`,

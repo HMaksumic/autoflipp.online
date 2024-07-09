@@ -16,7 +16,7 @@ const PersonalCarList = () => {
   useEffect(() => {
     const fetchFavorites = async () => {
       try {
-        const response = await axios.get('https://backend-server-hcvn.onrender.com/favorites', {
+        const response = await axios.get('https://autoflipp-backend.online/favorites', {
           headers: {
             'Authorization': `Bearer ${user.access_token}`,
           },
@@ -74,7 +74,7 @@ const PersonalCarList = () => {
   const handleRemoveFavorite = async (carId) => {
     try {
       const response = await axios.delete(
-        `https://backend-server-hcvn.onrender.com/favorites/${carId}`,
+        `https://autoflipp-backend.online/favorites/${carId}`,
         {
           headers: {
             'Authorization': `Bearer ${user.access_token}`,

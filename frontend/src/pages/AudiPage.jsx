@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function AudiPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_audi"
+  const URL = "https://autoflipp-backend.online/api/olx_audi"
 
   return (
     <div className="home-container">

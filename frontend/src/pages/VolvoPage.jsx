@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function VolvoPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_volvo"
+  const URL = "https://autoflipp-backend.online/api/olx_volvo"
 
   return (
     <div className="home-container">

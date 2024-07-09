@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function PeugeotPage() {
-  const URL ="https://backend-server-hcvn.onrender.com/api/olx_peugeot"
+  const URL ="https://autoflipp-backend.online/api/olx_peugeot"
 
   return (
     <div className="home-container">

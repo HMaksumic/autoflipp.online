@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function VWPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_vw"
+  const URL = "https://autoflipp-backend.online/api/olx_vw"
 
   return (
     <div className="home-container">

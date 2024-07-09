@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function MercedesPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_mercedes"
+  const URL = "https://autoflipp-backend.online/api/olx_mercedes"
 
   return (
     <div className="home-container">

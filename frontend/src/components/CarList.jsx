@@ -54,7 +54,7 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
     if (isFavorited(car.id)) {
       try {
         const response = await axios.delete(
-          `https://backend-server-hcvn.onrender.com/favorites/${car.id}`,
+          `https://autoflipp-backend.online/favorites/${car.id}`,
           {
             headers: {
               'Authorization': `Bearer ${user.access_token}`,
@@ -73,7 +73,7 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
     } else {
       try {
         const response = await axios.post(
-          'https://backend-server-hcvn.onrender.com/favorites',
+          'https://autoflipp-backend.online/favorites',
           { car },
           {
             headers: {

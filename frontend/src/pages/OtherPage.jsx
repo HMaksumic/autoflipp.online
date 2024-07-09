@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function OtherPage() {
-  const URL = "https://backend-server-hcvn.onrender.com/api/olx_finn_data"
+  const URL = "https://autoflipp-backend.online/api/olx_finn_data"
 
   return (
     <div className="home-container">
