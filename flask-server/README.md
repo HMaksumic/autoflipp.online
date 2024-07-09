@@ -20,6 +20,3 @@
 - **GET /api/olx_peugeot**: Retrieves Peugeot car data from the "OLX_PEUGEOT.json" file.
 - **GET /api/olx_volvo**: Retrieves Volvo car data from the "OLX_VOLVO.json" file.
 - **GET /api/olx_vw**: Retrieves Volkswagen car data from the "OLX_VW.json" file.
-
-### Hosting Information
-This web service is hosted on [Render](https://render.com/), which allows for easy deployment and management of web applications. The backend integrates with their database for user management and car data storage.

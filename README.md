@@ -43,6 +43,15 @@ Open your browser and navigate to *[autoflipp.online/home](https://autoflipp.onl
     * **Requests**: To make HTTP requests to the `OLX.ba` API and retrieve data for matching.
 * **Additional Functionality**: Upon matching cars, those that are appropriate will run the `TAX_RETURN` script to fetch the tax return for that car from the Norwegian tax authority, [Skatteetaten](https://www.skatteetaten.no/person/avgifter/bil/eksportere/regn-ut/) by inputting the registration number of the car, also using Selenium.
 
+## Hosting Information
+
+The backend webservice is hosted on [Amazon Web Services](https://aws.amazon.com/), leveraging the following components:
+
+- **Amazon EC2**: The application is deployed on an EC2 instance.
+- **Nginx**: Nginx is used as a reverse proxy server to handle incoming requests and route them to the Gunicorn server.
+- **Gunicorn**: Gunicorn is a Python WSGI HTTP Server for UNIX, serving the Flask application.
+- **SSL Certified**: This web service is SSL certified using Let's Encrypt and Certbot.
+
 ## API Endpoints
 
 For detailed information about the API endpoints, refer to the [API Endpoints Overview](flask-server/README.md).
