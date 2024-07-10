@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import logging
 from datetime import datetime, timedelta
+from webdriver_manager.chrome import ChromeDriverManager
 
 current_date = datetime.now()
 one_week_ahead = current_date + timedelta(weeks=1)
@@ -18,7 +19,7 @@ options.add_argument('--disable-extensions')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 
-service = Service(executable_path="chromedriver.exe")
+service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
 logging.basicConfig(level=logging.INFO)

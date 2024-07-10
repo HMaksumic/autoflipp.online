@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
-
+from webdriver_manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -17,7 +17,7 @@ options.add_argument('--disable-extensions')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 
-service = Service(executable_path="chromedriver.exe")
+service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
 base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.749&price_to=200000&sales_form=1&year_from=2010&page="
