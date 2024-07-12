@@ -127,8 +127,23 @@
   color: #004793;
 }
 
-.sort-bar {
+.sort-bar-container {
   width: 100%;
+  margin-bottom: 35px;
+}
+
+.sort-bar {
+  position: fixed; 
+  top: 185px;           
+  left: 50%;        
+  transform: translateX(-50%); 
+  width: 100%;     
+  padding: 0px;
+  box-sizing: border-box;
+  z-index: 998;    
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 .sort-button {
@@ -173,4 +188,26 @@
   background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M6.5 10.8l-3.3-3.3-.9.9 4.2 4.2 8.4-8.4-.9-.9z"/></svg>');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.favorite-button {
+  height: auto;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: black;
+  margin: 5px;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.favorite-button:hover {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+.favorite-button:focus {
+  outline: none;
 }

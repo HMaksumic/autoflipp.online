@@ -172,11 +172,14 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
           )}
         </div>
       </div>
-      <div className="sort-bar">
-        <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit rate</button>
+      <div className="sort-bar-container">
+          <div className="sort-bar">
+        <label style={{marginRight:'20px', fontSize:'17px'}}>Sort by:</label>
+        <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
         <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
         <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
         <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
+      </div>
       </div>
       <div className="search-bar-container">
         <input
@@ -222,8 +225,8 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
             <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
           )}
           {user && (
-            <div className="favorite-button" onClick={() => handleFavoriteClick(car)}>
-              <button> Save </button>
+            <div className="favorite-button-container" onClick={() => handleFavoriteClick(car)}>
+              <button className="favorite-button"> Save </button>
             </div>
           )}
         </div>
