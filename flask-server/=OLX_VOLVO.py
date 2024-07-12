@@ -2,7 +2,7 @@ import requests
 import re
 import json
 import TAX_RETURN
-
+import os
 models = {"xc90","xc70","c30","s60","v50","xc60","v40","c70","v70","s80","s90","v60","v90", "xc40", "s40"}
 def normalize_name(name):
     # Replace non-alphanumeric characters with spaces for initial splitting
@@ -195,8 +195,13 @@ for car in olx_finn_output:
         car['tax_return'] = None
 
 print("length of list: ", len(olx_finn_output))
-with open('data/=OLX_VOLVO.json', 'w', encoding='utf-8') as json_file:
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, 'data')
+os.makedirs(data_dir, exist_ok=True)
+
+with open(os.path.join(data_dir, '=OLX_VOLVO.json'), 'w', encoding='utf-8') as json_file:
     json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+
 
 import datetime
 with open('__LOG__.txt', 'a', encoding='utf-8') as file:

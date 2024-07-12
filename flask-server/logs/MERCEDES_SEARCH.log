@@ -1,0 +1,71 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_MERCEDES_SEARCH.py", line 20, in <module>
+    service = Service(ChromeDriverManager().install())
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/file_manager.py", line 63, in __extract_zip
+    archive = zip_class(archive_file.file_path)
+  File "/usr/lib64/python3.9/zipfile.py", line 1268, in __init__
+    self._RealGetContents()
+  File "/usr/lib64/python3.9/zipfile.py", line 1335, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55f008a15c7a <unknown>
+#1 0x55f0086f8e2c <unknown>
+#2 0x55f008745661 <unknown>
+#3 0x55f008745751 <unknown>
+#4 0x55f008789f64 <unknown>
+#5 0x55f0087685ed <unknown>
+#6 0x55f008787303 <unknown>
+#7 0x55f008768363 <unknown>
+#8 0x55f008738247 <unknown>
+#9 0x55f008738b9e <unknown>
+#10 0x55f0089dc24b <unknown>
+#11 0x55f0089e02f1 <unknown>
+#12 0x55f0089c7afe <unknown>
+#13 0x55f0089e0e52 <unknown>
+#14 0x55f0089ac79f <unknown>
+#15 0x55f008a05638 <unknown>
+#16 0x55f008a05810 <unknown>
+#17 0x55f008a14dac <unknown>
+#18 0x7fa334a9f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_MERCEDES_SEARCH.py", line 102, in <module>
+    with open('data/MERCEDES_SEARCH.json', 'w', encoding='utf-8') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/MERCEDES_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55df8191fc7a <unknown>
+#1 0x55df81602e2c <unknown>
+#2 0x55df8164f661 <unknown>
+#3 0x55df8164f751 <unknown>
+#4 0x55df81693f64 <unknown>
+#5 0x55df816725ed <unknown>
+#6 0x55df81691303 <unknown>
+#7 0x55df81672363 <unknown>
+#8 0x55df81642247 <unknown>
+#9 0x55df81642b9e <unknown>
+#10 0x55df818e624b <unknown>
+#11 0x55df818ea2f1 <unknown>
+#12 0x55df818d1afe <unknown>
+#13 0x55df818eae52 <unknown>
+#14 0x55df818b679f <unknown>
+#15 0x55df8190f638 <unknown>
+#16 0x55df8190f810 <unknown>
+#17 0x55df8191edac <unknown>
+#18 0x7fba9dc9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 5 pages saved to 'MERCEDES_SEARCH.json'

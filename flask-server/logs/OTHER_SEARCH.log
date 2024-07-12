@@ -1,0 +1,102 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 21, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 55, in __init__
+    self.service.start()
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/common/service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+  File "/usr/lib64/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib64/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 26] Text file busy: '/root/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55fda71d9c7a <unknown>
+#1 0x55fda6ebce2c <unknown>
+#2 0x55fda6f09661 <unknown>
+#3 0x55fda6f09751 <unknown>
+#4 0x55fda6f4df64 <unknown>
+#5 0x55fda6f2c5ed <unknown>
+#6 0x55fda6f4b303 <unknown>
+#7 0x55fda6f2c363 <unknown>
+#8 0x55fda6efc247 <unknown>
+#9 0x55fda6efcb9e <unknown>
+#10 0x55fda71a024b <unknown>
+#11 0x55fda71a42f1 <unknown>
+#12 0x55fda718bafe <unknown>
+#13 0x55fda71a4e52 <unknown>
+#14 0x55fda717079f <unknown>
+#15 0x55fda71c9638 <unknown>
+#16 0x55fda71c9810 <unknown>
+#17 0x55fda71d8dac <unknown>
+#18 0x7fe615e9f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 96, in <module>
+    data = fetch_and_process_page(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 51, in fetch_and_process_page
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.358
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x55fda71d9c7a <unknown>
+#1 0x55fda6ebce2c <unknown>
+#2 0x55fda6ea41a6 <unknown>
+#3 0x55fda6ea3d85 <unknown>
+#4 0x55fda6ea1cc6 <unknown>
+#5 0x55fda6ea233f <unknown>
+#6 0x55fda6eb2c67 <unknown>
+#7 0x55fda6ec91be <unknown>
+#8 0x55fda6ece8ab <unknown>
+#9 0x55fda6ea2a8a <unknown>
+#10 0x55fda6ec903e <unknown>
+#11 0x55fda6f4b679 <unknown>
+#12 0x55fda6f2c363 <unknown>
+#13 0x55fda6efc247 <unknown>
+#14 0x55fda6efcb9e <unknown>
+#15 0x55fda71a024b <unknown>
+#16 0x55fda71a42f1 <unknown>
+#17 0x55fda718bafe <unknown>
+#18 0x55fda71a4e52 <unknown>
+#19 0x55fda717079f <unknown>
+#20 0x55fda71c9638 <unknown>
+#21 0x55fda71c9810 <unknown>
+#22 0x55fda71d8dac <unknown>
+#23 0x7fe615e9f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55d9e7d92c7a <unknown>
+#1 0x55d9e7a75e2c <unknown>
+#2 0x55d9e7ac2661 <unknown>
+#3 0x55d9e7ac2751 <unknown>
+#4 0x55d9e7b06f64 <unknown>
+#5 0x55d9e7ae55ed <unknown>
+#6 0x55d9e7b04303 <unknown>
+#7 0x55d9e7ae5363 <unknown>
+#8 0x55d9e7ab5247 <unknown>
+#9 0x55d9e7ab5b9e <unknown>
+#10 0x55d9e7d5924b <unknown>
+#11 0x55d9e7d5d2f1 <unknown>
+#12 0x55d9e7d44afe <unknown>
+#13 0x55d9e7d5de52 <unknown>
+#14 0x55d9e7d2979f <unknown>
+#15 0x55d9e7d82638 <unknown>
+#16 0x55d9e7d82810 <unknown>
+#17 0x55d9e7d91dac <unknown>
+#18 0x7f0a3fa9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'

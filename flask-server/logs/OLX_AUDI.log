@@ -1,0 +1,80 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_AUDI.py", line 4, in <module>
+    import TAX_RETURN
+  File "/home/ec2-user/autoflipp.online/flask-server/TAX_RETURN.py", line 23, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x5571fe588c7a <unknown>
+#1 0x5571fe26be2c <unknown>
+#2 0x5571fe2a6175 <unknown>
+#3 0x5571fe2a12d1 <unknown>
+#4 0x5571fe29d17b <unknown>
+#5 0x5571fe2e7c49 <unknown>
+#6 0x5571fe2db363 <unknown>
+#7 0x5571fe2ab247 <unknown>
+#8 0x5571fe2abb9e <unknown>
+#9 0x5571fe54f24b <unknown>
+#10 0x5571fe5532f1 <unknown>
+#11 0x5571fe53aafe <unknown>
+#12 0x5571fe553e52 <unknown>
+#13 0x5571fe51f79f <unknown>
+#14 0x5571fe578638 <unknown>
+#15 0x5571fe578810 <unknown>
+#16 0x5571fe587dac <unknown>
+#17 0x7f0e7249f7f2 start_thread
+
+Error: The JSON file was not found.
+Error fetching data from OLX API: HTTPSConnectionPool(host='olx.ba', port=443): Max retries exceeded with url: /api/search?attr=3228323031302d393939393939293a372844697a656c29&attr_encoded=1&category_id=18&brand=7&models=0&brands=7&page=1&per_page=175 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f13afdfc2e0>: Failed to resolve 'olx.ba' ([Errno -2] Name or service not known)"))
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_AUDI.py", line 162, in <module>
+    with open('data/=OLX_AUDI.json', 'w', encoding='utf-8') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/=OLX_AUDI.json'
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+KJ16529: tax return: 37235
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+BT37944: tax return: 26682
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+BT71876: tax return: 36117

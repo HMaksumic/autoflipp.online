@@ -1,0 +1,88 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_BMW_SEARCH.py", line 87, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.154
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x5648d6d77c7a <unknown>
+#1 0x5648d6a5ae2c <unknown>
+#2 0x5648d6a421a6 <unknown>
+#3 0x5648d6a41d85 <unknown>
+#4 0x5648d6a3fcc6 <unknown>
+#5 0x5648d6a4033f <unknown>
+#6 0x5648d6a50c67 <unknown>
+#7 0x5648d6a671be <unknown>
+#8 0x5648d6a6c8ab <unknown>
+#9 0x5648d6a40a8a <unknown>
+#10 0x5648d6a6703e <unknown>
+#11 0x5648d6ae9679 <unknown>
+#12 0x5648d6aca363 <unknown>
+#13 0x5648d6a9a247 <unknown>
+#14 0x5648d6a9ab9e <unknown>
+#15 0x5648d6d3e24b <unknown>
+#16 0x5648d6d422f1 <unknown>
+#17 0x5648d6d29afe <unknown>
+#18 0x5648d6d42e52 <unknown>
+#19 0x5648d6d0e79f <unknown>
+#20 0x5648d6d67638 <unknown>
+#21 0x5648d6d67810 <unknown>
+#22 0x5648d6d76dac <unknown>
+#23 0x7f42ea09f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x557320c95c7a <unknown>
+#1 0x557320978e2c <unknown>
+#2 0x5573209c5661 <unknown>
+#3 0x5573209c5751 <unknown>
+#4 0x557320a09f64 <unknown>
+#5 0x5573209e85ed <unknown>
+#6 0x557320a07303 <unknown>
+#7 0x5573209e8363 <unknown>
+#8 0x5573209b8247 <unknown>
+#9 0x5573209b8b9e <unknown>
+#10 0x557320c5c24b <unknown>
+#11 0x557320c602f1 <unknown>
+#12 0x557320c47afe <unknown>
+#13 0x557320c60e52 <unknown>
+#14 0x557320c2c79f <unknown>
+#15 0x557320c85638 <unknown>
+#16 0x557320c85810 <unknown>
+#17 0x557320c94dac <unknown>
+#18 0x7f513b29f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_BMW_SEARCH.py", line 102, in <module>
+    with open('data/BMW_SEARCH.json', 'w', encoding='utf-8') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/BMW_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55f286a63c7a <unknown>
+#1 0x55f286746e2c <unknown>
+#2 0x55f286793661 <unknown>
+#3 0x55f286793751 <unknown>
+#4 0x55f2867d7f64 <unknown>
+#5 0x55f2867b65ed <unknown>
+#6 0x55f2867d5303 <unknown>
+#7 0x55f2867b6363 <unknown>
+#8 0x55f286786247 <unknown>
+#9 0x55f286786b9e <unknown>
+#10 0x55f286a2a24b <unknown>
+#11 0x55f286a2e2f1 <unknown>
+#12 0x55f286a15afe <unknown>
+#13 0x55f286a2ee52 <unknown>
+#14 0x55f2869fa79f <unknown>
+#15 0x55f286a53638 <unknown>
+#16 0x55f286a53810 <unknown>
+#17 0x55f286a62dac <unknown>
+#18 0x7ff6afc9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 7 pages saved to 'BMW_SEARCH.json'

@@ -1,0 +1,123 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_BMW.py", line 4, in <module>
+    import TAX_RETURN
+  File "/home/ec2-user/autoflipp.online/flask-server/TAX_RETURN.py", line 23, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x5620ef5f5c7a <unknown>
+#1 0x5620ef2d8e2c <unknown>
+#2 0x5620ef313175 <unknown>
+#3 0x5620ef30e2d1 <unknown>
+#4 0x5620ef30a17b <unknown>
+#5 0x5620ef354c49 <unknown>
+#6 0x5620ef348363 <unknown>
+#7 0x5620ef318247 <unknown>
+#8 0x5620ef318b9e <unknown>
+#9 0x5620ef5bc24b <unknown>
+#10 0x5620ef5c02f1 <unknown>
+#11 0x5620ef5a7afe <unknown>
+#12 0x5620ef5c0e52 <unknown>
+#13 0x5620ef58c79f <unknown>
+#14 0x5620ef5e5638 <unknown>
+#15 0x5620ef5e5810 <unknown>
+#16 0x5620ef5f4dac <unknown>
+#17 0x7f3e05c9f7f2 start_thread
+
+Error: The JSON file was not found.
+Error fetching data from OLX API: HTTPSConnectionPool(host='olx.ba', port=443): Max retries exceeded with url: /api/search?attr=3228323031302d393939393939293a372844697a656c29&attr_encoded=1&category_id=18&brand=11&models=0&brands=11&page=1&per_page=175 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f193a6ea2e0>: Failed to resolve 'olx.ba' ([Errno -2] Name or service not known)"))
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_BMW.py", line 162, in <module>
+    with open('data/=OLX_BMW.json', 'w', encoding='utf-8') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/=OLX_BMW.json'
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+ERROR:root:Failed to fetch tax-return for BS96555: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.button[type='button']"}
+  (Session info: chrome-headless-shell=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55d5fe397c7a <unknown>
+#1 0x55d5fe07ae2c <unknown>
+#2 0x55d5fe0c7661 <unknown>
+#3 0x55d5fe0c7751 <unknown>
+#4 0x55d5fe10bf64 <unknown>
+#5 0x55d5fe0ea5ed <unknown>
+#6 0x55d5fe109303 <unknown>
+#7 0x55d5fe0ea363 <unknown>
+#8 0x55d5fe0ba247 <unknown>
+#9 0x55d5fe0bab9e <unknown>
+#10 0x55d5fe35e24b <unknown>
+#11 0x55d5fe3622f1 <unknown>
+#12 0x55d5fe349afe <unknown>
+#13 0x55d5fe362e52 <unknown>
+#14 0x55d5fe32e79f <unknown>
+#15 0x55d5fe387638 <unknown>
+#16 0x55d5fe387810 <unknown>
+#17 0x55d5fe396dac <unknown>
+#18 0x7ffa1fc9f7f2 start_thread
+
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+INFO:root:Checking for cookie consent button...
+INFO:root:Cookie consent has been accepted from Tax Authority.
+INFO:root:inputting regno into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Inputting export date into site...
+INFO:root:Next section loaded successfully.
+INFO:root:Next section loaded successfully.
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+LJ60270: tax return: 33914
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+RK97246: tax return: 19349
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+SV58797: tax return: 14144
+Pressing next button...
+Attempting to input the export date...
+pressing seocnd next button...
+pressing calculate button...
+RL19645: tax return: 39193

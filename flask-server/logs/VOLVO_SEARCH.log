@@ -1,0 +1,98 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_VOLVO_SEARCH.py", line 89, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.153
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x55fc65bd3c7a <unknown>
+#1 0x55fc658b6e2c <unknown>
+#2 0x55fc6589e1a6 <unknown>
+#3 0x55fc6589dd85 <unknown>
+#4 0x55fc6589bcc6 <unknown>
+#5 0x55fc6589c33f <unknown>
+#6 0x55fc658acc67 <unknown>
+#7 0x55fc658c31be <unknown>
+#8 0x55fc658c88ab <unknown>
+#9 0x55fc6589ca8a <unknown>
+#10 0x55fc658c303e <unknown>
+#11 0x55fc65945679 <unknown>
+#12 0x55fc65926363 <unknown>
+#13 0x55fc658f6247 <unknown>
+#14 0x55fc658f6b9e <unknown>
+#15 0x55fc65b9a24b <unknown>
+#16 0x55fc65b9e2f1 <unknown>
+#17 0x55fc65b85afe <unknown>
+#18 0x55fc65b9ee52 <unknown>
+#19 0x55fc65b6a79f <unknown>
+#20 0x55fc65bc3638 <unknown>
+#21 0x55fc65bc3810 <unknown>
+#22 0x55fc65bd2dac <unknown>
+#23 0x7f30f989f7f2 start_thread
+
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_VOLVO_SEARCH.py", line 88, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 297.669
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x562581ee0c7a <unknown>
+#1 0x562581bc3e2c <unknown>
+#2 0x562581bab1a6 <unknown>
+#3 0x562581baad85 <unknown>
+#4 0x562581ba8cc6 <unknown>
+#5 0x562581ba933f <unknown>
+#6 0x562581bb9c67 <unknown>
+#7 0x562581bd01be <unknown>
+#8 0x562581bd58ab <unknown>
+#9 0x562581ba9a8a <unknown>
+#10 0x562581bd003e <unknown>
+#11 0x562581c52679 <unknown>
+#12 0x562581c33363 <unknown>
+#13 0x562581c03247 <unknown>
+#14 0x562581c03b9e <unknown>
+#15 0x562581ea724b <unknown>
+#16 0x562581eab2f1 <unknown>
+#17 0x562581e92afe <unknown>
+#18 0x562581eabe52 <unknown>
+#19 0x562581e7779f <unknown>
+#20 0x562581ed0638 <unknown>
+#21 0x562581ed0810 <unknown>
+#22 0x562581edfdac <unknown>
+#23 0x7f30afe9f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x56376da95c7a <unknown>
+#1 0x56376d778e2c <unknown>
+#2 0x56376d7c5661 <unknown>
+#3 0x56376d7c5751 <unknown>
+#4 0x56376d809f64 <unknown>
+#5 0x56376d7e85ed <unknown>
+#6 0x56376d807303 <unknown>
+#7 0x56376d7e8363 <unknown>
+#8 0x56376d7b8247 <unknown>
+#9 0x56376d7b8b9e <unknown>
+#10 0x56376da5c24b <unknown>
+#11 0x56376da602f1 <unknown>
+#12 0x56376da47afe <unknown>
+#13 0x56376da60e52 <unknown>
+#14 0x56376da2c79f <unknown>
+#15 0x56376da85638 <unknown>
+#16 0x56376da85810 <unknown>
+#17 0x56376da94dac <unknown>
+#18 0x7ff4a449f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 4 pages saved to 'VOLVO_SEARCH.json'

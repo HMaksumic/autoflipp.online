@@ -1,0 +1,133 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/file_manager.py", line 65, in __extract_zip
+    archive.extractall(to_directory)
+  File "/usr/lib64/python3.9/zipfile.py", line 1654, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/usr/lib64/python3.9/zipfile.py", line 1709, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/usr/lib64/python3.9/shutil.py", line 205, in copyfileobj
+    buf = fsrc_read(length)
+  File "/usr/lib64/python3.9/zipfile.py", line 926, in read
+    data = self._read1(n)
+  File "/usr/lib64/python3.9/zipfile.py", line 994, in _read1
+    data += self._read2(n - len(data))
+  File "/usr/lib64/python3.9/zipfile.py", line 1029, in _read2
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 20, in <module>
+    service = Service(ChromeDriverManager().install())
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/webdriver_manager/core/file_manager.py", line 67, in __extract_zip
+    if e.args[0] not in [26, 13] and e.args[1] not in [
+IndexError: tuple index out of range
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 87, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.554
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x5639497d5c7a <unknown>
+#1 0x5639494b8e2c <unknown>
+#2 0x5639494a01a6 <unknown>
+#3 0x56394949fd85 <unknown>
+#4 0x56394949dcc6 <unknown>
+#5 0x56394949e33f <unknown>
+#6 0x5639494aec67 <unknown>
+#7 0x5639494c51be <unknown>
+#8 0x5639494ca8ab <unknown>
+#9 0x56394949ea8a <unknown>
+#10 0x5639494c503e <unknown>
+#11 0x563949547679 <unknown>
+#12 0x563949528363 <unknown>
+#13 0x5639494f8247 <unknown>
+#14 0x5639494f8b9e <unknown>
+#15 0x56394979c24b <unknown>
+#16 0x5639497a02f1 <unknown>
+#17 0x563949787afe <unknown>
+#18 0x5639497a0e52 <unknown>
+#19 0x56394976c79f <unknown>
+#20 0x5639497c5638 <unknown>
+#21 0x5639497c5810 <unknown>
+#22 0x5639497d4dac <unknown>
+#23 0x7f912bc9f7f2 start_thread
+
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 87, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 296.980
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x55635408bc7a <unknown>
+#1 0x556353d6ee2c <unknown>
+#2 0x556353d561a6 <unknown>
+#3 0x556353d55d85 <unknown>
+#4 0x556353d53cc6 <unknown>
+#5 0x556353d5433f <unknown>
+#6 0x556353d64c67 <unknown>
+#7 0x556353d7b1be <unknown>
+#8 0x556353d808ab <unknown>
+#9 0x556353d54a8a <unknown>
+#10 0x556353d7b03e <unknown>
+#11 0x556353dfd679 <unknown>
+#12 0x556353dde363 <unknown>
+#13 0x556353dae247 <unknown>
+#14 0x556353daeb9e <unknown>
+#15 0x55635405224b <unknown>
+#16 0x5563540562f1 <unknown>
+#17 0x55635403dafe <unknown>
+#18 0x556354056e52 <unknown>
+#19 0x55635402279f <unknown>
+#20 0x55635407b638 <unknown>
+#21 0x55635407b810 <unknown>
+#22 0x55635408adac <unknown>
+#23 0x7f4ad949f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x56425cc44c7a <unknown>
+#1 0x56425c927e2c <unknown>
+#2 0x56425c974661 <unknown>
+#3 0x56425c974751 <unknown>
+#4 0x56425c9b8f64 <unknown>
+#5 0x56425c9975ed <unknown>
+#6 0x56425c9b6303 <unknown>
+#7 0x56425c997363 <unknown>
+#8 0x56425c967247 <unknown>
+#9 0x56425c967b9e <unknown>
+#10 0x56425cc0b24b <unknown>
+#11 0x56425cc0f2f1 <unknown>
+#12 0x56425cbf6afe <unknown>
+#13 0x56425cc0fe52 <unknown>
+#14 0x56425cbdb79f <unknown>
+#15 0x56425cc34638 <unknown>
+#16 0x56425cc34810 <unknown>
+#17 0x56425cc43dac <unknown>
+#18 0x7ff02dc9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 3 pages saved to 'PEUGEOT_SEARCH.json'

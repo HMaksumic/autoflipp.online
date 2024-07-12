@@ -1,6 +1,997 @@
 [
     {
         "type": "motor",
+        "id": "360898155",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz Vito VITO 111 CDI 2.1-116 D",
+        "location": "Larvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/360/898/155_9945f0c9-1e63-474f-920c-f8ab6d553a11.jpg",
+            "path": "2024/7/vertical-0/11/5/360/898/155_9945f0c9-1e63-474f-920c-f8ab6d553a11.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720735394395,
+        "coordinates": {
+            "lat": 59.05429,
+            "lon": 10.03742
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360898155",
+        "extras": [],
+        "price": {
+            "amount": 116845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 163000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PP87263",
+        "ad_id": 360898155
+    },
+    {
+        "type": "motor",
+        "id": "360901323",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter SPRINTER 316 CDI 2.1-163 D",
+        "location": "Forsand",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/3/360/901/323_f05dca34-72eb-4355-8908-e44cbe59abb1.jpg",
+            "path": "2024/7/vertical-0/11/3/360/901/323_f05dca34-72eb-4355-8908-e44cbe59abb1.jpg",
+            "height": 3072,
+            "width": 4080,
+            "aspect_ratio": 1.328125
+        },
+        "flags": [],
+        "timestamp": 1720732920000,
+        "coordinates": {
+            "lat": 58.89692,
+            "lon": 6.14525
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360901323",
+        "extras": [],
+        "price": {
+            "amount": 21231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 295000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "KH70452",
+        "ad_id": 360901323
+    },
+    {
+        "type": "motor",
+        "id": "360895267",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
+        "location": "Bjerkreim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/7/360/895/267_73b1ee2f-f4e2-4218-ac84-9c2d6ab3ee2a.jpg",
+            "path": "2024/7/vertical-0/11/7/360/895/267_73b1ee2f-f4e2-4218-ac84-9c2d6ab3ee2a.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720731660000,
+        "coordinates": {
+            "lat": 58.5832,
+            "lon": 6.07491
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360895267",
+        "extras": [],
+        "price": {
+            "amount": 116845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 223000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SV13847",
+        "ad_id": 360895267
+    },
+    {
+        "type": "motor",
+        "id": "360890332",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz A-Klasse A 180 CDI 1.8-109 D",
+        "location": "Gre\u00e5ker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/2/360/890/332_85d1cf48-1b14-4084-bf22-3a186996c8ea.jpg",
+            "path": "2024/7/vertical-0/11/2/360/890/332_85d1cf48-1b14-4084-bf22-3a186996c8ea.jpg",
+            "height": 900,
+            "width": 1600,
+            "aspect_ratio": 1.7777777777777777
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720730460000,
+        "coordinates": {
+            "lat": 59.27045,
+            "lon": 11.04718
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360890332",
+        "extras": [],
+        "price": {
+            "amount": 161845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 141749,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "TL28666",
+        "ad_id": 360890332
+    },
+    {
+        "type": "motor",
+        "id": "360876536",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz B-Klasse B 180 CDI 1.8-109 D",
+        "location": "Torvastad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/6/360/876/536_5adf8f1b-07a4-4fc3-b567-266906528064.png",
+            "path": "2024/7/vertical-0/11/6/360/876/536_5adf8f1b-07a4-4fc3-b567-266906528064.png",
+            "height": 2796,
+            "width": 1290,
+            "aspect_ratio": 0.4613733905579399
+        },
+        "flags": [],
+        "timestamp": 1720721463367,
+        "coordinates": {
+            "lat": 59.3814,
+            "lon": 5.24171
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360876536",
+        "extras": [],
+        "price": {
+            "amount": 59845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 199100,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RL20490",
+        "ad_id": 360876536
+    },
+    {
+        "type": "motor",
+        "id": "360297896",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Vito VITO 2.1-163 D",
+        "location": "Hegra",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/6/360/297/896_5756991b-48c9-418a-9029-3ce9ff702121.jpg",
+            "path": "2024/7/vertical-0/11/6/360/297/896_5756991b-48c9-418a-9029-3ce9ff702121.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720720763366,
+        "coordinates": {
+            "lat": 63.4633,
+            "lon": 11.11339
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360297896",
+        "extras": [],
+        "price": {
+            "amount": 81231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 145360,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "VH30509",
+        "ad_id": 360297896
+    },
+    {
+        "type": "motor",
+        "id": "360815653",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter 316 CDI/43 aut",
+        "location": "Sarpsborg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/3/360/815/653_9589926f-d02d-4dfa-b1b8-89f17f88d1a4.jpg",
+            "path": "2024/7/vertical-0/11/3/360/815/653_9589926f-d02d-4dfa-b1b8-89f17f88d1a4.jpg",
+            "height": 1276,
+            "width": 956,
+            "aspect_ratio": 0.7492163009404389
+        },
+        "flags": [],
+        "timestamp": 1720695120000,
+        "coordinates": {
+            "lat": 59.2785,
+            "lon": 11.09401
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360815653",
+        "extras": [],
+        "price": {
+            "amount": 136476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 480000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "KT89985",
+        "ad_id": 360815653
+    },
+    {
+        "type": "motor",
+        "id": "360813023",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter SPRINTER 316 CDI 2.1-163 D",
+        "location": "Str\u00f8mmen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/3/360/813/023_2e524c57-e3bf-49d9-87e7-a8d92a566a2e.jpg",
+            "path": "2024/7/vertical-0/11/3/360/813/023_2e524c57-e3bf-49d9-87e7-a8d92a566a2e.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720693920000,
+        "coordinates": {
+            "lat": 59.95937,
+            "lon": 11.02201
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360813023",
+        "extras": [],
+        "price": {
+            "amount": 130231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 277000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DP18123",
+        "ad_id": 360813023
+    },
+    {
+        "type": "motor",
+        "id": "360806542",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz B-Klasse B 200 CDI 1.8-136 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/2/360/806/542_0b15b777-b0c8-45a6-840e-20895e593805.jpg",
+            "path": "2024/7/vertical-0/11/2/360/806/542_0b15b777-b0c8-45a6-840e-20895e593805.jpg",
+            "height": 3000,
+            "width": 3744,
+            "aspect_ratio": 1.248
+        },
+        "flags": [],
+        "timestamp": 1720691523624,
+        "coordinates": {
+            "lat": 59.93056,
+            "lon": 10.71987
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360806542",
+        "extras": [],
+        "price": {
+            "amount": 61845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 126000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS54940",
+        "ad_id": 360806542
+    },
+    {
+        "type": "motor",
+        "id": "360790255",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E220d NY MOTOR!",
+        "location": "Haugesund",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/360/790/255_bb6ebb45-0d01-4ca4-8878-47bbaee14491.jpg",
+            "path": "2024/7/vertical-0/11/5/360/790/255_bb6ebb45-0d01-4ca4-8878-47bbaee14491.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720687649206,
+        "coordinates": {
+            "lat": 59.41188,
+            "lon": 5.28871
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360790255",
+        "extras": [],
+        "price": {
+            "amount": 154305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 340700,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BT51274",
+        "ad_id": 360790255
+    },
+    {
+        "type": "motor",
+        "id": "360788841",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter SPRINTER 316 CDI 2.1-163 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/1/360/788/841_392bcf3e-aa64-4d56-99d9-2cc58365a671.jpg",
+            "path": "2024/7/vertical-0/11/1/360/788/841_392bcf3e-aa64-4d56-99d9-2cc58365a671.jpg",
+            "height": 1024,
+            "width": 768,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720684643697,
+        "coordinates": {
+            "lat": 59.91876,
+            "lon": 10.76156
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360788841",
+        "extras": [],
+        "price": {
+            "amount": 41231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 480000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "CV66431",
+        "ad_id": 360788841
+    },
+    {
+        "type": "motor",
+        "id": "360772894",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz R-Klasse R 300 CDI 3.0-190 D 4MATIC",
+        "location": "Ringebu",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/4/360/772/894_1fa98da6-7926-49d8-b7c3-1b68ddd4ccc5.jpg",
+            "path": "2024/7/vertical-0/10/4/360/772/894_1fa98da6-7926-49d8-b7c3-1b68ddd4ccc5.jpg",
+            "height": 724,
+            "width": 1242,
+            "aspect_ratio": 1.7154696132596685
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720647432610,
+        "coordinates": {
+            "lat": 61.5296,
+            "lon": 10.13889
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360772894",
+        "extras": [],
+        "price": {
+            "amount": 160845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 171000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "NF39372",
+        "ad_id": 360772894
+    },
+    {
+        "type": "motor",
+        "id": "360749257",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
+        "location": "Reip\u00e5",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/7/360/749/257_057d126a-6052-428a-a27a-382b078aaf73.jpg",
+            "path": "2024/7/vertical-0/10/7/360/749/257_057d126a-6052-428a-a27a-382b078aaf73.jpg",
+            "height": 1536,
+            "width": 2048,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720636800000,
+        "coordinates": {
+            "lat": 66.91,
+            "lon": 13.6364
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360749257",
+        "extras": [],
+        "price": {
+            "amount": 91845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 454000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "YE89369",
+        "ad_id": 360749257
+    },
+    {
+        "type": "motor",
+        "id": "360719610",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz C-Klasse C 200 CDI 2.1-136 D",
+        "location": "Kopervik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/0/360/719/610_79847c38-994b-41ab-b7b6-433be027a299.jpg",
+            "path": "2024/7/vertical-0/10/0/360/719/610_79847c38-994b-41ab-b7b6-433be027a299.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720625314345,
+        "coordinates": {
+            "lat": 59.28287,
+            "lon": 5.30583
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360719610",
+        "extras": [],
+        "price": {
+            "amount": 119845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 174386,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK39424",
+        "ad_id": 360719610
+    },
+    {
+        "type": "motor",
+        "id": "360720299",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
+        "location": "Fauske",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/9/360/720/299_b9d91e15-94b1-4fa0-934c-2d0179212a12.jpg",
+            "path": "2024/7/vertical-0/10/9/360/720/299_b9d91e15-94b1-4fa0-934c-2d0179212a12.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720624038362,
+        "coordinates": {
+            "lat": 67.26182,
+            "lon": 15.3792
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360720299",
+        "extras": [],
+        "price": {
+            "amount": 74845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 356300,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SU85279",
+        "ad_id": 360720299
+    },
+    {
+        "type": "motor",
+        "id": "221908547",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz C-Klasse C 200 BLUETEC 1.6-136 D",
+        "location": "Gransherad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2021/6/vertical-0/13/7/221/908/547_894301099.jpg",
+            "path": "2021/6/vertical-0/13/7/221/908/547_894301099.jpg",
+            "height": 1600,
+            "width": 848,
+            "aspect_ratio": 0.53
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720623960000,
+        "coordinates": {
+            "lat": 59.6906,
+            "lon": 9.03941
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=221908547",
+        "extras": [],
+        "price": {
+            "amount": 195982,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 195000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DP76587",
+        "ad_id": 221908547
+    },
+    {
+        "type": "motor",
+        "id": "360712226",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
+        "location": "Jessheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/6/360/712/226_6780f5be-eaab-4a52-be11-65f31573c3df.jpg",
+            "path": "2024/7/vertical-0/10/6/360/712/226_6780f5be-eaab-4a52-be11-65f31573c3df.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720620780000,
+        "coordinates": {
+            "lat": 60.14187,
+            "lon": 11.16535
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360712226",
+        "extras": [],
+        "price": {
+            "amount": 141845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 230000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BR90376",
+        "ad_id": 360712226
+    },
+    {
+        "type": "motor",
+        "id": "360468517",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Vito VITO 111 CDI 2.1-116 D  Campervan Camper",
+        "location": "Vaksdal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/7/360/468/517_f4472dbc-8112-4676-9641-3ac852e97e4d.jpg",
+            "path": "2024/7/vertical-0/08/7/360/468/517_f4472dbc-8112-4676-9641-3ac852e97e4d.jpg",
+            "height": 721,
+            "width": 1600,
+            "aspect_ratio": 2.219140083217753
+        },
+        "flags": [],
+        "timestamp": 1720610004040,
+        "coordinates": {
+            "lat": 60.45571,
+            "lon": 5.6833
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360468517",
+        "extras": [],
+        "price": {
+            "amount": 66231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 205102,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SU90055",
+        "ad_id": 360468517
+    },
+    {
+        "type": "motor",
+        "id": "360623530",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz C-Klasse C 180 CDI 2.1-120 D",
+        "location": "Hegra",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/0/360/623/530_099c1a41-99b4-4692-bde8-467860660e59.jpg",
+            "path": "2024/7/vertical-0/09/0/360/623/530_099c1a41-99b4-4692-bde8-467860660e59.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720588179622,
+        "coordinates": {
+            "lat": 63.52151,
+            "lon": 11.11416
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360623530",
+        "extras": [],
+        "price": {
+            "amount": 94845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 289000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BS51204",
+        "ad_id": 360623530
+    },
+    {
+        "type": "motor",
+        "id": "360635161",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 250 CDI 2.1-204 D 4MATIC",
+        "location": "Bardu",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/635/161_7de355cb-9497-4ed2-babe-0565281008b1.jpg",
+            "path": "2024/7/vertical-0/09/1/360/635/161_7de355cb-9497-4ed2-babe-0565281008b1.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720559553812,
+        "coordinates": {
+            "lat": 68.86902,
+            "lon": 18.3456
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360635161",
+        "extras": [],
+        "price": {
+            "amount": 160000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 277000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BT39344",
+        "ad_id": 360635161
+    },
+    {
+        "type": "motor",
+        "id": "360608229",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 220 CDI AMG",
+        "location": "Lillestr\u00f8m",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/9/360/608/229_cb9ec453-0a98-412b-a2b8-497794b284eb.jpg",
+            "path": "2024/7/vertical-0/09/9/360/608/229_cb9ec453-0a98-412b-a2b8-497794b284eb.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720547719386,
+        "coordinates": {
+            "lat": 59.95605,
+            "lon": 11.05944
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360608229",
+        "extras": [],
+        "price": {
+            "amount": 146845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 214000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AJ77322",
+        "ad_id": 360608229
+    },
+    {
+        "type": "motor",
+        "id": "360610667",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter SPRINTER 3.0-190 D",
+        "location": "Kl\u00f8fta",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/7/360/610/667_bfd4838e-6881-4cea-a34d-b94a258b1c89.jpg",
+            "path": "2024/7/vertical-0/09/7/360/610/667_bfd4838e-6881-4cea-a34d-b94a258b1c89.jpg",
+            "height": 1600,
+            "width": 1600,
+            "aspect_ratio": 1
+        },
+        "flags": [],
+        "timestamp": 1720546980000,
+        "coordinates": {
+            "lat": 60.0741,
+            "lon": 11.13799
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360610667",
+        "extras": [],
+        "price": {
+            "amount": 89999,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 768000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PL28295",
+        "ad_id": 360610667
+    },
+    {
+        "type": "motor",
+        "id": "360460772",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter 316 CDI/43",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/2/360/460/772_18b11574-e4e5-490e-a06f-0b75935c80a7.jpg",
+            "path": "2024/7/vertical-0/08/2/360/460/772_18b11574-e4e5-490e-a06f-0b75935c80a7.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720537080000,
+        "coordinates": {
+            "lat": 59.9418,
+            "lon": 10.77399
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360460772",
+        "extras": [],
+        "price": {
+            "amount": 116476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 422027,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DS27476",
+        "ad_id": 360460772
+    },
+    {
+        "type": "motor",
+        "id": "358739018",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
+        "location": "Aremark",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/8/358/739/018_006e2b3d-4481-46a5-9d4a-35816d5d5548.jpg",
+            "path": "2024/7/vertical-0/09/8/358/739/018_006e2b3d-4481-46a5-9d4a-35816d5d5548.jpg",
+            "height": 4000,
+            "width": 3000,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720527671229,
+        "coordinates": {
+            "lat": 59.2386,
+            "lon": 11.69336
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358739018",
+        "extras": [],
+        "price": {
+            "amount": 49845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 347500,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "AE32620",
+        "ad_id": 358739018
+    },
+    {
+        "type": "motor",
+        "id": "360562693",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Mercedes-Benz A-Klasse A 160 CDI 2.0-82 D",
+        "location": "Nordre Toten",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/3/360/562/693_183a8769-10ab-4ec6-9f6a-2b6511d71073.jpg",
+            "path": "2024/7/vertical-0/09/3/360/562/693_183a8769-10ab-4ec6-9f6a-2b6511d71073.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720524780000,
+        "coordinates": {
+            "lat": 60.7458,
+            "lon": 10.75521
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360562693",
+        "extras": [],
+        "price": {
+            "amount": 105845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 47477,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "CF60431",
+        "ad_id": 360562693
+    },
+    {
+        "type": "motor",
         "id": "360556633",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
@@ -58,7 +1049,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360544910",
         "extras": [],
         "price": {
-            "amount": 199976,
+            "amount": 189999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -332,54 +1323,77 @@
     },
     {
         "type": "motor",
-        "id": "359318886",
+        "id": "360424518",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170",
-        "location": "Hob\u00f8l",
+        "heading": "Mercedes-Benz E-Klasse E 200CDI | EU ok | HF | DAB+ | BT | \u00d8konomisk | Str\u00f8ken",
+        "location": "Lillestr\u00f8m",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/6/359/318/886_cd3a73c7-946a-49fb-8df4-f9efcc7d51d3.jpg",
-            "path": "2024/7/vertical-0/02/6/359/318/886_cd3a73c7-946a-49fb-8df4-f9efcc7d51d3.jpg",
-            "height": 900,
-            "width": 1600,
-            "aspect_ratio": 1.7777777777777777
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/8/360/424/518_39464cb0-e359-4255-9058-88b8851eb8b2.jpg",
+            "path": "2024/7/vertical-0/08/8/360/424/518_39464cb0-e359-4255-9058-88b8851eb8b2.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
         },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720430298505,
+        "flags": [],
+        "timestamp": 1720438800000,
         "coordinates": {
-            "lat": 59.55935,
-            "lon": 10.84656
+            "lat": 59.95605,
+            "lon": 11.05944
         },
         "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359318886",
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360424518",
         "extras": [],
         "price": {
-            "amount": 121845,
+            "amount": 86845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2010,
-        "mileage": 203470,
-        "dealer_segment": "Privat - Smidig bilhandel",
+        "mileage": 332000,
+        "dealer_segment": "Privat",
         "service_documents": [
             "Service"
         ],
-        "regno": "DN63090",
-        "ad_id": 359318886
+        "regno": "AY16884",
+        "ad_id": 360424518
+    },
+    {
+        "type": "motor",
+        "id": "360344758",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Sprinter 316 CDI/43 aut",
+        "location": "Porsgrunn",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/8/360/344/758_b1d30d3e-139e-4b0d-8013-5015d656ab6d.jpg",
+            "path": "2024/7/vertical-0/07/8/360/344/758_b1d30d3e-139e-4b0d-8013-5015d656ab6d.jpg",
+            "height": 2048,
+            "width": 1536,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720378980000,
+        "coordinates": {
+            "lat": 59.14329,
+            "lon": 9.64416
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360344758",
+        "extras": [],
+        "price": {
+            "amount": 101476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 340000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PR20061",
+        "ad_id": 360344758
     },
     {
         "type": "motor",
@@ -420,41 +1434,6 @@
     },
     {
         "type": "motor",
-        "id": "346085530",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Vito VITO 2.1-163 D 4MATIC",
-        "location": "Mj\u00f8ndalen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/0/346/085/530_00810592-ce6a-4f37-a650-ed9c8fd81a5f.jpg",
-            "path": "2024/7/vertical-0/07/0/346/085/530_00810592-ce6a-4f37-a650-ed9c8fd81a5f.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720377000000,
-        "coordinates": {
-            "lat": 59.7526,
-            "lon": 10.03814
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=346085530",
-        "extras": [],
-        "price": {
-            "amount": 79231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 280000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS27370",
-        "ad_id": 346085530
-    },
-    {
-        "type": "motor",
         "id": "360282723",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Mercedes-Benz Vito VITO 2.1-163 D 4MATIC",
@@ -477,7 +1456,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360282723",
         "extras": [],
         "price": {
-            "amount": 100231,
+            "amount": 90231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -577,7 +1556,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720299389944,
+        "timestamp": 1720299389901,
         "coordinates": {
             "lat": 58.17363,
             "lon": 7.01741
@@ -770,7 +1749,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360009116",
         "extras": [],
         "price": {
-            "amount": 100845,
+            "amount": 81845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -805,7 +1784,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360114100",
         "extras": [],
         "price": {
-            "amount": 46305,
+            "amount": 49805,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -885,57 +1864,6 @@
         "service_documents": [],
         "regno": "SV51585",
         "ad_id": 360002856
-    },
-    {
-        "type": "motor",
-        "id": "355660564",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 200 CDI 2.1-136 D",
-        "location": "Ottestad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/03/4/355/660/564_e14fa6ef-a194-4817-a6cb-523986b2dbe6.jpg",
-            "path": "2024/6/vertical-0/03/4/355/660/564_e14fa6ef-a194-4817-a6cb-523986b2dbe6.jpg",
-            "height": 5256,
-            "width": 4204,
-            "aspect_ratio": 0.799847792998478
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720173300000,
-        "coordinates": {
-            "lat": 60.78439,
-            "lon": 11.10885
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355660564",
-        "extras": [],
-        "price": {
-            "amount": 86845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 233000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS43735",
-        "ad_id": 355660564
     },
     {
         "type": "motor",
@@ -1072,57 +2000,6 @@
     },
     {
         "type": "motor",
-        "id": "341907033",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 250 CDI 2.1-204 D 4MATIC AMG/KROK/WEBASTO/PANO++",
-        "location": "Hammerfest",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/3/341/907/033_9ce9a3e2-bb59-4d47-b70d-6c8d8c4db000.jpg",
-            "path": "2024/7/vertical-0/04/3/341/907/033_9ce9a3e2-bb59-4d47-b70d-6c8d8c4db000.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720121782200,
-        "coordinates": {
-            "lat": 70.6828,
-            "lon": 23.69081
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=341907033",
-        "extras": [],
-        "price": {
-            "amount": 186845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 186000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "JV15390",
-        "ad_id": 341907033
-    },
-    {
-        "type": "motor",
         "id": "359940800",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Mercedes-Benz Vito VITO 2.1-136 D 4MATIC",
@@ -1217,7 +2094,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=342966835",
         "extras": [],
         "price": {
-            "amount": 159000,
+            "amount": 149000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1245,7 +2122,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720110388801,
+        "timestamp": 1720110388584,
         "coordinates": {
             "lat": 63.7762,
             "lon": 11.73149
@@ -1412,92 +2289,6 @@
     },
     {
         "type": "motor",
-        "id": "359820338",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
-        "location": "Fall",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/8/359/820/338_2dda799d-5dc9-44ed-94b2-d999995493b2.jpg",
-            "path": "2024/7/vertical-0/03/8/359/820/338_2dda799d-5dc9-44ed-94b2-d999995493b2.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1720045260000,
-        "coordinates": {
-            "lat": 60.635,
-            "lon": 10.37204
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359820338",
-        "extras": [],
-        "price": {
-            "amount": 104305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 342190,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DP46084",
-        "ad_id": 359820338
-    },
-    {
-        "type": "motor",
-        "id": "358756159",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 220 CDI 2.1-170 D 4MATIC",
-        "location": "Moelv",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/9/358/756/159_e2dd4062-14e9-4c9e-b612-86c8c25b35a7.jpg",
-            "path": "2024/6/vertical-0/25/9/358/756/159_e2dd4062-14e9-4c9e-b612-86c8c25b35a7.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720025844202,
-        "coordinates": {
-            "lat": 60.93847,
-            "lon": 10.69825
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358756159",
-        "extras": [],
-        "price": {
-            "amount": 134305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 283000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP38394",
-        "ad_id": 358756159
-    },
-    {
-        "type": "motor",
         "id": "359709223",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz C-Klasse C 250 CDI 2.1-204 D 4MATIC",
@@ -1513,7 +2304,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720012334257,
+        "timestamp": 1720012334140,
         "coordinates": {
             "lat": 58.07523,
             "lon": 7.86215
@@ -1629,7 +2420,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719925985700,
+        "timestamp": 1719925985287,
         "coordinates": {
             "lat": 60.62913,
             "lon": 6.41674
@@ -1728,7 +2519,7 @@
             "price_unit": "kr"
         },
         "year": 2013,
-        "mileage": 156000,
+        "mileage": 155200,
         "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "ZH38156",
@@ -1832,7 +2623,7 @@
             "aspect_ratio": 1.03205574912892
         },
         "flags": [],
-        "timestamp": 1719858331952,
+        "timestamp": 1719858331887,
         "coordinates": {
             "lat": 59.837,
             "lon": 10.788
@@ -1852,41 +2643,6 @@
         "service_documents": [],
         "regno": "PR47760",
         "ad_id": 359514106
-    },
-    {
-        "type": "motor",
-        "id": "359506559",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Vito VITO 1.6-114 D",
-        "location": "Randaberg",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/9/359/506/559_ec5e275c-65e2-4dc8-9f9c-d4f7bed2cc6a.jpg",
-            "path": "2024/7/vertical-0/01/9/359/506/559_ec5e275c-65e2-4dc8-9f9c-d4f7bed2cc6a.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719855085234,
-        "coordinates": {
-            "lat": 58.99243,
-            "lon": 5.59264
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359506559",
-        "extras": [],
-        "price": {
-            "amount": 121476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 165000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "PR28108",
-        "ad_id": 359506559
     },
     {
         "type": "motor",
@@ -1959,6 +2715,43 @@
         ],
         "regno": "BS81447",
         "ad_id": 359500137
+    },
+    {
+        "type": "motor",
+        "id": "359497285",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Mercedes-Benz Vito V116 A3 4MATIC Gassgrill p\u00e5 kj\u00f8pet!",
+        "location": "Brumunddal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/5/359/497/285_b3791e78-a3df-4bdf-a52c-f1c1059e2a47.jpg",
+            "path": "2024/7/vertical-0/01/5/359/497/285_b3791e78-a3df-4bdf-a52c-f1c1059e2a47.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1719852000938,
+        "coordinates": {
+            "lat": 60.94192,
+            "lon": 10.9735
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359497285",
+        "extras": [],
+        "price": {
+            "amount": 190000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2020,
+        "mileage": 470500,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "HB86048",
+        "ad_id": 359497285
     },
     {
         "type": "motor",
@@ -2421,7 +3214,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719683418483,
+        "timestamp": 1719683418373,
         "coordinates": {
             "lat": 59.28335,
             "lon": 11.0876
@@ -2564,43 +3357,6 @@
         "service_documents": [],
         "regno": "AE35414",
         "ad_id": 359099583
-    },
-    {
-        "type": "motor",
-        "id": "359080968",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Citan 109 CDI A2",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/8/359/080/968_bed0fe61-abc3-4e07-96fd-c7c24b894a48.jpg",
-            "path": "2024/6/vertical-0/28/8/359/080/968_bed0fe61-abc3-4e07-96fd-c7c24b894a48.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719586980000,
-        "coordinates": {
-            "lat": 59.93255,
-            "lon": 10.80783
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359080968",
-        "extras": [],
-        "price": {
-            "amount": 76476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 90000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "ZT49792",
-        "ad_id": 359080968
     },
     {
         "type": "motor",
@@ -2760,41 +3516,6 @@
     },
     {
         "type": "motor",
-        "id": "358962516",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Vito V116 A2 4MATIC",
-        "location": "Stathelle",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/6/358/962/516_3bda2064-daa5-48a9-a8ec-d0482e522723.jpg",
-            "path": "2024/6/vertical-0/27/6/358/962/516_3bda2064-daa5-48a9-a8ec-d0482e522723.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719499362233,
-        "coordinates": {
-            "lat": 58.96879,
-            "lon": 9.55269
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358962516",
-        "extras": [],
-        "price": {
-            "amount": 71231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 327000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "SV14439",
-        "ad_id": 358962516
-    },
-    {
-        "type": "motor",
         "id": "353743686",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz R-Klasse R 350 BLUETEC 3.0-211 D 4MATIC",
@@ -2901,7 +3622,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358852371",
         "extras": [],
         "price": {
-            "amount": 76845,
+            "amount": 73845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3215,7 +3936,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358622400",
         "extras": [],
         "price": {
-            "amount": 156845,
+            "amount": 146845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3469,7 +4190,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1719158044213,
+        "timestamp": 1719158044124,
         "coordinates": {
             "lat": 62.46048,
             "lon": 6.27262
@@ -3537,92 +4258,6 @@
         "service_documents": [],
         "regno": "DR78320",
         "ad_id": 358442782
-    },
-    {
-        "type": "motor",
-        "id": "292371454",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
-        "location": "Fitjar",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/09/4/292/371/454_40585f24-5eb7-419d-9b50-a2178a073a3e.jpg",
-            "path": "2024/6/vertical-0/09/4/292/371/454_40585f24-5eb7-419d-9b50-a2178a073a3e.jpg",
-            "height": 4284,
-            "width": 5712,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719137760000,
-        "coordinates": {
-            "lat": 59.9178,
-            "lon": 5.31643
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=292371454",
-        "extras": [],
-        "price": {
-            "amount": 180777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 135100,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PR15388",
-        "ad_id": 292371454
-    },
-    {
-        "type": "motor",
-        "id": "358280161",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Sprinter 316 CDI/37 aut KJ\u00d8LEBIL",
-        "location": "L\u00f8venstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/22/1/358/280/161_c42f423e-e757-4f70-967a-995b1de99e4b.jpg",
-            "path": "2024/6/vertical-0/22/1/358/280/161_c42f423e-e757-4f70-967a-995b1de99e4b.jpg",
-            "height": 1816,
-            "width": 4032,
-            "aspect_ratio": 2.2202643171806167
-        },
-        "flags": [],
-        "timestamp": 1719056191189,
-        "coordinates": {
-            "lat": 59.9372,
-            "lon": 11.0265
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358280161",
-        "extras": [],
-        "price": {
-            "amount": 113476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 420000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DR77903",
-        "ad_id": 358280161
     },
     {
         "type": "motor",
@@ -3836,7 +4471,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358158859",
         "extras": [],
         "price": {
-            "amount": 94845,
+            "amount": 84845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3970,41 +4605,6 @@
     },
     {
         "type": "motor",
-        "id": "358133592",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 200 CDI 2.1-136 D service og nylig meget p\u00e5kostet",
-        "location": "Lysaker",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/2/358/133/592_7e817a30-8c6c-430a-ae4d-eefd1db7a6c0.jpg",
-            "path": "2024/6/vertical-0/21/2/358/133/592_7e817a30-8c6c-430a-ae4d-eefd1db7a6c0.jpg",
-            "height": 4608,
-            "width": 3456,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718952324883,
-        "coordinates": {
-            "lat": 59.90788,
-            "lon": 10.62919
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358133592",
-        "extras": [],
-        "price": {
-            "amount": 56800,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 290000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS14738",
-        "ad_id": 358133592
-    },
-    {
-        "type": "motor",
         "id": "358119754",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
@@ -4017,7 +4617,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1718916426526,
+        "timestamp": 1718916426481,
         "coordinates": {
             "lat": 60.3633,
             "lon": 5.36111
@@ -4027,7 +4627,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358119754",
         "extras": [],
         "price": {
-            "amount": 120000,
+            "amount": 100000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4340,43 +4940,6 @@
     },
     {
         "type": "motor",
-        "id": "357836929",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 250 CDI 2.1-204 D 4MATIC",
-        "location": "L\u00e6rdal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/9/357/836/929_f74fe9fc-d79c-4f02-97b8-61464397b861.jpg",
-            "path": "2024/6/vertical-0/18/9/357/836/929_f74fe9fc-d79c-4f02-97b8-61464397b861.jpg",
-            "height": 3456,
-            "width": 4608,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718732160000,
-        "coordinates": {
-            "lat": 61.0984,
-            "lon": 7.4812
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357836929",
-        "extras": [],
-        "price": {
-            "amount": 127305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 317158,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BT50267",
-        "ad_id": 357836929
-    },
-    {
-        "type": "motor",
         "id": "328608060",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Mercedes-Benz Vito VITO 2.1-136 D",
@@ -4557,7 +5120,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=308910816",
         "extras": [],
         "price": {
-            "amount": 184147,
+            "amount": 179147,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4714,57 +5277,6 @@
     },
     {
         "type": "motor",
-        "id": "357550476",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz B-Klasse B200 CDI aut",
-        "location": "Sandefjord",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/16/6/357/550/476_1600e956-223e-4f97-b304-94229023aaf5.jpg",
-            "path": "2024/6/vertical-0/16/6/357/550/476_1600e956-223e-4f97-b304-94229023aaf5.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718561771293,
-        "coordinates": {
-            "lat": 59.1797,
-            "lon": 10.23379
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357550476",
-        "extras": [],
-        "price": {
-            "amount": 129305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 190000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "LY78318",
-        "ad_id": 357550476
-    },
-    {
-        "type": "motor",
         "id": "357511345",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
@@ -4882,7 +5394,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1718542748279,
+        "timestamp": 1718542748214,
         "coordinates": {
             "lat": 60.01978,
             "lon": 11.228
@@ -5109,7 +5621,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357327589",
         "extras": [],
         "price": {
-            "amount": 111845,
+            "amount": 116845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5363,7 +5875,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1718261304062,
+        "timestamp": 1718261304030,
         "coordinates": {
             "lat": 63.7944,
             "lon": 11.48299
@@ -5751,94 +6263,6 @@
     },
     {
         "type": "motor",
-        "id": "356841066",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 250 CDI 2.1-204 D",
-        "location": "N\u00f8tter\u00f8y",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/6/356/841/066_5542861b-b455-4de0-9947-b79ad79dadf6.jpg",
-            "path": "2024/6/vertical-0/11/6/356/841/066_5542861b-b455-4de0-9947-b79ad79dadf6.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718130660000,
-        "coordinates": {
-            "lat": 59.21918,
-            "lon": 10.4012
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356841066",
-        "extras": [],
-        "price": {
-            "amount": 119845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 324000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS88177",
-        "ad_id": 356841066
-    },
-    {
-        "type": "motor",
-        "id": "356821389",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz Sprinter SPRINTER 2.1-109 D",
-        "location": "Fredrikstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/9/356/821/389_894febcf-0559-415a-ba27-d48e7cd7adc7.jpg",
-            "path": "2024/6/vertical-0/11/9/356/821/389_894febcf-0559-415a-ba27-d48e7cd7adc7.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718122922313,
-        "coordinates": {
-            "lat": 59.23228,
-            "lon": 10.96284
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356821389",
-        "extras": [],
-        "price": {
-            "amount": 196845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 69000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "AS25090",
-        "ad_id": 356821389
-    },
-    {
-        "type": "motor",
         "id": "356788159",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Mercedes-Benz Vito VITO 2.1-136 D 4MATIC",
@@ -5874,127 +6298,6 @@
     },
     {
         "type": "motor",
-        "id": "356751274",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D Avantgarde",
-        "location": "Arendal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/4/356/751/274_10e11e0a-3705-47ec-83f7-e4882dd56583.jpg",
-            "path": "2024/6/vertical-0/11/4/356/751/274_10e11e0a-3705-47ec-83f7-e4882dd56583.jpg",
-            "height": 1816,
-            "width": 4032,
-            "aspect_ratio": 2.2202643171806167
-        },
-        "flags": [],
-        "timestamp": 1718094142794,
-        "coordinates": {
-            "lat": 58.46117,
-            "lon": 8.76735
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356751274",
-        "extras": [],
-        "price": {
-            "amount": 179000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 140000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KB41090",
-        "ad_id": 356751274
-    },
-    {
-        "type": "motor",
-        "id": "356726104",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Vito VITO 3.0-224 D V6",
-        "location": "Borgenhaugen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/10/4/356/726/104_03a82c67-1eda-440c-97cc-42b46f5c8ab9.jpg",
-            "path": "2024/6/vertical-0/10/4/356/726/104_03a82c67-1eda-440c-97cc-42b46f5c8ab9.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718055600815,
-        "coordinates": {
-            "lat": 59.27027,
-            "lon": 11.15036
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356726104",
-        "extras": [],
-        "price": {
-            "amount": 125000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 297113,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BS67314",
-        "ad_id": 356726104
-    },
-    {
-        "type": "motor",
-        "id": "352659814",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
-        "location": "Flatdal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/11/4/352/659/814_4ff0d5d4-6af4-4b9c-836e-d31ce5c269c3.jpg",
-            "path": "2024/5/vertical-0/11/4/352/659/814_4ff0d5d4-6af4-4b9c-836e-d31ce5c269c3.jpg",
-            "height": 1600,
-            "width": 739,
-            "aspect_ratio": 0.461875
-        },
-        "flags": [],
-        "timestamp": 1718040360000,
-        "coordinates": {
-            "lat": 59.5678,
-            "lon": 8.5675
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352659814",
-        "extras": [],
-        "price": {
-            "amount": 71845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 388000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN45917",
-        "ad_id": 352659814
-    },
-    {
-        "type": "motor",
         "id": "349929133",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Mercedes-Benz Sprinter 316 CDI/37 aut",
@@ -6027,127 +6330,6 @@
         "service_documents": [],
         "regno": "SV80399",
         "ad_id": 349929133
-    },
-    {
-        "type": "motor",
-        "id": "356680753",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Sprinter SPRINTER 2.1-129 D",
-        "location": "Alta",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/10/3/356/680/753_32e38066-4612-4d70-bc03-335c8d9075d8.jpg",
-            "path": "2024/6/vertical-0/10/3/356/680/753_32e38066-4612-4d70-bc03-335c8d9075d8.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718035149478,
-        "coordinates": {
-            "lat": 69.9723,
-            "lon": 23.35791
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356680753",
-        "extras": [],
-        "price": {
-            "amount": 169000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 171316,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "ZX24129",
-        "ad_id": 356680753
-    },
-    {
-        "type": "motor",
-        "id": "356664336",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 180 CDI 2.1-120 D",
-        "location": "Trondheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/10/6/356/664/336_cc8ea66d-60a6-478e-aea7-c112d500de32.jpg",
-            "path": "2024/6/vertical-0/10/6/356/664/336_cc8ea66d-60a6-478e-aea7-c112d500de32.jpg",
-            "height": 720,
-            "width": 720,
-            "aspect_ratio": 1
-        },
-        "flags": [],
-        "timestamp": 1718034000000,
-        "coordinates": {
-            "lat": 63.4303,
-            "lon": 10.40941
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356664336",
-        "extras": [],
-        "price": {
-            "amount": 124305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 90000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS84838",
-        "ad_id": 356664336
-    },
-    {
-        "type": "motor",
-        "id": "221908547",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 200 BLUETEC 1.6-136 D",
-        "location": "Gransherad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2021/6/vertical-0/13/7/221/908/547_894301099.jpg",
-            "path": "2021/6/vertical-0/13/7/221/908/547_894301099.jpg",
-            "height": 1600,
-            "width": 848,
-            "aspect_ratio": 0.53
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718029980000,
-        "coordinates": {
-            "lat": 59.6906,
-            "lon": 9.03941
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=221908547",
-        "extras": [],
-        "price": {
-            "amount": 195982,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 195000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP76587",
-        "ad_id": 221908547
     },
     {
         "type": "motor",
@@ -6237,43 +6419,6 @@
     },
     {
         "type": "motor",
-        "id": "356223502",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Mercedes-Benz Sprinter 316 CDI",
-        "location": "\u00c5mot",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/2/356/223/502_797a2cd2-b9a4-42d0-9725-e40a56475e37.jpg",
-            "path": "2024/6/vertical-0/07/2/356/223/502_797a2cd2-b9a4-42d0-9725-e40a56475e37.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718003460000,
-        "coordinates": {
-            "lat": 59.8927,
-            "lon": 9.92679
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356223502",
-        "extras": [],
-        "price": {
-            "amount": 86476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 579000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP44038",
-        "ad_id": 356223502
-    },
-    {
-        "type": "motor",
         "id": "349490148",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz A-Klasse A 180 CDI 1.5-109 D | EU OK 28.08.25 |",
@@ -6296,7 +6441,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349490148",
         "extras": [],
         "price": {
-            "amount": 132999,
+            "amount": 129999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6341,78 +6486,6 @@
         "service_documents": [],
         "regno": "BS58322",
         "ad_id": 352309222
-    },
-    {
-        "type": "motor",
-        "id": "353636160",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C 200 CDI 2.1-136 D",
-        "location": "Selbu",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/19/0/353/636/160_6045c1f4-f498-4f2f-993a-1dec1eec0e68.jpg",
-            "path": "2024/5/vertical-0/19/0/353/636/160_6045c1f4-f498-4f2f-993a-1dec1eec0e68.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717958826456,
-        "coordinates": {
-            "lat": 63.22909,
-            "lon": 11.0313
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353636160",
-        "extras": [],
-        "price": {
-            "amount": 81845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 242726,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "ZZ12102",
-        "ad_id": 353636160
-    },
-    {
-        "type": "motor",
-        "id": "339564303",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
-        "location": "Horten",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/09/3/339/564/303_1614608818.jpg",
-            "path": "2024/2/vertical-0/09/3/339/564/303_1614608818.jpg",
-            "height": 2016,
-            "width": 1512,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717940760000,
-        "coordinates": {
-            "lat": 59.41224,
-            "lon": 10.46144
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339564303",
-        "extras": [],
-        "price": {
-            "amount": 169305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 118600,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "CV62892",
-        "ad_id": 339564303
     },
     {
         "type": "motor",
@@ -6656,57 +6729,6 @@
     },
     {
         "type": "motor",
-        "id": "339871677",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz CLA 220 CDI Aut.",
-        "location": "Mysen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/04/7/339/871/677_36adf8d6-ff05-4526-ad65-98a9795fde6d.jpg",
-            "path": "2024/6/vertical-0/04/7/339/871/677_36adf8d6-ff05-4526-ad65-98a9795fde6d.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717519049740,
-        "coordinates": {
-            "lat": 59.55338,
-            "lon": 11.32688
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339871677",
-        "extras": [],
-        "price": {
-            "amount": 176305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 144000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BT16724",
-        "ad_id": 339871677
-    },
-    {
-        "type": "motor",
         "id": "355648175",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz E-Klasse T Avantgarde aut",
@@ -6805,7 +6827,7 @@
             "aspect_ratio": 1.48664343786295
         },
         "flags": [],
-        "timestamp": 1717166107639,
+        "timestamp": 1717166107051,
         "coordinates": {
             "lat": 59.74273,
             "lon": 10.59556
@@ -6998,55 +7020,6 @@
     },
     {
         "type": "motor",
-        "id": "265786779",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz C-Klasse C200 CDI",
-        "location": "Kval\u00f8ysletta",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/01/9/265/786/779_1064519008.jpg",
-            "path": "2024/3/vertical-0/01/9/265/786/779_1064519008.jpg",
-            "height": 1276,
-            "width": 2268,
-            "aspect_ratio": 1.7774294670846396
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716803345296,
-        "coordinates": {
-            "lat": 69.69395,
-            "lon": 18.87201
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=265786779",
-        "extras": [],
-        "price": {
-            "amount": 76845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 232293,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN67065",
-        "ad_id": 265786779
-    },
-    {
-        "type": "motor",
         "id": "345372941",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Mercedes-Benz Sprinter SPRINTER 31/37 KA AM 3.0-190 D",
@@ -7128,41 +7101,6 @@
         "service_documents": [],
         "regno": "SV52393",
         "ad_id": 338311781
-    },
-    {
-        "type": "motor",
-        "id": "354489840",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
-        "location": "L\u00f8renskog",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/26/0/354/489/840_add019a5-b3d7-4622-b51f-d8e50668046b.jpg",
-            "path": "2024/5/vertical-0/26/0/354/489/840_add019a5-b3d7-4622-b51f-d8e50668046b.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716722404808,
-        "coordinates": {
-            "lat": 59.92858,
-            "lon": 10.93931
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354489840",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 325000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "JD63761",
-        "ad_id": 354489840
     },
     {
         "type": "motor",
@@ -7286,40 +7224,5 @@
         ],
         "regno": "HB75017",
         "ad_id": 313942235
-    },
-    {
-        "type": "motor",
-        "id": "352744297",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Mercedes-Benz B-Klasse B180 CDI aut",
-        "location": "Fredrikstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/7/352/744/297_5fcfe455-7b85-4f4d-bb36-b25eb740f796.jpg",
-            "path": "2024/5/vertical-0/12/7/352/744/297_5fcfe455-7b85-4f4d-bb36-b25eb740f796.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1715506891634,
-        "coordinates": {
-            "lat": 59.2131,
-            "lon": 10.9555
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352744297",
-        "extras": [],
-        "price": {
-            "amount": 139000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 166000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "EZ10088",
-        "ad_id": 352744297
     }
 ]

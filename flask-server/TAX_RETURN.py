@@ -19,7 +19,7 @@ options.add_argument('--disable-extensions')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 
-service = Service(ChromeDriverManager().install())
+service = Service('/home/ec2-user/autoflipp.online/flask-server/chromedriver')
 driver = webdriver.Chrome(service=service, options=options)
 
 logging.basicConfig(level=logging.INFO)

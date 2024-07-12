@@ -1,6 +1,1268 @@
 [
     {
         "type": "motor",
+        "id": "356234369",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie - 2.0-116 D",
+        "location": "Alvdal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/9/356/234/369_c7414881-e116-449f-ab2f-5f41120634e6.jpg",
+            "path": "2024/7/vertical-0/11/9/356/234/369_c7414881-e116-449f-ab2f-5f41120634e6.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720729930741,
+        "coordinates": {
+            "lat": 62.1077,
+            "lon": 10.63071
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356234369",
+        "extras": [],
+        "price": {
+            "amount": 164000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 146166,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DP28360",
+        "ad_id": 356234369
+    },
+    {
+        "type": "motor",
+        "id": "360883219",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 525D xDrive 2.0-218",
+        "location": "Bod\u00f8",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/9/360/883/219_29ce5516-4ea5-4877-8092-e55a73d1a519.jpg",
+            "path": "2024/7/vertical-0/11/9/360/883/219_29ce5516-4ea5-4877-8092-e55a73d1a519.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720728660000,
+        "coordinates": {
+            "lat": 67.279,
+            "lon": 14.4103
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360883219",
+        "extras": [],
+        "price": {
+            "amount": 129305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 274690,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service",
+            "Testrapport"
+        ],
+        "regno": "ZZ24671",
+        "ad_id": 360883219
+    },
+    {
+        "type": "motor",
+        "id": "360852586",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 318D 2.0-143 D",
+        "location": "Vatnestr\u00f8m",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/6/360/852/586_e51f78c7-6f59-4c54-8417-d0aa27d0849e.jpg",
+            "path": "2024/7/vertical-0/11/6/360/852/586_e51f78c7-6f59-4c54-8417-d0aa27d0849e.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720728442350,
+        "coordinates": {
+            "lat": 58.4178,
+            "lon": 8.0635
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360852586",
+        "extras": [],
+        "price": {
+            "amount": 76000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 208000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SV26171",
+        "ad_id": 360852586
+    },
+    {
+        "type": "motor",
+        "id": "359907552",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie (163hk) Automat",
+        "location": "Mosj\u00f8en",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/2/359/907/552_70bdc528-afc5-43d7-a609-934ca642b409.jpg",
+            "path": "2024/7/vertical-0/05/2/359/907/552_70bdc528-afc5-43d7-a609-934ca642b409.jpg",
+            "height": 4284,
+            "width": 5712,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720724160000,
+        "coordinates": {
+            "lat": 65.83621,
+            "lon": 13.20034
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359907552",
+        "extras": [],
+        "price": {
+            "amount": 130000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 189000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZH31815",
+        "ad_id": 359907552
+    },
+    {
+        "type": "motor",
+        "id": "360847223",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 316D 2.0-116 D",
+        "location": "Fjell",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/3/360/847/223_2904c0b8-b796-4364-a2cf-db5a892e1271.jpg",
+            "path": "2024/7/vertical-0/11/3/360/847/223_2904c0b8-b796-4364-a2cf-db5a892e1271.jpg",
+            "height": 1594,
+            "width": 1600,
+            "aspect_ratio": 1.0037641154328734
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720709580000,
+        "coordinates": {
+            "lat": 60.33041,
+            "lon": 5.07612
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360847223",
+        "extras": [],
+        "price": {
+            "amount": 111845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 200000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "AE38177",
+        "ad_id": 360847223
+    },
+    {
+        "type": "motor",
+        "id": "347627716",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X3 xDrive20d",
+        "location": "Braskereidfoss",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/08/6/347/627/716_d3717736-2779-49ba-b87a-8eb16713b305.jpg",
+            "path": "2024/4/vertical-0/08/6/347/627/716_d3717736-2779-49ba-b87a-8eb16713b305.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720704180000,
+        "coordinates": {
+            "lat": 60.71946,
+            "lon": 11.81511
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=347627716",
+        "extras": [],
+        "price": {
+            "amount": 181845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 132000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UF53610",
+        "ad_id": 347627716
+    },
+    {
+        "type": "motor",
+        "id": "358857545",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X1 xDrive18d",
+        "location": "Moss",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/358/857/545_ccb3462f-8633-4c27-9edd-648e40387d2f.jpg",
+            "path": "2024/7/vertical-0/11/5/358/857/545_ccb3462f-8633-4c27-9edd-648e40387d2f.jpg",
+            "height": 7071,
+            "width": 6336,
+            "aspect_ratio": 0.8960543063215952
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720704180000,
+        "coordinates": {
+            "lat": 59.4302,
+            "lon": 10.6654
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358857545",
+        "extras": [],
+        "price": {
+            "amount": 76845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 230806,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "KH86642",
+        "ad_id": 358857545
+    },
+    {
+        "type": "motor",
+        "id": "339611750",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 320D / Hud/ Ryggekamera/ Surround view/ Eksos/ ++",
+        "location": "Bjugn",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
+            "path": "2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
+            "height": 932,
+            "width": 1244,
+            "aspect_ratio": 1.3347639484978542
+        },
+        "flags": [],
+        "timestamp": 1720695000000,
+        "coordinates": {
+            "lat": 63.7651,
+            "lon": 9.80981
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339611750",
+        "extras": [],
+        "price": {
+            "amount": 150000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 196450,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "JV19277",
+        "ad_id": 339611750
+    },
+    {
+        "type": "motor",
+        "id": "352095974",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 1-serie 118D 2.0-136 D",
+        "location": "Eikelandsosen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/4/352/095/974_aca00901-da9d-4c85-9f43-fea6f760dde8.jpg",
+            "path": "2024/7/vertical-0/11/4/352/095/974_aca00901-da9d-4c85-9f43-fea6f760dde8.jpg",
+            "height": 1280,
+            "width": 960,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720691940000,
+        "coordinates": {
+            "lat": 60.24651,
+            "lon": 5.69009
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352095974",
+        "extras": [],
+        "price": {
+            "amount": 71845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 189239,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK26564",
+        "ad_id": 352095974
+    },
+    {
+        "type": "motor",
+        "id": "360779233",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X5 xDrive30d",
+        "location": "Sandefjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/779/233_dfb2cc68-156f-4955-829c-9c99938d28eb.jpg",
+            "path": "2024/7/vertical-0/10/3/360/779/233_dfb2cc68-156f-4955-829c-9c99938d28eb.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720655429234,
+        "coordinates": {
+            "lat": 59.12858,
+            "lon": 10.28223
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360779233",
+        "extras": [],
+        "price": {
+            "amount": 91845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 260000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "AE25186",
+        "ad_id": 360779233
+    },
+    {
+        "type": "motor",
+        "id": "360768225",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-184 D",
+        "location": "Ulsteinvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/5/360/768/225_6b0122d0-601b-4bbe-ac6d-8f8a40b9047a.jpg",
+            "path": "2024/7/vertical-0/10/5/360/768/225_6b0122d0-601b-4bbe-ac6d-8f8a40b9047a.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720645938082,
+        "coordinates": {
+            "lat": 62.3408,
+            "lon": 5.85191
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360768225",
+        "extras": [],
+        "price": {
+            "amount": 166845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 179000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BS75014",
+        "ad_id": 360768225
+    },
+    {
+        "type": "motor",
+        "id": "360766513",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-163 D",
+        "location": "Odda",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/766/513_3e13efc5-ef57-4c7c-91e7-caaba4a5eb7e.jpg",
+            "path": "2024/7/vertical-0/10/3/360/766/513_3e13efc5-ef57-4c7c-91e7-caaba4a5eb7e.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720642800000,
+        "coordinates": {
+            "lat": 60.0691,
+            "lon": 6.5457
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360766513",
+        "extras": [],
+        "price": {
+            "amount": 131845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 234000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DN58026",
+        "ad_id": 360766513
+    },
+    {
+        "type": "motor",
+        "id": "320305062",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X1 XDRIVE18D 2.0-136 D",
+        "location": "Stavern",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/19/2/320/305/062_696516160.jpg",
+            "path": "2023/9/vertical-0/19/2/320/305/062_696516160.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720638180000,
+        "coordinates": {
+            "lat": 59.01531,
+            "lon": 10.01297
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=320305062",
+        "extras": [],
+        "price": {
+            "amount": 149305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 142500,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "LJ53868",
+        "ad_id": 320305062
+    },
+    {
+        "type": "motor",
+        "id": "357203932",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D xDrive 2.0-163D*M-Sport*Komfortseter*Navi*El.krok",
+        "location": "Grimstad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/2/357/203/932_a6f02e5e-4ee9-4182-9c30-b1cf4befb09d.jpg",
+            "path": "2024/7/vertical-0/10/2/357/203/932_a6f02e5e-4ee9-4182-9c30-b1cf4befb09d.jpg",
+            "height": 2848,
+            "width": 4288,
+            "aspect_ratio": 1.5056179775280898
+        },
+        "flags": [],
+        "timestamp": 1720632977765,
+        "coordinates": {
+            "lat": 58.31082,
+            "lon": 8.54241
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357203932",
+        "extras": [],
+        "price": {
+            "amount": 199900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 228500,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS90655",
+        "ad_id": 357203932
+    },
+    {
+        "type": "motor",
+        "id": "357284355",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 184HK/M-Sport pakke/Sportsseter/HUD/EU 05.2025",
+        "location": "Kjeller",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/5/357/284/355_77285a62-bb27-495d-b5dc-6c96adb47b0c.jpg",
+            "path": "2024/6/vertical-0/14/5/357/284/355_77285a62-bb27-495d-b5dc-6c96adb47b0c.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720632392677,
+        "coordinates": {
+            "lat": 59.97073,
+            "lon": 11.05377
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357284355",
+        "extras": [],
+        "price": {
+            "amount": 174999,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 158000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AY15508",
+        "ad_id": 357284355
+    },
+    {
+        "type": "motor",
+        "id": "356111785",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-163 D",
+        "location": "Hundv\u00e5g",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/5/356/111/785_3d006229-b88a-498e-9fd5-ef900b8e0035.jpg",
+            "path": "2024/6/vertical-0/06/5/356/111/785_3d006229-b88a-498e-9fd5-ef900b8e0035.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720628520000,
+        "coordinates": {
+            "lat": 58.99664,
+            "lon": 5.73221
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356111785",
+        "extras": [],
+        "price": {
+            "amount": 130000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 199000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SD58021",
+        "ad_id": 356111785
+    },
+    {
+        "type": "motor",
+        "id": "360525324",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 316D 2.0-116 D",
+        "location": "Vestfossen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/360/525/324_858de208-7f0b-40e2-94f6-9d6ffc137d83.jpg",
+            "path": "2024/7/vertical-0/09/4/360/525/324_858de208-7f0b-40e2-94f6-9d6ffc137d83.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720622160000,
+        "coordinates": {
+            "lat": 59.72502,
+            "lon": 9.86314
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360525324",
+        "extras": [],
+        "price": {
+            "amount": 86845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 211000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DP15851",
+        "ad_id": 360525324
+    },
+    {
+        "type": "motor",
+        "id": "353971241",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-163 D",
+        "location": "Dr\u00f8bak",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/1/353/971/241_4522f474-1f22-4332-8855-498c64038e22.jpg",
+            "path": "2024/7/vertical-0/10/1/353/971/241_4522f474-1f22-4332-8855-498c64038e22.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720607400000,
+        "coordinates": {
+            "lat": 59.6632,
+            "lon": 10.6488
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353971241",
+        "extras": [],
+        "price": {
+            "amount": 174305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 254000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK84175",
+        "ad_id": 353971241
+    },
+    {
+        "type": "motor",
+        "id": "360652463",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X3 xDrive20d (163hk) Automat",
+        "location": "Tiller",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/652/463_e180b5f6-d5e4-474b-a44b-015ec0ed17f8.jpg",
+            "path": "2024/7/vertical-0/10/3/360/652/463_e180b5f6-d5e4-474b-a44b-015ec0ed17f8.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720597100964,
+        "coordinates": {
+            "lat": 63.34594,
+            "lon": 10.42969
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360652463",
+        "extras": [],
+        "price": {
+            "amount": 121845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 212000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "FT34784",
+        "ad_id": 360652463
+    },
+    {
+        "type": "motor",
+        "id": "360629991",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 316D 2.0-116 D",
+        "location": "Straume",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/629/991_618b9382-e557-4887-a373-71adaf96adfd.jpg",
+            "path": "2024/7/vertical-0/09/1/360/629/991_618b9382-e557-4887-a373-71adaf96adfd.jpg",
+            "height": 1600,
+            "width": 900,
+            "aspect_ratio": 0.5625
+        },
+        "flags": [],
+        "timestamp": 1720557262690,
+        "coordinates": {
+            "lat": 60.35429,
+            "lon": 5.12126
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360629991",
+        "extras": [],
+        "price": {
+            "amount": 154305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 145000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "JD70436",
+        "ad_id": 360629991
+    },
+    {
+        "type": "motor",
+        "id": "360621436",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X3 xDrive20d",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/6/360/621/436_aac1b49c-5cbe-4733-bda0-dd09189268e4.jpg",
+            "path": "2024/7/vertical-0/09/6/360/621/436_aac1b49c-5cbe-4733-bda0-dd09189268e4.jpg",
+            "height": 908,
+            "width": 2016,
+            "aspect_ratio": 2.2202643171806167
+        },
+        "flags": [],
+        "timestamp": 1720556969897,
+        "coordinates": {
+            "lat": 63.44383,
+            "lon": 10.43955
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360621436",
+        "extras": [],
+        "price": {
+            "amount": 161845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 167000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "YE92271",
+        "ad_id": 360621436
+    },
+    {
+        "type": "motor",
+        "id": "360620601",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-184 D",
+        "location": "Vassenden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/620/601_4bda7599-cef3-4bab-a4e9-4788cf51d1f2.jpg",
+            "path": "2024/7/vertical-0/09/1/360/620/601_4bda7599-cef3-4bab-a4e9-4788cf51d1f2.jpg",
+            "height": 4000,
+            "width": 6000,
+            "aspect_ratio": 1.5
+        },
+        "flags": [],
+        "timestamp": 1720556822880,
+        "coordinates": {
+            "lat": 61.49433,
+            "lon": 6.11216
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360620601",
+        "extras": [],
+        "price": {
+            "amount": 166845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 154615,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK59419",
+        "ad_id": 360620601
+    },
+    {
+        "type": "motor",
+        "id": "360619254",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 316D 2.0-116 D",
+        "location": "\u00c5lg\u00e5rd",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/360/619/254_b32a9e3b-51fd-4900-8389-6cc9d915ec7f.jpg",
+            "path": "2024/7/vertical-0/09/4/360/619/254_b32a9e3b-51fd-4900-8389-6cc9d915ec7f.jpg",
+            "height": 1600,
+            "width": 739,
+            "aspect_ratio": 0.461875
+        },
+        "flags": [],
+        "timestamp": 1720555440000,
+        "coordinates": {
+            "lat": 58.76398,
+            "lon": 5.85282
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360619254",
+        "extras": [],
+        "price": {
+            "amount": 76845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 268000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "PP96408",
+        "ad_id": 360619254
+    },
+    {
+        "type": "motor",
+        "id": "360594047",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 320D XDRIVE 177HK M-SPORT SOLTAK ++",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/7/360/594/047_bfa793ff-c1ef-4ae6-a5a8-5b35d14d7159.jpg",
+            "path": "2024/7/vertical-0/09/7/360/594/047_bfa793ff-c1ef-4ae6-a5a8-5b35d14d7159.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720550833120,
+        "coordinates": {
+            "lat": 59.87,
+            "lon": 10.81991
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360594047",
+        "extras": [],
+        "price": {
+            "amount": 99000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 272000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SV39743",
+        "ad_id": 360594047
+    },
+    {
+        "type": "motor",
+        "id": "354384853",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 318D 2.0-143 D",
+        "location": "Borgenhaugen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/25/3/354/384/853_24b94461-1b90-429a-90b3-d409587ee0c6.jpg",
+            "path": "2024/5/vertical-0/25/3/354/384/853_24b94461-1b90-429a-90b3-d409587ee0c6.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720549200000,
+        "coordinates": {
+            "lat": 59.27027,
+            "lon": 11.15036
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354384853",
+        "extras": [],
+        "price": {
+            "amount": 141845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 191000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS68788",
+        "ad_id": 354384853
+    },
+    {
+        "type": "motor",
+        "id": "360612761",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X3 X3 XDRIVE20D 2.0-163 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/612/761_8e5d4ff8-3cbe-4f00-ba7c-a8779aa120e4.jpg",
+            "path": "2024/7/vertical-0/09/1/360/612/761_8e5d4ff8-3cbe-4f00-ba7c-a8779aa120e4.jpg",
+            "height": 1600,
+            "width": 739,
+            "aspect_ratio": 0.461875
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720548060000,
+        "coordinates": {
+            "lat": 59.96793,
+            "lon": 10.7693
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360612761",
+        "extras": [],
+        "price": {
+            "amount": 194305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 213000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BS96555",
+        "ad_id": 360612761
+    },
+    {
+        "type": "motor",
+        "id": "306864679",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-163 D M-sport",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/6/vertical-0/25/9/306/864/679_1452636249.jpg",
+            "path": "2023/6/vertical-0/25/9/306/864/679_1452636249.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720543500000,
+        "coordinates": {
+            "lat": 59.13871,
+            "lon": 11.3845
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=306864679",
+        "extras": [],
+        "price": {
+            "amount": 86845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 224885,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BS14094",
+        "ad_id": 306864679
+    },
+    {
+        "type": "motor",
+        "id": "360601118",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520D 2.0-184 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/8/360/601/118_63d788fe-7022-4919-b03a-06c3d960fcd8.jpg",
+            "path": "2024/7/vertical-0/09/8/360/601/118_63d788fe-7022-4919-b03a-06c3d960fcd8.jpg",
+            "height": 480,
+            "width": 640,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720543238470,
+        "coordinates": {
+            "lat": 59.92909,
+            "lon": 10.64514
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360601118",
+        "extras": [],
+        "price": {
+            "amount": 131845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 141000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DP23678",
+        "ad_id": 360601118
+    },
+    {
+        "type": "motor",
+        "id": "360583046",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 520d",
+        "location": "\u00c5mot",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/6/360/583/046_f9a362d7-a93c-4b35-adf5-79ad664ebdc6.jpg",
+            "path": "2024/7/vertical-0/09/6/360/583/046_f9a362d7-a93c-4b35-adf5-79ad664ebdc6.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720535909748,
+        "coordinates": {
+            "lat": 59.93886,
+            "lon": 9.90571
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360583046",
+        "extras": [],
+        "price": {
+            "amount": 194305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 182000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "LJ60270",
+        "ad_id": 360583046
+    },
+    {
+        "type": "motor",
+        "id": "360568731",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 525D 3.0- 320HK/M-Sport/Headup/Navipro",
+        "location": "Stavanger",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/568/731_eb024eb6-9459-4880-ba3f-4f7ba6ca1f60.jpg",
+            "path": "2024/7/vertical-0/09/1/360/568/731_eb024eb6-9459-4880-ba3f-4f7ba6ca1f60.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720527720000,
+        "coordinates": {
+            "lat": 58.97918,
+            "lon": 5.7159
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360568731",
+        "extras": [],
+        "price": {
+            "amount": 190845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 226000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SD61118",
+        "ad_id": 360568731
+    },
+    {
+        "type": "motor",
+        "id": "360562053",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW X3 X3 XDRIVE20D 2.0-184 D",
+        "location": "Vigrestad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/3/360/562/053_52984b91-0c18-407b-8a47-f094d6b95d8d.jpg",
+            "path": "2024/7/vertical-0/09/3/360/562/053_52984b91-0c18-407b-8a47-f094d6b95d8d.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720524984486,
+        "coordinates": {
+            "lat": 58.56427,
+            "lon": 5.69062
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360562053",
+        "extras": [],
+        "price": {
+            "amount": 130000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 201600,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK35763",
+        "ad_id": 360562053
+    },
+    {
+        "type": "motor",
         "id": "360557981",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW X1 X1 XDRIVE 20D 2.0-163 D",
@@ -48,7 +1310,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1720474532228,
+        "timestamp": 1720474530133,
         "coordinates": {
             "lat": 62.5062,
             "lon": 6.1249
@@ -244,11 +1506,11 @@
         "heading": "BMW 1-serie 116D - Automat - M-Sport - HiFi",
         "location": "Moss",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/4/352/794/424_52ae4817-b60d-4b12-ae94-8504ad16b245.jpg",
-            "path": "2024/7/vertical-0/08/4/352/794/424_52ae4817-b60d-4b12-ae94-8504ad16b245.jpg",
-            "height": 4000,
-            "width": 6000,
-            "aspect_ratio": 1.5
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/352/794/424_26574d53-d18f-4903-97e6-180f3a7b2e34.jpg",
+            "path": "2024/7/vertical-0/09/4/352/794/424_26574d53-d18f-4903-97e6-180f3a7b2e34.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
         },
         "flags": [
             "user_verified",
@@ -275,7 +1537,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352794424",
         "extras": [],
         "price": {
-            "amount": 179842,
+            "amount": 174842,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -458,7 +1720,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1720437433615,
+        "timestamp": 1720437433572,
         "coordinates": {
             "lat": 59.85901,
             "lon": 10.49373
@@ -503,7 +1765,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360387301",
         "extras": [],
         "price": {
-            "amount": 181845,
+            "amount": 177845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -531,7 +1793,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720417699949,
+        "timestamp": 1720417699901,
         "coordinates": {
             "lat": 59.93711,
             "lon": 5.86744
@@ -652,7 +1914,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720364168914,
+        "timestamp": 1720364168195,
         "coordinates": {
             "lat": 59.89224,
             "lon": 10.61885
@@ -718,6 +1980,55 @@
         "service_documents": [],
         "regno": "SD62134",
         "ad_id": 350505941
+    },
+    {
+        "type": "motor",
+        "id": "360295196",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 5-serie 525D XDRIVE 2.0-218 D",
+        "location": "F\u00f8rde",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/6/360/295/196_b80f2c6f-f7fd-4228-b712-30c465bc9c5e.jpg",
+            "path": "2024/7/vertical-0/11/6/360/295/196_b80f2c6f-f7fd-4228-b712-30c465bc9c5e.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720359988923,
+        "coordinates": {
+            "lat": 61.46061,
+            "lon": 5.88809
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360295196",
+        "extras": [],
+        "price": {
+            "amount": 150845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 201000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BT65463",
+        "ad_id": 360295196
     },
     {
         "type": "motor",
@@ -813,7 +2124,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360253657",
         "extras": [],
         "price": {
-            "amount": 147305,
+            "amount": 135305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -840,7 +2151,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1720346412945,
+        "timestamp": 1720346412901,
         "coordinates": {
             "lat": 60.2022,
             "lon": 5.45312
@@ -1005,92 +2316,6 @@
     },
     {
         "type": "motor",
-        "id": "360169052",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 X1 XDRIVE18D 2.0-136 D",
-        "location": "\u00c5lesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/2/360/169/052_4a0b87ce-05b1-47db-87bf-74dae4043149.jpg",
-            "path": "2024/7/vertical-0/06/2/360/169/052_4a0b87ce-05b1-47db-87bf-74dae4043149.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720293540000,
-        "coordinates": {
-            "lat": 62.4751,
-            "lon": 6.16051
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360169052",
-        "extras": [],
-        "price": {
-            "amount": 115845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 201000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BD79152",
-        "ad_id": 360169052
-    },
-    {
-        "type": "motor",
-        "id": "360186042",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie Touring Automat Edition Exclusive",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/2/360/186/042_88ae4ca3-f879-423f-aecd-1ec1df497487.jpg",
-            "path": "2024/7/vertical-0/06/2/360/186/042_88ae4ca3-f879-423f-aecd-1ec1df497487.jpg",
-            "height": 3072,
-            "width": 4080,
-            "aspect_ratio": 1.328125
-        },
-        "flags": [],
-        "timestamp": 1720291080000,
-        "coordinates": {
-            "lat": 59.93474,
-            "lon": 10.6554
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360186042",
-        "extras": [],
-        "price": {
-            "amount": 120000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 131500,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BR91739",
-        "ad_id": 360186042
-    },
-    {
-        "type": "motor",
         "id": "360152482",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 5-serie 525D XDRIVE 2.0-218 D",
@@ -1113,7 +2338,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360152482",
         "extras": [],
         "price": {
-            "amount": 186845,
+            "amount": 179845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1495,7 +2720,7 @@
             "price_unit": "kr"
         },
         "year": 2012,
-        "mileage": 139856,
+        "mileage": 138786,
         "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [
             "Service"
@@ -1587,7 +2812,7 @@
             "aspect_ratio": 1.4998622968879096
         },
         "flags": [],
-        "timestamp": 1720182907190,
+        "timestamp": 1720182907146,
         "coordinates": {
             "lat": 59.00686,
             "lon": 5.72671
@@ -1609,55 +2834,6 @@
         ],
         "regno": "RK52300",
         "ad_id": 359973819
-    },
-    {
-        "type": "motor",
-        "id": "126341495",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X5 X5 3.0-245 D",
-        "location": "Skoppum",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/5/126/341/495_363fb03f-8c14-469d-9fb7-7e605859a9da.jpg",
-            "path": "2024/7/vertical-0/03/5/126/341/495_363fb03f-8c14-469d-9fb7-7e605859a9da.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720176720000,
-        "coordinates": {
-            "lat": 59.3834,
-            "lon": 10.4239
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=126341495",
-        "extras": [],
-        "price": {
-            "amount": 153719,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 240506,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "LJ40570",
-        "ad_id": 126341495
     },
     {
         "type": "motor",
@@ -1745,57 +2921,6 @@
     },
     {
         "type": "motor",
-        "id": "359949862",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X3 xDrive20d 163hk aut",
-        "location": "S\u00e6velandsvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/2/359/949/862_27733892-a96e-4640-8911-e9b8261327c8.jpg",
-            "path": "2024/7/vertical-0/04/2/359/949/862_27733892-a96e-4640-8911-e9b8261327c8.jpg",
-            "height": 2312,
-            "width": 1736,
-            "aspect_ratio": 0.7508650519031141
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720127251125,
-        "coordinates": {
-            "lat": 59.27505,
-            "lon": 5.19406
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359949862",
-        "extras": [],
-        "price": {
-            "amount": 184305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 155000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP34904",
-        "ad_id": 359949862
-    },
-    {
-        "type": "motor",
         "id": "359948281",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie 318D 2.0-136 D",
@@ -1853,7 +2978,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359930463",
         "extras": [],
         "price": {
-            "amount": 169000,
+            "amount": 159000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1929,7 +3054,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1720113571772,
+        "timestamp": 1720113571584,
         "coordinates": {
             "lat": 59.577,
             "lon": 11.16531
@@ -2116,7 +3241,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359838097",
         "extras": [],
         "price": {
-            "amount": 126845,
+            "amount": 121845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2200,57 +3325,6 @@
         ],
         "regno": "VH26315",
         "ad_id": 296359087
-    },
-    {
-        "type": "motor",
-        "id": "359797541",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 316D 2.0-116 D",
-        "location": "Kval\u00f8ya",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/1/359/797/541_6ddc1eb3-005d-42ee-bda5-847760222be3.jpg",
-            "path": "2024/7/vertical-0/03/1/359/797/541_6ddc1eb3-005d-42ee-bda5-847760222be3.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720072052184,
-        "coordinates": {
-            "lat": 69.6855,
-            "lon": 18.65339
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359797541",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 142000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DN65783",
-        "ad_id": 359797541
     },
     {
         "type": "motor",
@@ -2423,7 +3497,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720035451479,
+        "timestamp": 1720035451444,
         "coordinates": {
             "lat": 60.203,
             "lon": 5.08621
@@ -2479,7 +3553,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359535207",
         "extras": [],
         "price": {
-            "amount": 139305,
+            "amount": 129305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2504,7 +3578,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1720031223186,
+        "timestamp": 1720031223139,
         "coordinates": {
             "lat": 59.59881,
             "lon": 9.66422
@@ -2564,43 +3638,6 @@
     },
     {
         "type": "motor",
-        "id": "359779090",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 XDRIVE 18D 2.0-136 D",
-        "location": "Trondheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/0/359/779/090_3cf5ba09-fbad-452f-a446-4cd4bf2ee970.jpg",
-            "path": "2024/7/vertical-0/07/0/359/779/090_3cf5ba09-fbad-452f-a446-4cd4bf2ee970.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720025716231,
-        "coordinates": {
-            "lat": 63.40945,
-            "lon": 10.36682
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359779090",
-        "extras": [],
-        "price": {
-            "amount": 100845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 152000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "VH22854",
-        "ad_id": 359779090
-    },
-    {
-        "type": "motor",
         "id": "353769225",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie 320D XDRIVE 2.0-163 D",
@@ -2633,57 +3670,6 @@
         "service_documents": [],
         "regno": "PD37433",
         "ad_id": 353769225
-    },
-    {
-        "type": "motor",
-        "id": "264982364",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 X1 XDRIVE 2.0-143 D",
-        "location": "Moelv",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/5/vertical-0/11/4/264/982/364_1307484990.jpg",
-            "path": "2023/5/vertical-0/11/4/264/982/364_1307484990.jpg",
-            "height": 1920,
-            "width": 1080,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720021020000,
-        "coordinates": {
-            "lat": 60.92895,
-            "lon": 10.70055
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=264982364",
-        "extras": [],
-        "price": {
-            "amount": 133034,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 145000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS56888",
-        "ad_id": 264982364
     },
     {
         "type": "motor",
@@ -2773,41 +3759,6 @@
     },
     {
         "type": "motor",
-        "id": "359759161",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 1-serie 116D 2.0-116 D",
-        "location": "Trondheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/1/359/759/161_05e8c14f-f297-4a55-a43f-ae75903ad7bb.jpg",
-            "path": "2024/7/vertical-0/03/1/359/759/161_05e8c14f-f297-4a55-a43f-ae75903ad7bb.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1720017191488,
-        "coordinates": {
-            "lat": 63.429,
-            "lon": 10.3682
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359759161",
-        "extras": [],
-        "price": {
-            "amount": 104305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 121400,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF63501",
-        "ad_id": 359759161
-    },
-    {
-        "type": "motor",
         "id": "359717708",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 5-serie 520D 2.0-163 D",
@@ -2820,7 +3771,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719998606962,
+        "timestamp": 1719998606868,
         "coordinates": {
             "lat": 59.9493,
             "lon": 10.9335
@@ -2882,7 +3833,7 @@
         "type": "motor",
         "id": "359682243",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 xDrive18d",
+        "heading": "BMW X1 xDrive18d./ NYLIG EU-godkjendt!",
         "location": "F\u00f8rde",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/3/359/682/243_5ae48527-58da-447f-9c50-fe015813276e.jpg",
@@ -2953,7 +3904,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359598993",
         "extras": [],
         "price": {
-            "amount": 199990,
+            "amount": 189990,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3027,7 +3978,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359661656",
         "extras": [],
         "price": {
-            "amount": 49845,
+            "amount": 35345,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3136,7 +4087,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359428509",
         "extras": [],
         "price": {
-            "amount": 149305,
+            "amount": 145305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3151,9 +4102,44 @@
     },
     {
         "type": "motor",
+        "id": "358679311",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "BMW 3-serie 320D 2.0-184 D",
+        "location": "Askim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/679/311_35a470e1-d267-4c44-9dcc-c824b6b5ba13.jpg",
+            "path": "2024/6/vertical-0/25/1/358/679/311_35a470e1-d267-4c44-9dcc-c824b6b5ba13.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1719934620000,
+        "coordinates": {
+            "lat": 59.5936,
+            "lon": 11.1923
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358679311",
+        "extras": [],
+        "price": {
+            "amount": 111845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 199000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS69523",
+        "ad_id": 358679311
+    },
+    {
+        "type": "motor",
         "id": "359612803",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 xDrive18d, Velholdt-Automat-Firehjulsdrift m.m",
+        "heading": "BMW X1 xDRIVE18D, VELHOLDT PEN-AUTOMAT-4WD-HENGERFESTE m.m",
         "location": "H\u00f8nefoss",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/3/359/612/803_e922f3d3-249e-4726-8ce6-5929bc3b28dd.jpg",
@@ -3173,12 +4159,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359612803",
         "extras": [],
         "price": {
-            "amount": 184305,
+            "amount": 179305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2013,
-        "mileage": 92270,
+        "mileage": 92750,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "DP36476",
@@ -3360,7 +4346,7 @@
         "type": "motor",
         "id": "359527717",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 320D XDRIVE 2.0 D /// M-Sport",
+        "heading": "BMW 3-serie 320D GT XDRIVE 2.0 D /// M-Sport",
         "location": "Notodden",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/7/359/527/717_da1ecf3d-9276-4287-b562-441039de811c.jpg",
@@ -3380,7 +4366,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359527717",
         "extras": [],
         "price": {
-            "amount": 199500,
+            "amount": 195000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3620,57 +4606,6 @@
         "service_documents": [],
         "regno": "SV40712",
         "ad_id": 345636494
-    },
-    {
-        "type": "motor",
-        "id": "359491767",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie Touring aut",
-        "location": "Kristiansand S",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/7/359/491/767_b8e5ee1b-67ff-4bd8-8b17-2f1755636c5e.jpg",
-            "path": "2024/7/vertical-0/01/7/359/491/767_b8e5ee1b-67ff-4bd8-8b17-2f1755636c5e.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719849600000,
-        "coordinates": {
-            "lat": 58.1246,
-            "lon": 7.93539
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359491767",
-        "extras": [],
-        "price": {
-            "amount": 114305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 236000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP45725",
-        "ad_id": 359491767
     },
     {
         "type": "motor",
@@ -3973,7 +4908,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359401451",
         "extras": [],
         "price": {
-            "amount": 181845,
+            "amount": 176845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4036,7 +4971,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1719776546494,
+        "timestamp": 1719776546373,
         "coordinates": {
             "lat": 69.34223,
             "lon": 18.09058
@@ -4298,57 +5233,6 @@
     },
     {
         "type": "motor",
-        "id": "359315883",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 520D 2.0-184 D",
-        "location": "Vigrestad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/3/359/315/883_6bf65fef-0b5b-45f9-9cc9-b63225f7e630.jpg",
-            "path": "2024/6/vertical-0/30/3/359/315/883_6bf65fef-0b5b-45f9-9cc9-b63225f7e630.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719751680000,
-        "coordinates": {
-            "lat": 58.56002,
-            "lon": 5.73921
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359315883",
-        "extras": [],
-        "price": {
-            "amount": 166845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 174010,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "RK87870",
-        "ad_id": 359315883
-    },
-    {
-        "type": "motor",
         "id": "359119393",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie 316D 2.0-116 D",
@@ -4361,7 +5245,7 @@
             "aspect_ratio": 2.14190093708166
         },
         "flags": [],
-        "timestamp": 1719750304443,
+        "timestamp": 1719750304374,
         "coordinates": {
             "lat": 59.55519,
             "lon": 11.32537
@@ -4406,7 +5290,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358277125",
         "extras": [],
         "price": {
-            "amount": 84345,
+            "amount": 81845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4573,7 +5457,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719600420434,
+        "timestamp": 1719600420373,
         "coordinates": {
             "lat": 62.7388,
             "lon": 7.16026
@@ -4682,7 +5566,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719572953944,
+        "timestamp": 1719572953822,
         "coordinates": {
             "lat": 60.0741,
             "lon": 11.13799
@@ -4797,12 +5681,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359024361",
         "extras": [],
         "price": {
-            "amount": 160845,
+            "amount": 156845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2012,
-        "mileage": 193000,
+        "mileage": 194000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "BD77801",
@@ -4857,7 +5741,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719516446474,
+        "timestamp": 1719516446374,
         "coordinates": {
             "lat": 59.0542,
             "lon": 10.02741
@@ -4978,41 +5862,6 @@
     },
     {
         "type": "motor",
-        "id": "355323692",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 xDrive18d",
-        "location": "Kl\u00e6bu",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/02/2/355/323/692_8c13577d-9834-4422-b769-2e3692d90872.jpg",
-            "path": "2024/6/vertical-0/02/2/355/323/692_8c13577d-9834-4422-b769-2e3692d90872.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719486856838,
-        "coordinates": {
-            "lat": 63.29796,
-            "lon": 10.48679
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355323692",
-        "extras": [],
-        "price": {
-            "amount": 72845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 227000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "SD55734",
-        "ad_id": 355323692
-    },
-    {
-        "type": "motor",
         "id": "358867814",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 5-serie 520D 2.0-163 D",
@@ -5130,7 +5979,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719418450409,
+        "timestamp": 1719418450392,
         "coordinates": {
             "lat": 59.28571,
             "lon": 11.14405
@@ -5165,7 +6014,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719407309747,
+        "timestamp": 1719407309711,
         "coordinates": {
             "lat": 61.30972,
             "lon": 7.79798
@@ -5202,7 +6051,7 @@
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719392941458,
+        "timestamp": 1719392941403,
         "coordinates": {
             "lat": 60.2909,
             "lon": 10.61589
@@ -5442,7 +6291,7 @@
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1719327755466,
+        "timestamp": 1719327755403,
         "coordinates": {
             "lat": 60.4587,
             "lon": 5.43912
@@ -5513,14 +6362,28 @@
             "width": 4000,
             "aspect_ratio": 1.3333333333333333
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1719297368795,
         "coordinates": {
             "lat": 58.52751,
             "lon": 8.64069
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358659825",
         "extras": [],
         "price": {
@@ -5530,7 +6393,7 @@
         },
         "year": 2011,
         "mileage": 335305,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "RK35079",
         "ad_id": 358659825
@@ -5643,57 +6506,6 @@
         ],
         "regno": "SU93984",
         "ad_id": 327254423
-    },
-    {
-        "type": "motor",
-        "id": "358630555",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie - 2.0-116 D F31 M-Sport",
-        "location": "Sk\u00e5la",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/5/358/630/555_c9718f56-7c3d-4756-b498-4e72dea1e6dc.jpg",
-            "path": "2024/6/vertical-0/24/5/358/630/555_c9718f56-7c3d-4756-b498-4e72dea1e6dc.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719258900000,
-        "coordinates": {
-            "lat": 62.7019,
-            "lon": 7.42359
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358630555",
-        "extras": [],
-        "price": {
-            "amount": 169305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 135000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP22130",
-        "ad_id": 358630555
     },
     {
         "type": "motor",
@@ -6208,7 +7020,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358498210",
         "extras": [],
         "price": {
-            "amount": 199500,
+            "amount": 195000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6274,91 +7086,6 @@
     },
     {
         "type": "motor",
-        "id": "354519486",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 1-serie 116D 2.0-116 D",
-        "location": "Ulset",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/26/6/354/519/486_5dd17551-00d8-4ce1-b0e7-7742c8bae36a.jpg",
-            "path": "2024/5/vertical-0/26/6/354/519/486_5dd17551-00d8-4ce1-b0e7-7742c8bae36a.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719162960000,
-        "coordinates": {
-            "lat": 60.46492,
-            "lon": 5.2925
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354519486",
-        "extras": [],
-        "price": {
-            "amount": 144000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 141346,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "JD70569",
-        "ad_id": 354519486
-    },
-    {
-        "type": "motor",
-        "id": "358465229",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 2.0-184 D/STR\u00d8KEN/EU 2026/171.000km/Full option",
-        "location": "Haugesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/9/358/465/229_fbab42be-6293-4267-96b7-ac3c9a289624.jpg",
-            "path": "2024/6/vertical-0/23/9/358/465/229_fbab42be-6293-4267-96b7-ac3c9a289624.jpg",
-            "height": 2304,
-            "width": 4096,
-            "aspect_ratio": 1.7777777777777777
-        },
-        "flags": [],
-        "timestamp": 1719160560000,
-        "coordinates": {
-            "lat": 59.4161,
-            "lon": 5.26801
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358465229",
-        "extras": [],
-        "price": {
-            "amount": 146845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 171850,
-        "dealer_segment": "Privat",
-        "warranty_duration": 6,
-        "service_documents": [],
-        "regno": "SD59491",
-        "ad_id": 358465229
-    },
-    {
-        "type": "motor",
         "id": "358362611",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie 316D 2.0-116 D",
@@ -6406,7 +7133,7 @@
             "aspect_ratio": 0.5875
         },
         "flags": [],
-        "timestamp": 1719068237151,
+        "timestamp": 1719068237125,
         "coordinates": {
             "lat": 59.92802,
             "lon": 10.75431
@@ -6481,7 +7208,7 @@
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1719050226253,
+        "timestamp": 1719050226125,
         "coordinates": {
             "lat": 60.35966,
             "lon": 5.11489
@@ -6512,43 +7239,6 @@
         "service_documents": [],
         "regno": "SV42873",
         "ad_id": 357496233
-    },
-    {
-        "type": "motor",
-        "id": "351519086",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 1-serie 116ED 1.6-116 D",
-        "location": "Norheimsund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/15/6/351/519/086_b86e1a23-68d9-42c8-87e8-dc8bd93fc093.jpg",
-            "path": "2024/5/vertical-0/15/6/351/519/086_b86e1a23-68d9-42c8-87e8-dc8bd93fc093.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719040920000,
-        "coordinates": {
-            "lat": 60.3729,
-            "lon": 6.1447
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=351519086",
-        "extras": [],
-        "price": {
-            "amount": 104305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 155000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS93372",
-        "ad_id": 351519086
     },
     {
         "type": "motor",
@@ -6686,7 +7376,7 @@
             "aspect_ratio": 1.606425702811245
         },
         "flags": [],
-        "timestamp": 1718915175548,
+        "timestamp": 1718915175481,
         "coordinates": {
             "lat": 67.09888,
             "lon": 15.38406
@@ -6938,7 +7628,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357976274",
         "extras": [],
         "price": {
-            "amount": 129845,
+            "amount": 123845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7022,7 +7712,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355869866",
         "extras": [],
         "price": {
-            "amount": 137844,
+            "amount": 131345,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7092,7 +7782,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357134993",
         "extras": [],
         "price": {
-            "amount": 87645,
+            "amount": 71845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7127,12 +7817,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=346247180",
         "extras": [],
         "price": {
-            "amount": 128845,
+            "amount": 119845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2010,
-        "mileage": 187000,
+        "mileage": 189000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "BR92344",
@@ -7362,7 +8052,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357717689",
         "extras": [],
         "price": {
-            "amount": 189305,
+            "amount": 179305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7666,57 +8356,6 @@
     },
     {
         "type": "motor",
-        "id": "357686179",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 2-serie 163 hk 7 seter,HU-display ,Panorma,Skinn",
-        "location": "Borgenhaugen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/17/9/357/686/179_cefc3087-e3a0-459d-8aa9-68ca023bc49b.jpg",
-            "path": "2024/6/vertical-0/17/9/357/686/179_cefc3087-e3a0-459d-8aa9-68ca023bc49b.jpg",
-            "height": 1280,
-            "width": 960,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718646202962,
-        "coordinates": {
-            "lat": 59.2738,
-            "lon": 11.19082
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357686179",
-        "extras": [],
-        "price": {
-            "amount": 169305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 184000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BT37582",
-        "ad_id": 357686179
-    },
-    {
-        "type": "motor",
         "id": "357671228",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW X1 xDrive18d",
@@ -7774,7 +8413,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=326389963",
         "extras": [],
         "price": {
-            "amount": 131777,
+            "amount": 126777,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7883,7 +8522,7 @@
             "aspect_ratio": 1.3544303797468353
         },
         "flags": [],
-        "timestamp": 1718570972262,
+        "timestamp": 1718570972214,
         "coordinates": {
             "lat": 59.76468,
             "lon": 10.17483
@@ -8072,7 +8711,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355498400",
         "extras": [],
         "price": {
-            "amount": 161845,
+            "amount": 156845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -8244,12 +8883,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352640323",
         "extras": [],
         "price": {
-            "amount": 189805,
+            "amount": 184305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2014,
-        "mileage": 208000,
+        "mileage": 210000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "RK80653",
@@ -8495,7 +9134,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357186466",
         "extras": [],
         "price": {
-            "amount": 61845,
+            "amount": 51845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -8540,41 +9179,6 @@
         "service_documents": [],
         "regno": "NF64927",
         "ad_id": 356388872
-    },
-    {
-        "type": "motor",
-        "id": "357098656",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 525D 3.0-204 D",
-        "location": "Lillehammer",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/13/6/357/098/656_7bb444b4-ce7c-46e9-aab9-44ed471bf755.jpg",
-            "path": "2024/6/vertical-0/13/6/357/098/656_7bb444b4-ce7c-46e9-aab9-44ed471bf755.jpg",
-            "height": 1536,
-            "width": 2048,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718291952866,
-        "coordinates": {
-            "lat": 61.10575,
-            "lon": 10.48089
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357098656",
-        "extras": [],
-        "price": {
-            "amount": 136845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 178146,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "JR29746",
-        "ad_id": 357098656
     },
     {
         "type": "motor",
@@ -8803,90 +9407,6 @@
     },
     {
         "type": "motor",
-        "id": "357015532",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 316D 2.0-116 D",
-        "location": "Hommelvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/2/357/015/532_eebaca94-bcf9-4e11-bb88-62c570414cb8.jpg",
-            "path": "2024/6/vertical-0/12/2/357/015/532_eebaca94-bcf9-4e11-bb88-62c570414cb8.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718223960000,
-        "coordinates": {
-            "lat": 63.4114,
-            "lon": 10.7943
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357015532",
-        "extras": [],
-        "price": {
-            "amount": 61845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 201400,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "VH21349",
-        "ad_id": 357015532
-    },
-    {
-        "type": "motor",
-        "id": "356942312",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 X1 XDRIVE 20D 2.0-163 D",
-        "location": "Prestfoss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/2/356/942/312_e1292686-4527-4ee5-8ee3-4b89f50dc5d5.jpg",
-            "path": "2024/6/vertical-0/12/2/356/942/312_e1292686-4527-4ee5-8ee3-4b89f50dc5d5.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718194980000,
-        "coordinates": {
-            "lat": 60.04276,
-            "lon": 9.63167
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356942312",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 230000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "KT78976",
-        "ad_id": 356942312
-    },
-    {
-        "type": "motor",
         "id": "356926849",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 5-serie 520D 2.0-184 D",
@@ -9066,249 +9586,6 @@
     },
     {
         "type": "motor",
-        "id": "326229911",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 320D XDRIVE 2.0-163 D",
-        "location": "Hj\u00f8rungav\u00e5g",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/28/1/326/229/911_700564145.jpg",
-            "path": "2023/10/vertical-0/28/1/326/229/911_700564145.jpg",
-            "height": 934,
-            "width": 2000,
-            "aspect_ratio": 2.1413276231263385
-        },
-        "flags": [],
-        "timestamp": 1718099160000,
-        "coordinates": {
-            "lat": 62.3548,
-            "lon": 6.07429
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=326229911",
-        "extras": [],
-        "price": {
-            "amount": 169147,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 215690,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "NF61634",
-        "ad_id": 326229911
-    },
-    {
-        "type": "motor",
-        "id": "299690493",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 7-serie 740D XDRIVE 3.0-306 D",
-        "location": "Stadsbygd",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/5/vertical-0/03/3/299/690/493_774436910.jpg",
-            "path": "2023/5/vertical-0/03/3/299/690/493_774436910.jpg",
-            "height": 2000,
-            "width": 1500,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718095740000,
-        "coordinates": {
-            "lat": 63.4947,
-            "lon": 10.00796
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=299690493",
-        "extras": [],
-        "price": {
-            "amount": 176777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 271200,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BT15114",
-        "ad_id": 299690493
-    },
-    {
-        "type": "motor",
-        "id": "255309604",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X1 X1 XDRIVE 2.0-136 D",
-        "location": "Voss",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2022/5/vertical-0/01/4/255/309/604_975947757.jpg",
-            "path": "2022/5/vertical-0/01/4/255/309/604_975947757.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718053260000,
-        "coordinates": {
-            "lat": 60.62821,
-            "lon": 6.41924
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=255309604",
-        "extras": [],
-        "price": {
-            "amount": 114034,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 215000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS82647",
-        "ad_id": 255309604
-    },
-    {
-        "type": "motor",
-        "id": "262831767",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 520d Touring (163hk) Automat",
-        "location": "Lyngseidet",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2022/6/vertical-0/20/7/262/831/767_421889638.jpg",
-            "path": "2022/6/vertical-0/20/7/262/831/767_421889638.jpg",
-            "height": 1800,
-            "width": 4000,
-            "aspect_ratio": 2.2222222222222223
-        },
-        "flags": [],
-        "timestamp": 1718021520000,
-        "coordinates": {
-            "lat": 69.56293,
-            "lon": 20.22054
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=262831767",
-        "extras": [],
-        "price": {
-            "amount": 157034,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 106142,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS30059",
-        "ad_id": 262831767
-    },
-    {
-        "type": "motor",
-        "id": "356476620",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X5 xDrive30d",
-        "location": "Porsgrunn",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/09/0/356/476/620_ca9a0f42-390c-42ad-be66-99d9fd6a5b9f.jpg",
-            "path": "2024/6/vertical-0/09/0/356/476/620_ca9a0f42-390c-42ad-be66-99d9fd6a5b9f.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718006419941,
-        "coordinates": {
-            "lat": 59.1381,
-            "lon": 9.62971
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356476620",
-        "extras": [],
-        "price": {
-            "amount": 170845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 230000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "ad_id": 356476620
-    },
-    {
-        "type": "motor",
-        "id": "350517061",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 2-serie 220D XDRIVE ACTIVE TOURER 2.0-163 D",
-        "location": "Eidsvoll Verk",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/1/350/517/061_eae68ba2-ea31-443a-91e3-9241c9de15f3.jpg",
-            "path": "2024/4/vertical-0/27/1/350/517/061_eae68ba2-ea31-443a-91e3-9241c9de15f3.jpg",
-            "height": 3264,
-            "width": 2448,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717973880000,
-        "coordinates": {
-            "lat": 60.30117,
-            "lon": 11.15615
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350517061",
-        "extras": [],
-        "price": {
-            "amount": 184805,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 122000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "CF81347",
-        "ad_id": 350517061
-    },
-    {
-        "type": "motor",
         "id": "356588691",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie - 2.0-316D",
@@ -9341,128 +9618,6 @@
         "service_documents": [],
         "regno": "DP16395",
         "ad_id": 356588691
-    },
-    {
-        "type": "motor",
-        "id": "356587576",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X3 //BILLIGST I NORGE//MSPORT//SKINN//PANO//KROK//HUD//",
-        "location": "Drammen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/6/356/587/576_fa11724d-7f05-4d13-becd-ccdc35d5a1f2.jpg",
-            "path": "2024/6/vertical-0/12/6/356/587/576_fa11724d-7f05-4d13-becd-ccdc35d5a1f2.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717969200000,
-        "coordinates": {
-            "lat": 59.70939,
-            "lon": 10.154
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356587576",
-        "extras": [],
-        "price": {
-            "amount": 173000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 169874,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "ad_id": 356587576
-    },
-    {
-        "type": "motor",
-        "id": "341496893",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 520D 2.0-184 D",
-        "location": "Brumunddal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/24/3/341/496/893_13775510.jpg",
-            "path": "2024/2/vertical-0/24/3/341/496/893_13775510.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1717957980000,
-        "coordinates": {
-            "lat": 60.89673,
-            "lon": 10.96177
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=341496893",
-        "extras": [],
-        "price": {
-            "amount": 131845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 237000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BU26155",
-        "ad_id": 341496893
-    },
-    {
-        "type": "motor",
-        "id": "308475993",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 1-serie 116d EfficientDynamics | Fartsholder | Oppgradert!",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/09/3/308/475/993_37b5e846-3917-4a88-9472-9002392e44ff.jpg",
-            "path": "2024/6/vertical-0/09/3/308/475/993_37b5e846-3917-4a88-9472-9002392e44ff.jpg",
-            "height": 4284,
-            "width": 5712,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1717957920000,
-        "coordinates": {
-            "lat": 59.93796,
-            "lon": 10.7588
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=308475993",
-        "extras": [],
-        "price": {
-            "amount": 104147,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 133000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BT16682",
-        "ad_id": 308475993
     },
     {
         "type": "motor",
@@ -9537,57 +9692,6 @@
         ],
         "regno": "BS54139",
         "ad_id": 356097018
-    },
-    {
-        "type": "motor",
-        "id": "356048218",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW X3 xDrive20d",
-        "location": "Skien",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/06/8/356/048/218_2553854b-b389-4d91-ae48-c7f446e2bb3e.jpg",
-            "path": "2024/6/vertical-0/06/8/356/048/218_2553854b-b389-4d91-ae48-c7f446e2bb3e.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717680300000,
-        "coordinates": {
-            "lat": 59.2023,
-            "lon": 9.6245
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356048218",
-        "extras": [],
-        "price": {
-            "amount": 113845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 220000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "VH63589",
-        "ad_id": 356048218
     },
     {
         "type": "motor",
@@ -10010,7 +10114,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354312118",
         "extras": [],
         "price": {
-            "amount": 79999,
+            "amount": 75000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -10020,55 +10124,6 @@
         "service_documents": [],
         "regno": "BS81124",
         "ad_id": 354312118
-    },
-    {
-        "type": "motor",
-        "id": "355140480",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 520D 2.0-184 D",
-        "location": "Varteig",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/30/0/355/140/480_8cf84258-ece4-49ca-bafd-f71a970c8582.jpg",
-            "path": "2024/5/vertical-0/30/0/355/140/480_8cf84258-ece4-49ca-bafd-f71a970c8582.jpg",
-            "height": 1600,
-            "width": 1384,
-            "aspect_ratio": 0.865
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717103042207,
-        "coordinates": {
-            "lat": 59.3504,
-            "lon": 11.1882
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355140480",
-        "extras": [],
-        "price": {
-            "amount": 130845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 182300,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "AS32692",
-        "ad_id": 355140480
     },
     {
         "type": "motor",
@@ -10144,41 +10199,6 @@
     },
     {
         "type": "motor",
-        "id": "354583300",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie 520D 2.0-184. DAT M-Sport-Pano-Hud-Navi-Skinn-Key less.",
-        "location": "Hjellestad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/26/0/354/583/300_51e98b93-de05-4546-a516-a7fab8e52202.jpg",
-            "path": "2024/5/vertical-0/26/0/354/583/300_51e98b93-de05-4546-a516-a7fab8e52202.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1716826500000,
-        "coordinates": {
-            "lat": 60.25515,
-            "lon": 5.26083
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354583300",
-        "extras": [],
-        "price": {
-            "amount": 169000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 172000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS54619",
-        "ad_id": 354583300
-    },
-    {
-        "type": "motor",
         "id": "350248236",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "BMW 3-serie 316D 2.0-116 D",
@@ -10211,129 +10231,6 @@
         "service_documents": [],
         "regno": "JD60648",
         "ad_id": 350248236
-    },
-    {
-        "type": "motor",
-        "id": "354609903",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 5-serie - 2.0-163 D",
-        "location": "Trondheim",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/3/354/609/903_469cac40-7272-44f5-bbee-8e009eb56a01.jpg",
-            "path": "2024/6/vertical-0/27/3/354/609/903_469cac40-7272-44f5-bbee-8e009eb56a01.jpg",
-            "height": 589,
-            "width": 1000,
-            "aspect_ratio": 1.697792869269949
-        },
-        "flags": [],
-        "timestamp": 1716815289009,
-        "coordinates": {
-            "lat": 63.42015,
-            "lon": 10.44868
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354609903",
-        "extras": [],
-        "price": {
-            "amount": 179900,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 175600,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS61498",
-        "ad_id": 354609903
-    },
-    {
-        "type": "motor",
-        "id": "354657868",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 318D 2.0-143 D",
-        "location": "Stord",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/8/354/657/868_7fea451e-7edf-4368-8e43-1f6dc0b1d88f.jpg",
-            "path": "2024/5/vertical-0/27/8/354/657/868_7fea451e-7edf-4368-8e43-1f6dc0b1d88f.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716814938337,
-        "coordinates": {
-            "lat": 59.795,
-            "lon": 5.51672
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354657868",
-        "extras": [],
-        "price": {
-            "amount": 111845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 180000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "ZZ15757",
-        "ad_id": 354657868
-    },
-    {
-        "type": "motor",
-        "id": "339611750",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "BMW 3-serie 320D / Hud/ Ryggekamera/ Surround view/ Eksos/ ++",
-        "location": "Bjugn",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
-            "path": "2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
-            "height": 932,
-            "width": 1244,
-            "aspect_ratio": 1.3347639484978542
-        },
-        "flags": [],
-        "timestamp": 1716660600000,
-        "coordinates": {
-            "lat": 63.7651,
-            "lon": 9.80981
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339611750",
-        "extras": [],
-        "price": {
-            "amount": 155845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 196450,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "JV19277",
-        "ad_id": 339611750
     },
     {
         "type": "motor",
@@ -10394,12 +10291,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353324137",
         "extras": [],
         "price": {
-            "amount": 131845,
+            "amount": 139845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2010,
-        "mileage": 178000,
+        "mileage": 180000,
         "dealer_segment": "Privat",
         "service_documents": [],
         "regno": "BS14341",

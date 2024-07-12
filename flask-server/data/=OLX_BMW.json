@@ -1,90 +1,12 @@
 [
     {
-        "car_name": "BMW X1 X1 XDRIVE 20D 2.0-163 D",
-        "normalized_name": "0 163 2 20d x1 x1",
-        "year": 2010,
-        "finn_price": 90845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360557981",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/557/981_f3563761-a9f7-4027-bb77-bc37015b0573.jpg",
-        "regno": "BS11846",
-        "olx_prices": [
-            18500,
-            18500,
-            20900,
-            17500,
-            17200,
-            19900,
-            16500,
-            18500,
-            16500,
-            18800,
-            18000,
-            17900,
-            19900,
-            22000
-        ],
-        "olx_ids": [
-            53826451,
-            56385265,
-            60179918,
-            59659574,
-            56622950,
-            57475255,
-            62413971,
-            62318555,
-            62080675,
-            61540789,
-            62002027,
-            59012329,
-            61897579,
-            54802412
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 520D 2.0-184 D",
-        "normalized_name": "0 184 2 5 520d serie",
-        "year": 2012,
-        "finn_price": 169845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359880785",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/5/359/880/785_8855b484-3d58-486b-9a2f-c145b6d37b05.jpg",
-        "regno": "BT13301",
-        "olx_prices": [
-            25800,
-            26500,
-            30000
-        ],
-        "olx_ids": [
-            62309567,
-            55975521,
-            60641448
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 3-serie 316D 2.0-116 D",
-        "normalized_name": "0 116 2 3 316d serie",
-        "year": 2010,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360467923",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/3/360/467/923_9c55f211-20e3-4e23-b743-2c95104730ae.jpg",
-        "regno": "AE27028",
-        "olx_prices": [
-            13300
-        ],
-        "olx_ids": [
-            62446186
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 525D XDRIVE 2.0-218 D",
+        "car_name": "BMW 5-serie 525D xDrive 2.0-218",
         "normalized_name": "0 2 218 5 525d serie",
         "year": 2014,
-        "finn_price": 179305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359503588",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/8/359/503/588_9880eb65-a84c-40bb-b634-422d91e96a8a.jpg",
-        "regno": "BT29032",
+        "finn_price": 129305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360883219",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/9/360/883/219_29ce5516-4ea5-4877-8092-e55a73d1a519.jpg",
+        "regno": "ZZ24671",
         "olx_prices": [
             32000,
             35000
@@ -96,12 +18,422 @@
         "tax_return": null
     },
     {
+        "car_name": "BMW 3-serie 318D 2.0-143 D",
+        "normalized_name": "0 143 2 3 318d serie",
+        "year": 2011,
+        "finn_price": 76000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360852586",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/6/360/852/586_e51f78c7-6f59-4c54-8417-d0aa27d0849e.jpg",
+        "regno": "SV26171",
+        "olx_prices": [
+            11500,
+            14800
+        ],
+        "olx_ids": [
+            62282929,
+            60577337
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X3 xDrive20d",
+        "normalized_name": "x3",
+        "year": 2012,
+        "finn_price": 181845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=347627716",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/08/6/347/627/716_d3717736-2779-49ba-b87a-8eb16713b305.jpg",
+        "regno": "UF53610",
+        "olx_prices": [
+            29990,
+            0,
+            0,
+            29900,
+            25900,
+            0,
+            26300,
+            0,
+            27000,
+            27499,
+            29900,
+            0,
+            22000,
+            23900,
+            28000
+        ],
+        "olx_ids": [
+            61683114,
+            61066718,
+            58953473,
+            62537424,
+            61376461,
+            51339318,
+            62515441,
+            60409778,
+            61690003,
+            61186741,
+            62424176,
+            49515456,
+            62110104,
+            57370151,
+            59717226
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X1 xDrive18d",
+        "normalized_name": "x1 xdrive18d",
+        "year": 2010,
+        "finn_price": 76845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358857545",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/358/857/545_ccb3462f-8633-4c27-9edd-648e40387d2f.jpg",
+        "regno": "KH86642",
+        "olx_prices": [
+            15980,
+            18500,
+            18500,
+            19900,
+            14500,
+            18500,
+            20900,
+            17500,
+            17200,
+            16500,
+            18500,
+            16500,
+            18800,
+            18000,
+            17900,
+            22000
+        ],
+        "olx_ids": [
+            62551352,
+            62550357,
+            53826451,
+            57475255,
+            61248070,
+            56385265,
+            60179918,
+            59659574,
+            56622950,
+            62413971,
+            62318555,
+            62080675,
+            61540789,
+            62002027,
+            59012329,
+            54802412
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 3-serie 320D / Hud/ Ryggekamera/ Surround view/ Eksos/ ++",
+        "normalized_name": "3 320d eksos hud ryggekamera serie surround view",
+        "year": 2011,
+        "finn_price": 150000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=339611750",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
+        "regno": "JV19277",
+        "olx_prices": [
+            16500,
+            20000,
+            20000,
+            18000,
+            18000,
+            15800,
+            19500
+        ],
+        "olx_ids": [
+            50446084,
+            62399641,
+            62408068,
+            62395295,
+            54101431,
+            52228539,
+            60754087
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 1-serie 118D 2.0-136 D",
+        "normalized_name": "0 1 118d 136 2 serie",
+        "year": 2011,
+        "finn_price": 71845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352095974",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/4/352/095/974_aca00901-da9d-4c85-9f43-fea6f760dde8.jpg",
+        "regno": "RK26564",
+        "olx_prices": [
+            12500,
+            14500,
+            10000,
+            11400
+        ],
+        "olx_ids": [
+            52685877,
+            62382061,
+            61116568,
+            49754861
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X5 xDrive30d",
+        "normalized_name": "x5 xdrive30d",
+        "year": 2010,
+        "finn_price": 91845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360779233",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/779/233_dfb2cc68-156f-4955-829c-9c99938d28eb.jpg",
+        "regno": "AE25186",
+        "olx_prices": [
+            34500
+        ],
+        "olx_ids": [
+            59125323
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520D 2.0-184 D",
+        "normalized_name": "0 184 2 5 520d serie",
+        "year": 2012,
+        "finn_price": 166845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360768225",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/5/360/768/225_6b0122d0-601b-4bbe-ac6d-8f8a40b9047a.jpg",
+        "regno": "BS75014",
+        "olx_prices": [
+            27500,
+            21300,
+            26500,
+            30000
+        ],
+        "olx_ids": [
+            60524363,
+            61251950,
+            55975521,
+            60641448
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520D 2.0-163 D",
+        "normalized_name": "0 163 2 5 520d serie",
+        "year": 2011,
+        "finn_price": 131845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360766513",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/766/513_3e13efc5-ef57-4c7c-91e7-caaba4a5eb7e.jpg",
+        "regno": "DN58026",
+        "olx_prices": [
+            23500,
+            20500,
+            24900,
+            25500,
+            18000,
+            0,
+            21500,
+            0,
+            17500
+        ],
+        "olx_ids": [
+            62346999,
+            62475078,
+            54984114,
+            62165960,
+            62060657,
+            61656757,
+            60307171,
+            60794434,
+            60306850
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X1 XDRIVE18D 2.0-136 D",
+        "normalized_name": "0 136 2 x1 xdrive18d",
+        "year": 2014,
+        "finn_price": 149305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=320305062",
+        "image_url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/19/2/320/305/062_696516160.jpg",
+        "regno": "LJ53868",
+        "olx_prices": [
+            24400,
+            20000,
+            0,
+            0
+        ],
+        "olx_ids": [
+            62101304,
+            59228959,
+            62279898,
+            59208704
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520D xDrive 2.0-163D*M-Sport*Komfortseter*Navi*El.krok",
+        "normalized_name": "0 163d 2 5 520d el komfortseter krok m navi serie",
+        "year": 2014,
+        "finn_price": 199900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357203932",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/2/357/203/932_a6f02e5e-4ee9-4182-9c30-b1cf4befb09d.jpg",
+        "regno": "BS90655",
+        "olx_prices": [
+            36000,
+            27000,
+            29888
+        ],
+        "olx_ids": [
+            61921587,
+            60411358,
+            62401923
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520D 184HK/M-Sport pakke/Sportsseter/HUD/EU 05.2025",
+        "normalized_name": "05 2025 5 520d hud m pakke serie sportsseter",
+        "year": 2010,
+        "finn_price": 174999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357284355",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/5/357/284/355_77285a62-bb27-495d-b5dc-6c96adb47b0c.jpg",
+        "regno": "AY15508",
+        "olx_prices": [
+            22500,
+            23000,
+            20700,
+            25000,
+            25000,
+            0,
+            23000,
+            20000
+        ],
+        "olx_ids": [
+            62307154,
+            61241374,
+            62398278,
+            51024241,
+            50199034,
+            51545203,
+            61251516,
+            58198414
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X3 xDrive20d (163hk) Automat",
+        "normalized_name": "automat x3",
+        "year": 2011,
+        "finn_price": 121845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360652463",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/3/360/652/463_e180b5f6-d5e4-474b-a44b-015ec0ed17f8.jpg",
+        "regno": "FT34784",
+        "olx_prices": [
+            25500,
+            29000,
+            24500,
+            23000,
+            29500
+        ],
+        "olx_ids": [
+            60627676,
+            62551745,
+            62406889,
+            56668395,
+            59229697
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 3-serie 320D XDRIVE 177HK M-SPORT SOLTAK ++",
+        "normalized_name": "3 320d m serie soltak",
+        "year": 2010,
+        "finn_price": 99000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360594047",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/7/360/594/047_bfa793ff-c1ef-4ae6-a5a8-5b35d14d7159.jpg",
+        "regno": "SV39743",
+        "olx_prices": [
+            0,
+            15950,
+            13950,
+            14000,
+            16900,
+            13900,
+            15500
+        ],
+        "olx_ids": [
+            61823153,
+            62447146,
+            62465182,
+            62363885,
+            53893799,
+            58950551,
+            59188327
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X3 X3 XDRIVE20D 2.0-163 D",
+        "normalized_name": "0 163 2 x3 x3",
+        "year": 2015,
+        "finn_price": 194305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360612761",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/612/761_8e5d4ff8-3cbe-4f00-ba7c-a8779aa120e4.jpg",
+        "regno": "BS96555",
+        "olx_prices": [
+            39900,
+            33600,
+            36000
+        ],
+        "olx_ids": [
+            60634586,
+            59383315,
+            60547586
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520d",
+        "normalized_name": "5 520d serie",
+        "year": 2015,
+        "finn_price": 194305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360583046",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/6/360/583/046_f9a362d7-a93c-4b35-adf5-79ad664ebdc6.jpg",
+        "regno": "LJ60270",
+        "olx_prices": [
+            36500,
+            0,
+            39000
+        ],
+        "olx_ids": [
+            52712207,
+            40045548,
+            51728080
+        ],
+        "tax_return": 33914
+    },
+    {
+        "car_name": "BMW 5-serie 525D 3.0- 320HK/M-Sport/Headup/Navipro",
+        "normalized_name": "0 3 5 525d headup m navipro serie",
+        "year": 2011,
+        "finn_price": 190845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360568731",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/1/360/568/731_eb024eb6-9459-4880-ba3f-4f7ba6ca1f60.jpg",
+        "regno": "SD61118",
+        "olx_prices": [
+            25800,
+            22900
+        ],
+        "olx_ids": [
+            60279619,
+            57348881
+        ],
+        "tax_return": null
+    },
+    {
         "car_name": "BMW 1-serie 116D - Automat - M-Sport - HiFi",
         "normalized_name": "1 116d automat hifi m serie",
         "year": 2016,
-        "finn_price": 179842,
+        "finn_price": 174842,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352794424",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/4/352/794/424_52ae4817-b60d-4b12-ae94-8504ad16b245.jpg",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/352/794/424_26574d53-d18f-4903-97e6-180f3a7b2e34.jpg",
         "regno": "RK97246",
         "olx_prices": [
             24500
@@ -112,28 +444,6 @@
         "tax_return": 19349
     },
     {
-        "car_name": "BMW 5-serie 520D XDRIVE 2.0-163 D",
-        "normalized_name": "0 163 2 5 520d serie",
-        "year": 2013,
-        "finn_price": 174305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360445904",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/4/360/445/904_b6c03053-9ee6-4b10-9588-7bb2eeb1189e.jpg",
-        "regno": "BS81210",
-        "olx_prices": [
-            23700,
-            26900,
-            34700,
-            13000
-        ],
-        "olx_ids": [
-            58634687,
-            61819196,
-            62129469,
-            61660950
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "BMW X1 Facelift 18d X-Drive Aut.",
         "normalized_name": "18d aut x x1",
         "year": 2013,
@@ -142,15 +452,15 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/8/360/420/808_897b529e-4e51-4919-a966-613d8f79b1fc.jpg",
         "regno": "BS64934",
         "olx_prices": [
+            23800,
             24200,
             0,
-            23800,
             29500
         ],
         "olx_ids": [
+            59445777,
             62451162,
             50143622,
-            59445777,
             60315890
         ],
         "tax_return": null
@@ -183,103 +493,11 @@
         "regno": "PR20653",
         "olx_prices": [
             23700,
-            30000,
             20600
         ],
         "olx_ids": [
             62483276,
-            59138817,
             58574153
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X5 xDrive30d (211hk)",
-        "normalized_name": "x5 xdrive30d",
-        "year": 2012,
-        "finn_price": 196845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360337712",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/2/360/337/712_9cecfb01-74c3-433d-9559-6a25cdde7c18.jpg",
-        "regno": "BS37721",
-        "olx_prices": [
-            29900,
-            0
-        ],
-        "olx_ids": [
-            62520054,
-            59427033
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X3 xDrive20d (184hk) Automat",
-        "normalized_name": "automat x3",
-        "year": 2011,
-        "finn_price": 151845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360340827",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/7/360/340/827_68056cb6-45da-4998-978e-3284dc8a9ac5.jpg",
-        "regno": "BS20841",
-        "olx_prices": [
-            25500,
-            24500,
-            23000,
-            29500
-        ],
-        "olx_ids": [
-            60627676,
-            62406889,
-            56668395,
-            59229697
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 1-serie 118D 2.0-136 D",
-        "normalized_name": "0 1 118d 136 2 serie",
-        "year": 2010,
-        "finn_price": 121845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=344991169",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/9/344/991/169_c9e9c9d7-f7c5-4232-8620-4524181e6e2b.jpg",
-        "regno": "UF44817",
-        "olx_prices": [
-            8900,
-            0
-        ],
-        "olx_ids": [
-            62459875,
-            62409677
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X3 xDrive20d, M-Sport",
-        "normalized_name": "m x3",
-        "year": 2012,
-        "finn_price": 119845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=350505941",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/1/350/505/941_5ab81cd3-cd65-4f68-8f1f-ee7dc1ea88ec.jpg",
-        "regno": "SD62134",
-        "olx_prices": [
-            0,
-            0,
-            26300,
-            29900,
-            0,
-            24999,
-            23499,
-            23900,
-            27000
-        ],
-        "olx_ids": [
-            58953473,
-            51339318,
-            62515441,
-            62424176,
-            49515456,
-            62323333,
-            61862379,
-            57370151,
-            61734841
         ],
         "tax_return": null
     },
@@ -324,26 +542,34 @@
     {
         "car_name": "BMW X1 X1 XDRIVE18D 2.0-136 D",
         "normalized_name": "0 136 2 x1 x1 xdrive18d",
-        "year": 2012,
-        "finn_price": 115845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360169052",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/2/360/169/052_4a0b87ce-05b1-47db-87bf-74dae4043149.jpg",
-        "regno": "BD79152",
+        "year": 2011,
+        "finn_price": 57845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360128443",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/3/360/128/443_9b6cac30-53ba-4f2a-aa06-6d601bb9cf6d.jpg",
+        "regno": "AY15300",
         "olx_prices": [
-            20300,
-            19450,
-            22700,
-            19500,
+            0,
             23000,
-            19500
+            19500,
+            0,
+            22000,
+            17300,
+            0,
+            17800,
+            23500,
+            17300
         ],
         "olx_ids": [
-            62433744,
-            62376494,
-            60312900,
-            60549622,
-            60156449,
-            53326514
+            62457468,
+            58703121,
+            61572238,
+            62382719,
+            62362340,
+            61809226,
+            59578494,
+            61922777,
+            60305922,
+            58307722
         ],
         "tax_return": null
     },
@@ -356,27 +582,31 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/1/360/083/041_a6ec5cad-6209-4dee-8a2e-c37c217a5a1a.jpg",
         "regno": "VH47580",
         "olx_prices": [
+            25000,
+            0,
+            20000,
+            14499,
             23500,
             25000,
             25000,
             26999,
             0,
-            21000,
             25900,
-            22900,
             25500,
             23500,
             25400
         ],
         "olx_ids": [
+            62567174,
+            60136003,
+            60970843,
+            48212837,
             60014199,
             62452243,
             62451987,
             61417756,
             60854370,
-            60970843,
             49848892,
-            60136003,
             57775307,
             61571417,
             59214801
@@ -404,90 +634,6 @@
         "tax_return": null
     },
     {
-        "car_name": "BMW 5-serie 520D 2.0-184 D, M-Sport, HIFI, Panorama, Head-up",
-        "normalized_name": "0 184 2 5 520d head hifi m panorama serie up",
-        "year": 2011,
-        "finn_price": 159845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360022005",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/5/360/022/005_64dedcff-894e-43a4-b12b-8005ac893d1f.jpg",
-        "regno": "BS24955",
-        "olx_prices": [
-            20500,
-            24900,
-            25500,
-            18000,
-            0,
-            21500,
-            0,
-            17500
-        ],
-        "olx_ids": [
-            62475078,
-            54984114,
-            62165960,
-            62060657,
-            61656757,
-            60307171,
-            60794434,
-            60306850
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X5 X5 3.0-245 D",
-        "normalized_name": "0 245 3 x5 x5",
-        "year": 2010,
-        "finn_price": 153719,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=126341495",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/5/126/341/495_363fb03f-8c14-469d-9fb7-7e605859a9da.jpg",
-        "regno": "LJ40570",
-        "olx_prices": [
-            34500
-        ],
-        "olx_ids": [
-            59125323
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 525D xDrive 211hk",
-        "normalized_name": "5 525d serie",
-        "year": 2011,
-        "finn_price": 119000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=324605062",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/17/2/324/605/062_2105472132.jpg",
-        "regno": "BS54039",
-        "olx_prices": [
-            25800,
-            22900
-        ],
-        "olx_ids": [
-            60279619,
-            57348881
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X3 xDrive20d 163hk aut",
-        "normalized_name": "aut x3",
-        "year": 2014,
-        "finn_price": 184305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359949862",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/2/359/949/862_27733892-a96e-4640-8911-e9b8261327c8.jpg",
-        "regno": "DP34904",
-        "olx_prices": [
-            42000,
-            24500,
-            35000
-        ],
-        "olx_ids": [
-            62401499,
-            62237732,
-            60766084
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "BMW 3-serie 318D 2.0-136 D",
         "normalized_name": "0 136 2 3 318d serie",
         "year": 2014,
@@ -496,62 +642,12 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/1/359/948/281_cd5f5245-b748-4559-9c20-6b0f808ced0d.jpg",
         "regno": "KH96871",
         "olx_prices": [
+            22900,
             22000
         ],
         "olx_ids": [
+            62566555,
             54380688
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 520D",
-        "normalized_name": "5 520d serie",
-        "year": 2010,
-        "finn_price": 71845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359770893",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/3/359/770/893_a533bfb1-84da-47c8-9d8d-e3b3f3860d73.jpg",
-        "regno": "CV84974",
-        "olx_prices": [
-            23000,
-            20700,
-            22500,
-            25000,
-            25000,
-            0,
-            23000,
-            20000
-        ],
-        "olx_ids": [
-            61241374,
-            62398278,
-            59884559,
-            51024241,
-            50199034,
-            51545203,
-            61251516,
-            58198414
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 520D XDRIVE 2.0-163 D/M-SPORT/FIN BIL",
-        "normalized_name": "0 163 2 5 520d bil fin m serie",
-        "year": 2014,
-        "finn_price": 199305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=349821010",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/22/0/349/821/010_caaa2b43-222a-480d-980f-069669b50da6.jpg",
-        "regno": "VH62459",
-        "olx_prices": [
-            36000,
-            27000,
-            29888,
-            29200
-        ],
-        "olx_ids": [
-            61921587,
-            60411358,
-            62401923,
-            61897774
         ],
         "tax_return": null
     },
@@ -559,7 +655,7 @@
         "car_name": "BMW 1-serie 116ED 1.6-116 D",
         "normalized_name": "1 1 116 116ed 6 serie",
         "year": 2015,
-        "finn_price": 149305,
+        "finn_price": 145305,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359428509",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/9/359/428/509_f956fd2a-3ed0-4e27-ba2f-de83563bf291.jpg",
         "regno": "SV58797",
@@ -580,52 +676,70 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/02/6/355/436/336_ff6d29eb-30e9-4a2b-9568-2152372d5306.jpg",
         "regno": "BR93741",
         "olx_prices": [
+            0,
             15500,
             15200,
-            17450,
             17200,
             18500,
             17500,
             13500,
-            19000,
             0
         ],
         "olx_ids": [
+            60967742,
             59412497,
             62480908,
-            61680597,
             61430903,
             62439918,
             61667535,
             62225946,
-            58309169,
             58541387
         ],
         "tax_return": null
     },
     {
-        "car_name": "BMW 3-serie 320D XDRIVE 2.0 D /// M-Sport",
+        "car_name": "BMW 3-serie 320D GT XDRIVE 2.0 D /// M-Sport",
         "normalized_name": "0 2 3 320d m serie",
         "year": 2014,
-        "finn_price": 199500,
+        "finn_price": 195000,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359527717",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/7/359/527/717_da1ecf3d-9276-4287-b562-441039de811c.jpg",
         "regno": "PR24377",
         "olx_prices": [
-            27000,
             25000,
+            27000,
             28000,
             30000,
             27000,
             0
         ],
         "olx_ids": [
-            44418495,
             62255773,
+            44418495,
             62324740,
             46144358,
             54891411,
             60342440
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 5-serie 520d Touring 163hk Sportsautomat",
+        "normalized_name": "5 520d serie sportsautomat",
+        "year": 2013,
+        "finn_price": 179000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=220440808",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/8/220/440/808_846fea1c-a854-408e-b344-35ddcca216f6.jpg",
+        "regno": "BS71211",
+        "olx_prices": [
+            26900,
+            23700,
+            34700
+        ],
+        "olx_ids": [
+            61819196,
+            58634687,
+            62129469
         ],
         "tax_return": null
     },
@@ -672,58 +786,6 @@
         "tax_return": null
     },
     {
-        "car_name": "BMW X3 xDrive20d",
-        "normalized_name": "x3",
-        "year": 2013,
-        "finn_price": 195000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359398592",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/2/359/398/592_2f2e6720-0548-46d6-8534-8f333d8c4959.jpg",
-        "regno": "CF74573",
-        "olx_prices": [
-            29500,
-            27900,
-            0,
-            23500,
-            43000,
-            29999,
-            28600,
-            34200
-        ],
-        "olx_ids": [
-            62520037,
-            54704512,
-            62413004,
-            59185594,
-            61743077,
-            59946041,
-            62340705,
-            60310417
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW X1 xDRIVE 18d Aut | M-sport | PDC | Panorama",
-        "normalized_name": "18d aut m panorama pdc x1",
-        "year": 2014,
-        "finn_price": 172000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358135752",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/2/358/135/752_aa2860ef-6892-4c6b-8d7e-4e1b7a754c60.jpg",
-        "regno": "BS96094",
-        "olx_prices": [
-            24400,
-            20000,
-            0,
-            0
-        ],
-        "olx_ids": [
-            62101304,
-            59228959,
-            62279898,
-            59208704
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "BMW 3-serie 318D 2.0-136 D EU TIL 11.2025",
         "normalized_name": "0 11 136 2 2025 3 318d serie til",
         "year": 2010,
@@ -734,7 +796,7 @@
         "olx_prices": [
             16000,
             0,
-            13600,
+            14500,
             14000,
             0,
             18000
@@ -750,80 +812,72 @@
         "tax_return": null
     },
     {
-        "car_name": "BMW X1 XDRIVE 2.0-D -LAV KM Sport-seter, Skinn, Cruise, Krok +",
-        "normalized_name": "0 2 cruise km krok lav seter skinn x1",
-        "year": 2011,
-        "finn_price": 139845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354878285",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/30/5/354/878/285_80824471-2c9e-4a38-8a52-cab6eac41a42.jpg",
-        "regno": "SV20242",
+        "car_name": "BMW X3 XDRIVE /2.0/184HK/M-Sport/Pano/Skinn/Krok/NaviPro+++",
+        "normalized_name": "0 2 krok m navipro pano skinn x3",
+        "year": 2013,
+        "finn_price": 154147,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=326217280",
+        "image_url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/28/0/326/217/280_1143178829.jpg",
+        "regno": "UF59828",
         "olx_prices": [
-            23000,
+            28600,
+            29500,
+            0,
+            43000
+        ],
+        "olx_ids": [
+            62340705,
+            62520037,
+            62413004,
+            61743077
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X3 xDrive20d 163hk aut",
+        "normalized_name": "aut x3",
+        "year": 2014,
+        "finn_price": 179305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=345758095",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/26/5/345/758/095_25129831-5093-4c17-95cb-3dffb1c380d7.jpg",
+        "regno": "PR23766",
+        "olx_prices": [
+            34000,
+            42000,
+            24500,
+            35000
+        ],
+        "olx_ids": [
+            62488310,
+            62401499,
+            62237732,
+            60766084
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW X1 X1 SDRIVE18D 2.0-136 D",
+        "normalized_name": "0 136 2 sdrive18d x1 x1",
+        "year": 2012,
+        "finn_price": 140845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358119181",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/20/1/358/119/181_ba95a4f6-4b1e-4926-991d-8b33b5f5aad0.jpg",
+        "regno": "YE91106",
+        "olx_prices": [
+            20300,
+            19450,
+            22700,
             19500,
-            18900,
-            0,
-            22000,
-            17300,
-            0,
-            17800,
-            23500,
-            17300
+            23000,
+            19500
         ],
         "olx_ids": [
-            58703121,
-            61572238,
-            59970806,
-            62382719,
-            62362340,
-            61809226,
-            59578494,
-            61922777,
-            60305922,
-            58307722
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 5-serie 2.0-184 D/STRØKEN/EU 2026/171.000km/Full option",
-        "normalized_name": "0 000km 171 184 2 2026 5 full option serie strøken",
-        "year": 2011,
-        "finn_price": 146845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358465229",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/9/358/465/229_fbab42be-6293-4267-96b7-ac3c9a289624.jpg",
-        "regno": "SD59491",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            60208231
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "BMW 3-serie 320D 2.0-184 D M-sport",
-        "normalized_name": "0 184 2 3 320d m serie",
-        "year": 2010,
-        "finn_price": 139000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=311682280",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/7/vertical-0/21/0/311/682/280_289644842.jpg",
-        "regno": "SX24732",
-        "olx_prices": [
-            15950,
-            0,
-            13950,
-            14000,
-            16900,
-            13900,
-            15500
-        ],
-        "olx_ids": [
-            62447146,
-            61823153,
-            62465182,
-            62363885,
-            53893799,
-            58950551,
-            59188327
+            62433744,
+            62376494,
+            60312900,
+            60549622,
+            60156449,
+            53326514
         ],
         "tax_return": null
     },
@@ -840,6 +894,24 @@
         ],
         "olx_ids": [
             62019131
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "BMW 1-serie 118D M-SPORT, AUTOMAT, MYE UTSTYR",
+        "normalized_name": "1 118d automat m mye serie",
+        "year": 2010,
+        "finn_price": 96845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357295400",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/0/357/295/400_2eff8de9-fcd7-4c61-bed6-429728ef31a8.jpg",
+        "regno": "BR88740",
+        "olx_prices": [
+            8900,
+            0
+        ],
+        "olx_ids": [
+            62459875,
+            62409677
         ],
         "tax_return": null
     },
@@ -898,22 +970,6 @@
         "tax_return": null
     },
     {
-        "car_name": "BMW 7-serie 740D XDRIVE 3.0-306 D",
-        "normalized_name": "0 3 306 7 740d serie",
-        "year": 2010,
-        "finn_price": 176777,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=299690493",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/5/vertical-0/03/3/299/690/493_774436910.jpg",
-        "regno": "BT15114",
-        "olx_prices": [
-            35000
-        ],
-        "olx_ids": [
-            60419620
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "BMW X6 xDrive30d Sport",
         "normalized_name": "x6 xdrive30d",
         "year": 2010,
@@ -922,6 +978,7 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/07/3/356/215/853_2e0d5b68-abf8-48e9-80c9-36df33c76ef3.jpg",
         "regno": "BS70410",
         "olx_prices": [
+            0,
             38000,
             39800,
             43000,
@@ -931,6 +988,7 @@
             38000
         ],
         "olx_ids": [
+            62563409,
             60651197,
             60152255,
             50092946,
@@ -942,54 +1000,18 @@
         "tax_return": null
     },
     {
-        "car_name": "BMW 5-serie 520D XDRIVE 2.0-190 D  MYE UTSTYR - NY PRIS -",
-        "normalized_name": "0 190 2 5 520d mye pris serie",
-        "year": 2015,
-        "finn_price": 195000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=192970502",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/2/192/970/502_eed1bd02-f40b-47f4-9aeb-7a2d8ef87ebe.jpg",
-        "regno": "BT17779",
+        "car_name": "BMW 7-serie 740D XDRIVE 306 D (NBT EVO navi og oppgradert HIFI)",
+        "normalized_name": "306 7 740d hifi navi nbt og oppgradert serie",
+        "year": 2010,
+        "finn_price": 186845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=337259314",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/1/vertical-0/22/4/337/259/314_1876053335.jpg",
+        "regno": "BS85728",
         "olx_prices": [
-            36500,
-            39900,
-            0,
-            39000
+            35000
         ],
         "olx_ids": [
-            52712207,
-            58071616,
-            40045548,
-            51728080
-        ],
-        "tax_return": 40814
-    },
-    {
-        "car_name": "BMW 3-serie 320D / Hud/ Ryggekamera/ Surround view/ Eksos/ ++",
-        "normalized_name": "3 320d eksos hud ryggekamera serie surround view",
-        "year": 2011,
-        "finn_price": 155845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=339611750",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/09/0/339/611/750_1765659973.jpg",
-        "regno": "JV19277",
-        "olx_prices": [
-            16500,
-            20000,
-            20000,
-            18000,
-            15900,
-            18000,
-            15800,
-            19500
-        ],
-        "olx_ids": [
-            50446084,
-            62399641,
-            62408068,
-            62395295,
-            61862494,
-            54101431,
-            52228539,
-            60754087
+            60419620
         ],
         "tax_return": null
     }
