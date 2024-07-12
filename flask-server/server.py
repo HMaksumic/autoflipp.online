@@ -56,16 +56,14 @@ def register():
     
     hashed_password = generate_password_hash(password)
     new_user = User(username=username, password=hashed_password)
-    db.session.add(new_user)
-
-    new_user = User(username=username, password=password)
+    
     db.session.add(new_user)
     try:
         db.session.commit()
         return jsonify({"success": True, "message": "User registered successfully"})
-    except Exception:
+    except Exception as e:
         db.session.rollback()
-        return jsonify({"success": False, "message": "Registration failed"}), 500
+        return jsonify({"success": False, "message": "Registration failed", "error": str(e)}), 500
 
 @app.route('/login', methods=['POST'])
 def login():
