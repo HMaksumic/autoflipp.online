@@ -52,6 +52,8 @@ The backend webservice is hosted on [Amazon Web Services](https://aws.amazon.com
 - **Gunicorn**: Gunicorn is a Python WSGI HTTP Server for UNIX, serving the Flask application.
 - **SSL Certified**: This web service is SSL certified using Let's Encrypt and Certbot.
 
+Searching and matching scripts are run automatically from 00:00 - 02:00 daily to ensure that the app is up to date
+
 ## API Endpoints
 
 For detailed information about the API endpoints, refer to the [API Endpoints Overview](flask-server/README.md).
