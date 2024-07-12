@@ -11,6 +11,7 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [showAllPrices, setShowAllPrices] = useState({});
+  const [sortBy, setSortBy] = useState('Calculated profit rate');
 
   useEffect(() => {
     axios.get(url)
@@ -43,8 +44,24 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
-  carData.sort((b, a) => CalculateProfitRate(b.olx_prices, b.finn_price,b.tax_return) - CalculateProfitRate(a.olx_prices, a.finn_price,a.tax_return));
+  const sortCarData = (data, criteria) => {
+    return data.sort((a, b) => {
+      switch (criteria) {
+        case 'Newest first':
+          return b.year - a.year;
+        case 'Most matches':
+          return b.olx_prices.length - a.olx_prices.length;
+        case 'Highest tax-return':
+          return b.tax_return - a.tax_return;  
+        case 'Calculated profit rate':
+        default:
+          return CalculateProfitRate(a.olx_prices, a.finn_price, a.tax_return) - CalculateProfitRate(b.olx_prices, b.finn_price, b.tax_return);
+      }
+    });
+  };
+
   const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm));
+  const sortedCarData = sortCarData(filteredCars, sortBy);
 
   const isFavorited = (carId) => {
     return favorites.some(fav => fav.id === carId);
@@ -147,13 +164,19 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
                 </button>
               </Link>
               <Link to="/home">
-              <button onClick={logout} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', backgroundColor: 'lightsteelblue' }}>
-                Logout
-              </button>
+                <button onClick={logout} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', backgroundColor: 'lightsteelblue' }}>
+                  Logout
+                </button>
               </Link>
             </>
           )}
         </div>
+      </div>
+      <div className="sort-bar">
+        <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit rate</button>
+        <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
+        <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
+        <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
       </div>
       <div className="search-bar-container">
         <input
@@ -163,12 +186,12 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
           onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
           className="search-bar"
         />
-        <div className="result-count">Results: {filteredCars.length}</div>
+        <div className="result-count">Results: {sortedCarData.length}</div>
       </div>
-      {carData.filter(car => car.car_name.toLowerCase().includes(searchTerm)).map((car, index) => (
+      {sortedCarData.map((car, index) => (
         <div key={index} className="car-card">
           <div className="car-name-container">
-          <h2 className="car-name">{car.car_name}</h2>
+            <h2 className="car-name">{car.car_name}</h2>
           </div>
           <img src={car.image_url} alt={car.car_name} className="car-image" />
           <p><strong>Finn.no link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_link}</a></p>
@@ -198,11 +221,11 @@ const CarList = ({url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other}) 
           {car.tax_return > 0 && (
             <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
           )}
-         {user && (
-              <div className="favorite-button" onClick={() => handleFavoriteClick(car)}>
-                <button> Save </button>
-              </div>
-            )}
+          {user && (
+            <div className="favorite-button" onClick={() => handleFavoriteClick(car)}>
+              <button> Save </button>
+            </div>
+          )}
         </div>
       ))}
     </div>

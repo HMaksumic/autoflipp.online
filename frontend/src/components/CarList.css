@@ -126,3 +126,51 @@
   border: none;
   color: #004793;
 }
+
+.sort-bar {
+  width: 100%;
+}
+
+.sort-button {
+  height: auto;
+  font-size: 16px;
+  border: transparent;
+  background-color: #f9f9f9;
+  border: transparent;
+  color: black;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.sort-button.selected {
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.sort-button:hover {
+  height: auto;
+  font-size: 16px;
+  border: transparent;
+  background-color: #f9f9f9;
+  border: transparent;
+  color: black;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.sort-button::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  background-color: white;
+}
+
+.sort-button.selected::before {
+  background-color: #007bff;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M6.5 10.8l-3.3-3.3-.9.9 4.2 4.2 8.4-8.4-.9-.9z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+}
