@@ -6,6 +6,7 @@ const Login = ({ toggleForm }) => {
     const { login } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
@@ -35,18 +36,29 @@ const Login = ({ toggleForm }) => {
             {error && <p className="error-message">{error}</p>}
             <input
                 type="text"
+                id="login-username"
+                name="username"
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
             />
             <input
-                type="password"
+                type={showPassword ? "text" : "password"}
+                id="login-password"
+                name="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
             />
+            <label>
+                <input
+                    type="checkbox"
+                    checked={showPassword}
+                    onChange={() => setShowPassword(!showPassword)}
+                /> Show Password
+            </label>
             <button type="submit">Log In</button>
             <p>Don't have an account? <span onClick={toggleForm}>Register</span></p>
         </form>

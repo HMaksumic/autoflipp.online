@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
+['log', 'warn', 'error', 'info'].forEach(method => console[method] = () => {});
 
 const AuthContext = createContext();
 

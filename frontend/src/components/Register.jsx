@@ -5,11 +5,19 @@ const Register = ({ toggleForm }) => {
     const { register } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        if (password !== confirmPassword) {
+            setError('Passwords do not match.');
+            return;
+        }
+
         try {
             const response = await register(username, password);
             if (response.success) {
@@ -21,7 +29,11 @@ const Register = ({ toggleForm }) => {
                 setMessage('');
             }
         } catch (err) {
-            setError('An error occurred during registration.');
+            if (err.response && err.response.status === 400) {
+                setError('Username is taken.');
+            } else {
+                setError('An error occurred during registration.');
+            }
             setMessage('');
         }
     };
@@ -39,12 +51,26 @@ const Register = ({ toggleForm }) => {
                 required
             />
             <input
-                type="password"
+                type={showPassword ? "text" : "password"}
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
             />
+            <input
+                type={showPassword ? "text" : "password"}
+                placeholder="Confirm Password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                required
+            />
+            <label>
+                <input
+                    type="checkbox"
+                    checked={showPassword}
+                    onChange={() => setShowPassword(!showPassword)}
+                /> Show Passwords
+            </label>
             <button type="submit">Register</button>
             <p>Already have an account? <span onClick={toggleForm}>Log In</span></p>
         </form>
