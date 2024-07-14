@@ -1,0 +1,209 @@
+.car-list-personal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .car-bar-personal {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .car-bar-personal:hover {
+    border: 1px solid #007bff;
+  }
+  
+  .car-bar-personal img {
+    height: 100px;
+    width: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .car-details-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .car-details-personal p {
+    margin: 4px 0;
+  }
+
+
+
+  
+  .search-bar {
+    height: 20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    margin-top: 0px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: #007bff;
+  }
+  
+  .search-bar-container {
+    position: fixed; 
+    top: 100px;           
+    left: 50%;        
+    transform: translateX(-50%); 
+    width: 100%;      
+    padding: 14px;
+    box-sizing: border-box;
+    z-index: 998;    
+    background-color: rgb(18, 159, 254); 
+    height: 70px;
+  }
+  
+  .result-count {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: inline-block;
+    min-width: 100px;
+  
+  }
+  .button {
+    height: 35px;
+    padding: 0px 0px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .buttonbar {
+    position: fixed; 
+    top: 45px;           
+    left: 50%;        
+    transform: translateX(-50%); 
+    width: 100%;     
+    padding: 0px;
+    box-sizing: border-box;
+    z-index: 998;    
+    background-color: #007bff;
+    height: 107px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .more-button {
+    margin-left: 1px;
+    height: 30px;
+    background-color: transparent;
+    color: #007bff;
+  }
+  
+  .more-button:hover {
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: #004793;
+  }
+  
+  .sort-bar-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .sort-bar {
+    position: fixed; 
+    top: 185px;           
+    left: 50%;        
+    transform: translateX(-50%); 
+    width: 100%;     
+    padding: 0px;
+    box-sizing: border-box;
+    z-index: 998;    
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .sort-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sort-button {
+    height: auto;
+    font-size: 16px;
+    border: transparent;
+    background-color: #f9f9f9;
+    border: transparent;
+    color: black;
+    margin-right: 10px;
+    padding: 5px 10px;
+  }
+  
+  .sort-button.selected {
+    background-color: #f9f9f9;
+    outline: none;
+  }
+  
+  .sort-button:hover {
+    height: auto;
+    font-size: 16px;
+    border: transparent;
+    background-color: #f9f9f9;
+    border: transparent;
+    color: black;
+    margin-right: 10px;
+    padding: 5px 10px;
+  }
+  
+  .sort-button::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    background-color: white;
+  }
+  
+  .sort-button.selected::before {
+    background-color: #007bff;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M6.5 10.8l-3.3-3.3-.9.9 4.2 4.2 8.4-8.4-.9-.9z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .favorite-button {
+    height: auto;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: black;
+    margin: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .favorite-button:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }
+  
+  .favorite-button:focus {
+    outline: none;
+  }
