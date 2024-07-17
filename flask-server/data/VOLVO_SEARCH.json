@@ -1,6 +1,2310 @@
 [
     {
         "type": "motor",
+        "id": "361515096",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 1.6-114 D",
+        "location": "Steinsholt",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/6/361/515/096_a17898ba-7d35-4b8f-9f3e-dd142e5eb5be.jpg",
+            "path": "2024/7/vertical-0/16/6/361/515/096_a17898ba-7d35-4b8f-9f3e-dd142e5eb5be.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721161992600,
+        "coordinates": {
+            "lat": 59.311,
+            "lon": 9.8825
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361515096",
+        "extras": [],
+        "price": {
+            "amount": 99305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 195700,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "HT13523",
+        "ad_id": 361515096
+    },
+    {
+        "type": "motor",
+        "id": "320798186",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D",
+        "location": "Rudsh\u00f8gda",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/22/6/320/798/186_72045595.jpg",
+            "path": "2023/9/vertical-0/22/6/320/798/186_72045595.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721159760000,
+        "coordinates": {
+            "lat": 60.89557,
+            "lon": 10.80811
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=320798186",
+        "extras": [],
+        "price": {
+            "amount": 99900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 188000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS76228",
+        "ad_id": 320798186
+    },
+    {
+        "type": "motor",
+        "id": "350542643",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 1.6-114 D",
+        "location": "Sunde i Sunnhordland",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/3/350/542/643_ae79c8b0-123b-4416-8cac-53f5c7bc1d86.jpg",
+            "path": "2024/4/vertical-0/27/3/350/542/643_ae79c8b0-123b-4416-8cac-53f5c7bc1d86.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721158980000,
+        "coordinates": {
+            "lat": 59.8362,
+            "lon": 5.72851
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350542643",
+        "extras": [],
+        "price": {
+            "amount": 71845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 164000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BS60139",
+        "ad_id": 350542643
+    },
+    {
+        "type": "motor",
+        "id": "361505855",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 D3 2,4D AWD",
+        "location": "Charlottenlund",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/5/361/505/855_a5685713-611b-40ac-944e-d432a79480b5.jpg",
+            "path": "2024/7/vertical-0/16/5/361/505/855_a5685713-611b-40ac-944e-d432a79480b5.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721158920000,
+        "coordinates": {
+            "lat": 63.42412,
+            "lon": 10.49207
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361505855",
+        "extras": [],
+        "price": {
+            "amount": 106845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 229100,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "VH25599",
+        "ad_id": 361505855
+    },
+    {
+        "type": "motor",
+        "id": "361507882",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 1.6-114 D DRIVe S/S Limited Edition. Dieselvarmer.",
+        "location": "Stokmarknes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/2/361/507/882_236d5d7a-a953-4e2d-a5e1-5a566e4912cf.jpg",
+            "path": "2024/7/vertical-0/16/2/361/507/882_236d5d7a-a953-4e2d-a5e1-5a566e4912cf.jpg",
+            "height": 1280,
+            "width": 1707,
+            "aspect_ratio": 1.33359375
+        },
+        "flags": [],
+        "timestamp": 1721157864596,
+        "coordinates": {
+            "lat": 68.5677,
+            "lon": 14.91309
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361507882",
+        "extras": [],
+        "price": {
+            "amount": 66345,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 184000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "YU42782",
+        "ad_id": 361507882
+    },
+    {
+        "type": "motor",
+        "id": "361507798",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 1.6-114 D",
+        "location": "Sandefjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/361/507/798_03d4c5be-eb3f-4f42-8682-0c7b4204aa69.jpg",
+            "path": "2024/7/vertical-0/16/8/361/507/798_03d4c5be-eb3f-4f42-8682-0c7b4204aa69.jpg",
+            "height": 1204,
+            "width": 1600,
+            "aspect_ratio": 1.3289036544850499
+        },
+        "flags": [],
+        "timestamp": 1721157322136,
+        "coordinates": {
+            "lat": 59.1731,
+            "lon": 10.2147
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361507798",
+        "extras": [],
+        "price": {
+            "amount": 100000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 217203,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AE39801",
+        "ad_id": 361507798
+    },
+    {
+        "type": "motor",
+        "id": "357719024",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.4-175 D",
+        "location": "\u00d8vre Surnadal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/4/357/719/024_db422c4d-69da-4774-9281-741235e75b9e.jpg",
+            "path": "2024/7/vertical-0/16/4/357/719/024_db422c4d-69da-4774-9281-741235e75b9e.jpg",
+            "height": 1815,
+            "width": 3995,
+            "aspect_ratio": 2.201101928374656
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721154780000,
+        "coordinates": {
+            "lat": 63.013,
+            "lon": 9.0599
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357719024",
+        "extras": [],
+        "price": {
+            "amount": 91845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 215000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "DN85137",
+        "ad_id": 357719024
+    },
+    {
+        "type": "motor",
+        "id": "343401967",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 1.6-114 D, PKK ok til 11/25. R-Design. P\u00e5kostet mye!",
+        "location": "Tynset",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/22/7/343/401/967_39cf5bb3-84d4-4610-975b-5309916c8c35.jpg",
+            "path": "2024/6/vertical-0/22/7/343/401/967_39cf5bb3-84d4-4610-975b-5309916c8c35.jpg",
+            "height": 985,
+            "width": 1600,
+            "aspect_ratio": 1.6243654822335025
+        },
+        "flags": [],
+        "timestamp": 1721153760000,
+        "coordinates": {
+            "lat": 62.2759,
+            "lon": 10.7824
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=343401967",
+        "extras": [],
+        "price": {
+            "amount": 105000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 212000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VH44042",
+        "ad_id": 343401967
+    },
+    {
+        "type": "motor",
+        "id": "361497090",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 1.6-109 D",
+        "location": "Stavanger",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/0/361/497/090_a76914aa-0152-4aa9-865d-4624f3a768e6.jpg",
+            "path": "2024/7/vertical-0/16/0/361/497/090_a76914aa-0152-4aa9-865d-4624f3a768e6.jpg",
+            "height": 2048,
+            "width": 1536,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721153460000,
+        "coordinates": {
+            "lat": 58.898,
+            "lon": 5.72131
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361497090",
+        "extras": [],
+        "price": {
+            "amount": 14845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 303263,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SU89726",
+        "ad_id": 361497090
+    },
+    {
+        "type": "motor",
+        "id": "361435378",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 R-Design, Automat, Ryggekamera, Volvo on Call, Krok",
+        "location": "Troms\u00f8",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/361/435/378_0bf4535f-91bd-444f-a948-0ded7b72ffb1.jpg",
+            "path": "2024/7/vertical-0/16/8/361/435/378_0bf4535f-91bd-444f-a948-0ded7b72ffb1.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721152590641,
+        "coordinates": {
+            "lat": 69.64339,
+            "lon": 18.93344
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361435378",
+        "extras": [],
+        "price": {
+            "amount": 149900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 151000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "YE97001",
+        "ad_id": 361435378
+    },
+    {
+        "type": "motor",
+        "id": "330166877",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 1.6-109 D",
+        "location": "Snartemo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/7/330/166/877_8ddcbf45-4b94-4b32-9c51-089dfeff9414.jpg",
+            "path": "2024/7/vertical-0/16/7/330/166/877_8ddcbf45-4b94-4b32-9c51-089dfeff9414.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721152560000,
+        "coordinates": {
+            "lat": 58.34793,
+            "lon": 7.21269
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=330166877",
+        "extras": [],
+        "price": {
+            "amount": 49777,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 233410,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "RA42576",
+        "ad_id": 330166877
+    },
+    {
+        "type": "motor",
+        "id": "361429272",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.4-175 D",
+        "location": "Garnes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/2/361/429/272_58fa7847-24f9-437f-8ced-e4eb340ad2f2.jpg",
+            "path": "2024/7/vertical-0/16/2/361/429/272_58fa7847-24f9-437f-8ced-e4eb340ad2f2.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721147307304,
+        "coordinates": {
+            "lat": 60.445,
+            "lon": 5.47053
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361429272",
+        "extras": [],
+        "price": {
+            "amount": 61845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 370762,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "TS25869",
+        "ad_id": 361429272
+    },
+    {
+        "type": "motor",
+        "id": "361472799",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 1.6-109 D",
+        "location": "Rendalen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/9/361/472/799_394f224b-5eb5-4e4a-8813-1ca36764c3b5.jpg",
+            "path": "2024/7/vertical-0/16/9/361/472/799_394f224b-5eb5-4e4a-8813-1ca36764c3b5.jpg",
+            "height": 9000,
+            "width": 12000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721141908869,
+        "coordinates": {
+            "lat": 61.8922,
+            "lon": 11.0774
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361472799",
+        "extras": [],
+        "price": {
+            "amount": 61845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 221600,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "LY70330",
+        "ad_id": 361472799
+    },
+    {
+        "type": "motor",
+        "id": "361397269",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 V50 1.6-109 D",
+        "location": "B\u00f8stad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/9/361/397/269_60357480-8571-4a1f-99f4-deb0c3bd1c64.jpg",
+            "path": "2024/7/vertical-0/16/9/361/397/269_60357480-8571-4a1f-99f4-deb0c3bd1c64.jpg",
+            "height": 1510,
+            "width": 1600,
+            "aspect_ratio": 1.0596026490066226
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721141220000,
+        "coordinates": {
+            "lat": 68.2376,
+            "lon": 13.7461
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361397269",
+        "extras": [],
+        "price": {
+            "amount": 46845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 258700,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "FT31893",
+        "ad_id": 361397269
+    },
+    {
+        "type": "motor",
+        "id": "350261621",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 1.6-114 D R-Design",
+        "location": "Brumunddal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/1/350/261/621_c89bd7f7-91cd-4b20-af24-6f716acea6d5.jpg",
+            "path": "2024/4/vertical-0/27/1/350/261/621_c89bd7f7-91cd-4b20-af24-6f716acea6d5.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721140920000,
+        "coordinates": {
+            "lat": 60.90235,
+            "lon": 10.90925
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350261621",
+        "extras": [],
+        "price": {
+            "amount": 100000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 211000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BT36698",
+        "ad_id": 350261621
+    },
+    {
+        "type": "motor",
+        "id": "295316939",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 Summum 2.0-163 D3, Hengerfeste",
+        "location": "Sandnes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/4/vertical-0/04/9/295/316/939_1653894911.jpg",
+            "path": "2023/4/vertical-0/04/9/295/316/939_1653894911.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721140560000,
+        "coordinates": {
+            "lat": 58.83711,
+            "lon": 5.70913
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=295316939",
+        "extras": [],
+        "price": {
+            "amount": 126777,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 151000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK27035",
+        "ad_id": 295316939
+    },
+    {
+        "type": "motor",
+        "id": "361449635",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 2.4-163 D AWD",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/5/361/449/635_3f627400-a646-4a3f-b9cb-abe3811ccda2.jpg",
+            "path": "2024/7/vertical-0/16/5/361/449/635_3f627400-a646-4a3f-b9cb-abe3811ccda2.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721131980000,
+        "coordinates": {
+            "lat": 59.1307,
+            "lon": 11.3926
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361449635",
+        "extras": [],
+        "price": {
+            "amount": 121845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 264145,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BD71076",
+        "ad_id": 361449635
+    },
+    {
+        "type": "motor",
+        "id": "339373967",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo S60 Volvo S 60 DRIVe Summum",
+        "location": "Moelv",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/07/7/339/373/967_1792447837.jpg",
+            "path": "2024/2/vertical-0/07/7/339/373/967_1792447837.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721118420000,
+        "coordinates": {
+            "lat": 60.93794,
+            "lon": 10.71227
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=339373967",
+        "extras": [],
+        "price": {
+            "amount": 57845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 231150,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DN66818",
+        "ad_id": 339373967
+    },
+    {
+        "type": "motor",
+        "id": "361324929",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 2.0-120 D",
+        "location": "Flesberg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/9/361/324/929_7e695e75-4d3f-4735-9037-04e7bb609476.jpg",
+            "path": "2024/7/vertical-0/15/9/361/324/929_7e695e75-4d3f-4735-9037-04e7bb609476.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721108340000,
+        "coordinates": {
+            "lat": 59.8635,
+            "lon": 9.42779
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361324929",
+        "extras": [],
+        "price": {
+            "amount": 199900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 103034,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "HT18631",
+        "ad_id": 361324929
+    },
+    {
+        "type": "motor",
+        "id": "361356220",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 1.6-114 D",
+        "location": "Atr\u00e5",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/0/361/356/220_6b6e2e4d-64cb-4ede-82cb-165d4f849c18.jpg",
+            "path": "2024/7/vertical-0/15/0/361/356/220_6b6e2e4d-64cb-4ede-82cb-165d4f849c18.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721078280726,
+        "coordinates": {
+            "lat": 60.06073,
+            "lon": 8.73343
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361356220",
+        "extras": [],
+        "price": {
+            "amount": 119305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 129000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK76379",
+        "ad_id": 361356220
+    },
+    {
+        "type": "motor",
+        "id": "357451477",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 1.6-114 D",
+        "location": "\u00d8verbygd",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/16/7/357/451/477_c2ffab11-6ba9-41cb-86e0-381e541b33d5.jpg",
+            "path": "2024/6/vertical-0/16/7/357/451/477_c2ffab11-6ba9-41cb-86e0-381e541b33d5.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721073060000,
+        "coordinates": {
+            "lat": 69.01712,
+            "lon": 19.41645
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357451477",
+        "extras": [],
+        "price": {
+            "amount": 103305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 1530000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "ZH41315",
+        "ad_id": 357451477
+    },
+    {
+        "type": "motor",
+        "id": "361310864",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-136 D",
+        "location": "Rennebu",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/4/361/310/864_dce59ab6-de87-470f-a492-325c3190843b.jpg",
+            "path": "2024/7/vertical-0/15/4/361/310/864_dce59ab6-de87-470f-a492-325c3190843b.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721070911722,
+        "coordinates": {
+            "lat": 62.83971,
+            "lon": 9.8881
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361310864",
+        "extras": [],
+        "price": {
+            "amount": 31845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 239000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "KB41315",
+        "ad_id": 361310864
+    },
+    {
+        "type": "motor",
+        "id": "360913291",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 2.4-163 D AWD R Design/Ny EU /El bakluke/Xenon/Skinn",
+        "location": "Veg\u00e5rshei",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/1/360/913/291_1b3ad96a-7d91-4afc-9eb0-c9e4b91be0b7.jpg",
+            "path": "2024/7/vertical-0/14/1/360/913/291_1b3ad96a-7d91-4afc-9eb0-c9e4b91be0b7.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721067240000,
+        "coordinates": {
+            "lat": 58.7493,
+            "lon": 8.86271
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360913291",
+        "extras": [],
+        "price": {
+            "amount": 143845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 221000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS16582",
+        "ad_id": 360913291
+    },
+    {
+        "type": "motor",
+        "id": "360667132",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 D2 ny EU - Meget str\u00f8ken bil.",
+        "location": "Kongsberg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/2/360/667/132_aa1556d1-01ab-45d6-8185-dd0b1ee0b064.jpg",
+            "path": "2024/7/vertical-0/11/2/360/667/132_aa1556d1-01ab-45d6-8185-dd0b1ee0b064.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721063105151,
+        "coordinates": {
+            "lat": 59.67177,
+            "lon": 9.67672
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360667132",
+        "extras": [],
+        "price": {
+            "amount": 130000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 182172,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "JV20782",
+        "ad_id": 360667132
+    },
+    {
+        "type": "motor",
+        "id": "361350020",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.4-175 D",
+        "location": "Gjerdrum",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/0/361/350/020_71dd83ac-1d68-4818-8b63-f8c68b212342.jpg",
+            "path": "2024/7/vertical-0/15/0/361/350/020_71dd83ac-1d68-4818-8b63-f8c68b212342.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721061667867,
+        "coordinates": {
+            "lat": 60.0717,
+            "lon": 11.0345
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361350020",
+        "extras": [],
+        "price": {
+            "amount": 86845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 309555,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DN29334",
+        "ad_id": 361350020
+    },
+    {
+        "type": "motor",
+        "id": "358455720",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 1.6-114 D R-Design",
+        "location": "Valder\u00f8ya",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/0/358/455/720_4e38c65b-44a6-4ab0-9509-149f43cf5031.jpg",
+            "path": "2024/7/vertical-0/15/0/358/455/720_4e38c65b-44a6-4ab0-9509-149f43cf5031.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721038560000,
+        "coordinates": {
+            "lat": 62.49852,
+            "lon": 6.10773
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358455720",
+        "extras": [],
+        "price": {
+            "amount": 69000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 226200,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "KH79539",
+        "ad_id": 358455720
+    },
+    {
+        "type": "motor",
+        "id": "361241074",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 D3 Momentum",
+        "location": "Fauske",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/4/361/241/074_e89485c8-fa14-4929-bab0-f17d82ccbade.jpg",
+            "path": "2024/7/vertical-0/14/4/361/241/074_e89485c8-fa14-4929-bab0-f17d82ccbade.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721034501303,
+        "coordinates": {
+            "lat": 67.2644,
+            "lon": 15.37699
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361241074",
+        "extras": [],
+        "price": {
+            "amount": 128845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 166500,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "VH29303",
+        "ad_id": 361241074
+    },
+    {
+        "type": "motor",
+        "id": "361198632",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 2.0-181 D",
+        "location": "Dilling",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/2/361/198/632_6f9a292e-3d6f-4ec7-bab9-772f03833381.jpg",
+            "path": "2024/7/vertical-0/14/2/361/198/632_6f9a292e-3d6f-4ec7-bab9-772f03833381.jpg",
+            "height": 1276,
+            "width": 1702,
+            "aspect_ratio": 1.3338557993730407
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721033595337,
+        "coordinates": {
+            "lat": 59.4045,
+            "lon": 10.6973
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361198632",
+        "extras": [],
+        "price": {
+            "amount": 199305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 108385,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "YE98074",
+        "ad_id": 361198632
+    },
+    {
+        "type": "motor",
+        "id": "353663702",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 Ny Eu kontrol D4 163hk AWD",
+        "location": "Hvittingfoss",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/2/353/663/702_4cc3d9a7-2c6c-442c-af19-76c1c87997fe.jpg",
+            "path": "2024/5/vertical-0/20/2/353/663/702_4cc3d9a7-2c6c-442c-af19-76c1c87997fe.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721021640000,
+        "coordinates": {
+            "lat": 59.4857,
+            "lon": 10.0117
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353663702",
+        "extras": [],
+        "price": {
+            "amount": 159305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 365000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZH39641",
+        "ad_id": 353663702
+    },
+    {
+        "type": "motor",
+        "id": "312597954",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-136 D/R-Design/Ny EU/Xenon/Webasto",
+        "location": "Tolvsr\u00f8d",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/7/vertical-0/28/4/312/597/954_908345640.jpg",
+            "path": "2023/7/vertical-0/28/4/312/597/954_908345640.jpg",
+            "height": 1600,
+            "width": 1526,
+            "aspect_ratio": 0.95375
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720989300000,
+        "coordinates": {
+            "lat": 59.2991,
+            "lon": 10.4913
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=312597954",
+        "extras": [],
+        "price": {
+            "amount": 68777,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 206847,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "LJ83008",
+        "ad_id": 312597954
+    },
+    {
+        "type": "motor",
+        "id": "361237679",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 D3 Summum aut",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/9/361/237/679_2f2b6cf7-9ae9-4e2b-b336-bace349a98a4.jpg",
+            "path": "2024/7/vertical-0/14/9/361/237/679_2f2b6cf7-9ae9-4e2b-b336-bace349a98a4.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720984770431,
+        "coordinates": {
+            "lat": 59.85769,
+            "lon": 10.81815
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361237679",
+        "extras": [],
+        "price": {
+            "amount": 74345,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 269600,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "KH77877",
+        "ad_id": 361237679
+    },
+    {
+        "type": "motor",
+        "id": "360890718",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-163 D4 5cyl",
+        "location": "Otta",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/8/360/890/718_c13bdf6f-ad7e-452a-8df7-467351072dd2.jpg",
+            "path": "2024/7/vertical-0/11/8/360/890/718_c13bdf6f-ad7e-452a-8df7-467351072dd2.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720982299399,
+        "coordinates": {
+            "lat": 61.7712,
+            "lon": 9.53531
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360890718",
+        "extras": [],
+        "price": {
+            "amount": 180845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 207186,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PD49954",
+        "ad_id": 360890718
+    },
+    {
+        "type": "motor",
+        "id": "361184976",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 1.6-114 D",
+        "location": "Sk\u00e5la",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/6/361/184/976_65039200-b7ba-4cba-b924-361417c2ccb8.jpg",
+            "path": "2024/7/vertical-0/14/6/361/184/976_65039200-b7ba-4cba-b924-361417c2ccb8.jpg",
+            "height": 2448,
+            "width": 3264,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720976840352,
+        "coordinates": {
+            "lat": 62.7019,
+            "lon": 7.42359
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361184976",
+        "extras": [],
+        "price": {
+            "amount": 76845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 164400,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UR89198",
+        "ad_id": 361184976
+    },
+    {
+        "type": "motor",
+        "id": "361211406",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 1.6-114 D",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/6/361/211/406_d2a09dec-3d47-4164-82ee-ba181bbe5a99.jpg",
+            "path": "2024/7/vertical-0/14/6/361/211/406_d2a09dec-3d47-4164-82ee-ba181bbe5a99.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720974571436,
+        "coordinates": {
+            "lat": 63.39232,
+            "lon": 10.42637
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361211406",
+        "extras": [],
+        "price": {
+            "amount": 71845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 212000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SV34117",
+        "ad_id": 361211406
+    },
+    {
+        "type": "motor",
+        "id": "360909282",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 1.6-114 D",
+        "location": "\u00c5lesund",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/2/360/909/282_b60617a1-09b4-4b33-b10a-3e8a4f046a79.jpg",
+            "path": "2024/7/vertical-0/13/2/360/909/282_b60617a1-09b4-4b33-b10a-3e8a4f046a79.jpg",
+            "height": 1600,
+            "width": 739,
+            "aspect_ratio": 0.461875
+        },
+        "flags": [],
+        "timestamp": 1720972144464,
+        "coordinates": {
+            "lat": 62.47308,
+            "lon": 6.16896
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360909282",
+        "extras": [],
+        "price": {
+            "amount": 106845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 93400,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UF57041",
+        "ad_id": 360909282
+    },
+    {
+        "type": "motor",
+        "id": "361203933",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo S60 S60 1.6-114 D",
+        "location": "Haugesund",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/3/361/203/933_bd5d35cb-8de6-4ac5-b6bd-093b71217479.jpg",
+            "path": "2024/7/vertical-0/14/3/361/203/933_bd5d35cb-8de6-4ac5-b6bd-093b71217479.jpg",
+            "height": 480,
+            "width": 360,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720971602385,
+        "coordinates": {
+            "lat": 59.39815,
+            "lon": 5.32123
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361203933",
+        "extras": [],
+        "price": {
+            "amount": 99000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 118200,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SV38501",
+        "ad_id": 361203933
+    },
+    {
+        "type": "motor",
+        "id": "360320284",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 V50 1.6-109 D",
+        "location": "Kolltveit",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/4/360/320/284_df7203f1-8ef0-4e65-8b07-5381154f3bad.jpg",
+            "path": "2024/7/vertical-0/14/4/360/320/284_df7203f1-8ef0-4e65-8b07-5381154f3bad.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720970760000,
+        "coordinates": {
+            "lat": 60.36118,
+            "lon": 5.07621
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360320284",
+        "extras": [],
+        "price": {
+            "amount": 49845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 96000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SU83879",
+        "ad_id": 360320284
+    },
+    {
+        "type": "motor",
+        "id": "361094172",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 1.6-114 D",
+        "location": "Sarpsborg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/2/361/094/172_3441792c-9f3e-464d-9598-c06fba882afe.jpg",
+            "path": "2024/7/vertical-0/13/2/361/094/172_3441792c-9f3e-464d-9598-c06fba882afe.jpg",
+            "height": 900,
+            "width": 1600,
+            "aspect_ratio": 1.7777777777777777
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720966200000,
+        "coordinates": {
+            "lat": 59.2822,
+            "lon": 11.1179
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361094172",
+        "extras": [],
+        "price": {
+            "amount": 78845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 250000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DN84149",
+        "ad_id": 361094172
+    },
+    {
+        "type": "motor",
+        "id": "361178881",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 1.6-114 D",
+        "location": "Stathelle",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/1/361/178/881_e11214c7-c91b-4437-a237-c0bd166a650d.jpg",
+            "path": "2024/7/vertical-0/14/1/361/178/881_e11214c7-c91b-4437-a237-c0bd166a650d.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720962933352,
+        "coordinates": {
+            "lat": 59.03287,
+            "lon": 9.71291
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361178881",
+        "extras": [],
+        "price": {
+            "amount": 53305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 363000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "NH16483",
+        "ad_id": 361178881
+    },
+    {
+        "type": "motor",
+        "id": "352566821",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-163 D",
+        "location": "Dal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/1/352/566/821_39182daa-4f33-43fe-a782-6acd21278e65.jpg",
+            "path": "2024/5/vertical-0/12/1/352/566/821_39182daa-4f33-43fe-a782-6acd21278e65.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720949220000,
+        "coordinates": {
+            "lat": 60.25108,
+            "lon": 11.20246
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352566821",
+        "extras": [],
+        "price": {
+            "amount": 124305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 215000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DP60808",
+        "ad_id": 352566821
+    },
+    {
+        "type": "motor",
+        "id": "353086812",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC90 XC90 2.4-185 D AWD",
+        "location": "Kirkenes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/14/2/353/086/812_3fdfcb28-cbae-465d-ac2d-756ed3f4fca1.jpg",
+            "path": "2024/5/vertical-0/14/2/353/086/812_3fdfcb28-cbae-465d-ac2d-756ed3f4fca1.jpg",
+            "height": 1600,
+            "width": 910,
+            "aspect_ratio": 0.56875
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720941660000,
+        "coordinates": {
+            "lat": 69.7244,
+            "lon": 30.05066
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353086812",
+        "extras": [],
+        "price": {
+            "amount": 195000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 222000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "ZH37085",
+        "ad_id": 353086812
+    },
+    {
+        "type": "motor",
+        "id": "361059702",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 V40 1.6-114 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/2/361/059/702_e28e3d30-61d0-44d4-80dd-b82be3b82ec6.jpg",
+            "path": "2024/7/vertical-0/13/2/361/059/702_e28e3d30-61d0-44d4-80dd-b82be3b82ec6.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720895964367,
+        "coordinates": {
+            "lat": 59.90072,
+            "lon": 10.7796
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361059702",
+        "extras": [],
+        "price": {
+            "amount": 89305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 181000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BD81861",
+        "ad_id": 361059702
+    },
+    {
+        "type": "motor",
+        "id": "360987613",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 1.6-114 D",
+        "location": "Otta",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/3/360/987/613_57f7f56b-cd46-4aa1-8e64-d0a24cf69319.png",
+            "path": "2024/7/vertical-0/12/3/360/987/613_57f7f56b-cd46-4aa1-8e64-d0a24cf69319.png",
+            "height": 914,
+            "width": 832,
+            "aspect_ratio": 0.9102844638949672
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720895580000,
+        "coordinates": {
+            "lat": 61.7712,
+            "lon": 9.53531
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360987613",
+        "extras": [],
+        "price": {
+            "amount": 139305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 75742,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UF57706",
+        "ad_id": 360987613
+    },
+    {
+        "type": "motor",
+        "id": "361082355",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 XC60 2.4-205 D AWD",
+        "location": "Stj\u00f8rdal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/5/361/082/355_3821c822-6189-406b-884e-15645455a2a2.jpg",
+            "path": "2024/7/vertical-0/13/5/361/082/355_3821c822-6189-406b-884e-15645455a2a2.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720887259371,
+        "coordinates": {
+            "lat": 63.4739,
+            "lon": 10.91069
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361082355",
+        "extras": [],
+        "price": {
+            "amount": 110000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 261000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PD30866",
+        "ad_id": 361082355
+    },
+    {
+        "type": "motor",
+        "id": "361067686",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-120 D",
+        "location": "Kl\u00f8fta",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/6/361/067/686_66550a1f-2139-49f4-a66c-5a571533fbe1.jpg",
+            "path": "2024/7/vertical-0/13/6/361/067/686_66550a1f-2139-49f4-a66c-5a571533fbe1.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720879260000,
+        "coordinates": {
+            "lat": 60.07164,
+            "lon": 11.13654
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361067686",
+        "extras": [],
+        "price": {
+            "amount": 179305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 142973,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BT45763",
+        "ad_id": 361067686
+    },
+    {
+        "type": "motor",
+        "id": "361031072",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo XC60 163HK | AWD | Hengerfeste | Ekstralys",
+        "location": "Sarpsborg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/2/361/031/072_908ff168-cde1-4eb4-9223-b1ba0a90085c.jpg",
+            "path": "2024/7/vertical-0/13/2/361/031/072_908ff168-cde1-4eb4-9223-b1ba0a90085c.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720864380000,
+        "coordinates": {
+            "lat": 59.27216,
+            "lon": 11.08615
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361031072",
+        "extras": [],
+        "price": {
+            "amount": 137845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 223000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AE26633",
+        "ad_id": 361031072
+    },
+    {
+        "type": "motor",
+        "id": "361002812",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 1.6-114 D",
+        "location": "Arendal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/2/361/002/812_fb364c77-a03c-4493-ab91-dbe511b4a1ea.jpg",
+            "path": "2024/7/vertical-0/12/2/361/002/812_fb364c77-a03c-4493-ab91-dbe511b4a1ea.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720860670359,
+        "coordinates": {
+            "lat": 58.4629,
+            "lon": 8.74829
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361002812",
+        "extras": [],
+        "price": {
+            "amount": 109305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 167000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "BS89126",
+        "ad_id": 361002812
+    },
+    {
+        "type": "motor",
+        "id": "337660827",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D",
+        "location": "Mosj\u00f8en",
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720848842449,
+        "coordinates": {
+            "lat": 65.83591,
+            "lon": 13.22162
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=337660827",
+        "extras": [],
+        "price": {
+            "amount": 153305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 80000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VH55167",
+        "ad_id": 337660827
+    },
+    {
+        "type": "motor",
+        "id": "360974442",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 DRIVe Summum",
+        "location": "Hob\u00f8l",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/2/360/974/442_4bc3f898-d923-45cb-8952-b5bf9f044e3b.jpg",
+            "path": "2024/7/vertical-0/12/2/360/974/442_4bc3f898-d923-45cb-8952-b5bf9f044e3b.jpg",
+            "height": 2268,
+            "width": 4032,
+            "aspect_ratio": 1.7777777777777777
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720800485503,
+        "coordinates": {
+            "lat": 59.55935,
+            "lon": 10.84656
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360974442",
+        "extras": [],
+        "price": {
+            "amount": 95000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 198997,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "KH79184",
+        "ad_id": 360974442
+    },
+    {
+        "type": "motor",
+        "id": "360432682",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D",
+        "location": "Asker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/2/360/432/682_9623e66a-95a5-4224-93dc-fc359ba66bda.jpg",
+            "path": "2024/7/vertical-0/12/2/360/432/682_9623e66a-95a5-4224-93dc-fc359ba66bda.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720795326960,
+        "coordinates": {
+            "lat": 59.82172,
+            "lon": 10.36902
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360432682",
+        "extras": [],
+        "price": {
+            "amount": 129305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 178990,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "BS92114",
+        "ad_id": 360432682
+    },
+    {
+        "type": "motor",
+        "id": "359078340",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V50 V50 1.6-109 D",
+        "location": "Mandal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/0/359/078/340_15a5a2cb-f7a0-478e-9d49-84bf0e19622c.jpg",
+            "path": "2024/6/vertical-0/28/0/359/078/340_15a5a2cb-f7a0-478e-9d49-84bf0e19622c.jpg",
+            "height": 2992,
+            "width": 2992,
+            "aspect_ratio": 1
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720793293918,
+        "coordinates": {
+            "lat": 58.0278,
+            "lon": 7.4033
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359078340",
+        "extras": [],
+        "price": {
+            "amount": 31745,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 143200,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PD36661",
+        "ad_id": 359078340
+    },
+    {
+        "type": "motor",
+        "id": "360956557",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 V60 2.4-163 D AWD",
+        "location": "Nordfjordeid",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/7/360/956/557_869beb6e-99e6-4ae7-abdb-ddbee483ccc5.jpg",
+            "path": "2024/7/vertical-0/12/7/360/956/557_869beb6e-99e6-4ae7-abdb-ddbee483ccc5.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720791806018,
+        "coordinates": {
+            "lat": 61.9121,
+            "lon": 5.98561
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360956557",
+        "extras": [],
+        "price": {
+            "amount": 164305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 221912,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UA33132",
+        "ad_id": 360956557
+    },
+    {
+        "type": "motor",
+        "id": "354808586",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V60 1.6-114 D R-Design",
+        "location": "Steinkjer",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/6/354/808/586_7cbe1e69-ab1a-4863-9cdc-3e82c4e17805.jpg",
+            "path": "2024/7/vertical-0/12/6/354/808/586_7cbe1e69-ab1a-4863-9cdc-3e82c4e17805.jpg",
+            "height": 4032,
+            "width": 3024,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720782360000,
+        "coordinates": {
+            "lat": 63.9508,
+            "lon": 11.58009
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354808586",
+        "extras": [],
+        "price": {
+            "amount": 65000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 242000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "KB40652",
+        "ad_id": 354808586
+    },
+    {
+        "type": "motor",
+        "id": "360909476",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.4-175 D",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/6/360/909/476_80ea4f0b-767c-4983-8b33-7a19d0be545d.jpg",
+            "path": "2024/7/vertical-0/13/6/360/909/476_80ea4f0b-767c-4983-8b33-7a19d0be545d.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720777800000,
+        "coordinates": {
+            "lat": 59.14861,
+            "lon": 11.37477
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360909476",
+        "extras": [],
+        "price": {
+            "amount": 89845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 239670,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "AA58220",
+        "ad_id": 360909476
+    },
+    {
+        "type": "motor",
+        "id": "360918571",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Volvo V70 V70 2.0-136 D",
+        "location": "Trysil",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/1/360/918/571_20d7cdd0-aa8b-44c2-89f5-800168ffbcd9.jpg",
+            "path": "2024/7/vertical-0/12/1/360/918/571_20d7cdd0-aa8b-44c2-89f5-800168ffbcd9.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1720769408369,
+        "coordinates": {
+            "lat": 61.31273,
+            "lon": 12.26749
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360918571",
+        "extras": [],
+        "price": {
+            "amount": 89305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 300000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "DP49109",
+        "ad_id": 360918571
+    },
+    {
+        "type": "motor",
         "id": "226749674",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V60 R-Design",
@@ -60,7 +2364,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360894550",
         "extras": [],
         "price": {
-            "amount": 31845,
+            "amount": 29845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -109,7 +2413,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360856065",
         "extras": [],
         "price": {
-            "amount": 66845,
+            "amount": 51845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -119,57 +2423,6 @@
         "service_documents": [],
         "regno": "NF48777",
         "ad_id": 360856065
-    },
-    {
-        "type": "motor",
-        "id": "360839654",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 D2 2,0 diesel Summum",
-        "location": "Rakkestad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/4/360/839/654_3fc0633d-fa28-493d-a170-8a0e6dce90f5.jpg",
-            "path": "2024/7/vertical-0/11/4/360/839/654_3fc0633d-fa28-493d-a170-8a0e6dce90f5.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720711111397,
-        "coordinates": {
-            "lat": 59.42499,
-            "lon": 11.34611
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360839654",
-        "extras": [],
-        "price": {
-            "amount": 133305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2016,
-        "mileage": 114600,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "YN61203",
-        "ad_id": 360839654
     },
     {
         "type": "motor",
@@ -314,7 +2567,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360578285",
         "extras": [],
         "price": {
-            "amount": 154305,
+            "amount": 144305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -326,55 +2579,6 @@
         ],
         "regno": "TV88714",
         "ad_id": 360578285
-    },
-    {
-        "type": "motor",
-        "id": "360661864",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 D2 Summum aut",
-        "location": "Vormsund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/4/360/661/864_58b403bb-9b67-4c54-aad0-b7c817c69970.jpg",
-            "path": "2024/7/vertical-0/11/4/360/661/864_58b403bb-9b67-4c54-aad0-b7c817c69970.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720699080000,
-        "coordinates": {
-            "lat": 60.14351,
-            "lon": 11.34735
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360661864",
-        "extras": [],
-        "price": {
-            "amount": 91845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 211000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "CF67531",
-        "ad_id": 360661864
     },
     {
         "type": "motor",
@@ -429,43 +2633,6 @@
     },
     {
         "type": "motor",
-        "id": "360818149",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 1.6-114 D2, med Ryggekamera",
-        "location": "Langhus",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/9/360/818/149_2db2bce8-33e6-47f4-a0fd-f2a3cd83b817.jpg",
-            "path": "2024/7/vertical-0/11/9/360/818/149_2db2bce8-33e6-47f4-a0fd-f2a3cd83b817.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1720696800000,
-        "coordinates": {
-            "lat": 59.7552,
-            "lon": 10.8462
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360818149",
-        "extras": [],
-        "price": {
-            "amount": 149305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 111663,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "CF73106",
-        "ad_id": 360818149
-    },
-    {
-        "type": "motor",
         "id": "358297914",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V50 V50 1.6-114 D",
@@ -500,57 +2667,6 @@
         ],
         "regno": "KH73615",
         "ad_id": 358297914
-    },
-    {
-        "type": "motor",
-        "id": "360795869",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 1.6-114 D",
-        "location": "Nannestad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/9/360/795/869_ec95b01b-b185-414c-b988-b488c91fa6ae.jpg",
-            "path": "2024/7/vertical-0/11/9/360/795/869_ec95b01b-b185-414c-b988-b488c91fa6ae.jpg",
-            "height": 2377,
-            "width": 3237,
-            "aspect_ratio": 1.361800588977703
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720687036656,
-        "coordinates": {
-            "lat": 60.2215,
-            "lon": 11.01869
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360795869",
-        "extras": [],
-        "price": {
-            "amount": 127305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 175000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS85038",
-        "ad_id": 360795869
     },
     {
         "type": "motor",
@@ -638,41 +2754,6 @@
     },
     {
         "type": "motor",
-        "id": "360756826",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
-        "location": "Skreia",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/6/360/756/826_5954ed08-3cb8-484b-9e42-af84353fb9ae.jpg",
-            "path": "2024/7/vertical-0/10/6/360/756/826_5954ed08-3cb8-484b-9e42-af84353fb9ae.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720638867129,
-        "coordinates": {
-            "lat": 60.63138,
-            "lon": 10.91857
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360756826",
-        "extras": [],
-        "price": {
-            "amount": 35845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 173300,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN87405",
-        "ad_id": 360756826
-    },
-    {
-        "type": "motor",
         "id": "360738107",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V60 V60 1.6-114 D",
@@ -746,7 +2827,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360734377",
         "extras": [],
         "price": {
-            "amount": 45845,
+            "amount": 37845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -830,7 +2911,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=319235330",
         "extras": [],
         "price": {
-            "amount": 36777,
+            "amount": 30777,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -915,65 +2996,16 @@
     },
     {
         "type": "motor",
-        "id": "360690255",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 2.0-136 D",
-        "location": "Leirfjord",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/5/360/690/255_b5c2705e-8a16-428c-a575-9f751f55f8ce.jpg",
-            "path": "2024/7/vertical-0/10/5/360/690/255_b5c2705e-8a16-428c-a575-9f751f55f8ce.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720612860000,
-        "coordinates": {
-            "lat": 66.04188,
-            "lon": 12.68938
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360690255",
-        "extras": [],
-        "price": {
-            "amount": 51845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 258000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "YA61483",
-        "ad_id": 360690255
-    },
-    {
-        "type": "motor",
         "id": "360621374",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V60 D2 R-design",
         "location": "Skarnes",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/360/621/374_b179c32a-bb5c-4ff1-8227-fc3bb3cda369.jpg",
-            "path": "2024/7/vertical-0/09/4/360/621/374_b179c32a-bb5c-4ff1-8227-fc3bb3cda369.jpg",
-            "height": 5712,
-            "width": 4284,
-            "aspect_ratio": 0.75
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/4/360/621/374_407cc5f9-4a57-4660-9a73-603a5ee8c338.jpg",
+            "path": "2024/7/vertical-0/12/4/360/621/374_407cc5f9-4a57-4660-9a73-603a5ee8c338.jpg",
+            "height": 4284,
+            "width": 5712,
+            "aspect_ratio": 1.3333333333333333
         },
         "flags": [
             "user_verified",
@@ -1037,7 +3069,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360595096",
         "extras": [],
         "price": {
-            "amount": 101845,
+            "amount": 100000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1150,41 +3182,6 @@
     },
     {
         "type": "motor",
-        "id": "360594534",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.0-163 D",
-        "location": "Grimstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/360/594/534_aa0402f8-583b-4c17-8da4-86e7c4304a43.jpg",
-            "path": "2024/7/vertical-0/09/4/360/594/534_aa0402f8-583b-4c17-8da4-86e7c4304a43.jpg",
-            "height": 3060,
-            "width": 4080,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720540260000,
-        "coordinates": {
-            "lat": 58.33769,
-            "lon": 8.54901
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360594534",
-        "extras": [],
-        "price": {
-            "amount": 67845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 283656,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS65866",
-        "ad_id": 360594534
-    },
-    {
-        "type": "motor",
         "id": "360570587",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D Automat",
@@ -1207,7 +3204,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360570587",
         "extras": [],
         "price": {
-            "amount": 140305,
+            "amount": 135305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1258,55 +3255,18 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360579405",
         "extras": [],
         "price": {
-            "amount": 36845,
+            "amount": 33845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2011,
-        "mileage": 225000,
+        "mileage": 225400,
         "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [
             "Service"
         ],
         "regno": "HB72987",
         "ad_id": 360579405
-    },
-    {
-        "type": "motor",
-        "id": "360553288",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.0-163 D4",
-        "location": "S\u00f8r-Fron",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/8/360/553/288_fc8e2bb3-bf66-456f-8b44-fe886913c2bc.jpg",
-            "path": "2024/7/vertical-0/09/8/360/553/288_fc8e2bb3-bf66-456f-8b44-fe886913c2bc.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720524249416,
-        "coordinates": {
-            "lat": 61.5552,
-            "lon": 9.94069
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360553288",
-        "extras": [],
-        "price": {
-            "amount": 189305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 153000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS90644",
-        "ad_id": 360553288
     },
     {
         "type": "motor",
@@ -1415,41 +3375,6 @@
     },
     {
         "type": "motor",
-        "id": "360443819",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo C30 C30 1.6-114 D",
-        "location": "Tolvsr\u00f8d",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/9/360/443/819_03f62fdb-a3f4-4d3f-bb18-f9a7f2821a84.jpg",
-            "path": "2024/7/vertical-0/08/9/360/443/819_03f62fdb-a3f4-4d3f-bb18-f9a7f2821a84.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720448404996,
-        "coordinates": {
-            "lat": 59.27949,
-            "lon": 10.50135
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360443819",
-        "extras": [],
-        "price": {
-            "amount": 56845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 170732,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "CV65570",
-        "ad_id": 360443819
-    },
-    {
-        "type": "motor",
         "id": "360435407",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V70 Summum automat lav km! Adaptiv cruise.",
@@ -1523,7 +3448,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360433577",
         "extras": [],
         "price": {
-            "amount": 99845,
+            "amount": 89845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1590,8 +3515,8 @@
         "heading": "Volvo V50 1.6-114 D",
         "location": "Fjell",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/8/360/376/058_2cba05ad-0b9f-484d-a52d-0c8374b08304.jpg",
-            "path": "2024/7/vertical-0/07/8/360/376/058_2cba05ad-0b9f-484d-a52d-0c8374b08304.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/8/360/376/058_12f03979-2a05-4c9d-ae5e-2622a3fec022.jpg",
+            "path": "2024/7/vertical-0/15/8/360/376/058_12f03979-2a05-4c9d-ae5e-2622a3fec022.jpg",
             "height": 3024,
             "width": 4032,
             "aspect_ratio": 1.3333333333333333
@@ -1607,7 +3532,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360376058",
         "extras": [],
         "price": {
-            "amount": 58845,
+            "amount": 55845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1617,41 +3542,6 @@
         "service_documents": [],
         "regno": "TV80261",
         "ad_id": 360376058
-    },
-    {
-        "type": "motor",
-        "id": "360369589",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 1.6-114 D",
-        "location": "Vinstra",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/9/360/369/589_c9cf626f-4b1c-49d5-9566-d91b09d0011c.jpg",
-            "path": "2024/7/vertical-0/07/9/360/369/589_c9cf626f-4b1c-49d5-9566-d91b09d0011c.jpg",
-            "height": 2208,
-            "width": 1242,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [],
-        "timestamp": 1720385125928,
-        "coordinates": {
-            "lat": 61.5952,
-            "lon": 9.75229
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360369589",
-        "extras": [],
-        "price": {
-            "amount": 71825,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 252120,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "PD71768",
-        "ad_id": 360369589
     },
     {
         "type": "motor",
@@ -1847,7 +3737,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360317697",
         "extras": [],
         "price": {
-            "amount": 49845,
+            "amount": 47845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1896,7 +3786,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360314602",
         "extras": [],
         "price": {
-            "amount": 49845,
+            "amount": 46845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1906,55 +3796,6 @@
         "service_documents": [],
         "regno": "UX58756",
         "ad_id": 360314602
-    },
-    {
-        "type": "motor",
-        "id": "360227894",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC60 XC60 2.4-163 D AWD",
-        "location": "Alta",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/07/4/360/227/894_ebaf39b2-e450-4a14-bf97-cdab83cb7ad5.jpg",
-            "path": "2024/7/vertical-0/07/4/360/227/894_ebaf39b2-e450-4a14-bf97-cdab83cb7ad5.jpg",
-            "height": 2560,
-            "width": 1440,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720358100000,
-        "coordinates": {
-            "lat": 69.9039,
-            "lon": 23.21721
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360227894",
-        "extras": [],
-        "price": {
-            "amount": 146845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 269000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BS33875",
-        "ad_id": 360227894
     },
     {
         "type": "motor",
@@ -1990,41 +3831,6 @@
         "service_documents": [],
         "regno": "NF69517",
         "ad_id": 280030056
-    },
-    {
-        "type": "motor",
-        "id": "360132836",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 V40 1.6-114 D",
-        "location": "Kongsvinger",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/6/360/132/836_8aa353f2-a3af-41f7-87e8-8706060f63b2.jpg",
-            "path": "2024/7/vertical-0/06/6/360/132/836_8aa353f2-a3af-41f7-87e8-8706060f63b2.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720266930166,
-        "coordinates": {
-            "lat": 60.19989,
-            "lon": 11.99701
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360132836",
-        "extras": [],
-        "price": {
-            "amount": 90845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 105500,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "HJ91676",
-        "ad_id": 360132836
     },
     {
         "type": "motor",
@@ -2100,7 +3906,7 @@
         "type": "motor",
         "id": "360086824",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-109 D",
+        "heading": "Volvo V50 V50 1.6-109 D.",
         "location": "Morvik",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/4/360/086/824_8cfe4ed3-1b83-4fc5-a6d1-689c550f264a.jpg",
@@ -2134,7 +3940,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360086824",
         "extras": [],
         "price": {
-            "amount": 57196,
+            "amount": 48500,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2144,129 +3950,6 @@
         "service_documents": [],
         "regno": "SU90741",
         "ad_id": 360086824
-    },
-    {
-        "type": "motor",
-        "id": "350581336",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 D2 R-Design / Webasto / VOC / Skiftet reg reim++",
-        "location": "Jaren",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/28/6/350/581/336_bc85a79a-e31e-4151-b32f-943a2ec7771f.jpg",
-            "path": "2024/4/vertical-0/28/6/350/581/336_bc85a79a-e31e-4151-b32f-943a2ec7771f.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720202940000,
-        "coordinates": {
-            "lat": 60.42819,
-            "lon": 10.54685
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350581336",
-        "extras": [],
-        "price": {
-            "amount": 114305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 157000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "YE93862",
-        "ad_id": 350581336
-    },
-    {
-        "type": "motor",
-        "id": "358447191",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
-        "location": "Godvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/1/358/447/191_a21bbea8-888d-4ae6-984b-75d24725b432.jpg",
-            "path": "2024/6/vertical-0/23/1/358/447/191_a21bbea8-888d-4ae6-984b-75d24725b432.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720199940000,
-        "coordinates": {
-            "lat": 60.37806,
-            "lon": 5.19853
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358447191",
-        "extras": [],
-        "price": {
-            "amount": 61845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 116313,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "SV18801",
-        "ad_id": 358447191
-    },
-    {
-        "type": "motor",
-        "id": "358168593",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC70 D3 2,4D Summum AWD aut.skinn.navi.",
-        "location": "Tysse",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/3/358/168/593_fe5d1eb5-f1fb-4e40-8bd2-7205431f2be9.jpg",
-            "path": "2024/6/vertical-0/21/3/358/168/593_fe5d1eb5-f1fb-4e40-8bd2-7205431f2be9.jpg",
-            "height": 3060,
-            "width": 4080,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720193640000,
-        "coordinates": {
-            "lat": 60.3748,
-            "lon": 5.75512
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358168593",
-        "extras": [],
-        "price": {
-            "amount": 39845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 436000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "SV15039",
-        "ad_id": 358168593
     },
     {
         "type": "motor",
@@ -2306,69 +3989,18 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=321816623",
         "extras": [],
         "price": {
-            "amount": 69174,
+            "amount": 64174,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2013,
-        "mileage": 209000,
+        "mileage": 210000,
         "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [
             "Service"
         ],
         "regno": "FT44579",
         "ad_id": 321816623
-    },
-    {
-        "type": "motor",
-        "id": "49962269",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo S80",
-        "location": "Bardu",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/9/499/622/69_2f7c87bc-a747-44fe-a7e6-171bc03fa9a5.jpg",
-            "path": "2024/7/vertical-0/05/9/499/622/69_2f7c87bc-a747-44fe-a7e6-171bc03fa9a5.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720191660951,
-        "coordinates": {
-            "lat": 68.861,
-            "lon": 18.3486
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=49962269",
-        "extras": [],
-        "price": {
-            "amount": 86845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 181000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "ZH 30123",
-        "ad_id": 49962269
     },
     {
         "type": "motor",
@@ -2481,7 +4113,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359755961",
         "extras": [],
         "price": {
-            "amount": 149305,
+            "amount": 144305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2601,104 +4233,6 @@
         "service_documents": [],
         "regno": "SU86311",
         "ad_id": 359921736
-    },
-    {
-        "type": "motor",
-        "id": "343846418",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
-        "location": "Fana",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/02/8/343/846/418_3a7c838a-7b6f-45fd-a397-21dae878f1b1.jpg",
-            "path": "2024/5/vertical-0/02/8/343/846/418_3a7c838a-7b6f-45fd-a397-21dae878f1b1.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720108980000,
-        "coordinates": {
-            "lat": 60.27571,
-            "lon": 5.33988
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=343846418",
-        "extras": [],
-        "price": {
-            "amount": 60000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 160305,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BS30070",
-        "ad_id": 343846418
-    },
-    {
-        "type": "motor",
-        "id": "359870512",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
-        "location": "Volda",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/2/359/870/512_cb74ddf1-3f23-4da6-a353-702814f2792d.jpg",
-            "path": "2024/7/vertical-0/06/2/359/870/512_cb74ddf1-3f23-4da6-a353-702814f2792d.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1720099583295,
-        "coordinates": {
-            "lat": 62.1447,
-            "lon": 6.0672
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359870512",
-        "extras": [],
-        "price": {
-            "amount": 30000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 256852,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "CV63922",
-        "ad_id": 359870512
     },
     {
         "type": "motor",
@@ -2925,43 +4459,6 @@
     },
     {
         "type": "motor",
-        "id": "359804761",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 2.0-163 D",
-        "location": "\u00c5sen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/1/359/804/761_e480256d-b2f4-40cc-b7fa-73185986e223.jpg",
-            "path": "2024/7/vertical-0/03/1/359/804/761_e480256d-b2f4-40cc-b7fa-73185986e223.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1720037580000,
-        "coordinates": {
-            "lat": 63.6087,
-            "lon": 11.0517
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359804761",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 263000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS17416",
-        "ad_id": 359804761
-    },
-    {
-        "type": "motor",
         "id": "359797893",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo XC70 2.4-163 D AWD, skinn, h.feste, DAB, webasto.",
@@ -2999,25 +4496,25 @@
     },
     {
         "type": "motor",
-        "id": "359755902",
+        "id": "252559333",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 D2 Momentum",
-        "location": "Tangen",
+        "heading": "Volvo XC70 D3 AWD Summum, driver support, volvo on-call, webasto",
+        "location": "Kval\u00f8ysletta",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/2/359/755/902_fe1a792f-f32c-4135-8ad1-8a2698900479.jpg",
-            "path": "2024/7/vertical-0/03/2/359/755/902_fe1a792f-f32c-4135-8ad1-8a2698900479.jpg",
-            "height": 1440,
-            "width": 1920,
-            "aspect_ratio": 1.3333333333333333
+            "url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/23/3/252/559/333_577845547.jpg",
+            "path": "2023/10/vertical-0/23/3/252/559/333_577845547.jpg",
+            "height": 3072,
+            "width": 4608,
+            "aspect_ratio": 1.5
         },
         "flags": [
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720015098475,
+        "timestamp": 1719995820000,
         "coordinates": {
-            "lat": 60.61045,
-            "lon": 11.27436
+            "lat": 69.6884,
+            "lon": 18.8569
         },
         "ad_type": 20,
         "labels": [
@@ -3032,68 +4529,21 @@
                 "type": "PRIMARY"
             }
         ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359755902",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=252559333",
         "extras": [],
         "price": {
-            "amount": 34999,
+            "amount": 194147,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2011,
-        "mileage": 223000,
+        "year": 2012,
+        "mileage": 197703,
         "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN40962",
-        "ad_id": 359755902
-    },
-    {
-        "type": "motor",
-        "id": "358977143",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.0-136 D",
-        "location": "Kristiansand S",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/27/3/358/977/143_55666d15-3903-455c-8f0f-eb763aed0628.jpg",
-            "path": "2024/6/vertical-0/27/3/358/977/143_55666d15-3903-455c-8f0f-eb763aed0628.jpg",
-            "height": 4032,
-            "width": 2268,
-            "aspect_ratio": 0.5625
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
+        "service_documents": [
+            "Service"
         ],
-        "timestamp": 1720006229397,
-        "coordinates": {
-            "lat": 58.1478,
-            "lon": 7.9906
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358977143",
-        "extras": [],
-        "price": {
-            "amount": 51845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 187226,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "CF51591",
-        "ad_id": 358977143
+        "regno": "SV23226",
+        "ad_id": 252559333
     },
     {
         "type": "motor",
@@ -3154,7 +4604,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359675971",
         "extras": [],
         "price": {
-            "amount": 91845,
+            "amount": 86845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3164,57 +4614,6 @@
         "service_documents": [],
         "regno": "HJ87589",
         "ad_id": 359675971
-    },
-    {
-        "type": "motor",
-        "id": "358516030",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 V40 1.6-114 D2",
-        "location": "Halsn\u00f8y kloster",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/0/358/516/030_522ec9d7-5e8e-4837-b433-0e8838c17333.jpg",
-            "path": "2024/7/vertical-0/02/0/358/516/030_522ec9d7-5e8e-4837-b433-0e8838c17333.jpg",
-            "height": 1066,
-            "width": 1600,
-            "aspect_ratio": 1.5009380863039399
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719941820000,
-        "coordinates": {
-            "lat": 59.7976,
-            "lon": 5.65442
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358516030",
-        "extras": [],
-        "price": {
-            "amount": 49905,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 161707,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PR19173",
-        "ad_id": 358516030
     },
     {
         "type": "motor",
@@ -3250,43 +4649,6 @@
         "service_documents": [],
         "regno": "SU90757",
         "ad_id": 359611037
-    },
-    {
-        "type": "motor",
-        "id": "355343785",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 1.6-109 D",
-        "location": "Stange",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/01/5/355/343/785_3f7b015a-ba7b-46cd-87a6-c7d948a47c41.jpg",
-            "path": "2024/6/vertical-0/01/5/355/343/785_3f7b015a-ba7b-46cd-87a6-c7d948a47c41.jpg",
-            "height": 3000,
-            "width": 4000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719913740000,
-        "coordinates": {
-            "lat": 60.71804,
-            "lon": 11.19415
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355343785",
-        "extras": [],
-        "price": {
-            "amount": 49500,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 217991,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PP93487",
-        "ad_id": 355343785
     },
     {
         "type": "motor",
@@ -3447,7 +4809,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359384521",
         "extras": [],
         "price": {
-            "amount": 169000,
+            "amount": 160000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3459,55 +4821,6 @@
         ],
         "regno": "YT69248",
         "ad_id": 359384521
-    },
-    {
-        "type": "motor",
-        "id": "359446687",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
-        "location": "Mj\u00f8ndalen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/7/359/446/687_cbb95638-941f-407a-87e1-b61b490bb07b.jpg",
-            "path": "2024/7/vertical-0/01/7/359/446/687_cbb95638-941f-407a-87e1-b61b490bb07b.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719830654112,
-        "coordinates": {
-            "lat": 59.7507,
-            "lon": 10.0248
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359446687",
-        "extras": [],
-        "price": {
-            "amount": 16845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 262000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "KH75695",
-        "ad_id": 359446687
     },
     {
         "type": "motor",
@@ -3541,55 +4854,6 @@
     },
     {
         "type": "motor",
-        "id": "359058294",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo S60 S60 D3 2.0-163 D",
-        "location": "\u00c5lesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/4/359/058/294_150e4441-9b8d-4224-8d3c-20583f042660.jpg",
-            "path": "2024/6/vertical-0/28/4/359/058/294_150e4441-9b8d-4224-8d3c-20583f042660.jpg",
-            "height": 1334,
-            "width": 750,
-            "aspect_ratio": 0.5622188905547226
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719778517436,
-        "coordinates": {
-            "lat": 62.43986,
-            "lon": 6.36302
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359058294",
-        "extras": [],
-        "price": {
-            "amount": 79999,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 215000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BS66467",
-        "ad_id": 359058294
-    },
-    {
-        "type": "motor",
         "id": "359361786",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V60 V60 1.6-114 D",
@@ -3612,7 +4876,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359361786",
         "extras": [],
         "price": {
-            "amount": 99999,
+            "amount": 91000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3663,7 +4927,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350063282",
         "extras": [],
         "price": {
-            "amount": 86500,
+            "amount": 84500,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3798,7 +5062,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359265113",
         "extras": [],
         "price": {
-            "amount": 159305,
+            "amount": 152305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3880,57 +5144,6 @@
         ],
         "regno": "CV74605",
         "ad_id": 359236107
-    },
-    {
-        "type": "motor",
-        "id": "359102092",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC60 D3 2,4D Summum AWD aut",
-        "location": "\u00c5l",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/2/359/102/092_30af38f4-a687-4a23-a54d-73c3709c522a.jpg",
-            "path": "2024/6/vertical-0/28/2/359/102/092_30af38f4-a687-4a23-a54d-73c3709c522a.jpg",
-            "height": 5712,
-            "width": 4284,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719644160880,
-        "coordinates": {
-            "lat": 60.6302,
-            "lon": 8.56069
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359102092",
-        "extras": [],
-        "price": {
-            "amount": 156845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 192500,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "AE32268",
-        "ad_id": 359102092
     },
     {
         "type": "motor",
@@ -4022,14 +5235,14 @@
         "type": "motor",
         "id": "359095712",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo C30 1,6 D DRIVe start/stop Summum",
+        "heading": "Volvo C30 1,6 D kj\u00f8p denne ! Trygt valg!",
         "location": "Grimstad",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/2/359/095/712_1a47ddd1-1fe5-48f7-9ce8-8686270f4423.jpg",
-            "path": "2024/6/vertical-0/28/2/359/095/712_1a47ddd1-1fe5-48f7-9ce8-8686270f4423.jpg",
-            "height": 1028,
-            "width": 1486,
-            "aspect_ratio": 1.4455252918287937
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/2/359/095/712_3fe1df97-1c23-4b64-a32b-46133c8e63f6.jpg",
+            "path": "2024/6/vertical-0/28/2/359/095/712_3fe1df97-1c23-4b64-a32b-46133c8e63f6.jpg",
+            "height": 2252,
+            "width": 4000,
+            "aspect_ratio": 1.7761989342806395
         },
         "flags": [
             "user_verified",
@@ -4056,14 +5269,16 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359095712",
         "extras": [],
         "price": {
-            "amount": 68845,
+            "amount": 71845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2010,
         "mileage": 128000,
         "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
+        "service_documents": [
+            "Service"
+        ],
         "regno": "YA62401",
         "ad_id": 359095712
     },
@@ -4696,43 +5911,6 @@
     },
     {
         "type": "motor",
-        "id": "358770661",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 1.6-114 D",
-        "location": "Saltnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/770/661_bcbe4348-effc-4a5c-9568-a380ae83f738.jpg",
-            "path": "2024/6/vertical-0/25/1/358/770/661_bcbe4348-effc-4a5c-9568-a380ae83f738.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719385996448,
-        "coordinates": {
-            "lat": 59.29352,
-            "lon": 10.75448
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358770661",
-        "extras": [],
-        "price": {
-            "amount": 124305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 193584,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "LJ54576",
-        "ad_id": 358770661
-    },
-    {
-        "type": "motor",
         "id": "345657097",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V70 V70 2.0-150 D",
@@ -4806,7 +5984,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358779391",
         "extras": [],
         "price": {
-            "amount": 39845,
+            "amount": 36845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4978,7 +6156,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=305866628",
         "extras": [],
         "price": {
-            "amount": 69777,
+            "amount": 67777,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5062,7 +6240,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358200455",
         "extras": [],
         "price": {
-            "amount": 111845,
+            "amount": 106845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5072,41 +6250,6 @@
         "service_documents": [],
         "regno": "AS32468",
         "ad_id": 358200455
-    },
-    {
-        "type": "motor",
-        "id": "358708330",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 2.0-163 D",
-        "location": "Lena",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/0/358/708/330_4f15d97c-7fbd-4666-8759-89eaddd15519.jpg",
-            "path": "2024/6/vertical-0/25/0/358/708/330_4f15d97c-7fbd-4666-8759-89eaddd15519.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719321360000,
-        "coordinates": {
-            "lat": 60.6746,
-            "lon": 10.81321
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358708330",
-        "extras": [],
-        "price": {
-            "amount": 86845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 267000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "FT42327",
-        "ad_id": 358708330
     },
     {
         "type": "motor",
@@ -5132,7 +6275,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358707334",
         "extras": [],
         "price": {
-            "amount": 56845,
+            "amount": 51845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5150,8 +6293,8 @@
         "heading": "Volvo V70 V70 1.6-109 D",
         "location": "Gre\u00e5ker",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/0/358/483/820_570f8192-100c-4d06-b8c4-62b267af2b93.jpg",
-            "path": "2024/6/vertical-0/25/0/358/483/820_570f8192-100c-4d06-b8c4-62b267af2b93.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/0/358/483/820_63d2affa-9076-4b38-a408-dd5baf8bf451.jpg",
+            "path": "2024/7/vertical-0/13/0/358/483/820_63d2affa-9076-4b38-a408-dd5baf8bf451.jpg",
             "height": 1600,
             "width": 1200,
             "aspect_ratio": 0.75
@@ -5167,7 +6310,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358483820",
         "extras": [],
         "price": {
-            "amount": 41845,
+            "amount": 40845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5267,7 +6410,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358559840",
         "extras": [],
         "price": {
-            "amount": 106845,
+            "amount": 91845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5360,62 +6503,13 @@
             "price_unit": "kr"
         },
         "year": 2014,
-        "mileage": 205000,
+        "mileage": 206000,
         "dealer_segment": "Privat",
         "service_documents": [
             "Testrapport"
         ],
         "regno": "VH55280",
         "ad_id": 358576709
-    },
-    {
-        "type": "motor",
-        "id": "291547901",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC90 D5 R-design AWD aut 7-seter NYLIG EU GODKJENT",
-        "location": "Skogsv\u00e5g",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/18/1/291/547/901_1364916044.jpg",
-            "path": "2023/9/vertical-0/18/1/291/547/901_1364916044.jpg",
-            "height": 1500,
-            "width": 2000,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719233460000,
-        "coordinates": {
-            "lat": 60.2551,
-            "lon": 5.10162
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=291547901",
-        "extras": [],
-        "price": {
-            "amount": 111777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 314000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "AE60358",
-        "ad_id": 291547901
     },
     {
         "type": "motor",
@@ -5601,7 +6695,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358464582",
         "extras": [],
         "price": {
-            "amount": 179305,
+            "amount": 164305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6019,7 +7113,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357779320",
         "extras": [],
         "price": {
-            "amount": 99305,
+            "amount": 84305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6170,14 +7264,28 @@
             "width": 1600,
             "aspect_ratio": 1.8306636155606408
         },
-        "flags": [],
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
         "timestamp": 1718816302903,
         "coordinates": {
             "lat": 62.3544,
             "lon": 5.73391
         },
         "ad_type": 20,
-        "labels": [],
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=325253145",
         "extras": [],
         "price": {
@@ -6187,7 +7295,7 @@
         },
         "year": 2012,
         "mileage": 205000,
-        "dealer_segment": "Privat",
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
         "regno": "NV66543",
         "ad_id": 325253145
@@ -6411,7 +7519,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357764988",
         "extras": [],
         "price": {
-            "amount": 81845,
+            "amount": 78845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -6423,57 +7531,6 @@
         ],
         "regno": "KH73597",
         "ad_id": 357764988
-    },
-    {
-        "type": "motor",
-        "id": "357191897",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 V60 1.6-114 D",
-        "location": "Larvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/7/357/191/897_912d3fe0-97d7-44eb-8f5d-2c9308cc7947.jpg",
-            "path": "2024/6/vertical-0/14/7/357/191/897_912d3fe0-97d7-44eb-8f5d-2c9308cc7947.jpg",
-            "height": 4080,
-            "width": 3072,
-            "aspect_ratio": 0.7529411764705882
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718706918543,
-        "coordinates": {
-            "lat": 59.06193,
-            "lon": 10.03857
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357191897",
-        "extras": [],
-        "price": {
-            "amount": 60000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 259088,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "AE31756",
-        "ad_id": 357191897
     },
     {
         "type": "motor",
@@ -6582,213 +7639,6 @@
     },
     {
         "type": "motor",
-        "id": "357558878",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.0-163 D",
-        "location": "Svelvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/16/8/357/558/878_ae57b47c-19cc-4e2e-8707-b94e14e2ab05.jpg",
-            "path": "2024/6/vertical-0/16/8/357/558/878_ae57b47c-19cc-4e2e-8707-b94e14e2ab05.jpg",
-            "height": 1800,
-            "width": 4000,
-            "aspect_ratio": 2.2222222222222223
-        },
-        "flags": [],
-        "timestamp": 1718562847273,
-        "coordinates": {
-            "lat": 59.6137,
-            "lon": 10.4087
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357558878",
-        "extras": [],
-        "price": {
-            "amount": 145845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 166563,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "ZZ14707",
-        "ad_id": 357558878
-    },
-    {
-        "type": "motor",
-        "id": "357474057",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 1.6-114 D",
-        "location": "Sn\u00e5sa",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/16/7/357/474/057_0f036018-f0dd-4577-9720-c11f37a58480.jpg",
-            "path": "2024/6/vertical-0/16/7/357/474/057_0f036018-f0dd-4577-9720-c11f37a58480.jpg",
-            "height": 3468,
-            "width": 4624,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718538735391,
-        "coordinates": {
-            "lat": 64.2445,
-            "lon": 12.3752
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357474057",
-        "extras": [],
-        "price": {
-            "amount": 64305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 264037,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "XD85477",
-        "ad_id": 357474057
-    },
-    {
-        "type": "motor",
-        "id": "350261621",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 V40 1.6-114 D R-Design",
-        "location": "Brumunddal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/1/350/261/621_c89bd7f7-91cd-4b20-af24-6f716acea6d5.jpg",
-            "path": "2024/4/vertical-0/27/1/350/261/621_c89bd7f7-91cd-4b20-af24-6f716acea6d5.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718524920000,
-        "coordinates": {
-            "lat": 60.90235,
-            "lon": 10.90925
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350261621",
-        "extras": [],
-        "price": {
-            "amount": 105000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 211000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BT36698",
-        "ad_id": 350261621
-    },
-    {
-        "type": "motor",
-        "id": "357410828",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 Cross Country Meget fin D2 Summum, sort metallic, sort skinn",
-        "location": "Selbu",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/8/357/410/828_8c9993df-2cff-4bd3-9c56-d3440103c220.jpg",
-            "path": "2024/6/vertical-0/15/8/357/410/828_8c9993df-2cff-4bd3-9c56-d3440103c220.jpg",
-            "height": 1403,
-            "width": 2253,
-            "aspect_ratio": 1.6058446186742694
-        },
-        "flags": [],
-        "timestamp": 1718490000000,
-        "coordinates": {
-            "lat": 63.22909,
-            "lon": 11.0313
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357410828",
-        "extras": [],
-        "price": {
-            "amount": 144305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 181000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "YT70528",
-        "ad_id": 357410828
-    },
-    {
-        "type": "motor",
-        "id": "357304104",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC60 XC60 2.4-163 D AWD",
-        "location": "\u00c5lesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/4/357/304/104_c07c3d6d-b7f1-44e9-b871-55b921d4126e.jpg",
-            "path": "2024/6/vertical-0/15/4/357/304/104_c07c3d6d-b7f1-44e9-b871-55b921d4126e.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718473930511,
-        "coordinates": {
-            "lat": 62.45246,
-            "lon": 6.36585
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357304104",
-        "extras": [],
-        "price": {
-            "amount": 46845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 347000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "YN55237",
-        "ad_id": 357304104
-    },
-    {
-        "type": "motor",
         "id": "357380769",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo XC90 2.4-185 D AWD",
@@ -6835,246 +7685,6 @@
         "service_documents": [],
         "regno": "AE38744",
         "ad_id": 357380769
-    },
-    {
-        "type": "motor",
-        "id": "357363029",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 1.6-114 D",
-        "location": "Bremnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/9/357/363/029_1edc2a14-f9e2-4478-81f8-02c11e6b89cd.jpg",
-            "path": "2024/6/vertical-0/15/9/357/363/029_1edc2a14-f9e2-4478-81f8-02c11e6b89cd.jpg",
-            "height": 2640,
-            "width": 1080,
-            "aspect_ratio": 0.4090909090909091
-        },
-        "flags": [],
-        "timestamp": 1718464284272,
-        "coordinates": {
-            "lat": 59.7674,
-            "lon": 5.12431
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357363029",
-        "extras": [],
-        "price": {
-            "amount": 124305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 128000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "SV43701",
-        "ad_id": 357363029
-    },
-    {
-        "type": "motor",
-        "id": "357344052",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.4-175 D",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/2/357/344/052_40ede0b1-717f-46fb-8d92-3bd16ad21b19.jpg",
-            "path": "2024/6/vertical-0/15/2/357/344/052_40ede0b1-717f-46fb-8d92-3bd16ad21b19.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718461500000,
-        "coordinates": {
-            "lat": 59.96052,
-            "lon": 10.75584
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357344052",
-        "extras": [],
-        "price": {
-            "amount": 76845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 270000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS41047",
-        "ad_id": 357344052
-    },
-    {
-        "type": "motor",
-        "id": "357335887",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 V40 1.6-114 D",
-        "location": "Maura",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/7/357/335/887_fa78442f-7f0f-49ad-8cb6-72e70555c9fb.jpg",
-            "path": "2024/6/vertical-0/15/7/357/335/887_fa78442f-7f0f-49ad-8cb6-72e70555c9fb.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718453553285,
-        "coordinates": {
-            "lat": 60.2582,
-            "lon": 11.02941
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357335887",
-        "extras": [],
-        "price": {
-            "amount": 86305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 170450,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "BS84994",
-        "ad_id": 357335887
-    },
-    {
-        "type": "motor",
-        "id": "349446260",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo S60 2.0-163 D R-Design m/ Chrome Delete",
-        "location": "Oslo",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/17/0/349/446/260_f8397d5a-3967-424e-827f-c62f814c8da4.jpg",
-            "path": "2024/6/vertical-0/17/0/349/446/260_f8397d5a-3967-424e-827f-c62f814c8da4.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718444483234,
-        "coordinates": {
-            "lat": 59.9425,
-            "lon": 10.8996
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349446260",
-        "extras": [],
-        "price": {
-            "amount": 121845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 202304,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RL36533",
-        "ad_id": 349446260
-    },
-    {
-        "type": "motor",
-        "id": "350058604",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC60 2.4-205 D AWD",
-        "location": "Klokkarvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/15/4/350/058/604_ce028e5d-d3cb-4f8c-b995-6c405ec18e99.jpg",
-            "path": "2024/6/vertical-0/15/4/350/058/604_ce028e5d-d3cb-4f8c-b995-6c405ec18e99.jpg",
-            "height": 2048,
-            "width": 1536,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718426884570,
-        "coordinates": {
-            "lat": 60.2247,
-            "lon": 5.15091
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350058604",
-        "extras": [],
-        "price": {
-            "amount": 96845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 254389,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "CV63099",
-        "ad_id": 350058604
-    },
-    {
-        "type": "motor",
-        "id": "357215069",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 V40 1.6-114 D",
-        "location": "Stavanger",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/9/357/215/069_98e43d1c-dcb8-440d-9d95-85e6a2654b08.jpg",
-            "path": "2024/6/vertical-0/14/9/357/215/069_98e43d1c-dcb8-440d-9d95-85e6a2654b08.jpg",
-            "height": 684,
-            "width": 1216,
-            "aspect_ratio": 1.7777777777777777
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1718369540198,
-        "coordinates": {
-            "lat": 58.97101,
-            "lon": 5.71301
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357215069",
-        "extras": [],
-        "price": {
-            "amount": 120000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 120000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "RK81327",
-        "ad_id": 357215069
     },
     {
         "type": "motor",
@@ -7127,25 +7737,25 @@
     },
     {
         "type": "motor",
-        "id": "357186454",
+        "id": "356999397",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 V60 1.6-114 D",
-        "location": "Krokstadelva",
+        "heading": "Volvo V90 Cross Country D4 190hk AWD",
+        "location": "Br\u00f8nn\u00f8ysund",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/4/357/186/454_a4489261-b24c-4516-a567-5fa66a18ebf2.jpg",
-            "path": "2024/6/vertical-0/14/4/357/186/454_a4489261-b24c-4516-a567-5fa66a18ebf2.jpg",
-            "height": 1016,
-            "width": 1600,
-            "aspect_ratio": 1.5748031496062993
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/7/356/999/397_6325d569-4383-4daf-a1d5-97bc57069ab9.jpg",
+            "path": "2024/6/vertical-0/12/7/356/999/397_6325d569-4383-4daf-a1d5-97bc57069ab9.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
         },
         "flags": [
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1718355030932,
+        "timestamp": 1718218200000,
         "coordinates": {
-            "lat": 59.7587,
-            "lon": 10.03179
+            "lat": 65.47155,
+            "lon": 12.19122
         },
         "ad_type": 20,
         "labels": [
@@ -7160,128 +7770,21 @@
                 "type": "PRIMARY"
             }
         ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357186454",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356999397",
         "extras": [],
         "price": {
-            "amount": 96845,
+            "amount": 197305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2012,
-        "mileage": 133200,
+        "year": 2018,
+        "mileage": 310700,
         "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "PP98429",
-        "ad_id": 357186454
-    },
-    {
-        "type": "motor",
-        "id": "352545168",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.4-205 D AWD",
-        "location": "S\u00f8mna",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/10/8/352/545/168_f915e723-9838-4b1e-aeb1-33bba8ad0d58.jpg",
-            "path": "2024/5/vertical-0/10/8/352/545/168_f915e723-9838-4b1e-aeb1-33bba8ad0d58.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718216700000,
-        "coordinates": {
-            "lat": 65.3125,
-            "lon": 12.1673
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352545168",
-        "extras": [],
-        "price": {
-            "amount": 151845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 245444,
-        "dealer_segment": "Privat",
         "service_documents": [
             "Service"
         ],
-        "regno": "PD45776",
-        "ad_id": 352545168
-    },
-    {
-        "type": "motor",
-        "id": "352566821",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 V70 2.0-163 D",
-        "location": "Dal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/1/352/566/821_39182daa-4f33-43fe-a782-6acd21278e65.jpg",
-            "path": "2024/5/vertical-0/12/1/352/566/821_39182daa-4f33-43fe-a782-6acd21278e65.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718184120000,
-        "coordinates": {
-            "lat": 60.25108,
-            "lon": 11.20246
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=352566821",
-        "extras": [],
-        "price": {
-            "amount": 129305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 215000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "DP60808",
-        "ad_id": 352566821
-    },
-    {
-        "type": "motor",
-        "id": "356903230",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V40 1.6-114 D",
-        "location": "Vester\u00f8y",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/0/356/903/230_38cb4b19-c165-4e08-b09f-1c77633153bb.jpg",
-            "path": "2024/6/vertical-0/12/0/356/903/230_38cb4b19-c165-4e08-b09f-1c77633153bb.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1718179440000,
-        "coordinates": {
-            "lat": 59.1025,
-            "lon": 10.8716
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356903230",
-        "extras": [],
-        "price": {
-            "amount": 51305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 280000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "KH93959",
-        "ad_id": 356903230
+        "regno": "SD85828",
+        "ad_id": 356999397
     },
     {
         "type": "motor",
@@ -7321,7 +7824,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356521080",
         "extras": [],
         "price": {
-            "amount": 28845,
+            "amount": 21845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -7518,7 +8021,7 @@
         "type": "motor",
         "id": "343935701",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V50 V50 1.6-114 D",
+        "heading": "Volvo V50 V50 1.6 Limited Edition",
         "location": "Ballangen",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/18/1/343/935/701_31df5992-c6c8-4bdd-aa7a-81f616b4994f.jpg",
@@ -7674,57 +8177,6 @@
     },
     {
         "type": "motor",
-        "id": "354202347",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 1.6-114 D",
-        "location": "Solbergelva",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/24/7/354/202/347_5bc3816c-099f-4673-826c-a394f9049ad0.jpg",
-            "path": "2024/5/vertical-0/24/7/354/202/347_5bc3816c-099f-4673-826c-a394f9049ad0.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1717146000000,
-        "coordinates": {
-            "lat": 59.76328,
-            "lon": 10.06332
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354202347",
-        "extras": [],
-        "price": {
-            "amount": 46845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 243000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "NV63559",
-        "ad_id": 354202347
-    },
-    {
-        "type": "motor",
         "id": "354360874",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Volvo V60 V60 1.6-114 D",
@@ -7876,139 +8328,5 @@
         "service_documents": [],
         "regno": "DN60738",
         "ad_id": 353500881
-    },
-    {
-        "type": "motor",
-        "id": "353790153",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V60 D2 R-design // NY EU // KROK // SERVICEHEFTE ++",
-        "location": "Hamar",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/3/353/790/153_8a975ccb-c723-4b6d-8e68-76e7d1cbbbb1.jpg",
-            "path": "2024/5/vertical-0/20/3/353/790/153_8a975ccb-c723-4b6d-8e68-76e7d1cbbbb1.jpg",
-            "height": 3024,
-            "width": 4032,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716236520000,
-        "coordinates": {
-            "lat": 60.7951,
-            "lon": 11.09561
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353790153",
-        "extras": [],
-        "price": {
-            "amount": 149305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 169105,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "NV69020",
-        "ad_id": 353790153
-    },
-    {
-        "type": "motor",
-        "id": "353086812",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo XC90 XC90 2.4-185 D AWD",
-        "location": "Kirkenes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/14/2/353/086/812_3fdfcb28-cbae-465d-ac2d-756ed3f4fca1.jpg",
-            "path": "2024/5/vertical-0/14/2/353/086/812_3fdfcb28-cbae-465d-ac2d-756ed3f4fca1.jpg",
-            "height": 1600,
-            "width": 910,
-            "aspect_ratio": 0.56875
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1715714520000,
-        "coordinates": {
-            "lat": 69.7244,
-            "lon": 30.05066
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353086812",
-        "extras": [],
-        "price": {
-            "amount": 175000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 222000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "ZH37085",
-        "ad_id": 353086812
-    },
-    {
-        "type": "motor",
-        "id": "317770614",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Volvo V70 1.6-109 D",
-        "location": "Hamar",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/8/vertical-0/31/4/317/770/614_1947905919.jpg",
-            "path": "2023/8/vertical-0/31/4/317/770/614_1947905919.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1712746860000,
-        "coordinates": {
-            "lat": 60.79329,
-            "lon": 11.09426
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=317770614",
-        "extras": [],
-        "price": {
-            "amount": 50777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 290000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "ad_id": 317770614
     }
 ]

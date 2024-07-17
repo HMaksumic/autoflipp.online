@@ -96,3 +96,148 @@ Stacktrace:
 
 Cookie consent has been accepted.
 Data from 4 pages saved to 'VOLVO_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x56488e0efc7a <unknown>
+#1 0x56488ddd2e2c <unknown>
+#2 0x56488de1f661 <unknown>
+#3 0x56488de1f751 <unknown>
+#4 0x56488de63f64 <unknown>
+#5 0x56488de425ed <unknown>
+#6 0x56488de61303 <unknown>
+#7 0x56488de42363 <unknown>
+#8 0x56488de12247 <unknown>
+#9 0x56488de12b9e <unknown>
+#10 0x56488e0b624b <unknown>
+#11 0x56488e0ba2f1 <unknown>
+#12 0x56488e0a1afe <unknown>
+#13 0x56488e0bae52 <unknown>
+#14 0x56488e08679f <unknown>
+#15 0x56488e0df638 <unknown>
+#16 0x56488e0df810 <unknown>
+#17 0x56488e0eedac <unknown>
+#18 0x7f219849f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 4 pages saved to 'VOLVO_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55ae3fabcc7a <unknown>
+#1 0x55ae3f79fe2c <unknown>
+#2 0x55ae3f7ec661 <unknown>
+#3 0x55ae3f7ec751 <unknown>
+#4 0x55ae3f830f64 <unknown>
+#5 0x55ae3f80f5ed <unknown>
+#6 0x55ae3f82e303 <unknown>
+#7 0x55ae3f80f363 <unknown>
+#8 0x55ae3f7df247 <unknown>
+#9 0x55ae3f7dfb9e <unknown>
+#10 0x55ae3fa8324b <unknown>
+#11 0x55ae3fa872f1 <unknown>
+#12 0x55ae3fa6eafe <unknown>
+#13 0x55ae3fa87e52 <unknown>
+#14 0x55ae3fa5379f <unknown>
+#15 0x55ae3faac638 <unknown>
+#16 0x55ae3faac810 <unknown>
+#17 0x55ae3fabbdac <unknown>
+#18 0x7fe36ee9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 4 pages saved to 'VOLVO_SEARCH.json'
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_VOLVO_SEARCH.py", line 88, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.481
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x56533d93bc7a <unknown>
+#1 0x56533d61ee2c <unknown>
+#2 0x56533d6061a6 <unknown>
+#3 0x56533d605d85 <unknown>
+#4 0x56533d603cc6 <unknown>
+#5 0x56533d60433f <unknown>
+#6 0x56533d614c67 <unknown>
+#7 0x56533d62b1be <unknown>
+#8 0x56533d6308ab <unknown>
+#9 0x56533d604a8a <unknown>
+#10 0x56533d62b03e <unknown>
+#11 0x56533d6ad679 <unknown>
+#12 0x56533d68e363 <unknown>
+#13 0x56533d65e247 <unknown>
+#14 0x56533d65eb9e <unknown>
+#15 0x56533d90224b <unknown>
+#16 0x56533d9062f1 <unknown>
+#17 0x56533d8edafe <unknown>
+#18 0x56533d906e52 <unknown>
+#19 0x56533d8d279f <unknown>
+#20 0x56533d92b638 <unknown>
+#21 0x56533d92b810 <unknown>
+#22 0x56533d93adac <unknown>
+#23 0x7f3dca29f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55bb662e5c7a <unknown>
+#1 0x55bb65fc8e2c <unknown>
+#2 0x55bb66015661 <unknown>
+#3 0x55bb66015751 <unknown>
+#4 0x55bb66059f64 <unknown>
+#5 0x55bb660385ed <unknown>
+#6 0x55bb66057303 <unknown>
+#7 0x55bb66038363 <unknown>
+#8 0x55bb66008247 <unknown>
+#9 0x55bb66008b9e <unknown>
+#10 0x55bb662ac24b <unknown>
+#11 0x55bb662b02f1 <unknown>
+#12 0x55bb66297afe <unknown>
+#13 0x55bb662b0e52 <unknown>
+#14 0x55bb6627c79f <unknown>
+#15 0x55bb662d5638 <unknown>
+#16 0x55bb662d5810 <unknown>
+#17 0x55bb662e4dac <unknown>
+#18 0x7f71df69f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 4 pages saved to 'VOLVO_SEARCH.json'
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_VOLVO_SEARCH.py", line 22, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x55f6613cec7a <unknown>
+#1 0x55f6610b1e2c <unknown>
+#2 0x55f6610ec175 <unknown>
+#3 0x55f6610e72d1 <unknown>
+#4 0x55f6610e317b <unknown>
+#5 0x55f66112dc49 <unknown>
+#6 0x55f661121363 <unknown>
+#7 0x55f6610f1247 <unknown>
+#8 0x55f6610f1b9e <unknown>
+#9 0x55f66139524b <unknown>
+#10 0x55f6613992f1 <unknown>
+#11 0x55f661380afe <unknown>
+#12 0x55f661399e52 <unknown>
+#13 0x55f66136579f <unknown>
+#14 0x55f6613be638 <unknown>
+#15 0x55f6613be810 <unknown>
+#16 0x55f6613cddac <unknown>
+#17 0x7f4e59e9f7f2 start_thread
+

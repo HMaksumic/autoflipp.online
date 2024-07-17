@@ -72,7 +72,6 @@ def match_car(finn_car, olx_car):
         # Normalize and compare names if years are close
         finn_name = normalize_name(finn_car.get('heading', ''))
         olx_name = normalize_name(olx_car.get('title', ''))
-        print(f"Matching {finn_name} and {olx_name}")
         return finn_name in olx_name or olx_name in finn_name
     return False
 

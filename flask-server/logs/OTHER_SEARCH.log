@@ -100,3 +100,199 @@ Stacktrace:
 
 Cookie consent has been accepted.
 Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55a57b5e3c7a <unknown>
+#1 0x55a57b2c6e2c <unknown>
+#2 0x55a57b313661 <unknown>
+#3 0x55a57b313751 <unknown>
+#4 0x55a57b357f64 <unknown>
+#5 0x55a57b3365ed <unknown>
+#6 0x55a57b355303 <unknown>
+#7 0x55a57b336363 <unknown>
+#8 0x55a57b306247 <unknown>
+#9 0x55a57b306b9e <unknown>
+#10 0x55a57b5aa24b <unknown>
+#11 0x55a57b5ae2f1 <unknown>
+#12 0x55a57b595afe <unknown>
+#13 0x55a57b5aee52 <unknown>
+#14 0x55a57b57a79f <unknown>
+#15 0x55a57b5d3638 <unknown>
+#16 0x55a57b5d3810 <unknown>
+#17 0x55a57b5e2dac <unknown>
+#18 0x7f190a29f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x5652326d4c7a <unknown>
+#1 0x5652323b7e2c <unknown>
+#2 0x565232404661 <unknown>
+#3 0x565232404751 <unknown>
+#4 0x565232448f64 <unknown>
+#5 0x5652324275ed <unknown>
+#6 0x565232446303 <unknown>
+#7 0x565232427363 <unknown>
+#8 0x5652323f7247 <unknown>
+#9 0x5652323f7b9e <unknown>
+#10 0x56523269b24b <unknown>
+#11 0x56523269f2f1 <unknown>
+#12 0x565232686afe <unknown>
+#13 0x56523269fe52 <unknown>
+#14 0x56523266b79f <unknown>
+#15 0x5652326c4638 <unknown>
+#16 0x5652326c4810 <unknown>
+#17 0x5652326d3dac <unknown>
+#18 0x7fc9c789f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x5635b7f68c7a <unknown>
+#1 0x5635b7c4be2c <unknown>
+#2 0x5635b7c98661 <unknown>
+#3 0x5635b7c98751 <unknown>
+#4 0x5635b7cdcf64 <unknown>
+#5 0x5635b7cbb5ed <unknown>
+#6 0x5635b7cda303 <unknown>
+#7 0x5635b7cbb363 <unknown>
+#8 0x5635b7c8b247 <unknown>
+#9 0x5635b7c8bb9e <unknown>
+#10 0x5635b7f2f24b <unknown>
+#11 0x5635b7f332f1 <unknown>
+#12 0x5635b7f1aafe <unknown>
+#13 0x5635b7f33e52 <unknown>
+#14 0x5635b7eff79f <unknown>
+#15 0x5635b7f58638 <unknown>
+#16 0x5635b7f58810 <unknown>
+#17 0x5635b7f67dac <unknown>
+#18 0x7f2d8789f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 96, in <module>
+    data = fetch_and_process_page(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 51, in fetch_and_process_page
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.870
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x5635b7f68c7a <unknown>
+#1 0x5635b7c4be2c <unknown>
+#2 0x5635b7c331a6 <unknown>
+#3 0x5635b7c32d85 <unknown>
+#4 0x5635b7c30cc6 <unknown>
+#5 0x5635b7c3133f <unknown>
+#6 0x5635b7c41c67 <unknown>
+#7 0x5635b7c581be <unknown>
+#8 0x5635b7c5d8ab <unknown>
+#9 0x5635b7c31a8a <unknown>
+#10 0x5635b7c5803e <unknown>
+#11 0x5635b7cda679 <unknown>
+#12 0x5635b7cbb363 <unknown>
+#13 0x5635b7c8b247 <unknown>
+#14 0x5635b7c8bb9e <unknown>
+#15 0x5635b7f2f24b <unknown>
+#16 0x5635b7f332f1 <unknown>
+#17 0x5635b7f1aafe <unknown>
+#18 0x5635b7f33e52 <unknown>
+#19 0x5635b7eff79f <unknown>
+#20 0x5635b7f58638 <unknown>
+#21 0x5635b7f58810 <unknown>
+#22 0x5635b7f67dac <unknown>
+#23 0x7f2d8789f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55fd713f4c7a <unknown>
+#1 0x55fd710d7e2c <unknown>
+#2 0x55fd71124661 <unknown>
+#3 0x55fd71124751 <unknown>
+#4 0x55fd71168f64 <unknown>
+#5 0x55fd711475ed <unknown>
+#6 0x55fd71166303 <unknown>
+#7 0x55fd71147363 <unknown>
+#8 0x55fd71117247 <unknown>
+#9 0x55fd71117b9e <unknown>
+#10 0x55fd713bb24b <unknown>
+#11 0x55fd713bf2f1 <unknown>
+#12 0x55fd713a6afe <unknown>
+#13 0x55fd713bfe52 <unknown>
+#14 0x55fd7138b79f <unknown>
+#15 0x55fd713e4638 <unknown>
+#16 0x55fd713e4810 <unknown>
+#17 0x55fd713f3dac <unknown>
+#18 0x7f025ca9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x559972eb1c7a <unknown>
+#1 0x559972b94e2c <unknown>
+#2 0x559972be1661 <unknown>
+#3 0x559972be1751 <unknown>
+#4 0x559972c25f64 <unknown>
+#5 0x559972c045ed <unknown>
+#6 0x559972c23303 <unknown>
+#7 0x559972c04363 <unknown>
+#8 0x559972bd4247 <unknown>
+#9 0x559972bd4b9e <unknown>
+#10 0x559972e7824b <unknown>
+#11 0x559972e7c2f1 <unknown>
+#12 0x559972e63afe <unknown>
+#13 0x559972e7ce52 <unknown>
+#14 0x559972e4879f <unknown>
+#15 0x559972ea1638 <unknown>
+#16 0x559972ea1810 <unknown>
+#17 0x559972eb0dac <unknown>
+#18 0x7f925ea9f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 96, in <module>
+    data = fetch_and_process_page(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 51, in fetch_and_process_page
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.771
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x559972eb1c7a <unknown>
+#1 0x559972b94e2c <unknown>
+#2 0x559972b7c1a6 <unknown>
+#3 0x559972b7bd85 <unknown>
+#4 0x559972b79cc6 <unknown>
+#5 0x559972b7a33f <unknown>
+#6 0x559972b8ac67 <unknown>
+#7 0x559972ba11be <unknown>
+#8 0x559972ba68ab <unknown>
+#9 0x559972b7aa8a <unknown>
+#10 0x559972ba103e <unknown>
+#11 0x559972c23679 <unknown>
+#12 0x559972c04363 <unknown>
+#13 0x559972bd4247 <unknown>
+#14 0x559972bd4b9e <unknown>
+#15 0x559972e7824b <unknown>
+#16 0x559972e7c2f1 <unknown>
+#17 0x559972e63afe <unknown>
+#18 0x559972e7ce52 <unknown>
+#19 0x559972e4879f <unknown>
+#20 0x559972ea1638 <unknown>
+#21 0x559972ea1810 <unknown>
+#22 0x559972eb0dac <unknown>
+#23 0x7f925ea9f7f2 start_thread
+

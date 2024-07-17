@@ -131,3 +131,162 @@ Stacktrace:
 
 Cookie consent has been accepted.
 Data from 3 pages saved to 'PEUGEOT_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x564d73572c7a <unknown>
+#1 0x564d73255e2c <unknown>
+#2 0x564d732a2661 <unknown>
+#3 0x564d732a2751 <unknown>
+#4 0x564d732e6f64 <unknown>
+#5 0x564d732c55ed <unknown>
+#6 0x564d732e4303 <unknown>
+#7 0x564d732c5363 <unknown>
+#8 0x564d73295247 <unknown>
+#9 0x564d73295b9e <unknown>
+#10 0x564d7353924b <unknown>
+#11 0x564d7353d2f1 <unknown>
+#12 0x564d73524afe <unknown>
+#13 0x564d7353de52 <unknown>
+#14 0x564d7350979f <unknown>
+#15 0x564d73562638 <unknown>
+#16 0x564d73562810 <unknown>
+#17 0x564d73571dac <unknown>
+#18 0x7f82f809f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 3 pages saved to 'PEUGEOT_SEARCH.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x5644a70b6c7a <unknown>
+#1 0x5644a6d99e2c <unknown>
+#2 0x5644a6de6661 <unknown>
+#3 0x5644a6de6751 <unknown>
+#4 0x5644a6e2af64 <unknown>
+#5 0x5644a6e095ed <unknown>
+#6 0x5644a6e28303 <unknown>
+#7 0x5644a6e09363 <unknown>
+#8 0x5644a6dd9247 <unknown>
+#9 0x5644a6dd9b9e <unknown>
+#10 0x5644a707d24b <unknown>
+#11 0x5644a70812f1 <unknown>
+#12 0x5644a7068afe <unknown>
+#13 0x5644a7081e52 <unknown>
+#14 0x5644a704d79f <unknown>
+#15 0x5644a70a6638 <unknown>
+#16 0x5644a70a6810 <unknown>
+#17 0x5644a70b5dac <unknown>
+#18 0x7f715de9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 3 pages saved to 'PEUGEOT_SEARCH.json'
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 87, in <module>
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 288.823
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x55e223ef3c7a <unknown>
+#1 0x55e223bd6e2c <unknown>
+#2 0x55e223bbe1a6 <unknown>
+#3 0x55e223bbdd85 <unknown>
+#4 0x55e223bbbcc6 <unknown>
+#5 0x55e223bbc33f <unknown>
+#6 0x55e223bccc67 <unknown>
+#7 0x55e223be31be <unknown>
+#8 0x55e223be88ab <unknown>
+#9 0x55e223bbca8a <unknown>
+#10 0x55e223be2d76 <unknown>
+#11 0x55e223c65679 <unknown>
+#12 0x55e223c46363 <unknown>
+#13 0x55e223c16247 <unknown>
+#14 0x55e223c16b9e <unknown>
+#15 0x55e223eba24b <unknown>
+#16 0x55e223ebe2f1 <unknown>
+#17 0x55e223ea5afe <unknown>
+#18 0x55e223ebee52 <unknown>
+#19 0x55e223e8a79f <unknown>
+#20 0x55e223ee3638 <unknown>
+#21 0x55e223ee3810 <unknown>
+#22 0x55e223ef2dac <unknown>
+#23 0x7f040069f7f2 start_thread
+
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 21, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created
+from chrome not reachable
+Stacktrace:
+#0 0x557b0dbc6c7a <unknown>
+#1 0x557b0d8a9c71 <unknown>
+#2 0x557b0d89433f <unknown>
+#3 0x557b0d8e4895 <unknown>
+#4 0x557b0d8df0a1 <unknown>
+#5 0x557b0d8db17b <unknown>
+#6 0x557b0d925c49 <unknown>
+#7 0x557b0d919363 <unknown>
+#8 0x557b0d8e9247 <unknown>
+#9 0x557b0d8e9b9e <unknown>
+#10 0x557b0db8d24b <unknown>
+#11 0x557b0db912f1 <unknown>
+#12 0x557b0db78afe <unknown>
+#13 0x557b0db91e52 <unknown>
+#14 0x557b0db5d79f <unknown>
+#15 0x557b0dbb6638 <unknown>
+#16 0x557b0dbb6810 <unknown>
+#17 0x557b0dbc5dac <unknown>
+#18 0x7f19ade9f7f2 start_thread
+
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_PEUGEOT_SEARCH.py", line 21, in <module>
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist
+Stacktrace:
+#0 0x5575be0fcc7a <unknown>
+#1 0x5575bdddfe2c <unknown>
+#2 0x5575bde1a175 <unknown>
+#3 0x5575bde152d1 <unknown>
+#4 0x5575bde1117b <unknown>
+#5 0x5575bde5bc49 <unknown>
+#6 0x5575bde4f363 <unknown>
+#7 0x5575bde1f247 <unknown>
+#8 0x5575bde1fb9e <unknown>
+#9 0x5575be0c324b <unknown>
+#10 0x5575be0c72f1 <unknown>
+#11 0x5575be0aeafe <unknown>
+#12 0x5575be0c7e52 <unknown>
+#13 0x5575be09379f <unknown>
+#14 0x5575be0ec638 <unknown>
+#15 0x5575be0ec810 <unknown>
+#16 0x5575be0fbdac <unknown>
+#17 0x7fc32ec9f7f2 start_thread
+
