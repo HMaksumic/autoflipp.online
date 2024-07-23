@@ -1,30 +1,98 @@
 [
     {
+        "car_name": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
+        "normalized_name": "1 136 2 200 e e klasse",
+        "year": 2010,
+        "finn_price": 58345,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362230228",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/8/362/230/228_2aacc32d-4240-4371-8cde-f4bd8e5c8d15.jpg",
+        "regno": "PD35614",
+        "olx_prices": [
+            20000,
+            22000,
+            13500,
+            25500,
+            7900,
+            19000,
+            17500,
+            17000,
+            0,
+            20000,
+            0,
+            0,
+            18900,
+            20000,
+            22500,
+            20500,
+            22500,
+            21000
+        ],
+        "olx_ids": [
+            61108308,
+            58890773,
+            54524886,
+            62648225,
+            62561490,
+            60582763,
+            62531975,
+            61947211,
+            61712943,
+            61383258,
+            51609857,
+            60473578,
+            59333677,
+            55589487,
+            61063032,
+            60383928,
+            60758514,
+            48719929
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz C-Klasse C 250 BLUETEC 2.1-204 D 4MATIC",
+        "normalized_name": "1 2 204 250 bluetec c c klasse",
+        "year": 2015,
+        "finn_price": 184305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360064505",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/5/360/064/505_734d6ab5-4da0-4b1e-a24a-ee950016b926.jpg",
+        "regno": "NF72226",
+        "olx_prices": [
+            19850
+        ],
+        "olx_ids": [
+            60234461
+        ],
+        "tax_return": 34321
+    },
+    {
         "car_name": "Mercedes-Benz E-Klasse E 220 CDI 2.1-170 D",
         "normalized_name": "1 170 2 220 e e klasse",
         "year": 2010,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361355324",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/4/361/355/324_0c14b301-ee9c-48c2-b052-a6570bd4ffd9.jpg",
-        "regno": "DN40612",
+        "finn_price": 36845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362193286",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/6/362/193/286_83cc7282-daf0-49bb-b7eb-b9c73127efa6.jpg",
+        "regno": "AE32189",
         "olx_prices": [
             22500,
+            13500,
+            19500,
+            19999,
+            0,
+            25000,
+            20999,
+            19800,
             0,
             0,
             16500,
             23000,
-            20500,
+            19500,
             0,
             20000,
-            20000,
-            0,
             0,
             18000,
             25000,
-            19500,
             21000,
-            0,
-            25000,
             23000,
             21500,
             23500,
@@ -38,6 +106,13 @@
         ],
         "olx_ids": [
             62576215,
+            62653965,
+            38407906,
+            62707367,
+            62680377,
+            48364298,
+            62662871,
+            60319732,
             61912110,
             53661526,
             54039964,
@@ -45,15 +120,10 @@
             61764597,
             50803180,
             62394288,
-            62445881,
             61589390,
-            61280210,
             55090238,
             62190995,
-            38407906,
             62041489,
-            62010708,
-            48364298,
             60794813,
             61858431,
             52076505,
@@ -68,22 +138,24 @@
         "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz Vito VITO 2.1-136 D 4MATIC",
-        "normalized_name": "1 136 2 vito vito",
+        "car_name": "Mercedes-Benz Vito V116 A2 4MATIC",
+        "normalized_name": "a2 v116 vito",
         "year": 2012,
-        "finn_price": 99900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361241162",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/2/361/241/162_c0b5fb7d-f390-4783-bdba-831e49aa9bfa.jpg",
-        "regno": "UF56021",
+        "finn_price": 26231,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362145047",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/7/362/145/047_8d8a2100-e951-4970-8142-f7df2237d436.jpg",
+        "regno": "LJ48098",
         "olx_prices": [
-            29000,
+            26000,
+            30000,
             25000,
             24900,
             28000,
             25000
         ],
         "olx_ids": [
-            62562763,
+            62726735,
+            58940220,
             62397367,
             59972252,
             57100569,
@@ -92,274 +164,302 @@
         "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz Sprinter SPRINTER 2.1-163 D",
-        "normalized_name": "1 163 2 sprinter sprinter",
-        "year": 2014,
-        "finn_price": 160476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361310347",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/7/361/310/347_5dcd53d7-430b-42ec-b6a8-10968f6c18a0.jpg",
-        "regno": "DP43300",
-        "olx_prices": [
-            32000,
-            26900
-        ],
-        "olx_ids": [
-            62414777,
-            61047363
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz Sprinter SPRINTER 316 CDI 2.1-163 D",
-        "normalized_name": "1 163 2 316 sprinter sprinter",
-        "year": 2010,
-        "finn_price": 166186,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=331222210",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/14/0/331/222/210_459be155-5e7a-4f6e-a30a-104016f1289b.jpg",
-        "regno": "NH14673",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            62602273
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz Vito V114 A2 4MATIC",
-        "normalized_name": "a2 v114 vito",
-        "year": 2016,
-        "finn_price": 186476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361268018",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/8/361/268/018_a7cd49de-ed59-4ca0-8f12-79051b918948.jpg",
-        "regno": "ZZ22340",
-        "olx_prices": [
-            33000,
-            33700,
-            39500,
-            0,
-            49900,
-            30000,
-            42000
-        ],
-        "olx_ids": [
-            62546048,
-            61704849,
-            61706067,
-            55218926,
-            62414792,
-            62346701,
-            54419332
-        ],
-        "tax_return": 19722
-    },
-    {
-        "car_name": "Mercedes-Benz A-Klasse A180 AMG/NORSK/KAMERA/DISTRONIC/PTS/BLUETOOTH",
-        "normalized_name": "a a180 amg bluetooth distronic kamera klasse norsk pts",
-        "year": 2012,
-        "finn_price": 119874,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360902154",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/4/360/902/154_e970c62b-ca03-492d-880d-aa63bbefa74b.jpg",
-        "regno": "PR14680",
-        "olx_prices": [
-            10900,
-            0,
-            9200,
-            9200,
-            9400,
-            20600,
-            0,
-            11500,
-            23400
-        ],
-        "olx_ids": [
-            59122335,
-            61750240,
-            62551452,
-            59815558,
-            61173850,
-            62430355,
-            61481638,
-            58928044,
-            50787139
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz E-Klasse E 200 CDI 2.1-136 D",
-        "normalized_name": "1 136 2 200 e e klasse",
-        "year": 2011,
-        "finn_price": 66845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358876484",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/4/358/876/484_17ad754d-707d-4e1f-838d-70ca57188d68.jpg",
-        "regno": "DP26229",
-        "olx_prices": [
-            20000,
-            16500,
-            22700,
-            17600,
-            7900,
-            19000,
-            17500,
-            19800,
-            19000,
-            17900,
-            23500,
-            0,
-            20000,
-            14000,
-            0,
-            0,
-            18900,
-            20000,
-            19000,
-            22500,
-            20500,
-            22500,
-            22000,
-            21000
-        ],
-        "olx_ids": [
-            61108308,
-            62584025,
-            59871281,
-            61012946,
-            62561490,
-            60582763,
-            62531975,
-            58330290,
-            61517789,
-            61947211,
-            62318651,
-            61712943,
-            61383258,
-            61904105,
-            51609857,
-            60473578,
-            59333677,
-            55589487,
-            61183623,
-            61063032,
-            60383928,
-            60758514,
-            49541764,
-            48719929
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "Mercedes-Benz C-Klasse C 200 CDI 2.1-136 D",
         "normalized_name": "1 136 2 200 c c klasse",
         "year": 2011,
-        "finn_price": 111845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361153360",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/0/361/153/360_eb4c6e63-bde9-42da-a1ac-04a296ce31dd.jpg",
-        "regno": "VH33920",
+        "finn_price": 91845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361826700",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/0/361/826/700_6f423179-151a-4fc7-b060-f1c2aafbc0e5.jpg",
+        "regno": "KB40718",
         "olx_prices": [
-            16800,
-            15999,
             13950,
-            18000,
-            19900,
             17900,
-            12500,
-            23900,
-            16500,
-            18400,
+            16850,
+            14500,
+            13950,
+            19200,
+            17000,
+            22000,
+            17900,
             20500,
-            16900,
-            15500,
+            12200,
+            16500,
+            23900,
+            15999,
+            20900,
+            19900,
+            18000,
+            12500,
+            17900,
+            16800,
             19000,
             8800,
             15800,
             17000,
             16000,
             17300,
-            15900,
-            18000,
             23000,
             20000,
             22000,
             17400,
-            15800,
-            17900
+            15800
         ],
         "olx_ids": [
-            61204948,
-            59639100,
-            61408607,
-            62593524,
-            62408890,
-            59159184,
-            62483585,
-            60375435,
-            62142028,
-            61765770,
-            52830511,
-            61813133,
             60770929,
+            57891256,
+            62724332,
+            62722082,
+            61408607,
+            62717197,
+            62714218,
+            62619263,
+            59159184,
+            52830511,
+            62684943,
+            62142028,
+            60375435,
+            59639100,
+            62581389,
+            62408890,
+            62593524,
+            62483585,
+            61765770,
+            61204948,
             62520429,
             60145962,
             62214391,
             62305207,
             60799550,
             52980781,
-            62250377,
-            61990369,
             59579124,
             59106532,
             61785158,
             61427894,
-            59351189,
-            57891256
+            59351189
         ],
         "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz Citan CITAN 1.5-110 D",
-        "normalized_name": "1 110 5 citan citan",
-        "year": 2018,
-        "finn_price": 106476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361189140",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/0/361/189/140_43894c66-a5e7-49e7-8c54-0be34d61c2cf.jpg",
-        "regno": "BT87519",
+        "car_name": "Mercedes-Benz Vito VITO 2.1-136 D MEGET PEN !",
+        "normalized_name": "1 136 2 meget pen vito vito",
+        "year": 2011,
+        "finn_price": 85000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358383011",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/1/358/383/011_ac15d6aa-4404-4e44-ba80-9e25a99adefe.jpg",
+        "regno": "BS35956",
         "olx_prices": [
-            23900
+            17400,
+            26500,
+            30000
         ],
         "olx_ids": [
-            54481336
+            59082242,
+            59787564,
+            62316753
         ],
-        "tax_return": 11303
+        "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz GLK 220 CDI 2.1-170 D 4MATIC",
-        "normalized_name": "1 170 2 220 glk",
-        "year": 2011,
-        "finn_price": 151845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361176616",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/6/361/176/616_d800745e-3ca2-4ee6-9b60-0fb18f9a1e1a.jpg",
-        "regno": "DN76458",
+        "car_name": "Mercedes-Benz GLK GLK 220 CDI 2.1-170 D 4MATIC",
+        "normalized_name": "1 170 2 220 glk glk",
+        "year": 2013,
+        "finn_price": 129999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362071166",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/6/362/071/166_87747205-1cb7-4498-9c1e-5fd3d4096e58.jpg",
+        "regno": "BD88070",
         "olx_prices": [
+            24900,
             27700,
-            25000,
-            19900,
-            24000,
-            18999,
-            19800,
-            30000,
+            29500,
             0,
-            22999
+            25000,
+            29900,
+            0
         ],
         "olx_ids": [
+            62711348,
             61934404,
-            60053477,
-            62379023,
-            62437079,
-            62370615,
-            62074234,
-            58021571,
             61736787,
-            61585976
+            62565615,
+            60053477,
+            62553119,
+            62435873
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz Vito V116",
+        "normalized_name": "v116 vito",
+        "year": 2016,
+        "finn_price": 199000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360480624",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/08/4/360/480/624_4ce41a51-e899-4237-b3a4-0247ed57dd9e.jpg",
+        "regno": "PD55022",
+        "olx_prices": [
+            42000,
+            37500,
+            33000,
+            33700,
+            39500,
+            0,
+            30000,
+            42000,
+            56000
+        ],
+        "olx_ids": [
+            62712857,
+            62608075,
+            62546048,
+            61704849,
+            61706067,
+            55218926,
+            62346701,
+            54419332,
+            55356242
+        ],
+        "tax_return": 12926
+    },
+    {
+        "car_name": "Mercedes-Benz Vito VITO 2.1-136 D",
+        "normalized_name": "1 136 2 vito vito",
+        "year": 2018,
+        "finn_price": 167000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=328608060",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/03/0/328/608/060_9820ee2a-5324-4734-86b9-ef01dff60e7c.jpg",
+        "regno": "DR42717",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            53401388
+        ],
+        "tax_return": 30128
+    },
+    {
+        "car_name": "Mercedes-Benz Citan",
+        "normalized_name": "citan",
+        "year": 2017,
+        "finn_price": 21500,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361601503",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/3/361/601/503_e526f46e-6e95-428a-adae-89575cdd6c7d.jpg",
+        "regno": "000000p",
+        "olx_prices": [
+            23900,
+            22500,
+            18900
+        ],
+        "olx_ids": [
+            54481336,
+            62559467,
+            61741322
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz E-Klasse E 250 CDI 2.1-204 D 4MATIC",
+        "normalized_name": "1 2 204 250 e e klasse",
+        "year": 2011,
+        "finn_price": 146845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361704662",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/18/2/361/704/662_19d3fae7-880d-4dbb-be4e-2c1f35b65dd6.jpg",
+        "regno": "BT22348",
+        "olx_prices": [
+            14800,
+            23000,
+            16000,
+            20000,
+            24900,
+            17900,
+            24800,
+            28500,
+            0
+        ],
+        "olx_ids": [
+            62708663,
+            62692879,
+            62412757,
+            61244137,
+            62537874,
+            62629370,
+            61107463,
+            61991241,
+            59340346
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz C-Klasse C 250 CDI 2.1-204 D 4MATIC",
+        "normalized_name": "1 2 204 250 c c klasse",
+        "year": 2011,
+        "finn_price": 151845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361646027",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/7/361/646/027_96c53993-3a83-48e6-bbf0-69fbb218ce1a.jpg",
+        "regno": "KJ12477",
+        "olx_prices": [
+            14000,
+            0,
+            20000,
+            0,
+            24450,
+            18500
+        ],
+        "olx_ids": [
+            60435125,
+            57968556,
+            59897240,
+            60649255,
+            61586974,
+            51632300
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz GLK | Ny EU-Kontroll | 220 CDI 2.1-170 D 4MATIC",
+        "normalized_name": "1 170 2 220 glk",
+        "year": 2012,
+        "finn_price": 165000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360281278",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/360/281/278_c166c47a-7c90-49f1-9fc7-7e12bcb695f8.jpg",
+        "regno": "LJ50830",
+        "olx_prices": [
+            20800,
+            30000
+        ],
+        "olx_ids": [
+            61012821,
+            58021571
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Mercedes-Benz A-Klasse A180 AMG/NORSK/KAMERA/DISTRONIC/PTS/BLUETOOTH",
+        "normalized_name": "a a180 amg bluetooth distronic kamera klasse norsk pts",
+        "year": 2013,
+        "finn_price": 119874,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360902154",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/4/360/902/154_e970c62b-ca03-492d-880d-aa63bbefa74b.jpg",
+        "regno": "PR14680",
+        "olx_prices": [
+            10900,
+            20600,
+            23990,
+            20000,
+            0,
+            21900,
+            0,
+            21500,
+            23400
+        ],
+        "olx_ids": [
+            59122335,
+            62430355,
+            62648003,
+            60993518,
+            58305350,
+            53437787,
+            61481638,
+            61359012,
+            50787139
         ],
         "tax_return": null
     },
@@ -367,43 +467,37 @@
         "car_name": "Mercedes-Benz E-Klasse 200",
         "normalized_name": "200 e klasse",
         "year": 2016,
-        "finn_price": 199305,
+        "finn_price": 174305,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361091704",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/4/361/091/704_72bd4c8b-973c-422c-8c20-7bdfd1242760.jpg",
         "regno": "DP87968",
         "olx_prices": [
             49900,
+            43900,
             53000,
             28000,
             38800,
             28000,
             27500,
-            43900,
-            28500,
             0,
-            30000,
             0,
             35000,
             37500,
-            38500,
             43900,
             52900
         ],
         "olx_ids": [
             61252678,
+            56038074,
             61893505,
             60671325,
             61500648,
             61363537,
             62457411,
-            56038074,
-            62478146,
             59593069,
-            62205419,
             38025520,
             58245736,
             62103194,
-            61382328,
             43527102,
             60981355
         ],
@@ -413,7 +507,7 @@
         "car_name": "Mercedes-Benz Vito VITO 2.1-190 D 4MATIC",
         "normalized_name": "1 190 2 vito vito",
         "year": 2015,
-        "finn_price": 186476,
+        "finn_price": 181476,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361037920",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/0/361/037/920_29e7ba90-d5d1-442e-b00f-240537080a84.jpg",
         "regno": "ZH45487",
@@ -424,52 +518,6 @@
             60540532
         ],
         "tax_return": 16517
-    },
-    {
-        "car_name": "Mercedes-Benz E-Klasse E 250 CDI 2.1-204 D 4MATIC",
-        "normalized_name": "1 2 204 250 e e klasse",
-        "year": 2011,
-        "finn_price": 99845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361016634",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/4/361/016/634_38e84ea0-7d25-40b6-9eea-c3ae17ad1d93.jpg",
-        "regno": "BS32617",
-        "olx_prices": [
-            24900,
-            16000,
-            24800,
-            28500,
-            20000,
-            21500,
-            0,
-            0
-        ],
-        "olx_ids": [
-            62537874,
-            62412757,
-            61107463,
-            61991241,
-            61244137,
-            62324181,
-            61347671,
-            59340346
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz Sprinter Food-truck 316 CDI/37 aut",
-        "normalized_name": "316 37 aut food sprinter truck",
-        "year": 2013,
-        "finn_price": 21476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360987311",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/1/360/987/311_145350c6-2ba8-45df-a1c1-53d8bdf55e9b.jpg",
-        "regno": "RK62610",
-        "olx_prices": [
-            19900
-        ],
-        "olx_ids": [
-            60234461
-        ],
-        "tax_return": null
     },
     {
         "car_name": "Mercedes-Benz C-Klasse C 220 / 250 CDI BLUETEC 2.1d-200 hk",
@@ -496,7 +544,7 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/3/vertical-0/01/9/265/786/779_1064519008.jpg",
         "regno": "DN67065",
         "olx_prices": [
-            14500,
+            14000,
             17450
         ],
         "olx_ids": [
@@ -506,130 +554,20 @@
         "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz Vito VITO 111 CDI 2.1-116 D",
-        "normalized_name": "1 111 116 2 vito vito",
-        "year": 2010,
-        "finn_price": 116845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360898155",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/360/898/155_9945f0c9-1e63-474f-920c-f8ab6d553a11.jpg",
-        "regno": "PP87263",
+        "car_name": "Mercedes-Benz Sprinter SPRINTER 3.0-190 D",
+        "normalized_name": "0 190 3 sprinter sprinter",
+        "year": 2013,
+        "finn_price": 99999,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360610667",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/7/360/610/667_bfd4838e-6881-4cea-a34d-b94a258b1c89.jpg",
+        "regno": "PL28295",
         "olx_prices": [
-            17400,
-            26500,
-            30000
+            32000,
+            26900
         ],
         "olx_ids": [
-            59082242,
-            59787564,
-            62316753
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz E-Klasse E220d NY MOTOR!",
-        "normalized_name": "e e220d klasse motor",
-        "year": 2016,
-        "finn_price": 154305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360790255",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/360/790/255_bb6ebb45-0d01-4ca4-8878-47bbaee14491.jpg",
-        "regno": "BT51274",
-        "olx_prices": [
-            56000
-        ],
-        "olx_ids": [
-            52423883
-        ],
-        "tax_return": 23457
-    },
-    {
-        "car_name": "Mercedes-Benz E-Klasse 220 Diesel / 194 HK / Velholdt!!",
-        "normalized_name": "194 220 e klasse velholdt",
-        "year": 2017,
-        "finn_price": 199000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360201920",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/0/360/201/920_7f55d0a5-d89d-41cc-b291-8efca1269181.jpg",
-        "regno": "BT53815",
-        "olx_prices": [
-            52900,
-            63000,
-            39500,
-            37500,
-            0,
-            0,
-            63000,
-            0,
-            0,
-            43000,
-            71500,
-            53000,
-            55000,
-            52900,
-            0,
-            53000,
-            0,
-            39500,
-            44500,
-            54000,
-            59999,
-            0,
-            61900,
-            73000,
-            59000
-        ],
-        "olx_ids": [
-            49781812,
-            61241567,
-            62624856,
-            62547501,
-            59708750,
-            61003307,
-            58163365,
-            56743199,
-            62504198,
-            62467251,
-            54803167,
-            62485704,
-            62448447,
-            62396958,
-            61566304,
-            60766432,
-            60484441,
-            61088788,
-            62113067,
-            60454443,
-            59457952,
-            58356109,
-            59067684,
-            60948975,
-            54449803
-        ],
-        "tax_return": 23457
-    },
-    {
-        "car_name": "Mercedes-Benz C-Klasse C 250 CDI 2.1-204 D 4MATIC",
-        "normalized_name": "1 2 204 250 c c klasse",
-        "year": 2011,
-        "finn_price": 126845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353773865",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/5/353/773/865_f1e34ca5-0183-4944-b48a-d0b56744b1e8.jpg",
-        "regno": "KZ59406",
-        "olx_prices": [
-            0,
-            20000,
-            0,
-            19450,
-            18300,
-            24450,
-            18500
-        ],
-        "olx_ids": [
-            57968556,
-            59897240,
-            60649255,
-            60487309,
-            62416064,
-            61586974,
-            51632300
+            62414777,
+            61047363
         ],
         "tax_return": null
     },
@@ -653,7 +591,7 @@
         "car_name": "Mercedes-Benz E-Klasse E 350 CDI 3.0-231 D 4MATIC AMG",
         "normalized_name": "0 231 3 350 amg e e klasse",
         "year": 2010,
-        "finn_price": 158845,
+        "finn_price": 129845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358753211",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/1/358/753/211_0d3e8ef9-aa9f-43df-9b19-9376d76d55fc.jpg",
         "regno": "ZZ22223",
@@ -682,42 +620,6 @@
         "tax_return": 8268
     },
     {
-        "car_name": "Mercedes-Benz GLA 200 CDI 4MATIC aut",
-        "normalized_name": "200 aut gla",
-        "year": 2015,
-        "finn_price": 179000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359528008",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/8/359/528/008_6a9208d8-55fa-494b-bbc9-15e694adc15c.jpg",
-        "regno": "UF67073",
-        "olx_prices": [
-            24900,
-            26000,
-            27900
-        ],
-        "olx_ids": [
-            62599693,
-            62513800,
-            62212965
-        ],
-        "tax_return": 23110
-    },
-    {
-        "car_name": "Mercedes-Benz Vito V116 A3 4MATIC Gassgrill på kjøpet!",
-        "normalized_name": "a3 gassgrill kjøpet på v116 vito",
-        "year": 2020,
-        "finn_price": 190000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359497285",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/5/359/497/285_b3791e78-a3df-4bdf-a52c-f1c1059e2a47.jpg",
-        "regno": "HB86048",
-        "olx_prices": [
-            68000
-        ],
-        "olx_ids": [
-            58053203
-        ],
-        "tax_return": 54935
-    },
-    {
         "car_name": "Mercedes-Benz GLK 220 CDI 4MATIC",
         "normalized_name": "220 glk",
         "year": 2011,
@@ -726,11 +628,17 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/4/359/465/844_a6fe3c49-83c8-495b-8f81-0224f10a4719.jpg",
         "regno": "PP93631",
         "olx_prices": [
-            22000,
+            19900,
+            24000,
+            18999,
+            22999,
             0
         ],
         "olx_ids": [
-            61012821,
+            62379023,
+            62437079,
+            62370615,
+            61585976,
             61224749
         ],
         "tax_return": null
@@ -745,7 +653,8 @@
         "regno": "BT68726",
         "olx_prices": [
             27000,
-            0,
+            23000,
+            26500,
             0,
             0,
             24999,
@@ -757,17 +666,16 @@
             0,
             25000,
             27500,
-            39900,
             0,
             30000,
             27399,
-            23900,
-            0
+            23900
         ],
         "olx_ids": [
             59505458,
+            62712084,
+            62670490,
             62601582,
-            62291913,
             59622003,
             62511773,
             60018239,
@@ -778,12 +686,10 @@
             61421219,
             61222679,
             61214380,
-            58153657,
             52749790,
             44595710,
             60374831,
-            59207003,
-            55578634
+            59207003
         ],
         "tax_return": null
     },
@@ -804,38 +710,6 @@
         "tax_return": null
     },
     {
-        "car_name": "Mercedes-Benz C-Klasse C 220 CDI AMG Coupe - aut|skinn|navi|dab+|ILS|Harman K.",
-        "normalized_name": "220 amg aut c c dab harman ils k klasse navi skinn",
-        "year": 2013,
-        "finn_price": 199000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=348987217",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/26/7/348/987/217_5b7fc3c6-31b9-4e4c-9645-14454cb82ebe.jpg",
-        "regno": "DN98850",
-        "olx_prices": [
-            20000
-        ],
-        "olx_ids": [
-            62509562
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz GLK GLK 220 CDI 2.1-170 D 4MATIC",
-        "normalized_name": "1 170 2 220 glk glk",
-        "year": 2012,
-        "finn_price": 131845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358622400",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/0/358/622/400_a129ca11-e5ca-4512-bc5d-4d924bf9fcaf.jpg",
-        "regno": "AS30256",
-        "olx_prices": [
-            32900
-        ],
-        "olx_ids": [
-            62553119
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "Mercedes-Benz E-Klasse E 250 CDI AMG Edition",
         "normalized_name": "250 amg e e klasse",
         "year": 2010,
@@ -850,64 +724,6 @@
             62107901
         ],
         "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz C-Klasse C 220 CDI 2.1-170 D 4MATIC",
-        "normalized_name": "1 170 2 220 c c klasse",
-        "year": 2014,
-        "finn_price": 164305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358111832",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/21/2/358/111/832_8e433e09-f152-4c95-baed-e0d27dd36d4a.jpg",
-        "regno": "UR90699",
-        "olx_prices": [
-            42900,
-            25500,
-            21000,
-            26500,
-            38500,
-            38900,
-            33900,
-            37000,
-            38500,
-            20500,
-            0,
-            31500,
-            0,
-            0
-        ],
-        "olx_ids": [
-            50300096,
-            62505439,
-            62496355,
-            62514712,
-            55033087,
-            62471830,
-            61625648,
-            62417550,
-            56265917,
-            62266536,
-            62002680,
-            52123529,
-            58250269,
-            25959362
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz E-Klasse E220d T 4MATIC",
-        "normalized_name": "e e220d klasse t",
-        "year": 2018,
-        "finn_price": 190000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354026211",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/22/1/354/026/211_d0f3f661-e839-4e57-a196-f2d97f507a2d.jpg",
-        "regno": "DR56882",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            46759834
-        ],
-        "tax_return": 57296
     },
     {
         "car_name": "Mercedes-Benz B-Klasse B180 1.8-109 D180CDI Alle Serv+",
@@ -926,6 +742,22 @@
         "tax_return": null
     },
     {
+        "car_name": "Mercedes-Benz Vito V111 Cdi A2 LED-lys Dab+Navi Ryggekamera",
+        "normalized_name": "a2 dab led lys navi ryggekamera v111 vito",
+        "year": 2019,
+        "finn_price": 189476,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356467438",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/8/356/467/438_5710ba61-70e3-42d5-b0fc-9cf3fddab591.jpg",
+        "regno": "DR68309",
+        "olx_prices": [
+            68000
+        ],
+        "olx_ids": [
+            58053203
+        ],
+        "tax_return": 37655
+    },
+    {
         "car_name": "Mercedes-Benz E-Klasse E 300 CDI 3.0-204 D",
         "normalized_name": "0 204 3 300 e e klasse",
         "year": 2010,
@@ -942,21 +774,5 @@
             56696718
         ],
         "tax_return": null
-    },
-    {
-        "car_name": "Mercedes-Benz Vito V116 A2",
-        "normalized_name": "a2 v116 vito",
-        "year": 2015,
-        "finn_price": 166476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355969740",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/05/0/355/969/740_2c33f27d-eb50-4735-a6ba-93c4e34c3c06.jpg",
-        "regno": "DP85838",
-        "olx_prices": [
-            26900
-        ],
-        "olx_ids": [
-            58812004
-        ],
-        "tax_return": 13125
     }
 ]

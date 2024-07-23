@@ -296,3 +296,185 @@ Stacktrace:
 #22 0x559972eb0dac <unknown>
 #23 0x7f925ea9f7f2 start_thread
 
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55c69fe88c7a <unknown>
+#1 0x55c69fb6be2c <unknown>
+#2 0x55c69fbb8661 <unknown>
+#3 0x55c69fbb8751 <unknown>
+#4 0x55c69fbfcf64 <unknown>
+#5 0x55c69fbdb5ed <unknown>
+#6 0x55c69fbfa303 <unknown>
+#7 0x55c69fbdb363 <unknown>
+#8 0x55c69fbab247 <unknown>
+#9 0x55c69fbabb9e <unknown>
+#10 0x55c69fe4f24b <unknown>
+#11 0x55c69fe532f1 <unknown>
+#12 0x55c69fe3aafe <unknown>
+#13 0x55c69fe53e52 <unknown>
+#14 0x55c69fe1f79f <unknown>
+#15 0x55c69fe78638 <unknown>
+#16 0x55c69fe78810 <unknown>
+#17 0x55c69fe87dac <unknown>
+#18 0x7f45fd49f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55951b96bc7a <unknown>
+#1 0x55951b64ee2c <unknown>
+#2 0x55951b69b661 <unknown>
+#3 0x55951b69b751 <unknown>
+#4 0x55951b6dff64 <unknown>
+#5 0x55951b6be5ed <unknown>
+#6 0x55951b6dd303 <unknown>
+#7 0x55951b6be363 <unknown>
+#8 0x55951b68e247 <unknown>
+#9 0x55951b68eb9e <unknown>
+#10 0x55951b93224b <unknown>
+#11 0x55951b9362f1 <unknown>
+#12 0x55951b91dafe <unknown>
+#13 0x55951b936e52 <unknown>
+#14 0x55951b90279f <unknown>
+#15 0x55951b95b638 <unknown>
+#16 0x55951b95b810 <unknown>
+#17 0x55951b96adac <unknown>
+#18 0x7f3c89e9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55c6db307c7a <unknown>
+#1 0x55c6dafeae2c <unknown>
+#2 0x55c6db037661 <unknown>
+#3 0x55c6db037751 <unknown>
+#4 0x55c6db07bf64 <unknown>
+#5 0x55c6db05a5ed <unknown>
+#6 0x55c6db079303 <unknown>
+#7 0x55c6db05a363 <unknown>
+#8 0x55c6db02a247 <unknown>
+#9 0x55c6db02ab9e <unknown>
+#10 0x55c6db2ce24b <unknown>
+#11 0x55c6db2d22f1 <unknown>
+#12 0x55c6db2b9afe <unknown>
+#13 0x55c6db2d2e52 <unknown>
+#14 0x55c6db29e79f <unknown>
+#15 0x55c6db2f7638 <unknown>
+#16 0x55c6db2f7810 <unknown>
+#17 0x55c6db306dac <unknown>
+#18 0x7f763fc9f7f2 start_thread
+
+Cookie consent has been accepted.
+Traceback (most recent call last):
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 96, in <module>
+    data = fetch_and_process_page(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/_OTHER_SEARCH.py", line 51, in fetch_and_process_page
+    driver.get(url)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/ec2-user/autoflipp.online/flask-server/venv/lib64/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.711
+  (Session info: chrome-headless-shell=126.0.6478.126)
+Stacktrace:
+#0 0x55c6db307c7a <unknown>
+#1 0x55c6dafeae2c <unknown>
+#2 0x55c6dafd21a6 <unknown>
+#3 0x55c6dafd1d85 <unknown>
+#4 0x55c6dafcfcc6 <unknown>
+#5 0x55c6dafd033f <unknown>
+#6 0x55c6dafe0c67 <unknown>
+#7 0x55c6daff71be <unknown>
+#8 0x55c6daffc8ab <unknown>
+#9 0x55c6dafd0a8a <unknown>
+#10 0x55c6daff703e <unknown>
+#11 0x55c6db079679 <unknown>
+#12 0x55c6db05a363 <unknown>
+#13 0x55c6db02a247 <unknown>
+#14 0x55c6db02ab9e <unknown>
+#15 0x55c6db2ce24b <unknown>
+#16 0x55c6db2d22f1 <unknown>
+#17 0x55c6db2b9afe <unknown>
+#18 0x55c6db2d2e52 <unknown>
+#19 0x55c6db29e79f <unknown>
+#20 0x55c6db2f7638 <unknown>
+#21 0x55c6db2f7810 <unknown>
+#22 0x55c6db306dac <unknown>
+#23 0x7f763fc9f7f2 start_thread
+
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55f1e7d24c7a <unknown>
+#1 0x55f1e7a07e2c <unknown>
+#2 0x55f1e7a54661 <unknown>
+#3 0x55f1e7a54751 <unknown>
+#4 0x55f1e7a98f64 <unknown>
+#5 0x55f1e7a775ed <unknown>
+#6 0x55f1e7a96303 <unknown>
+#7 0x55f1e7a77363 <unknown>
+#8 0x55f1e7a47247 <unknown>
+#9 0x55f1e7a47b9e <unknown>
+#10 0x55f1e7ceb24b <unknown>
+#11 0x55f1e7cef2f1 <unknown>
+#12 0x55f1e7cd6afe <unknown>
+#13 0x55f1e7cefe52 <unknown>
+#14 0x55f1e7cbb79f <unknown>
+#15 0x55f1e7d14638 <unknown>
+#16 0x55f1e7d14810 <unknown>
+#17 0x55f1e7d23dac <unknown>
+#18 0x7f090b89f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55943cb2cc7a <unknown>
+#1 0x55943c80fe2c <unknown>
+#2 0x55943c85c661 <unknown>
+#3 0x55943c85c751 <unknown>
+#4 0x55943c8a0f64 <unknown>
+#5 0x55943c87f5ed <unknown>
+#6 0x55943c89e303 <unknown>
+#7 0x55943c87f363 <unknown>
+#8 0x55943c84f247 <unknown>
+#9 0x55943c84fb9e <unknown>
+#10 0x55943caf324b <unknown>
+#11 0x55943caf72f1 <unknown>
+#12 0x55943cadeafe <unknown>
+#13 0x55943caf7e52 <unknown>
+#14 0x55943cac379f <unknown>
+#15 0x55943cb1c638 <unknown>
+#16 0x55943cb1c810 <unknown>
+#17 0x55943cb2bdac <unknown>
+#18 0x7f5278e9f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'
+Button not found in this iframe, continuing to next iframe: Message: 
+Stacktrace:
+#0 0x55960f908c7a <unknown>
+#1 0x55960f5ebe2c <unknown>
+#2 0x55960f638661 <unknown>
+#3 0x55960f638751 <unknown>
+#4 0x55960f67cf64 <unknown>
+#5 0x55960f65b5ed <unknown>
+#6 0x55960f67a303 <unknown>
+#7 0x55960f65b363 <unknown>
+#8 0x55960f62b247 <unknown>
+#9 0x55960f62bb9e <unknown>
+#10 0x55960f8cf24b <unknown>
+#11 0x55960f8d32f1 <unknown>
+#12 0x55960f8baafe <unknown>
+#13 0x55960f8d3e52 <unknown>
+#14 0x55960f89f79f <unknown>
+#15 0x55960f8f8638 <unknown>
+#16 0x55960f8f8810 <unknown>
+#17 0x55960f907dac <unknown>
+#18 0x7f193a09f7f2 start_thread
+
+Cookie consent has been accepted.
+Data from 50 pages saved to 'finn_search_before2015.json'

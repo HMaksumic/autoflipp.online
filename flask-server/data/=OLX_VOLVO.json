@@ -1,11 +1,456 @@
 [
     {
         "car_name": "Volvo V60 V60 1.6-114 D",
+        "year": 2012,
+        "finn_price": 90000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362164916",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/6/362/164/916_b65816bd-330c-4cd8-9504-479e76983555.jpg",
+        "regno": "DN86713",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            62416370
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V70 2.0-136 D",
+        "year": 2010,
+        "finn_price": 69845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362202069",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/9/362/202/069_d3c82217-e2c2-4355-8d20-4e5450198cc2.jpg",
+        "regno": "JV10219",
+        "olx_prices": [
+            14300
+        ],
+        "olx_ids": [
+            62614513
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo S60 D2 Momentum R-design",
         "year": 2014,
-        "finn_price": 99305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361515096",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/6/361/515/096_a17898ba-7d35-4b8f-9f3e-dd142e5eb5be.jpg",
-        "regno": "HT13523",
+        "finn_price": 108000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361153362",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/2/361/153/362_9a808bd3-7878-4b22-b210-76765be6afab.jpg",
+        "regno": "RA45220",
+        "olx_prices": [
+            20500,
+            27000,
+            0,
+            29500,
+            25000
+        ],
+        "olx_ids": [
+            61642116,
+            53819074,
+            62524782,
+            60398869,
+            55154975
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D",
+        "year": 2015,
+        "finn_price": 139305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356672213",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/3/356/672/213_6952b4a4-a97a-4337-ba7b-1e2b960f5d03.jpg",
+        "regno": "SD73610",
+        "olx_prices": [
+            19600,
+            22800,
+            22000,
+            20990,
+            18800,
+            24500,
+            24000
+        ],
+        "olx_ids": [
+            61110726,
+            57359748,
+            62408717,
+            62196508,
+            62094920,
+            60499956,
+            50328097
+        ],
+        "tax_return": 15667
+    },
+    {
+        "car_name": "Volvo V70 V70 1.6-114 D",
+        "year": 2014,
+        "finn_price": 154305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361713031",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/18/1/361/713/031_513a7516-81af-4b2b-9e80-4e52241dc64d.jpg",
+        "regno": "BS77143",
+        "olx_prices": [
+            23500
+        ],
+        "olx_ids": [
+            59223104
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V40 V40 1.6-114 D",
+        "year": 2014,
+        "finn_price": 84305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357779320",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/0/357/779/320_aa22ad65-d36e-4776-86d4-9cb52893230a.jpg",
+        "regno": "SV52527",
+        "olx_prices": [
+            17900,
+            17600,
+            19800,
+            16990,
+            17950,
+            21000,
+            24500
+        ],
+        "olx_ids": [
+            62538251,
+            57685482,
+            50641528,
+            62678356,
+            60308217,
+            61100149,
+            58468660
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo S60 S60 1.6-114 D",
+        "year": 2012,
+        "finn_price": 71845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362107096",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/6/362/107/096_04863fdb-c3e1-4905-b83d-293b1f2aaaa9.jpg",
+        "regno": "SV36632",
+        "olx_prices": [
+            17500,
+            17800,
+            18000,
+            16999,
+            17000,
+            0,
+            19500,
+            17000
+        ],
+        "olx_ids": [
+            58434366,
+            59959233,
+            54787924,
+            61930885,
+            57128662,
+            56157123,
+            52780515,
+            50555667
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo XC60 2.4 D AWD R-Design",
+        "year": 2012,
+        "finn_price": 116845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362044757",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/7/362/044/757_60b990fc-f264-406d-8514-06c112f1db72.jpg",
+        "regno": "NF51887",
+        "olx_prices": [
+            22000,
+            21900,
+            29000,
+            24800,
+            25990,
+            25800,
+            24500,
+            24500,
+            0,
+            0,
+            30900,
+            26800,
+            0,
+            27999
+        ],
+        "olx_ids": [
+            60338691,
+            61996168,
+            56058162,
+            62477689,
+            61707607,
+            62443318,
+            62166816,
+            60182336,
+            60276214,
+            62491281,
+            61340341,
+            61234110,
+            61593532,
+            57005646
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo XC60 D4 163hk AWD, Ny storservice! Krok/ryggekamera/aut",
+        "year": 2014,
+        "finn_price": 194305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356853840",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/0/356/853/840_5b029332-c8a8-45ed-a1c9-f248f7fc3136.jpg",
+        "regno": "PD46645",
+        "olx_prices": [
+            29500,
+            34700,
+            35000,
+            35500,
+            32900,
+            32900,
+            29600,
+            36500,
+            32000,
+            33800,
+            38500,
+            0,
+            0
+        ],
+        "olx_ids": [
+            62649553,
+            62008024,
+            54063459,
+            61536853,
+            62707045,
+            62684847,
+            62678750,
+            60378407,
+            54737384,
+            62435833,
+            60608048,
+            49723554,
+            58861250
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo XC70 D3 2,4D Summum AWD aut",
+        "year": 2012,
+        "finn_price": 199845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360484522",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/360/484/522_57bfe11f-1e15-449e-ac81-3c45deb20485.jpg",
+        "regno": "VH42605",
+        "olx_prices": [
+            22900
+        ],
+        "olx_ids": [
+            60520662
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V70 DRIVe Momentum",
+        "year": 2012,
+        "finn_price": 121845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362003089",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/9/362/003/089_facd7ba2-da67-4e7d-b335-1eb6091132ff.jpg",
+        "regno": "FT40687",
+        "olx_prices": [
+            17999
+        ],
+        "olx_ids": [
+            47527276
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V70 Volvo V70 R-design, D4",
+        "year": 2013,
+        "finn_price": 144034,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=247124577",
+        "image_url": "https://images.finncdn.no/dynamic/default/2022/2/vertical-0/03/7/247/124/577_1988346438.png",
+        "regno": "UF71025",
+        "olx_prices": [
+            17999,
+            18000
+        ],
+        "olx_ids": [
+            62543697,
+            60181586
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo S60 S60 2.0-163 D",
+        "year": 2011,
+        "finn_price": 100845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361976777",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/7/361/976/777_35c56ea2-8d3b-4920-9df6-040cb8997374.jpg",
+        "regno": "LJ43586",
+        "olx_prices": [
+            18500,
+            16900,
+            21500,
+            16990,
+            19300,
+            20000
+        ],
+        "olx_ids": [
+            62410507,
+            62551067,
+            55637952,
+            62392531,
+            60750331,
+            46158624
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo XC60 D4 2,4D Summum AWD aut",
+        "year": 2017,
+        "finn_price": 189000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360933657",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/7/360/933/657_2e4d0cb9-1328-427c-a071-759a590cbf83.jpg",
+        "regno": "DR17631",
+        "olx_prices": [
+            41950,
+            49900,
+            59900,
+            0,
+            63900,
+            0,
+            54900,
+            35500
+        ],
+        "olx_ids": [
+            62473335,
+            62113043,
+            60748232,
+            60099561,
+            58928883,
+            62575836,
+            51862667,
+            62374349
+        ],
+        "tax_return": 59741
+    },
+    {
+        "car_name": "Volvo V60 VOLVO V60, D3 2.0, 136 HK",
+        "year": 2013,
+        "finn_price": 99805,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353575603",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/3/353/575/603_60547454-7925-46a8-afc9-5bc6086a59dd.jpg",
+        "regno": "CV70752",
+        "olx_prices": [
+            15800,
+            19500
+        ],
+        "olx_ids": [
+            62612197,
+            53948780
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo XC60 XC60 2.4-205 D AWD",
+        "year": 2010,
+        "finn_price": 134845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359416884",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/4/359/416/884_cb241086-d229-4811-becb-7fb7792aa91c.jpg",
+        "regno": "PP84990",
+        "olx_prices": [
+            21500,
+            27500,
+            15600,
+            18500,
+            23900,
+            24500,
+            23900,
+            22000,
+            26000,
+            20500,
+            26500,
+            23500
+        ],
+        "olx_ids": [
+            60840271,
+            59618076,
+            62700934,
+            62728761,
+            62721550,
+            57096146,
+            62601737,
+            62387006,
+            61410477,
+            59052780,
+            61085323,
+            46350403
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V60 D2 R-design // NY EU // KROK // SERVICEHEFTE ++",
+        "year": 2015,
+        "finn_price": 144305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353790153",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/3/353/790/153_8a975ccb-c723-4b6d-8e68-76e7d1cbbbb1.jpg",
+        "regno": "NV69020",
+        "olx_prices": [
+            16900,
+            19900,
+            24500,
+            19500,
+            14000
+        ],
+        "olx_ids": [
+            60432069,
+            52576421,
+            55417922,
+            59321474,
+            61527788
+        ],
+        "tax_return": 20005
+    },
+    {
+        "car_name": "Volvo S80 S80 2.4-205 D",
+        "year": 2011,
+        "finn_price": 116845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361832691",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/1/361/832/691_7cec5b5a-e41f-4ddc-9837-1c3c313b291f.jpg",
+        "regno": "KT79828",
+        "olx_prices": [
+            19500,
+            18500,
+            17900
+        ],
+        "olx_ids": [
+            61685942,
+            59058425,
+            60193763
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Volvo V40 2.0-150 D - R- Design",
+        "year": 2018,
+        "finn_price": 129000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361735897",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/18/7/361/735/897_41f19b63-0ad8-43c4-899b-39994899d454.jpg",
+        "regno": "SD87004",
+        "olx_prices": [
+            32000,
+            28900
+        ],
+        "olx_ids": [
+            62678474,
+            61508140
+        ],
+        "tax_return": 25813
+    },
+    {
+        "car_name": "Volvo V60 D3 2.0-136 D Aut. Pen og velholdt",
+        "year": 2014,
+        "finn_price": 159305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361663385",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/5/361/663/385_aef5e3fa-033d-4679-b6d2-ccef62476f0e.jpg",
+        "regno": "TS27724",
         "olx_prices": [
             15590,
             35900,
@@ -21,48 +466,6 @@
         "tax_return": null
     },
     {
-        "car_name": "Volvo V40 Cross Country V40 CROSS COUNTRY 1.6-114 D",
-        "year": 2014,
-        "finn_price": 99900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=320798186",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/9/vertical-0/22/6/320/798/186_72045595.jpg",
-        "regno": "BS76228",
-        "olx_prices": [
-            17600,
-            17950,
-            18990,
-            21000,
-            19800,
-            17900,
-            24500
-        ],
-        "olx_ids": [
-            57685482,
-            60308217,
-            62228791,
-            61100149,
-            50641528,
-            62538251,
-            58468660
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V70 V70 1.6-114 D",
-        "year": 2012,
-        "finn_price": 71845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=350542643",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/3/350/542/643_ae79c8b0-123b-4416-8cac-53f5c7bc1d86.jpg",
-        "regno": "BS60139",
-        "olx_prices": [
-            17999
-        ],
-        "olx_ids": [
-            47527276
-        ],
-        "tax_return": null
-    },
-    {
         "car_name": "Volvo XC60 D3 2,4D AWD",
         "year": 2011,
         "finn_price": 106845,
@@ -70,27 +473,32 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/5/361/505/855_a5685713-611b-40ac-944e-d432a79480b5.jpg",
         "regno": "VH25599",
         "olx_prices": [
-            24999,
+            19999,
+            22000,
             0,
-            27500,
-            18000,
+            24950,
+            24000,
+            0,
+            25900,
+            22990,
+            25000,
+            24500,
+            22550,
+            23500,
+            26850,
+            24900,
+            24950,
+            25800,
             24950,
             31450,
             25800,
-            25900,
-            23500,
-            24950,
-            22300,
+            27500,
+            18000,
             25000,
             21000,
-            23950,
             25500,
             23800,
-            0,
-            31000,
-            22550,
             25000,
-            25900,
             23980,
             20500,
             24000,
@@ -98,89 +506,37 @@
             25000
         ],
         "olx_ids": [
-            62575198,
+            62695023,
+            62328813,
+            62732248,
             62630806,
-            59590273,
-            61887524,
+            62731882,
+            60834905,
+            55409596,
+            62697114,
+            62701717,
+            62650940,
+            56373842,
+            59918106,
+            59336409,
+            62671288,
+            62359973,
+            62654954,
             60974668,
             62623869,
             50907543,
-            55409596,
-            59918106,
-            62359973,
-            62328813,
+            59590273,
+            61887524,
             60375600,
             62383484,
-            59806477,
             60479017,
             52576776,
-            60834905,
-            62111011,
-            56373842,
             59717487,
-            59336409,
             62072711,
             57666268,
             50869040,
             48027576,
             60734237
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V40 V40 1.6-114 D",
-        "year": 2013,
-        "finn_price": 100000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361507798",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/361/507/798_03d4c5be-eb3f-4f42-8682-0c7b4204aa69.jpg",
-        "regno": "AE39801",
-        "olx_prices": [
-            17500,
-            19500,
-            17400,
-            16950,
-            16350,
-            17500
-        ],
-        "olx_ids": [
-            61536978,
-            62561338,
-            62551605,
-            58509351,
-            61263247,
-            58045913
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V70 V70 2.4-175 D",
-        "year": 2010,
-        "finn_price": 91845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357719024",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/4/357/719/024_db422c4d-69da-4774-9281-741235e75b9e.jpg",
-        "regno": "DN85137",
-        "olx_prices": [
-            14300
-        ],
-        "olx_ids": [
-            62614513
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V70 1.6-114 D, PKK ok til 11/25. R-Design. Påkostet mye!",
-        "year": 2013,
-        "finn_price": 105000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=343401967",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/22/7/343/401/967_39cf5bb3-84d4-4610-975b-5309916c8c35.jpg",
-        "regno": "VH44042",
-        "olx_prices": [
-            17999,
-            18000
-        ],
-        "olx_ids": [
-            62543697,
-            60181586
         ],
         "tax_return": null
     },
@@ -192,118 +548,53 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/0/361/497/090_a76914aa-0152-4aa9-865d-4624f3a768e6.jpg",
         "regno": "SU89726",
         "olx_prices": [
-            9290,
-            10500,
-            9600,
-            8900,
-            9400,
-            9500,
+            0,
             9250,
-            11700,
-            10001,
-            12800,
             10900,
             9400,
+            0,
+            8900,
+            9290,
+            10500,
+            9500,
+            11300,
+            12800,
             9900
         ],
         "olx_ids": [
-            62197106,
-            59377650,
+            54825670,
+            61921079,
+            61623944,
+            62165069,
             62608347,
             59712600,
-            62165069,
+            62197106,
+            59377650,
             62500353,
-            61921079,
             62518095,
-            54825670,
             54853842,
-            61623944,
-            61967809,
             60563555
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V60 R-Design, Automat, Ryggekamera, Volvo on Call, Krok",
-        "year": 2015,
-        "finn_price": 149900,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361435378",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/361/435/378_0bf4535f-91bd-444f-a948-0ded7b72ffb1.jpg",
-        "regno": "YE97001",
-        "olx_prices": [
-            24500,
-            16900,
-            19500,
-            0,
-            20900
-        ],
-        "olx_ids": [
-            55417922,
-            60432069,
-            59321474,
-            61527788,
-            52576421
-        ],
-        "tax_return": 20409
-    },
-    {
-        "car_name": "Volvo V50 V50 1.6-109 D",
-        "year": 2010,
-        "finn_price": 46845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361397269",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/9/361/397/269_60357480-8571-4a1f-99f4-deb0c3bd1c64.jpg",
-        "regno": "FT31893",
-        "olx_prices": [
-            9800
-        ],
-        "olx_ids": [
-            60478211
         ],
         "tax_return": null
     },
     {
         "car_name": "Volvo V60 Summum 2.0-163 D3, Hengerfeste",
         "year": 2011,
-        "finn_price": 126777,
+        "finn_price": 119777,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=295316939",
         "image_url": "https://images.finncdn.no/dynamic/default/2023/4/vertical-0/04/9/295/316/939_1653894911.jpg",
         "regno": "RK27035",
         "olx_prices": [
+            13900,
             15990,
-            15950,
-            16900,
-            19850
+            19650,
+            15950
         ],
         "olx_ids": [
+            62673313,
             61281375,
-            61191645,
-            59728917,
-            62479002
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo S60 Volvo S 60 DRIVe Summum",
-        "year": 2012,
-        "finn_price": 57845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=339373967",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/2/vertical-0/07/7/339/373/967_1792447837.jpg",
-        "regno": "DN66818",
-        "olx_prices": [
-            16999,
-            18000,
-            17000,
-            0,
-            19500,
-            17000
-        ],
-        "olx_ids": [
-            61930885,
-            54787924,
-            57128662,
-            56157123,
-            52780515,
-            50555667
+            62479002,
+            61191645
         ],
         "tax_return": null
     },
@@ -315,129 +606,20 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/9/361/324/929_7e695e75-4d3f-4735-9037-04e7bb609476.jpg",
         "regno": "HT18631",
         "olx_prices": [
-            31980,
+            0,
             25990,
             20500,
             31000,
             22500
         ],
         "olx_ids": [
-            61838010,
+            62178286,
             50401389,
             62403035,
             62160089,
             57696316
         ],
         "tax_return": 17908
-    },
-    {
-        "car_name": "Volvo V40 V40 D2 ny EU - Meget strøken bil.",
-        "year": 2015,
-        "finn_price": 130000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360667132",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/2/360/667/132_aa1556d1-01ab-45d6-8185-dd0b1ee0b064.jpg",
-        "regno": "JV20782",
-        "olx_prices": [
-            19600,
-            20990,
-            20500,
-            18800,
-            18900,
-            24500,
-            24000
-        ],
-        "olx_ids": [
-            61110726,
-            62196508,
-            62110339,
-            62094920,
-            59070273,
-            60499956,
-            50328097
-        ],
-        "tax_return": 11943
-    },
-    {
-        "car_name": "Volvo V60 V60 1.6-114 D R-Design",
-        "year": 2012,
-        "finn_price": 69000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358455720",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/0/358/455/720_4e38c65b-44a6-4ab0-9509-149f43cf5031.jpg",
-        "regno": "KH79539",
-        "olx_prices": [
-            0,
-            0
-        ],
-        "olx_ids": [
-            62416370,
-            60409237
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo XC60 Ny Eu kontrol D4 163hk AWD",
-        "year": 2014,
-        "finn_price": 159305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=353663702",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/20/2/353/663/702_4cc3d9a7-2c6c-442c-af19-76c1c87997fe.jpg",
-        "regno": "ZH39641",
-        "olx_prices": [
-            34700,
-            29999,
-            36500,
-            32000,
-            33800,
-            38500,
-            0,
-            0,
-            39500
-        ],
-        "olx_ids": [
-            62008024,
-            62198876,
-            60378407,
-            54737384,
-            62435833,
-            60608048,
-            49723554,
-            58861250,
-            55627177
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo S60 S60 1.6-114 D",
-        "year": 2013,
-        "finn_price": 99000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361203933",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/3/361/203/933_bd5d35cb-8de6-4ac5-b6bd-093b71217479.jpg",
-        "regno": "SV38501",
-        "olx_prices": [
-            17100,
-            21000,
-            20000
-        ],
-        "olx_ids": [
-            54872653,
-            61708912,
-            49743016
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V70 V70 2.0-163 D",
-        "year": 2014,
-        "finn_price": 124305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=352566821",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/12/1/352/566/821_39182daa-4f33-43fe-a782-6acd21278e65.jpg",
-        "regno": "DP60808",
-        "olx_prices": [
-            23500
-        ],
-        "olx_ids": [
-            59223104
-        ],
-        "tax_return": null
     },
     {
         "car_name": "Volvo XC90 XC90 2.4-185 D AWD",
@@ -448,50 +630,13 @@
         "regno": "ZH37085",
         "olx_prices": [
             23500,
-            23000,
-            29999
+            0,
+            23000
         ],
         "olx_ids": [
             61033952,
-            61565388,
-            57645959
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo XC60 XC60 2.4-205 D AWD",
-        "year": 2010,
-        "finn_price": 110000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361082355",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/13/5/361/082/355_3821c822-6189-406b-884e-15645455a2a2.jpg",
-        "regno": "PD30866",
-        "olx_prices": [
-            21500,
-            16300,
-            23900,
-            22000,
-            19500,
-            23999,
-            24500,
-            21500,
-            26000,
-            20500,
-            26500,
-            23500
-        ],
-        "olx_ids": [
-            60840271,
-            62638746,
-            59912106,
-            62387006,
-            62602176,
-            62601737,
-            57096146,
-            62493787,
-            61410477,
-            59052780,
-            61085323,
-            46350403
+            61174956,
+            61565388
         ],
         "tax_return": null
     },
@@ -511,194 +656,53 @@
         "tax_return": 33921
     },
     {
-        "car_name": "Volvo S80 S80 1.6-109 D",
-        "year": 2011,
-        "finn_price": 51845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360856065",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/5/360/856/065_be2d02e0-4969-4794-aa89-a4d313c38e25.jpg",
-        "regno": "NF48777",
+        "car_name": "Volvo V40 D3/2.0-150HK/Automat/DAB+/Cruise/Helskinn/++",
+        "year": 2013,
+        "finn_price": 183305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=350310615",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/26/5/350/310/615_558f6ee1-b820-45eb-aaa5-79e8992e9d71.jpg",
+        "regno": "RK57693",
         "olx_prices": [
-            19500,
-            17900,
-            18500
-        ],
-        "olx_ids": [
-            61685942,
-            60193763,
-            59058425
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V40 Cross Country D2 Momentum",
-        "year": 2016,
-        "finn_price": 144305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360578285",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/5/360/578/285_4025beec-c0ad-4a7b-8c8b-8d2b384ff436.jpg",
-        "regno": "TV88714",
-        "olx_prices": [
-            25000,
             18990,
-            29000,
-            25300,
-            23000,
-            19000,
-            21999
+            15450,
+            14490,
+            17500,
+            19500,
+            16950,
+            16350,
+            17500
         ],
         "olx_ids": [
-            52985985,
-            61558900,
-            62571172,
-            61856433,
-            56708984,
-            60568939,
-            58917806
-        ],
-        "tax_return": 13647
-    },
-    {
-        "car_name": "Volvo V60 1.6-114 D",
-        "year": 2013,
-        "finn_price": 55500,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360722026",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/10/6/360/722/026_9dd40486-67cd-4c19-90b4-c1ff23aa49ea.jpg",
-        "regno": "HT12498",
-        "olx_prices": [
-            15800,
-            19500
-        ],
-        "olx_ids": [
-            62612197,
-            53948780
+            62228791,
+            62652033,
+            62648611,
+            61536978,
+            62561338,
+            58509351,
+            61263247,
+            58045913
         ],
         "tax_return": null
     },
     {
-        "car_name": "Volvo XC60 XC60 2.0-163 D",
-        "year": 2012,
-        "finn_price": 110000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354730791",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/27/1/354/730/791_eb4610ac-320c-476f-aec1-812b82a414c5.jpg",
-        "regno": "BS34809",
+        "car_name": "Volvo C30 1,6 D  drivE sportdesign",
+        "year": 2010,
+        "finn_price": 71845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359095712",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/2/359/095/712_66b482e6-2440-49f2-8ee0-344469572d9e.jpg",
+        "regno": "YA62401",
         "olx_prices": [
-            25300,
-            0,
-            21900,
-            24800,
-            23800,
-            0,
-            25800,
-            25990,
-            22000,
-            0,
-            27500,
-            30900,
-            22000,
-            26000,
-            0,
-            26800,
-            0,
-            27999,
-            24500,
-            29000
+            9900
         ],
         "olx_ids": [
-            60182336,
-            56643227,
-            61996168,
-            62477689,
-            62580273,
-            60276214,
-            62443318,
-            61707607,
-            61225321,
-            62491281,
-            58710960,
-            61340341,
-            60338691,
-            62446970,
-            60946624,
-            61234110,
-            61593532,
-            57005646,
-            62166816,
-            56058162
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo XC70 D3 AWD Summum, driver support, volvo on-call, webasto",
-        "year": 2012,
-        "finn_price": 194147,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=252559333",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/23/3/252/559/333_577845547.jpg",
-        "regno": "SV23226",
-        "olx_prices": [
-            22900
-        ],
-        "olx_ids": [
-            60520662
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo S60 S60 2.0-163 D",
-        "year": 2011,
-        "finn_price": 86845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359675971",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/1/359/675/971_d93d7c1a-7132-4f8d-aafa-9d296afc482d.jpg",
-        "regno": "HJ87589",
-        "olx_prices": [
-            16900,
-            21500,
-            16990,
-            19300,
-            20000
-        ],
-        "olx_ids": [
-            62551067,
-            55637952,
-            62392531,
-            60750331,
-            46158624
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo XC60 XC60 2.4-163 D AWD",
-        "year": 2013,
-        "finn_price": 152305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359265113",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/30/3/359/265/113_9892dca1-0ef4-4e08-9365-6562c532ac49.jpg",
-        "regno": "SD67148",
-        "olx_prices": [
-            34900,
-            28590,
-            27500,
-            26700,
-            34990,
-            0,
-            24600,
-            30500,
-            27600
-        ],
-        "olx_ids": [
-            61484275,
-            50566052,
-            61864029,
-            59889638,
-            59703774,
-            62382011,
-            16117712,
-            58465334,
-            59925689
+            62682945
         ],
         "tax_return": null
     },
     {
         "car_name": "Volvo S80 1.6-109 D",
         "year": 2010,
-        "finn_price": 66845,
+        "finn_price": 61845,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358992377",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/28/7/358/992/377_ec246ca7-732d-4591-bb1b-d8c6386861b5.jpg",
         "regno": "UR83631",
@@ -718,44 +722,16 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/5/349/072/635_6fb876b9-d6cd-418f-a755-90d0de7b5e85.jpg",
         "regno": "SU97808",
         "olx_prices": [
+            10699,
+            13000,
             9999,
-            12900,
             11500
         ],
         "olx_ids": [
+            62711677,
+            61588210,
             62383186,
-            60590951,
             62375423
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Volvo V40 D2 Business A R-DESIGN",
-        "year": 2018,
-        "finn_price": 184000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357595946",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/6/357/595/946_618255f3-92ab-44b5-bed8-8b0d322e34df.jpg",
-        "regno": "BT88089",
-        "olx_prices": [
-            28900
-        ],
-        "olx_ids": [
-            61508140
-        ],
-        "tax_return": 22686
-    },
-    {
-        "car_name": "Volvo C30 C30 1.6-114 D",
-        "year": 2012,
-        "finn_price": 71845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357736270",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/18/0/357/736/270_05ac2446-c2f9-40b0-96aa-e44d3e310f30.jpg",
-        "regno": "UF53318",
-        "olx_prices": [
-            12999
-        ],
-        "olx_ids": [
-            61041835
         ],
         "tax_return": null
     },
@@ -773,22 +749,5 @@
             51879165
         ],
         "tax_return": null
-    },
-    {
-        "car_name": "Volvo V90 Cross Country D4 190hk AWD",
-        "year": 2018,
-        "finn_price": 197305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=356999397",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/7/356/999/397_6325d569-4383-4daf-a1d5-97bc57069ab9.jpg",
-        "regno": "SD85828",
-        "olx_prices": [
-            45000,
-            35000
-        ],
-        "olx_ids": [
-            62354119,
-            57444280
-        ],
-        "tax_return": 45566
     }
 ]

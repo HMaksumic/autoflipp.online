@@ -166,7 +166,8 @@ data_dir = os.path.join(current_dir, 'data')
 os.makedirs(data_dir, exist_ok=True)
 
 with open(os.path.join(data_dir, 'olx_finn_before2015.json'), 'w', encoding='utf-8') as json_file:
-    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+	if olx_finn_output:
+	    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
 
 
 import datetime
