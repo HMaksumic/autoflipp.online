@@ -14,6 +14,14 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   const [showAllPrices, setShowAllPrices] = useState({});
   const [sortBy, setSortBy] = useState('Calculated profit rate');
   const [viewMode, setViewMode] = useState('regular');
+  const [currencyData, setCurrencyData] = useState([]);
+
+  useEffect( () => {
+    axios.get('https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json')
+    .then(response => {
+      setCurrencyData(response.data)
+    })
+  }, []);
 
   useEffect(() => {
     axios.get(url)
@@ -31,7 +39,15 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   if (error) return <p>Error loading data: {error.message}</p>;
 
   function TurnToBAM(parameter) {
-    return (parameter / 5.85).toFixed(0);
+    const nokToUsd = currencyData.conversions.USD.NOK;
+    const eurToUsd = currencyData.conversions.USD.EUR;
+    const bamToEurRate = 0.51; //BAM is a pinned currency
+
+    const nokToEur = nokToUsd / eurToUsd;
+    const bamToNok = bamToEurRate * nokToEur;
+    const resultInBAM = parameter / bamToNok;
+
+    return resultInBAM.toFixed(0);
   }
 
   const CalculateProfitRate = (olxPrices, finnPriceNOK, taxReturn = 0) => {
