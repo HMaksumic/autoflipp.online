@@ -39,6 +39,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   if (error) return <p>Error loading data: {error.message}</p>;
 
   function TurnToBAM(parameter) {
+    if (!currencyData) {
+      console.error('Currency data not available, using "1 BAM = 5.85 NOK" estimate instead');
+      return (parameter / 5.85);
+    }
+
     const nokToUsd = currencyData.conversions.USD.NOK;
     const eurToUsd = currencyData.conversions.USD.EUR;
     const bamToEurRate = 0.51; //BAM is a pinned currency

@@ -16,7 +16,8 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
-    width: 500px;
+    height: 250px;
+    width: 600px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
@@ -27,8 +28,8 @@
   }
   
   .car-bar-personal img {
-    height: 100px;
-    width: 190px;
+    height: 200px;
+    width: 150px;
     object-fit: cover;
     object-position: center;
     border-radius: 8px;

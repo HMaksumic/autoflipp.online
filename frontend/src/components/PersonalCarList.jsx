@@ -13,7 +13,7 @@ const PersonalCarList = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showAllPrices, setShowAllPrices] = useState({});
   const [sortBy, setSortBy] = useState('Calculated profit rate');
-  const [viewMode, setViewMode] = useState('regular');
+  const [viewMode, setViewMode] = useState('simple');
   const [currencyData, setCurrencyData] = useState([]);
 
   useEffect( () => {
@@ -59,7 +59,7 @@ const PersonalCarList = () => {
       return (
         <div>
           <p>Session expired... You were logged out</p>
-          <p>Log in again at the <Link to="/home">home page</Link></p>
+          <p>Log in again at the <Link to="/home" onClick={logout}>home page</Link></p>
         </div>
       );
     } else {
@@ -72,6 +72,11 @@ const PersonalCarList = () => {
   }
 
   function TurnToBAM(parameter) {
+    if (!currencyData) {
+      console.error('Currency data not available, using "1 BAM = 5.85 NOK" estimate instead');
+      return (parameter / 5.85);
+    }
+    
     const nokToUsd = currencyData.conversions.USD.NOK;
     const eurToUsd = currencyData.conversions.USD.EUR;
     const bamToEurRate = 0.51; //BAM is a pinned currency
@@ -165,18 +170,6 @@ const PersonalCarList = () => {
               </Link>
             </>
           )}
-        </div>
-      </div>
-      <div className="sort-bar-container">
-        <div className="sort-bar">
-          <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
-          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
-          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
-          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
-          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
-          <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-            {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
-          </button>
         </div>
       </div>
       <div className="search-bar-container">

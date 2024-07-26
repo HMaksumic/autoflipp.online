@@ -24,6 +24,8 @@
   width: 92%;   
   object-fit: cover; 
   object-position: center;  
+  border-radius: 8px;
+  margin-right: 16px;
 }
 
 .car-name-container {
