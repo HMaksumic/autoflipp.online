@@ -663,3 +663,9 @@ INFO:root:Next section loaded successfully.
 INFO:root:Pressing calculate button...
 INFO:root:Next section loaded successfully.
 INFO:root:BD97586: tax return: 29120
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_AUDI.py", line 168
+    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/home/ec2-user/autoflipp.online/flask-server/=OLX_AUDI.py", line 168
+    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+TabError: inconsistent use of tabs and spaces in indentation

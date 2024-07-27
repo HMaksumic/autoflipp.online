@@ -21,7 +21,7 @@ options.add_argument('--disable-dev-shm-usage')
 service = Service('/home/ec2-user/autoflipp.online/flask-server/chromedriver')
 driver = webdriver.Chrome(service=service, options=options)
 
-base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.818&price_to=200000&sales_form=1&year_from=2010&page="
+base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.818&sales_form=1&year_from=2010&page="
 
 all_data = []
 
@@ -81,7 +81,7 @@ def remove_filler(data):
             remove_filler(item)
 
 #number of finn pages to fetch
-total_pages = 4
+total_pages = 6
 
 #fetching data from the first page
 url = base_url + str(1)

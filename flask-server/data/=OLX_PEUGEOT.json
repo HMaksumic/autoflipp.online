@@ -1,18 +1,161 @@
 [
     {
-        "car_name": "Peugeot 308 1.6-92 D/Navi/ Panorama / P.Sensor",
-        "normalized_name": "1 308 6 92 navi panorama sensor",
+        "car_name": "Peugeot 3008 3008 1.6-109 D",
+        "normalized_name": "1 109 3008 3008 6",
+        "year": 2010,
+        "finn_price": 21845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362801619",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/27/9/362/801/619_88a8e635-04d0-4f76-aa8c-fe2bbbd9311c.jpg",
+        "regno": "RK23390",
+        "olx_prices": [
+            17000,
+            0,
+            12750,
+            12650,
+            0,
+            14500,
+            12500
+        ],
+        "olx_ids": [
+            59952164,
+            61749449,
+            62726706,
+            59660653,
+            62468178,
+            62461794,
+            62370345
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Peugeot Rifter 1,5 HDi 130hk L2 7-seter",
+        "normalized_name": "1 5 7 hdi l2 rifter seter",
+        "year": 2020,
+        "finn_price": 299305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362797134",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/4/362/797/134_ae99ebad-5dd5-4f45-b152-697bcab7d2cc.jpg",
+        "regno": "SD95471",
+        "olx_prices": [
+            0
+        ],
+        "olx_ids": [
+            62165416
+        ],
+        "tax_return": 83740
+    },
+    {
+        "car_name": "Peugeot 3008 3008 1.6-111 D",
+        "normalized_name": "1 111 3008 3008 6",
+        "year": 2011,
+        "finn_price": 49845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362730512",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/2/362/730/512_0c7265ab-c47e-4641-b3c2-dbf3c2317c3a.jpg",
+        "regno": "AA59606",
+        "olx_prices": [
+            13000,
+            12400,
+            18650,
+            15000,
+            13500,
+            13500,
+            14500
+        ],
+        "olx_ids": [
+            62804430,
+            62113214,
+            62707530,
+            62577894,
+            47244713,
+            59593499,
+            58911635
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Peugeot 308 SW 1,6 BlueHDi 100hk Active",
+        "normalized_name": "1 308 6 bluehdi sw",
+        "year": 2015,
+        "finn_price": 113074,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362639820",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/0/362/639/820_a7259e15-e991-4869-bb72-bcf0e0a7609b.jpg",
+        "regno": "RK94507",
+        "olx_prices": [
+            16000,
+            16200,
+            16900,
+            19000,
+            14700,
+            17000,
+            16900,
+            14000,
+            16500,
+            14500,
+            12900,
+            13000,
+            12800,
+            18200
+        ],
+        "olx_ids": [
+            62035352,
+            62777063,
+            62738260,
+            60445786,
+            62665822,
+            62585674,
+            58710265,
+            62643206,
+            61489889,
+            62635313,
+            62537207,
+            62360587,
+            62315475,
+            58872483
+        ],
+        "tax_return": 11730
+    },
+    {
+        "car_name": "Peugeot 3008 3008 1.6-120 D",
+        "normalized_name": "1 120 3008 3008 6",
+        "year": 2017,
+        "finn_price": 236305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358512624",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/4/358/512/624_ab78c5b5-858a-49f7-a3b8-229d63bce1b2.jpg",
+        "regno": "DR16233",
+        "olx_prices": [
+            28000,
+            0,
+            30500,
+            24759,
+            33200,
+            39000,
+            32000,
+            60000
+        ],
+        "olx_ids": [
+            59146903,
+            62713228,
+            55174700,
+            62684281,
+            59478164,
+            62233428,
+            61614610,
+            61285247
+        ],
+        "tax_return": 22821
+    },
+    {
+        "car_name": "Peugeot 308 308 2.0-150 D",
+        "normalized_name": "0 150 2 308 308",
         "year": 2014,
-        "finn_price": 56074,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362226028",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/8/362/226/028_b6f6e60a-f234-406c-ad55-5e3a2bdeadae.jpg",
-        "regno": "LJ54142",
+        "finn_price": 119305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=350523537",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/7/350/523/537_e94d94f7-c259-4961-aebe-b9a654ff8cd8.jpg",
+        "regno": "SD73410",
         "olx_prices": [
             14999,
             20000,
-            0,
+            14100,
             16600,
-            15500,
             19200,
             16000,
             13800,
@@ -24,7 +167,6 @@
             62692211,
             62546321,
             62504100,
-            62351185,
             61568415,
             62403155,
             62384501,
@@ -34,141 +176,151 @@
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 4008 Allure 4x4 1,6 e-HDI 115hk",
-        "normalized_name": "1 4008 4x4 6 allure e hdi",
+        "car_name": "Peugeot 208 208 1.4-68 D",
+        "normalized_name": "1 208 208 4 68",
         "year": 2013,
-        "finn_price": 79305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362209585",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/5/362/209/585_192b7e7c-2ca3-47b3-b135-c8a6e8a9ff36.jpg",
-        "regno": "PD44308",
+        "finn_price": 53074,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362017939",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/9/362/017/939_13a244b4-56e1-4c5f-bf6f-18f5511dd8d3.jpg",
+        "regno": "VH49916",
         "olx_prices": [
-            18800,
-            19500,
-            0
+            12850,
+            11800,
+            11400,
+            12900,
+            8300,
+            11600,
+            11700
         ],
         "olx_ids": [
-            62378513,
-            62149481,
-            54451279
+            62733716,
+            62713816,
+            62590687,
+            62596528,
+            62551371,
+            62590526,
+            61424764
         ],
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 3008 3008 1.6-111 D",
-        "normalized_name": "1 111 3008 3008 6",
+        "car_name": "Peugeot 308 308 1.6-109 D",
+        "normalized_name": "1 109 308 308 6",
+        "year": 2010,
+        "finn_price": 34835,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362560701",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/1/362/560/701_2f4e5477-9640-4b24-b6b3-f970da9134fa.jpg",
+        "regno": "AA58136",
+        "olx_prices": [
+            7900,
+            0,
+            9500,
+            0,
+            8500,
+            8700,
+            9900,
+            0,
+            6800,
+            0,
+            9900,
+            12200,
+            9300,
+            9500
+        ],
+        "olx_ids": [
+            62046450,
+            56968179,
+            62725754,
+            61969560,
+            61748116,
+            62691090,
+            60333287,
+            62407084,
+            60236967,
+            62450910,
+            62414442,
+            62397382,
+            60932399,
+            62060535
+        ],
+        "tax_return": null
+    },
+    {
+        "car_name": "Peugeot 5008 1.6-111 D",
+        "normalized_name": "1 111 5008 6",
         "year": 2011,
-        "finn_price": 30000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362201262",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/2/362/201/262_e8e61403-7da3-44a6-ab54-dbf868041d1f.jpg",
-        "regno": "UN32557",
+        "finn_price": 59845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362560338",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/8/362/560/338_a4abb7d3-eb57-4a72-bf54-907693a6ce16.jpg",
+        "regno": "ZX21697",
         "olx_prices": [
+            12500,
+            10800,
+            9300,
             12000,
-            18650,
-            13900,
-            15000,
-            13500,
-            19400,
-            13500,
-            14500
+            10500,
+            9500
         ],
         "olx_ids": [
-            62572336,
-            62707530,
-            60967692,
-            62577894,
-            47244713,
             62417968,
-            59593499,
-            58911635
+            62473148,
+            62660002,
+            62409591,
+            62394706,
+            62279904
         ],
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 308 SW 1,6 BlueHDi 120hk GT Line aut",
-        "normalized_name": "1 308 6 aut bluehdi sw",
-        "year": 2017,
-        "finn_price": 169305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361842298",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/8/361/842/298_9761e773-ee1d-4ee8-a476-8beca41412ef.jpg",
-        "regno": "PX62796",
-        "olx_prices": [
-            14800,
-            18700,
-            18700,
-            17900
-        ],
-        "olx_ids": [
-            62416223,
-            62532770,
-            62314480,
-            58740105
-        ],
-        "tax_return": 22039
-    },
-    {
-        "car_name": "Peugeot Partner PARTNER 1.6-99 D 4X4",
-        "normalized_name": "1 4x4 6 99 partner partner",
+        "car_name": "Peugeot Partner PARTNER 1.6-99 D",
+        "normalized_name": "1 6 99 partner partner",
         "year": 2018,
-        "finn_price": 166476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354590491",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/1/354/590/491_bf2ba39d-a238-4d88-8730-52068e31d3fe.jpg",
-        "regno": "YN63558",
+        "finn_price": 130000,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362526271",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/1/362/526/271_b2838762-4de7-4138-9d60-f298d6725a57.jpg",
+        "regno": "UX69934",
         "olx_prices": [
             17000
         ],
         "olx_ids": [
             61766829
         ],
-        "tax_return": 11724
+        "tax_return": 10826
     },
     {
-        "car_name": "Peugeot Partner PARTNER 1.6-90 D 4X4",
-        "normalized_name": "1 4x4 6 90 partner partner",
-        "year": 2014,
-        "finn_price": 71476,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362145099",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/9/362/145/099_bb312166-d04a-4d06-b1fa-949e1f45f81e.jpg",
-        "regno": "ZH41731",
-        "olx_prices": [
-            10000
-        ],
-        "olx_ids": [
-            62607861
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 508 508 1.6-111 D -EUOK-HFESTE-UTSTYR+++",
-        "normalized_name": "1 111 508 508 6 euok hfeste",
+        "car_name": "Peugeot 508 2.0-163 D",
+        "normalized_name": "0 163 2 508",
         "year": 2011,
-        "finn_price": 60000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361922603",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/3/361/922/603_96da73f0-52db-4f85-9fe0-41df79fc4d63.jpg",
-        "regno": "VH43809",
+        "finn_price": 76845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362450427",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/7/362/450/427_21bc079f-54f2-41a6-b7ea-842dddd4d747.jpg",
+        "regno": "AE32821",
         "olx_prices": [
             10900,
+            13700,
+            12700,
+            11600,
             11500,
             14500,
             12500,
-            11500,
-            11600,
             12500,
             11500,
             13200,
             16000,
             11000,
             15500,
-            17700,
+            16700,
             14500,
             21000
         ],
         "olx_ids": [
             61426644,
+            55311057,
+            62412333,
+            59385902,
             62212215,
             62113007,
             62353046,
-            62368277,
-            59385902,
             62603265,
             62483866,
             62483694,
@@ -182,42 +334,70 @@
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 308 308 1.6-111 D",
-        "normalized_name": "1 111 308 308 6",
+        "car_name": "Peugeot 207 207 1.6-92 D",
+        "normalized_name": "1 207 207 6 92",
         "year": 2010,
-        "finn_price": 18845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362058798",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/8/362/058/798_ff003277-5341-4f6b-a35a-6ef991492773.jpg",
-        "regno": "HJ87959",
+        "finn_price": 26845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362287468",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/8/362/287/468_ec161eff-98f2-4669-9717-70993d6465a3.jpg",
+        "regno": "KH69699",
         "olx_prices": [
-            8500,
-            8500,
-            8700,
-            9900,
-            0,
-            6800,
             8300,
-            0,
-            9900,
-            12200,
-            9300,
-            9500
+            8800,
+            8700,
+            7600,
+            10500,
+            8500,
+            7500
         ],
         "olx_ids": [
-            59376497,
-            61748116,
-            62691090,
-            60333287,
-            62407084,
-            60236967,
-            62046450,
-            62450910,
-            62414442,
-            62397382,
-            60932399,
-            62060535
+            62147929,
+            62714185,
+            58079335,
+            54992105,
+            62337361,
+            62336788,
+            61327143
         ],
         "tax_return": null
+    },
+    {
+        "car_name": "Peugeot 3008 1.6-120 D",
+        "normalized_name": "1 120 3008 6",
+        "year": 2017,
+        "finn_price": 204295,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362122758",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/8/362/122/758_66b04b10-5a17-49b5-b369-0a5aae4159d2.jpg",
+        "regno": "ZA17642",
+        "olx_prices": [
+            29950,
+            39950
+        ],
+        "olx_ids": [
+            62700607,
+            62686823
+        ],
+        "tax_return": 22821
+    },
+    {
+        "car_name": "Peugeot 308 SW 1,6 BlueHDi 120hk GT Line aut",
+        "normalized_name": "1 308 6 aut bluehdi sw",
+        "year": 2017,
+        "finn_price": 169305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361842298",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/8/361/842/298_9761e773-ee1d-4ee8-a476-8beca41412ef.jpg",
+        "regno": "PX62796",
+        "olx_prices": [
+            14800,
+            18700,
+            17900
+        ],
+        "olx_ids": [
+            62416223,
+            62314480,
+            58740105
+        ],
+        "tax_return": 22039
     },
     {
         "car_name": "Peugeot 5008 5008 1.6-109 D",
@@ -228,60 +408,12 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/7/362/090/027_c622bebf-83f5-4879-a872-531625978aeb.jpg",
         "regno": "AA57735",
         "olx_prices": [
+            9500,
             12900
         ],
         "olx_ids": [
+            62728644,
             51073435
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 5008 1.6-111 D",
-        "normalized_name": "1 111 5008 6",
-        "year": 2011,
-        "finn_price": 36845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362086162",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/362/086/162_fe28923a-debf-4d95-9864-3158b7f9feae.jpg",
-        "regno": "PX54922",
-        "olx_prices": [
-            10500,
-            12000,
-            10500,
-            9500
-        ],
-        "olx_ids": [
-            60373073,
-            62409591,
-            62394706,
-            62279904
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 3008 3008 1.6-109 D premium pack",
-        "normalized_name": "1 109 3008 3008 6 pack",
-        "year": 2010,
-        "finn_price": 57845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=362036719",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/9/362/036/719_2b5ee2b8-c494-4236-ac64-900feb19dcca.jpg",
-        "regno": "PD32988",
-        "olx_prices": [
-            14000,
-            12650,
-            12750,
-            0,
-            0,
-            14500,
-            12500
-        ],
-        "olx_ids": [
-            62533984,
-            59660653,
-            62726706,
-            61749449,
-            62468178,
-            62461794,
-            62370345
         ],
         "tax_return": null
     },
@@ -295,18 +427,16 @@
         "regno": "AA68064",
         "olx_prices": [
             16700,
+            16500,
             19200,
-            16999,
-            14700,
             16300,
             18900,
             13900
         ],
         "olx_ids": [
             62558181,
+            61420982,
             61358706,
-            61858350,
-            62527519,
             62579937,
             59155902,
             55341536
@@ -314,66 +444,38 @@
         "tax_return": 18633
     },
     {
-        "car_name": "Peugeot 508 Panoramatak, AC, webasto med timer.",
-        "normalized_name": "508 ac med panoramatak timer webasto",
+        "car_name": "Peugeot 508 508 2.0-163 D",
+        "normalized_name": "0 163 2 508 508",
         "year": 2012,
-        "finn_price": 47000,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=355533572",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/355/533/572_af73284a-3085-4a17-8800-02e8693999c4.jpg",
-        "regno": "VH38509",
+        "finn_price": 79845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361841934",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/4/361/841/934_805e2849-3a24-4a37-b350-58a0a3a7bf90.jpg",
+        "regno": "PX56560",
         "olx_prices": [
+            12800,
+            13200,
+            13200,
+            13300,
             14500,
             16900,
             0,
             14000,
-            15500,
             16000,
-            14200,
             13000,
             13800
         ],
         "olx_ids": [
+            62138443,
+            62717359,
+            62708156,
+            62738069,
             60373454,
             58538503,
             59953068,
             58215092,
-            60963055,
             57314591,
-            62290782,
             57361370,
             61427510
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot Boxer BOXER 2.2-131 D",
-        "normalized_name": "131 2 2 boxer boxer",
-        "year": 2016,
-        "finn_price": 149999,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361933937",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/20/7/361/933/937_6c4dadba-29f2-431f-a028-3a07325d731e.jpg",
-        "regno": "BU37743",
-        "olx_prices": [
-            0
-        ],
-        "olx_ids": [
-            62733627
-        ],
-        "tax_return": 25467
-    },
-    {
-        "car_name": "Peugeot 508 508 2.0-140 D",
-        "normalized_name": "0 140 2 508 508",
-        "year": 2012,
-        "finn_price": 79845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=357974483",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/3/357/974/483_a3085244-f3d0-4d1e-85e8-a56130f8d9f6.jpg",
-        "regno": "BS52408",
-        "olx_prices": [
-            15500
-        ],
-        "olx_ids": [
-            62538072
         ],
         "tax_return": null
     },
@@ -386,20 +488,58 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2023/11/vertical-0/07/2/327/695/762_152815376.jpg",
         "regno": "CV66583",
         "olx_prices": [
+            12000,
             8500,
             8900,
-            10250,
-            10500,
-            11300
+            10250
         ],
         "olx_ids": [
+            62710713,
             62714047,
             62615520,
-            62427321,
-            62513827,
-            62278368
+            62427321
         ],
         "tax_return": null
+    },
+    {
+        "car_name": "Peugeot 508 SW 1,5 BlueHDi 130hk",
+        "normalized_name": "1 5 508 bluehdi sw",
+        "year": 2019,
+        "finn_price": 239305,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361738765",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/18/5/361/738/765_ce55387e-ddfe-4bb5-b31e-9ba41eb72f20.jpg",
+        "regno": "US11832",
+        "olx_prices": [
+            27900,
+            27800,
+            51000,
+            27955,
+            34500
+        ],
+        "olx_ids": [
+            60932480,
+            58445988,
+            53710794,
+            62684367,
+            61221659
+        ],
+        "tax_return": 37443
+    },
+    {
+        "car_name": "Peugeot 3008 GT 1,5 BlueHDi 130hk",
+        "normalized_name": "1 3008 5 bluehdi",
+        "year": 2021,
+        "finn_price": 349129,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=361644264",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/4/361/644/264_3efc8e43-40f3-470c-94d5-6d3c72a38269.jpg",
+        "regno": "YN65837",
+        "olx_prices": [
+            39990
+        ],
+        "olx_ids": [
+            59344632
+        ],
+        "tax_return": 58628
     },
     {
         "car_name": "Peugeot 508",
@@ -410,55 +550,53 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/2/361/639/232_73eae5c9-cfbf-4d16-b47d-69e25a909b24.jpg",
         "regno": "NF49489",
         "olx_prices": [
-            11300,
+            15900,
+            17900,
+            14300,
+            13500,
+            11000,
+            14900,
+            18500,
+            13900,
+            13500,
             14500,
             12900,
             14500,
             11600,
-            17900,
-            18500,
-            14900,
-            15900,
             13000,
             18500,
             13800,
-            0,
-            13900,
             14950,
             12950,
             8900,
-            0,
-            11000,
             15400,
             13750,
             11200,
-            13500,
             16300
         ],
         "olx_ids": [
-            62501014,
+            59982729,
+            62198966,
+            62750259,
+            62713023,
+            61864153,
+            62644960,
+            62413996,
+            56330767,
+            39890240,
             62656275,
             62469042,
             62460845,
             59446807,
-            62198966,
-            62413996,
-            62644960,
-            59982729,
             54831240,
             62610083,
             54842880,
-            61149003,
-            56330767,
             56308476,
             62447791,
             62416031,
-            53190020,
-            61864153,
             51852766,
             56652709,
             60247879,
-            39890240,
             54945263
         ],
         "tax_return": null
@@ -472,30 +610,16 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/4/361/604/034_e25aa429-e358-445d-bddb-b2f1e3b916ad.jpg",
         "regno": "LJ57658",
         "olx_prices": [
+            16300,
+            22000,
             26000
         ],
         "olx_ids": [
+            62764127,
+            62749204,
             61579495
         ],
         "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 5008 1,5 BlueHDI 130hk",
-        "normalized_name": "1 5 5008 bluehdi",
-        "year": 2019,
-        "finn_price": 187976,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=351780077",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/05/7/351/780/077_b92eec23-eb66-4378-95f6-b0e7fddac26a.jpg",
-        "regno": "CF99922",
-        "olx_prices": [
-            35900,
-            39900
-        ],
-        "olx_ids": [
-            62727701,
-            59866918
-        ],
-        "tax_return": 17707
     },
     {
         "car_name": "Peugeot 3008 HU -HYbrid4",
@@ -508,31 +632,30 @@
         "olx_prices": [
             0,
             13300,
+            14750,
             12800
         ],
         "olx_ids": [
             62406975,
             62626712,
+            62032375,
             62602887
         ],
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 308 CC 1.6 e-HDi 112 hk",
-        "normalized_name": "1 112 308 6 cc e hdi",
+        "car_name": "Peugeot 308 308 1.6-111 D",
+        "normalized_name": "1 111 308 308 6",
         "year": 2011,
-        "finn_price": 86845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=360037564",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/4/360/037/564_5b07cc3a-fb49-42ca-b24a-f5cc66badb55.jpg",
-        "regno": "DN56391",
+        "finn_price": 89845,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359953638",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/8/359/953/638_f92a4e0f-2ba7-4d3d-bcc9-bdd5925cdd31.jpg",
+        "regno": "RK27375",
         "olx_prices": [
             8300,
             8900,
-            8850,
             11900,
             9300,
-            8200,
-            8500,
             0,
             9200,
             9900,
@@ -543,33 +666,14 @@
         "olx_ids": [
             62732889,
             60616069,
-            62587947,
             62593252,
             62578106,
-            62564235,
-            62507342,
             62420146,
             62401631,
             61497826,
             61454976,
             62312235,
             61142184
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 5008 5008 1.6-111 D",
-        "normalized_name": "1 111 5008 5008 6",
-        "year": 2012,
-        "finn_price": 59845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359613197",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/7/359/613/197_2fbe20a0-768c-4144-af76-758e84a44afc.jpg",
-        "regno": "PX56872",
-        "olx_prices": [
-            14500
-        ],
-        "olx_ids": [
-            62323921
         ],
         "tax_return": null
     },
@@ -582,6 +686,7 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2022/8/vertical-0/20/7/269/843/147_1810048768.jpg",
         "regno": "BT19251",
         "olx_prices": [
+            17800,
             24000,
             23000,
             17000,
@@ -589,6 +694,7 @@
             22900
         ],
         "olx_ids": [
+            62781898,
             51241156,
             61131814,
             58253006,
@@ -601,7 +707,7 @@
         "car_name": "Peugeot 2008 Active 1,5 BlueHDi 100hk",
         "normalized_name": "1 5 bluehdi",
         "year": 2020,
-        "finn_price": 159305,
+        "finn_price": 154305,
         "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=359195571",
         "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/1/359/195/571_04fb3a60-0151-4770-8c79-27626d4e9da0.jpg",
         "regno": "ZP48066",
@@ -626,78 +732,36 @@
         "image_url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/18/4/324/759/784_347389933.jpg",
         "regno": "CF65082",
         "olx_prices": [
-            9300,
-            9000,
+            10800,
             7750,
             11800,
             9600,
-            12150,
-            11300,
+            0,
+            9300,
             8900,
+            9000,
+            12150,
             9800,
-            10500,
             8500,
             12300,
             11900
         ],
         "olx_ids": [
-            62716487,
-            60409203,
+            61717720,
             62602042,
             59137237,
             59102355,
-            62579130,
-            60578430,
+            59217164,
+            62716487,
             62354187,
+            60409203,
+            62579130,
             60222473,
-            62551163,
             62504659,
             62065886,
             61917986
         ],
         "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 3008 3008 1.6-120 D Facelift",
-        "normalized_name": "1 120 3008 3008 6",
-        "year": 2014,
-        "finn_price": 89305,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=354210555",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/24/5/354/210/555_ed1763b5-eab5-4585-9291-d9736936e498.jpg",
-        "regno": "FT48830",
-        "olx_prices": [
-            16500,
-            17900,
-            21000,
-            14200,
-            18000
-        ],
-        "olx_ids": [
-            62657434,
-            62730866,
-            62700643,
-            62383137,
-            62367883
-        ],
-        "tax_return": null
-    },
-    {
-        "car_name": "Peugeot 3008 2.0-150 D",
-        "normalized_name": "0 150 2 3008",
-        "year": 2015,
-        "finn_price": 109147,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=332339616",
-        "image_url": "https://images.finncdn.no/dynamic/default/2023/12/vertical-0/11/6/332/339/616_1794931793.jpg",
-        "regno": "RK93266",
-        "olx_prices": [
-            23000,
-            17700
-        ],
-        "olx_ids": [
-            62493582,
-            61861631
-        ],
-        "tax_return": 21070
     },
     {
         "car_name": "Peugeot 5008 1.6-114 D",
@@ -722,29 +786,21 @@
         "tax_return": null
     },
     {
-        "car_name": "Peugeot 207 207 1.4-68 D",
-        "normalized_name": "1 207 207 4 68",
-        "year": 2010,
-        "finn_price": 36845,
-        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=358687685",
-        "image_url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/5/358/687/685_eede8f9d-553a-4a49-a5af-fdb898c7bfe1.jpg",
-        "regno": "PD33834",
+        "car_name": "Peugeot 508 SW GT Line 2,0 BlueHDi 163hk aut. UTSTYRSBOMBE!",
+        "normalized_name": "0 2 508 aut bluehdi sw utstyrsbombe",
+        "year": 2020,
+        "finn_price": 349900,
+        "finn_link": "https://www.finn.no/car/used/ad.html?finnkode=345837846",
+        "image_url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/10/6/345/837/846_9c7d8515-a24f-4200-b175-c8517c469e1d.jpg",
+        "regno": "TL33170",
         "olx_prices": [
-            8800,
-            8700,
-            7600,
-            10500,
-            8500,
-            7500
+            35100,
+            36900
         ],
         "olx_ids": [
-            62714185,
-            58079335,
-            54992105,
-            62337361,
-            62336788,
-            61327143
+            58445044,
+            57950270
         ],
-        "tax_return": null
+        "tax_return": 73813
     }
 ]

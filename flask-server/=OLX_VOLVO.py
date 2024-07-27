@@ -61,7 +61,7 @@ def fetch_finn_data():
         return []
 
 #fetching from olx (several pages of JSON)
-def fetch_olx_data(max_pages=10):
+def fetch_olx_data(max_pages=12):
     olx_url = 'https://olx.ba/api/search'
     params = {
             'attr': '3228323031302d393939393939293a372844697a656c29',

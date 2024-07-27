@@ -28,7 +28,7 @@ def fetch_finn_data():
         return []
 
 #fetching from olx (several pages of JSON)
-def fetch_olx_data(max_pages=50):
+def fetch_olx_data(max_pages=60):
     olx_url = 'https://olx.ba/api/search'
     params = {
             'attr': '3228323031302d393939393939293a372844697a656c29',
@@ -164,9 +164,8 @@ data_dir = os.path.join(current_dir, 'data')
 os.makedirs(data_dir, exist_ok=True)
 
 with open(os.path.join(data_dir, '=OLX_AUDI.json'), 'w', encoding='utf-8') as json_file:
-   if olx_finn_output:
-	 json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
-
+    if olx_finn_output:
+        json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
 
 import datetime
 with open('__LOG__.txt', 'a', encoding='utf-8') as file:

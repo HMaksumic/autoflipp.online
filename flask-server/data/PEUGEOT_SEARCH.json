@@ -1,6 +1,1622 @@
 [
     {
         "type": "motor",
+        "id": "362809391",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 4007 2.2-156 D 4X4",
+        "location": "B\u00f8 i Telemark",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/27/1/362/809/391_ec8a92df-bfe7-446f-abe1-1f72bc77b745.jpg",
+            "path": "2024/7/vertical-0/27/1/362/809/391_ec8a92df-bfe7-446f-abe1-1f72bc77b745.jpg",
+            "height": 2048,
+            "width": 1536,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1722065763754,
+        "coordinates": {
+            "lat": 59.4452,
+            "lon": 9.0717
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362809391",
+        "extras": [],
+        "price": {
+            "amount": 56845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 273696,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "CF54476",
+        "ad_id": 362809391
+    },
+    {
+        "type": "motor",
+        "id": "362804633",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-90 D 4X4",
+        "location": "R\u00f8ldal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/27/3/362/804/633_6567591e-6fbb-4209-b765-234ac04e8982.jpg",
+            "path": "2024/7/vertical-0/27/3/362/804/633_6567591e-6fbb-4209-b765-234ac04e8982.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1722062965740,
+        "coordinates": {
+            "lat": 59.83078,
+            "lon": 6.82267
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362804633",
+        "extras": [],
+        "price": {
+            "amount": 83476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 190000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "UA35472",
+        "ad_id": 362804633
+    },
+    {
+        "type": "motor",
+        "id": "362801619",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 3008 1.6-109 D",
+        "location": "Skj\u00e6rhalden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/27/9/362/801/619_88a8e635-04d0-4f76-aa8c-fe2bbbd9311c.jpg",
+            "path": "2024/7/vertical-0/27/9/362/801/619_88a8e635-04d0-4f76-aa8c-fe2bbbd9311c.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1722058517690,
+        "coordinates": {
+            "lat": 59.0253,
+            "lon": 11.03679
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362801619",
+        "extras": [],
+        "price": {
+            "amount": 21845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 254000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK23390",
+        "ad_id": 362801619
+    },
+    {
+        "type": "motor",
+        "id": "362797134",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot Rifter 1,5 HDi 130hk L2 7-seter",
+        "location": "Eidsv\u00e5g i Romsdal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/4/362/797/134_ae99ebad-5dd5-4f45-b152-697bcab7d2cc.jpg",
+            "path": "2024/7/vertical-0/26/4/362/797/134_ae99ebad-5dd5-4f45-b152-697bcab7d2cc.jpg",
+            "height": 960,
+            "width": 1280,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1722037500000,
+        "coordinates": {
+            "lat": 62.7767,
+            "lon": 8.0666
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362797134",
+        "extras": [],
+        "price": {
+            "amount": 299305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2020,
+        "mileage": 68000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 14,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SD95471",
+        "ad_id": 362797134
+    },
+    {
+        "type": "motor",
+        "id": "362786022",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot Partner PARTNER 1.6-90 D",
+        "location": "Jostedal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/2/362/786/022_0b197dde-ef81-49dd-a004-6bf5fa83be1d.jpg",
+            "path": "2024/7/vertical-0/26/2/362/786/022_0b197dde-ef81-49dd-a004-6bf5fa83be1d.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1722027197688,
+        "coordinates": {
+            "lat": 61.5951,
+            "lon": 7.2809
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362786022",
+        "extras": [],
+        "price": {
+            "amount": 12845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 248021,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "VH22779",
+        "ad_id": 362786022
+    },
+    {
+        "type": "motor",
+        "id": "362781721",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 4008 4008 1.6-114 D 4X4",
+        "location": "Harstad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/1/362/781/721_574f161b-1fe1-4feb-9fdf-54e7349545be.jpg",
+            "path": "2024/7/vertical-0/26/1/362/781/721_574f161b-1fe1-4feb-9fdf-54e7349545be.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1722025340811,
+        "coordinates": {
+            "lat": 68.7838,
+            "lon": 16.5261
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362781721",
+        "extras": [],
+        "price": {
+            "amount": 111745,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 118436,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZA12899",
+        "ad_id": 362781721
+    },
+    {
+        "type": "motor",
+        "id": "362730512",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 3008 1.6-111 D",
+        "location": "Hamar",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/2/362/730/512_0c7265ab-c47e-4641-b3c2-dbf3c2317c3a.jpg",
+            "path": "2024/7/vertical-0/26/2/362/730/512_0c7265ab-c47e-4641-b3c2-dbf3c2317c3a.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1722002780677,
+        "coordinates": {
+            "lat": 60.80266,
+            "lon": 11.08254
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362730512",
+        "extras": [],
+        "price": {
+            "amount": 49845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 231000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AA59606",
+        "ad_id": 362730512
+    },
+    {
+        "type": "motor",
+        "id": "362704031",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 1.6-111 D",
+        "location": "Jar",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/1/362/704/031_1742fc9b-57b7-4004-aa19-21b599834eb6.jpg",
+            "path": "2024/7/vertical-0/26/1/362/704/031_1742fc9b-57b7-4004-aa19-21b599834eb6.jpg",
+            "height": 3079,
+            "width": 4096,
+            "aspect_ratio": 1.3303020461188697
+        },
+        "flags": [],
+        "timestamp": 1721998165704,
+        "coordinates": {
+            "lat": 59.93001,
+            "lon": 10.61386
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362704031",
+        "extras": [],
+        "price": {
+            "amount": 81845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 200926,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "AE33049",
+        "ad_id": 362704031
+    },
+    {
+        "type": "motor",
+        "id": "362695238",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-75 D",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/26/8/362/695/238_2eb55089-79f7-47f5-8949-9ab2d707a4cf.jpg",
+            "path": "2024/7/vertical-0/26/8/362/695/238_2eb55089-79f7-47f5-8949-9ab2d707a4cf.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721994180000,
+        "coordinates": {
+            "lat": 59.1307,
+            "lon": 11.3926
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362695238",
+        "extras": [],
+        "price": {
+            "amount": 27231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 191000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "KZ58265",
+        "ad_id": 362695238
+    },
+    {
+        "type": "motor",
+        "id": "362639820",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 308 SW 1,6 BlueHDi 100hk Active",
+        "location": "Sandnes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/0/362/639/820_a7259e15-e991-4869-bb72-bcf0e0a7609b.jpg",
+            "path": "2024/7/vertical-0/25/0/362/639/820_a7259e15-e991-4869-bb72-bcf0e0a7609b.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721940000000,
+        "coordinates": {
+            "lat": 58.82841,
+            "lon": 5.73372
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362639820",
+        "extras": [],
+        "price": {
+            "amount": 113074,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 106000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "RK94507",
+        "ad_id": 362639820
+    },
+    {
+        "type": "motor",
+        "id": "358512624",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 3008 1.6-120 D",
+        "location": "Deknepollen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/4/358/512/624_ab78c5b5-858a-49f7-a3b8-229d63bce1b2.jpg",
+            "path": "2024/7/vertical-0/25/4/358/512/624_ab78c5b5-858a-49f7-a3b8-229d63bce1b2.jpg",
+            "height": 1116,
+            "width": 1644,
+            "aspect_ratio": 1.4731182795698925
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721928915797,
+        "coordinates": {
+            "lat": 61.9273,
+            "lon": 5.14102
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358512624",
+        "extras": [],
+        "price": {
+            "amount": 236305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 91000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DR16233",
+        "ad_id": 358512624
+    },
+    {
+        "type": "motor",
+        "id": "350523537",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 308 308 2.0-150 D",
+        "location": "Larvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/27/7/350/523/537_e94d94f7-c259-4961-aebe-b9a654ff8cd8.jpg",
+            "path": "2024/4/vertical-0/27/7/350/523/537_e94d94f7-c259-4961-aebe-b9a654ff8cd8.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721926560000,
+        "coordinates": {
+            "lat": 59.1,
+            "lon": 10.0913
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=350523537",
+        "extras": [],
+        "price": {
+            "amount": 119305,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 149700,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "SD73410",
+        "ad_id": 350523537
+    },
+    {
+        "type": "motor",
+        "id": "362599067",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner 1,5 HDi 100hk L1 man",
+        "location": "Notodden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/7/362/599/067_939dce1d-83ae-40e0-9933-61d3a0f7b039.jpg",
+            "path": "2024/7/vertical-0/25/7/362/599/067_939dce1d-83ae-40e0-9933-61d3a0f7b039.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721924400000,
+        "coordinates": {
+            "lat": 59.593,
+            "lon": 9.1488
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362599067",
+        "extras": [],
+        "price": {
+            "amount": 148476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2019,
+        "mileage": 77000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RL40220",
+        "ad_id": 362599067
+    },
+    {
+        "type": "motor",
+        "id": "362017939",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 208 208 1.4-68 D",
+        "location": "Trondheim",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/9/362/017/939_13a244b4-56e1-4c5f-bf6f-18f5511dd8d3.jpg",
+            "path": "2024/7/vertical-0/21/9/362/017/939_13a244b4-56e1-4c5f-bf6f-18f5511dd8d3.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721921880000,
+        "coordinates": {
+            "lat": 63.438,
+            "lon": 10.42769
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362017939",
+        "extras": [],
+        "price": {
+            "amount": 53074,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 136068,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "VH49916",
+        "ad_id": 362017939
+    },
+    {
+        "type": "motor",
+        "id": "362594533",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Boxer BOXER 2.0-131 D- KJ\u00d8LEBIL med Frys - Varm",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/3/362/594/533_bd130ae6-2fbc-4bca-873c-c7d0d9139ad9.jpg",
+            "path": "2024/7/vertical-0/25/3/362/594/533_bd130ae6-2fbc-4bca-873c-c7d0d9139ad9.jpg",
+            "height": 5712,
+            "width": 4284,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721919660000,
+        "coordinates": {
+            "lat": 59.90747,
+            "lon": 10.81888
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362594533",
+        "extras": [],
+        "price": {
+            "amount": 219999,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 100760,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "UF73601",
+        "ad_id": 362594533
+    },
+    {
+        "type": "motor",
+        "id": "362583363",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 3008 1.6-120 D",
+        "location": "Alta",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/3/362/583/363_746a0058-b655-435d-9f56-3cc4d5d4ea0a.jpg",
+            "path": "2024/7/vertical-0/25/3/362/583/363_746a0058-b655-435d-9f56-3cc4d5d4ea0a.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721914800000,
+        "coordinates": {
+            "lat": 69.9039,
+            "lon": 23.21721
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362583363",
+        "extras": [],
+        "price": {
+            "amount": 219905,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 117000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "ZT52375",
+        "ad_id": 362583363
+    },
+    {
+        "type": "motor",
+        "id": "362560701",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 308 308 1.6-109 D",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/1/362/560/701_2f4e5477-9640-4b24-b6b3-f970da9134fa.jpg",
+            "path": "2024/7/vertical-0/25/1/362/560/701_2f4e5477-9640-4b24-b6b3-f970da9134fa.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721910180000,
+        "coordinates": {
+            "lat": 59.1406,
+            "lon": 11.38171
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362560701",
+        "extras": [],
+        "price": {
+            "amount": 34835,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 213300,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AA58136",
+        "ad_id": 362560701
+    },
+    {
+        "type": "motor",
+        "id": "362514617",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert EXPERT 2.0-122 D",
+        "location": "Tverlandet",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/7/362/514/617_97111090-8736-4cc7-99fe-ef56d39959e9.jpg",
+            "path": "2024/7/vertical-0/24/7/362/514/617_97111090-8736-4cc7-99fe-ef56d39959e9.jpg",
+            "height": 2268,
+            "width": 4032,
+            "aspect_ratio": 1.7777777777777777
+        },
+        "flags": [],
+        "timestamp": 1721905920687,
+        "coordinates": {
+            "lat": 67.2975,
+            "lon": 14.7332
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362514617",
+        "extras": [],
+        "price": {
+            "amount": 121476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 66600,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "ZH51585",
+        "ad_id": 362514617
+    },
+    {
+        "type": "motor",
+        "id": "362560338",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 1.6-111 D",
+        "location": "Rypefjord",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/8/362/560/338_a4abb7d3-eb57-4a72-bf54-907693a6ce16.jpg",
+            "path": "2024/7/vertical-0/25/8/362/560/338_a4abb7d3-eb57-4a72-bf54-907693a6ce16.jpg",
+            "height": 4284,
+            "width": 5712,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721905320000,
+        "coordinates": {
+            "lat": 70.64471,
+            "lon": 23.67605
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362560338",
+        "extras": [],
+        "price": {
+            "amount": 59845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 159838,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "ZX21697",
+        "ad_id": 362560338
+    },
+    {
+        "type": "motor",
+        "id": "362536940",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-90 D",
+        "location": "S\u00f8r-Fron",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/0/362/536/940_65e8fdf0-023b-423a-8a92-daf9ef949504.jpg",
+            "path": "2024/7/vertical-0/25/0/362/536/940_65e8fdf0-023b-423a-8a92-daf9ef949504.jpg",
+            "height": 4000,
+            "width": 3000,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721894898740,
+        "coordinates": {
+            "lat": 61.5552,
+            "lon": 9.94069
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362536940",
+        "extras": [],
+        "price": {
+            "amount": 7231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 210000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "UF51838",
+        "ad_id": 362536940
+    },
+    {
+        "type": "motor",
+        "id": "362530259",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-75 D / EU GODKJENT til 04.2026",
+        "location": "Tananger",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/9/362/530/259_b3ad2957-eaa9-47e4-ad79-369f7e9cda97.jpg",
+            "path": "2024/7/vertical-0/25/9/362/530/259_b3ad2957-eaa9-47e4-ad79-369f7e9cda97.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721890500000,
+        "coordinates": {
+            "lat": 58.94681,
+            "lon": 5.58151
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362530259",
+        "extras": [],
+        "price": {
+            "amount": 37231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 180000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "HJ87554",
+        "ad_id": 362530259
+    },
+    {
+        "type": "motor",
+        "id": "362526271",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-99 D",
+        "location": "Oslo",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/1/362/526/271_b2838762-4de7-4138-9d60-f298d6725a57.jpg",
+            "path": "2024/7/vertical-0/25/1/362/526/271_b2838762-4de7-4138-9d60-f298d6725a57.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721885431684,
+        "coordinates": {
+            "lat": 59.9493,
+            "lon": 10.9335
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362526271",
+        "extras": [],
+        "price": {
+            "amount": 130000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2018,
+        "mileage": 42800,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "UX69934",
+        "ad_id": 362526271
+    },
+    {
+        "type": "motor",
+        "id": "362504564",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert 2.0 122D LANG DANGER 4X4 INNREDNING H.FESTE KAMERA",
+        "location": "Larvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/4/362/504/564_30d86fcf-2aff-464f-bed0-f49c95630314.jpg",
+            "path": "2024/7/vertical-0/24/4/362/504/564_30d86fcf-2aff-464f-bed0-f49c95630314.jpg",
+            "height": 3581,
+            "width": 5895,
+            "aspect_ratio": 1.6461882155822396
+        },
+        "flags": [],
+        "timestamp": 1721851329791,
+        "coordinates": {
+            "lat": 59.03158,
+            "lon": 10.07026
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362504564",
+        "extras": [],
+        "price": {
+            "amount": 169000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2018,
+        "mileage": 166123,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "LS90710",
+        "ad_id": 362504564
+    },
+    {
+        "type": "motor",
+        "id": "362470845",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert 2.0HDI/177HK/L3/HENGERFESTE/3.SETER/DAB/RYGGEKAMERA",
+        "location": "Bergen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/5/362/470/845_539abf4a-4646-41b2-b61f-c4381a59828e.jpg",
+            "path": "2024/7/vertical-0/24/5/362/470/845_539abf4a-4646-41b2-b61f-c4381a59828e.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721837040000,
+        "coordinates": {
+            "lat": 60.3908,
+            "lon": 5.31652
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362470845",
+        "extras": [],
+        "price": {
+            "amount": 199476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2018,
+        "mileage": 68000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VH96182",
+        "ad_id": 362470845
+    },
+    {
+        "type": "motor",
+        "id": "362450427",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 508 2.0-163 D",
+        "location": "Skiptvet",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/7/362/450/427_21bc079f-54f2-41a6-b7ea-842dddd4d747.jpg",
+            "path": "2024/7/vertical-0/24/7/362/450/427_21bc079f-54f2-41a6-b7ea-842dddd4d747.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721830515296,
+        "coordinates": {
+            "lat": 59.46949,
+            "lon": 11.16283
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362450427",
+        "extras": [],
+        "price": {
+            "amount": 76845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 224210,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "AE32821",
+        "ad_id": 362450427
+    },
+    {
+        "type": "motor",
+        "id": "362449377",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 5008 1.6-111 D",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/7/362/449/377_f034b046-1af0-4f0c-838d-7140e98e0755.jpg",
+            "path": "2024/7/vertical-0/24/7/362/449/377_f034b046-1af0-4f0c-838d-7140e98e0755.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721830232991,
+        "coordinates": {
+            "lat": 59.14317,
+            "lon": 11.3902
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362449377",
+        "extras": [],
+        "price": {
+            "amount": 46845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 292786,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "AA59198",
+        "ad_id": 362449377
+    },
+    {
+        "type": "motor",
+        "id": "362436678",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-120 D",
+        "location": "Ut\u00e5ker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/8/362/436/678_7fa93cd4-bfac-4315-ac1a-7cfdf816b091.jpg",
+            "path": "2024/7/vertical-0/24/8/362/436/678_7fa93cd4-bfac-4315-ac1a-7cfdf816b091.jpg",
+            "height": 4608,
+            "width": 3456,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721828612424,
+        "coordinates": {
+            "lat": 59.7858,
+            "lon": 5.90171
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362436678",
+        "extras": [],
+        "price": {
+            "amount": 111476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 100100,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SD81197",
+        "ad_id": 362436678
+    },
+    {
+        "type": "motor",
+        "id": "362405419",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert EXPERT 2.0-163 D",
+        "location": "Bruvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/9/362/405/419_774960a9-5e7f-4925-9cd5-fca4c70b3c81.jpg",
+            "path": "2024/7/vertical-0/24/9/362/405/419_774960a9-5e7f-4925-9cd5-fca4c70b3c81.jpg",
+            "height": 2160,
+            "width": 3840,
+            "aspect_ratio": 1.7777777777777777
+        },
+        "flags": [],
+        "timestamp": 1721811965163,
+        "coordinates": {
+            "lat": 60.4807,
+            "lon": 5.68332
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362405419",
+        "extras": [],
+        "price": {
+            "amount": 71476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 175000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK74846",
+        "ad_id": 362405419
+    },
+    {
+        "type": "motor",
+        "id": "360703022",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 4008 1.6-114 D 4X4",
+        "location": "R\u00f8rvik",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/24/2/360/703/022_28911420-a7cc-4a47-80d9-d3bf559b0880.jpg",
+            "path": "2024/7/vertical-0/24/2/360/703/022_28911420-a7cc-4a47-80d9-d3bf559b0880.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721809740000,
+        "coordinates": {
+            "lat": 64.8608,
+            "lon": 11.23701
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360703022",
+        "extras": [],
+        "price": {
+            "amount": 116845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2012,
+        "mileage": 168000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VH45350",
+        "ad_id": 360703022
+    },
+    {
+        "type": "motor",
+        "id": "360156031",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-75 D",
+        "location": "\u00d8lensv\u00e5g",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/1/360/156/031_167ff840-6fea-4064-835d-4f9b15e0539c.jpg",
+            "path": "2024/7/vertical-0/06/1/360/156/031_167ff840-6fea-4064-835d-4f9b15e0539c.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721804469000,
+        "coordinates": {
+            "lat": 59.64381,
+            "lon": 5.7696
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360156031",
+        "extras": [],
+        "price": {
+            "amount": 29500,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 349000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "SD54732",
+        "ad_id": 360156031
+    },
+    {
+        "type": "motor",
+        "id": "362364390",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-99D/EUOK/AUTOMAT/LAVKM/3SETER/S+V/R.KAMERA",
+        "location": "Halden",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/0/362/364/390_3200f961-fc9d-4801-9961-853acffdd509.jpg",
+            "path": "2024/7/vertical-0/23/0/362/364/390_3200f961-fc9d-4801-9961-853acffdd509.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721767740000,
+        "coordinates": {
+            "lat": 59.1263,
+            "lon": 11.39581
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362364390",
+        "extras": [],
+        "price": {
+            "amount": 97476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2016,
+        "mileage": 89365,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "RK96332",
+        "ad_id": 362364390
+    },
+    {
+        "type": "motor",
+        "id": "361011083",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-99 D",
+        "location": "Brekkest\u00f8",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/3/361/011/083_480e24a3-6b95-446f-a3ba-f4bf52ffcc54.jpg",
+            "path": "2024/7/vertical-0/23/3/361/011/083_480e24a3-6b95-446f-a3ba-f4bf52ffcc54.jpg",
+            "height": 3024,
+            "width": 3024,
+            "aspect_ratio": 1
+        },
+        "flags": [],
+        "timestamp": 1721760000000,
+        "coordinates": {
+            "lat": 58.19681,
+            "lon": 8.35164
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361011083",
+        "extras": [],
+        "price": {
+            "amount": 65476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2015,
+        "mileage": 176000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "CF80079",
+        "ad_id": 361011083
+    },
+    {
+        "type": "motor",
+        "id": "362287468",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 207 207 1.6-92 D",
+        "location": "Raufoss",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/8/362/287/468_ec161eff-98f2-4669-9717-70993d6465a3.jpg",
+            "path": "2024/7/vertical-0/23/8/362/287/468_ec161eff-98f2-4669-9717-70993d6465a3.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1721752620000,
+        "coordinates": {
+            "lat": 60.73487,
+            "lon": 10.62878
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362287468",
+        "extras": [],
+        "price": {
+            "amount": 26845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 144000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "KH69699",
+        "ad_id": 362287468
+    },
+    {
+        "type": "motor",
+        "id": "362305137",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 5008 1.6-112 D",
+        "location": "R\u00f8yneberg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/7/362/305/137_fa2aa2ef-f2cb-46cf-8160-aabfe433c85f.jpg",
+            "path": "2024/7/vertical-0/23/7/362/305/137_fa2aa2ef-f2cb-46cf-8160-aabfe433c85f.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721748120000,
+        "coordinates": {
+            "lat": 58.9117,
+            "lon": 5.67601
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362305137",
+        "extras": [],
+        "price": {
+            "amount": 15845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 249000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "PP98756",
+        "ad_id": 362305137
+    },
+    {
+        "type": "motor",
+        "id": "362296618",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 1.6-109 D",
+        "location": "Stavern",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/8/362/296/618_b15fa927-70af-4c67-8824-85d57050f3d4.jpg",
+            "path": "2024/7/vertical-0/23/8/362/296/618_b15fa927-70af-4c67-8824-85d57050f3d4.jpg",
+            "height": 2476,
+            "width": 3024,
+            "aspect_ratio": 1.2213247172859452
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721744280000,
+        "coordinates": {
+            "lat": 59.0011,
+            "lon": 10.03861
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362296618",
+        "extras": [],
+        "price": {
+            "amount": 41845,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2010,
+        "mileage": 196954,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "UR83476",
+        "ad_id": 362296618
+    },
+    {
+        "type": "motor",
+        "id": "362309708",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert EXPERT 2.0-120 D 4X4",
+        "location": "\u00c5ndalsnes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/8/362/309/708_a55e4e89-ea86-451d-a6a9-989e284d1d42.jpg",
+            "path": "2024/7/vertical-0/23/8/362/309/708_a55e4e89-ea86-451d-a6a9-989e284d1d42.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721742300000,
+        "coordinates": {
+            "lat": 62.564,
+            "lon": 7.6861
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362309708",
+        "extras": [],
+        "price": {
+            "amount": 41231,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2011,
+        "mileage": 148000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [],
+        "regno": "PP93125",
+        "ad_id": 362309708
+    },
+    {
+        "type": "motor",
+        "id": "362122758",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 1.6-120 D",
+        "location": "Liland",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/8/362/122/758_66b04b10-5a17-49b5-b369-0a5aae4159d2.jpg",
+            "path": "2024/7/vertical-0/22/8/362/122/758_66b04b10-5a17-49b5-b369-0a5aae4159d2.jpg",
+            "height": 1536,
+            "width": 2048,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721726340000,
+        "coordinates": {
+            "lat": 68.4811,
+            "lon": 16.88879
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362122758",
+        "extras": [],
+        "price": {
+            "amount": 204295,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2017,
+        "mileage": 38175,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZA17642",
+        "ad_id": 362122758
+    },
+    {
+        "type": "motor",
+        "id": "362185548",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 308 1.6-116 D",
+        "location": "Revetal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/8/362/185/548_39d09c86-af26-4b0e-91b6-2303a18e6167.jpg",
+            "path": "2024/7/vertical-0/23/8/362/185/548_39d09c86-af26-4b0e-91b6-2303a18e6167.jpg",
+            "height": 3456,
+            "width": 5184,
+            "aspect_ratio": 1.5
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721725380000,
+        "coordinates": {
+            "lat": 59.3716,
+            "lon": 10.264
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362185548",
+        "extras": [],
+        "price": {
+            "amount": 83074,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2014,
+        "mileage": 146157,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "LJ54431",
+        "ad_id": 362185548
+    },
+    {
+        "type": "motor",
+        "id": "362254184",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner PARTNER 1.6-99 D",
+        "location": "Sarpsborg",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/23/4/362/254/184_bd5ccfe4-054e-4527-8809-15d4f1185dd5.jpg",
+            "path": "2024/7/vertical-0/23/4/362/254/184_bd5ccfe4-054e-4527-8809-15d4f1185dd5.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721721960000,
+        "coordinates": {
+            "lat": 59.35895,
+            "lon": 11.09264
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362254184",
+        "extras": [],
+        "price": {
+            "amount": 99476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2018,
+        "mileage": 99000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "AE52696",
+        "ad_id": 362254184
+    },
+    {
+        "type": "motor",
         "id": "362226028",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 308 1.6-92 D/Navi/ Panorama / P.Sensor",
@@ -36,53 +1652,16 @@
     },
     {
         "type": "motor",
-        "id": "362209585",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 4008 Allure 4x4 1,6 e-HDI 115hk",
-        "location": "Grimstad",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/5/362/209/585_192b7e7c-2ca3-47b3-b135-c8a6e8a9ff36.jpg",
-            "path": "2024/7/vertical-0/22/5/362/209/585_192b7e7c-2ca3-47b3-b135-c8a6e8a9ff36.jpg",
-            "height": 4000,
-            "width": 3000,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1721673120000,
-        "coordinates": {
-            "lat": 58.3394,
-            "lon": 8.5883
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362209585",
-        "extras": [],
-        "price": {
-            "amount": 79305,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 179800,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PD44308",
-        "ad_id": 362209585
-    },
-    {
-        "type": "motor",
         "id": "362209926",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Partner 1,5 HDi 100hk L1 man",
         "location": "Saltnes",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/6/362/209/926_26b5fae0-c7a7-4b58-b252-f6d13527757d.jpg",
-            "path": "2024/7/vertical-0/22/6/362/209/926_26b5fae0-c7a7-4b58-b252-f6d13527757d.jpg",
-            "height": 3142,
-            "width": 3692,
-            "aspect_ratio": 1.1750477402928072
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/25/6/362/209/926_84d5d926-7b6d-4a5e-add1-42396fe84765.jpg",
+            "path": "2024/7/vertical-0/25/6/362/209/926_84d5d926-7b6d-4a5e-add1-42396fe84765.jpg",
+            "height": 1951,
+            "width": 2315,
+            "aspect_ratio": 1.186570989236289
         },
         "flags": [],
         "timestamp": 1721673071063,
@@ -209,7 +1788,9 @@
         "year": 2017,
         "mileage": 111000,
         "dealer_segment": "Privat",
-        "service_documents": [],
+        "service_documents": [
+            "Service"
+        ],
         "regno": "PX62796",
         "ad_id": 361842298
     },
@@ -255,7 +1836,7 @@
         "id": "362154461",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Partner PARTNER 1.6-90 D 205000km!",
-        "location": "Skjetten",
+        "location": "Bruvoll",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/22/1/362/154/461_3e0f4f45-c0ab-4389-aa63-33b398384fb0.jpg",
             "path": "2024/7/vertical-0/22/1/362/154/461_3e0f4f45-c0ab-4389-aa63-33b398384fb0.jpg",
@@ -266,21 +1847,22 @@
         "flags": [],
         "timestamp": 1721652796897,
         "coordinates": {
-            "lat": 59.97322,
-            "lon": 11.00451
+            "lat": 60.4492,
+            "lon": 11.49659
         },
         "ad_type": 20,
         "labels": [],
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362154461",
         "extras": [],
         "price": {
-            "amount": 41231,
+            "amount": 24000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2010,
         "mileage": 205000,
         "dealer_segment": "Privat",
+        "warranty_duration": 3,
         "service_documents": [],
         "regno": "AY12909",
         "ad_id": 362154461
@@ -359,41 +1941,6 @@
     },
     {
         "type": "motor",
-        "id": "362058798",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 308 308 1.6-111 D",
-        "location": "Borgenhaugen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/8/362/058/798_ff003277-5341-4f6b-a35a-6ef991492773.jpg",
-            "path": "2024/7/vertical-0/21/8/362/058/798_ff003277-5341-4f6b-a35a-6ef991492773.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1721637920266,
-        "coordinates": {
-            "lat": 59.26602,
-            "lon": 11.17618
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362058798",
-        "extras": [],
-        "price": {
-            "amount": 18845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 248650,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "HJ87959",
-        "ad_id": 362058798
-    },
-    {
-        "type": "motor",
         "id": "362096191",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Partner 1,5 HDi 100hk L2 man",
@@ -463,41 +2010,6 @@
         "service_documents": [],
         "regno": "AA57735",
         "ad_id": 362090027
-    },
-    {
-        "type": "motor",
-        "id": "362086162",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 5008 1.6-111 D",
-        "location": "S\u00f8gne",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/362/086/162_fe28923a-debf-4d95-9864-3158b7f9feae.jpg",
-            "path": "2024/7/vertical-0/21/2/362/086/162_fe28923a-debf-4d95-9864-3158b7f9feae.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1721594400000,
-        "coordinates": {
-            "lat": 58.07523,
-            "lon": 7.86215
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362086162",
-        "extras": [],
-        "price": {
-            "amount": 36845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 199000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "PX54922",
-        "ad_id": 362086162
     },
     {
         "type": "motor",
@@ -590,58 +2102,9 @@
     },
     {
         "type": "motor",
-        "id": "362061792",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D",
-        "location": "Haugesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/362/061/792_7690b678-b6c0-48f5-89cc-01b067849b3c.jpg",
-            "path": "2024/7/vertical-0/21/2/362/061/792_7690b678-b6c0-48f5-89cc-01b067849b3c.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1721582700000,
-        "coordinates": {
-            "lat": 59.392,
-            "lon": 5.31151
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362061792",
-        "extras": [],
-        "price": {
-            "amount": 56476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 171000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "SV59470",
-        "ad_id": 362061792
-    },
-    {
-        "type": "motor",
         "id": "362036719",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 3008 3008 1.6-109 D premium pack",
+        "heading": "Peugeot 3008 1.6-109 D premium pack",
         "location": "Mandal",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/9/362/036/719_2b5ee2b8-c494-4236-ac64-900feb19dcca.jpg",
@@ -675,7 +2138,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362036719",
         "extras": [],
         "price": {
-            "amount": 57845,
+            "amount": 51845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -739,55 +2202,6 @@
     },
     {
         "type": "motor",
-        "id": "362014565",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Expert EXPERT 2.0-120 D",
-        "location": "Torangsv\u00e5g",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/5/362/014/565_b084f257-890e-4311-a09e-6e5325e9ca81.jpg",
-            "path": "2024/7/vertical-0/21/5/362/014/565_b084f257-890e-4311-a09e-6e5325e9ca81.jpg",
-            "height": 2048,
-            "width": 1536,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1721562180000,
-        "coordinates": {
-            "lat": 60.1139,
-            "lon": 5.15411
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=362014565",
-        "extras": [],
-        "price": {
-            "amount": 41231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 165000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "TL25969",
-        "ad_id": 362014565
-    },
-    {
-        "type": "motor",
         "id": "361999171",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 308 1.6-120 D",
@@ -822,41 +2236,6 @@
         ],
         "regno": "AA68064",
         "ad_id": 361999171
-    },
-    {
-        "type": "motor",
-        "id": "355533572",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 508 Panoramatak, AC, webasto med timer.",
-        "location": "Stj\u00f8rdal",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/21/2/355/533/572_af73284a-3085-4a17-8800-02e8693999c4.jpg",
-            "path": "2024/7/vertical-0/21/2/355/533/572_af73284a-3085-4a17-8800-02e8693999c4.jpg",
-            "height": 1836,
-            "width": 4080,
-            "aspect_ratio": 2.2222222222222223
-        },
-        "flags": [],
-        "timestamp": 1721556240000,
-        "coordinates": {
-            "lat": 63.47501,
-            "lon": 10.95722
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355533572",
-        "extras": [],
-        "price": {
-            "amount": 47000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 167400,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "VH38509",
-        "ad_id": 355533572
     },
     {
         "type": "motor",
@@ -933,7 +2312,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361948432",
         "extras": [],
         "price": {
-            "amount": 61231,
+            "amount": 59231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -943,6 +2322,42 @@
         "service_documents": [],
         "regno": "RK22400",
         "ad_id": 361948432
+    },
+    {
+        "type": "motor",
+        "id": "357952810",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner 1,5 HDi 130hk L1",
+        "location": "Fredrikstad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/0/357/952/810_1e700dc9-6039-4588-bf67-1d9231f34d11.jpg",
+            "path": "2024/7/vertical-0/14/0/357/952/810_1e700dc9-6039-4588-bf67-1d9231f34d11.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721484120000,
+        "coordinates": {
+            "lat": 59.2337,
+            "lon": 10.91946
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357952810",
+        "extras": [],
+        "price": {
+            "amount": 209900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 67000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "ad_id": 357952810
     },
     {
         "type": "motor",
@@ -1038,7 +2453,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361909980",
         "extras": [],
         "price": {
-            "amount": 51500,
+            "amount": 46800,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1112,7 +2527,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361889824",
         "extras": [],
         "price": {
-            "amount": 89476,
+            "amount": 79476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1157,92 +2572,6 @@
         "service_documents": [],
         "regno": "NF49515",
         "ad_id": 361875119
-    },
-    {
-        "type": "motor",
-        "id": "357974483",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 508 508 2.0-140 D",
-        "location": "Hafslunds\u00f8y",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/3/357/974/483_a3085244-f3d0-4d1e-85e8-a56130f8d9f6.jpg",
-            "path": "2024/6/vertical-0/19/3/357/974/483_a3085244-f3d0-4d1e-85e8-a56130f8d9f6.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1721413020000,
-        "coordinates": {
-            "lat": 59.29236,
-            "lon": 11.14932
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=357974483",
-        "extras": [],
-        "price": {
-            "amount": 79845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 264757,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BS52408",
-        "ad_id": 357974483
-    },
-    {
-        "type": "motor",
-        "id": "361847343",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D eu 07/26! AUTOMAT",
-        "location": "Hafrsfjord",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/3/361/847/343_e0c342bd-92ef-4b79-9032-9ca64283cf2f.jpg",
-            "path": "2024/7/vertical-0/19/3/361/847/343_e0c342bd-92ef-4b79-9032-9ca64283cf2f.jpg",
-            "height": 1800,
-            "width": 1350,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1721403130371,
-        "coordinates": {
-            "lat": 58.94506,
-            "lon": 5.68386
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361847343",
-        "extras": [],
-        "price": {
-            "amount": 35777,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 206191,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RK53029",
-        "ad_id": 361847343
     },
     {
         "type": "motor",
@@ -1340,7 +2669,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361815916",
         "extras": [],
         "price": {
-            "amount": 59845,
+            "amount": 59844,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1399,41 +2728,6 @@
         "service_documents": [],
         "regno": "CV66583",
         "ad_id": 327695762
-    },
-    {
-        "type": "motor",
-        "id": "361791009",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D",
-        "location": "\u00c5lesund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/19/9/361/791/009_f6a25266-5372-4339-98de-3360175807a8.jpg",
-            "path": "2024/7/vertical-0/19/9/361/791/009_f6a25266-5372-4339-98de-3360175807a8.jpg",
-            "height": 2268,
-            "width": 4032,
-            "aspect_ratio": 1.7777777777777777
-        },
-        "flags": [],
-        "timestamp": 1721372715397,
-        "coordinates": {
-            "lat": 62.4655,
-            "lon": 6.1138
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361791009",
-        "extras": [],
-        "price": {
-            "amount": 32231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 244400,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF49713",
-        "ad_id": 361791009
     },
     {
         "type": "motor",
@@ -1543,7 +2837,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356084009",
         "extras": [],
         "price": {
-            "amount": 151476,
+            "amount": 141476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1558,55 +2852,78 @@
     },
     {
         "type": "motor",
-        "id": "359256773",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner 1.6 BlueHDI LANG/100hk/HF/Ny REGREIM/SERVICE",
-        "location": "Oslo",
+        "id": "361738765",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 508 SW 1,5 BlueHDi 130hk",
+        "location": "Birkeland",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/3/359/256/773_6ebbe1eb-90c3-4f20-b105-73f42cd890ae.jpg",
-            "path": "2024/7/vertical-0/17/3/359/256/773_6ebbe1eb-90c3-4f20-b105-73f42cd890ae.jpg",
-            "height": 3024,
-            "width": 4032,
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/18/5/361/738/765_ce55387e-ddfe-4bb5-b31e-9ba41eb72f20.jpg",
+            "path": "2024/7/vertical-0/18/5/361/738/765_ce55387e-ddfe-4bb5-b31e-9ba41eb72f20.jpg",
+            "height": 2448,
+            "width": 3264,
             "aspect_ratio": 1.3333333333333333
         },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1721254320000,
+        "flags": [],
+        "timestamp": 1721318880000,
         "coordinates": {
-            "lat": 59.9174,
-            "lon": 10.8192
+            "lat": 58.3317,
+            "lon": 8.2326
         },
         "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359256773",
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361738765",
         "extras": [],
         "price": {
-            "amount": 108476,
+            "amount": 239305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2018,
-        "mileage": 111000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "warranty_duration": 6,
+        "year": 2019,
+        "mileage": 57651,
+        "dealer_segment": "Privat",
         "service_documents": [
             "Service"
         ],
-        "regno": "HK11617",
-        "ad_id": 359256773
+        "regno": "US11832",
+        "ad_id": 361738765
+    },
+    {
+        "type": "motor",
+        "id": "361263279",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert EXPERT 2.0-4X4 L3",
+        "location": "Folldal",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/9/361/263/279_52ef69b2-6063-413e-8d04-de908fd7096f.jpg",
+            "path": "2024/7/vertical-0/15/9/361/263/279_52ef69b2-6063-413e-8d04-de908fd7096f.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721286840000,
+        "coordinates": {
+            "lat": 62.13467,
+            "lon": 9.98776
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361263279",
+        "extras": [],
+        "price": {
+            "amount": 260476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2019,
+        "mileage": 85500,
+        "dealer_segment": "Privat",
+        "warranty_duration": 5,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VJ18439",
+        "ad_id": 361263279
     },
     {
         "type": "motor",
@@ -1642,6 +2959,44 @@
         "service_documents": [],
         "regno": "AJ72677",
         "ad_id": 361630004
+    },
+    {
+        "type": "motor",
+        "id": "361644264",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 GT 1,5 BlueHDi 130hk",
+        "location": "Ankenes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/4/361/644/264_3efc8e43-40f3-470c-94d5-6d3c72a38269.jpg",
+            "path": "2024/7/vertical-0/17/4/361/644/264_3efc8e43-40f3-470c-94d5-6d3c72a38269.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721244120000,
+        "coordinates": {
+            "lat": 68.4192,
+            "lon": 17.3868
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361644264",
+        "extras": [],
+        "price": {
+            "amount": 349129,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 65000,
+        "dealer_segment": "Privat",
+        "warranty_duration": 23,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "YN65837",
+        "ad_id": 361644264
     },
     {
         "type": "motor",
@@ -1714,41 +3069,6 @@
         ],
         "regno": "LJ57658",
         "ad_id": 361604034
-    },
-    {
-        "type": "motor",
-        "id": "361597009",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-75 D",
-        "location": "Egersund",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/9/361/597/009_8d44adbd-f731-4fda-9d23-eee79cd7e6ab.jpg",
-            "path": "2024/7/vertical-0/17/9/361/597/009_8d44adbd-f731-4fda-9d23-eee79cd7e6ab.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1721225004007,
-        "coordinates": {
-            "lat": 58.4532,
-            "lon": 5.96621
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361597009",
-        "extras": [],
-        "price": {
-            "amount": 56476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 112000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RK61598",
-        "ad_id": 361597009
     },
     {
         "type": "motor",
@@ -1852,6 +3172,58 @@
     },
     {
         "type": "motor",
+        "id": "361573502",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 GT 1,5 BlueHDi 130hk",
+        "location": "Asker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/2/361/573/502_0cdb5524-a59f-40d5-983a-8a1a3528b25f.png",
+            "path": "2024/7/vertical-0/17/2/361/573/502_0cdb5524-a59f-40d5-983a-8a1a3528b25f.png",
+            "height": 715,
+            "width": 597,
+            "aspect_ratio": 0.8349650349650349
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721215288640,
+        "coordinates": {
+            "lat": 59.8453,
+            "lon": 10.43939
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361573502",
+        "extras": [],
+        "price": {
+            "amount": 419000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 41000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 27,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BU28212",
+        "ad_id": 361573502
+    },
+    {
+        "type": "motor",
         "id": "358159582",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Expert EXPERT 2.0-163 D",
@@ -1898,6 +3270,57 @@
         "service_documents": [],
         "regno": "CH21273",
         "ad_id": 358159582
+    },
+    {
+        "type": "motor",
+        "id": "361302891",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 GT 1,5 BlueHDi 130hk",
+        "location": "Lye",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/17/1/361/302/891_8ac0c8a3-cf6e-4936-9670-29d88f156f81.jpg",
+            "path": "2024/7/vertical-0/17/1/361/302/891_8ac0c8a3-cf6e-4936-9670-29d88f156f81.jpg",
+            "height": 1567,
+            "width": 3392,
+            "aspect_ratio": 2.16464582003829
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721209560000,
+        "coordinates": {
+            "lat": 58.7345,
+            "lon": 5.73442
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361302891",
+        "extras": [],
+        "price": {
+            "amount": 389000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 43000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "SD96410",
+        "ad_id": 361302891
     },
     {
         "type": "motor",
@@ -1958,7 +3381,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361532419",
         "extras": [],
         "price": {
-            "amount": 60476,
+            "amount": 58500,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -1968,57 +3391,6 @@
         "service_documents": [],
         "regno": "VJ30703",
         "ad_id": 361532419
-    },
-    {
-        "type": "motor",
-        "id": "361354988",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 508 1.6-111 D",
-        "location": "Br\u00e5rud",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/8/361/354/988_a5aeb531-722a-4acf-92b2-2d56aba3e89b.jpg",
-            "path": "2024/7/vertical-0/16/8/361/354/988_a5aeb531-722a-4acf-92b2-2d56aba3e89b.jpg",
-            "height": 4032,
-            "width": 3024,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1721159140146,
-        "coordinates": {
-            "lat": 60.2094,
-            "lon": 11.33149
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361354988",
-        "extras": [],
-        "price": {
-            "amount": 26845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 245024,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "BD74014",
-        "ad_id": 361354988
     },
     {
         "type": "motor",
@@ -2092,6 +3464,43 @@
     },
     {
         "type": "motor",
+        "id": "361481865",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 GT-LINE, 7seter 1,5 BlueHDI 130hk",
+        "location": "Rakkestad",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/5/361/481/865_4b3becb2-c680-4727-ba55-15427329b47f.jpg",
+            "path": "2024/7/vertical-0/16/5/361/481/865_4b3becb2-c680-4727-ba55-15427329b47f.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1721146320000,
+        "coordinates": {
+            "lat": 59.4042,
+            "lon": 11.35731
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361481865",
+        "extras": [],
+        "price": {
+            "amount": 339000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2020,
+        "mileage": 74000,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZH57500",
+        "ad_id": 361481865
+    },
+    {
+        "type": "motor",
         "id": "361289742",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Partner 1,5 HDi 131hk L2 2X skyved\u00f8r",
@@ -2114,7 +3523,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361289742",
         "extras": [],
         "price": {
-            "amount": 111476,
+            "amount": 109000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2159,6 +3568,58 @@
         "service_documents": [],
         "regno": "HJ93182",
         "ad_id": 361446092
+    },
+    {
+        "type": "motor",
+        "id": "361439164",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 508 508 2.0-163 D",
+        "location": "Molde",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/16/4/361/439/164_9d83a7d8-7fdc-4c94-9680-40a711fd4892.jpg",
+            "path": "2024/7/vertical-0/16/4/361/439/164_9d83a7d8-7fdc-4c94-9680-40a711fd4892.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1721128208634,
+        "coordinates": {
+            "lat": 62.7711,
+            "lon": 6.9961
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361439164",
+        "extras": [],
+        "price": {
+            "amount": 305000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2019,
+        "mileage": 52000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 60,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "VJ16575",
+        "ad_id": 361439164
     },
     {
         "type": "motor",
@@ -2350,7 +3811,7 @@
         "type": "motor",
         "id": "361228112",
         "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 3008 3008 1.6-109 D. EU-godkjent Juli 2024",
+        "heading": "Peugeot 3008 1.6-109 D. EU-godkjent til 15.07.2026! Panoramatak",
         "location": "Tomasjord",
         "image": {
             "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/14/2/361/228/112_ea47b5d3-64ee-4194-b501-2f0d0cfd7cb3.jpg",
@@ -2384,7 +3845,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361228112",
         "extras": [],
         "price": {
-            "amount": 49845,
+            "amount": 47845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2443,43 +3904,6 @@
         "service_documents": [],
         "regno": "BS58502",
         "ad_id": 361174939
-    },
-    {
-        "type": "motor",
-        "id": "361067569",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Expert L3/177HK/AUTOMAT/HENGERFESTE/RYGGEKAMERA",
-        "location": "Bergen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/15/9/361/067/569_8331d713-d206-45fe-a77c-59e9de4a3f6f.jpg",
-            "path": "2024/7/vertical-0/15/9/361/067/569_8331d713-d206-45fe-a77c-59e9de4a3f6f.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1721060402789,
-        "coordinates": {
-            "lat": 60.3908,
-            "lon": 5.31652
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361067569",
-        "extras": [],
-        "price": {
-            "amount": 199476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2018,
-        "mileage": 68000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "VH96182",
-        "ad_id": 361067569
     },
     {
         "type": "motor",
@@ -2758,41 +4182,6 @@
     },
     {
         "type": "motor",
-        "id": "351813139",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D",
-        "location": "Kopervik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/08/9/351/813/139_13720431-1d27-42e5-8a3a-656d73f474b4.jpg",
-            "path": "2024/5/vertical-0/08/9/351/813/139_13720431-1d27-42e5-8a3a-656d73f474b4.jpg",
-            "height": 1196,
-            "width": 1600,
-            "aspect_ratio": 1.3377926421404682
-        },
-        "flags": [],
-        "timestamp": 1720917000000,
-        "coordinates": {
-            "lat": 59.27448,
-            "lon": 5.31726
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=351813139",
-        "extras": [],
-        "price": {
-            "amount": 38845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 165000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RK12288",
-        "ad_id": 351813139
-    },
-    {
-        "type": "motor",
         "id": "361115152",
         "main_search_key": "SEARCH_ID_CAR_VAN",
         "heading": "Peugeot Partner PARTNER 1.6-99 D",
@@ -2866,7 +4255,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=361088295",
         "extras": [],
         "price": {
-            "amount": 46845,
+            "amount": 43845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -2930,75 +4319,75 @@
     },
     {
         "type": "motor",
-        "id": "360927172",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D",
-        "location": "Jaren",
+        "id": "360972314",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot Boxer BOXER 3.0-158 D",
+        "location": "Veg\u00e5rshei",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/2/360/927/172_3f075f0b-5f3b-4fe9-9373-4bf30d2da7c6.jpg",
-            "path": "2024/7/vertical-0/12/2/360/927/172_3f075f0b-5f3b-4fe9-9373-4bf30d2da7c6.jpg",
-            "height": 2448,
-            "width": 3264,
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/12/4/360/972/314_e440963f-5308-4313-8e48-4d40e4f97cbf.jpg",
+            "path": "2024/7/vertical-0/12/4/360/972/314_e440963f-5308-4313-8e48-4d40e4f97cbf.jpg",
+            "height": 3000,
+            "width": 4000,
             "aspect_ratio": 1.3333333333333333
         },
         "flags": [],
-        "timestamp": 1720775280000,
+        "timestamp": 1720796557003,
         "coordinates": {
-            "lat": 60.3926,
-            "lon": 10.56181
+            "lat": 58.7493,
+            "lon": 8.86271
         },
         "ad_type": 20,
         "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360927172",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360972314",
         "extras": [],
         "price": {
-            "amount": 49000,
+            "amount": 298231,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2013,
-        "mileage": 203986,
+        "year": 2011,
+        "mileage": 33055,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "CV61349",
+        "ad_id": 360972314
+    },
+    {
+        "type": "motor",
+        "id": "360820738",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot 5008 1,5 BlueHDI 130hk",
+        "location": "Holmestrand",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/11/8/360/820/738_45212952-26e7-4171-9fde-95475d22f44a.jpg",
+            "path": "2024/7/vertical-0/11/8/360/820/738_45212952-26e7-4171-9fde-95475d22f44a.jpg",
+            "height": 8160,
+            "width": 6120,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1720718790435,
+        "coordinates": {
+            "lat": 59.47757,
+            "lon": 10.31778
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360820738",
+        "extras": [],
+        "price": {
+            "amount": 239336,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 95000,
         "dealer_segment": "Privat",
         "service_documents": [
             "Service"
         ],
-        "regno": "FT44809",
-        "ad_id": 360927172
-    },
-    {
-        "type": "motor",
-        "id": "355524322",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot Expert EXPERT 2.0-163 D",
-        "location": "\u00c5rnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/02/2/355/524/322_66a4ee13-e34e-41a4-960b-181e1ff8f8b4.jpg",
-            "path": "2024/6/vertical-0/02/2/355/524/322_66a4ee13-e34e-41a4-960b-181e1ff8f8b4.jpg",
-            "height": 740,
-            "width": 1600,
-            "aspect_ratio": 2.1621621621621623
-        },
-        "flags": [],
-        "timestamp": 1720766160000,
-        "coordinates": {
-            "lat": 60.1211,
-            "lon": 11.4663
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355524322",
-        "extras": [],
-        "price": {
-            "amount": 71845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 227096,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN91672",
-        "ad_id": 355524322
+        "regno": "AS66248",
+        "ad_id": 360820738
     },
     {
         "type": "motor",
@@ -3157,7 +4546,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360689713",
         "extras": [],
         "price": {
-            "amount": 59000,
+            "amount": 56476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3167,43 +4556,6 @@
         "service_documents": [],
         "regno": "VH67158",
         "ad_id": 360689713
-    },
-    {
-        "type": "motor",
-        "id": "360631169",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-99 D med automat og  tillhengerfeste",
-        "location": "Kristiansand S",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/9/360/631/169_ea9d5539-9b58-443c-944c-a7481c38b035.jpg",
-            "path": "2024/7/vertical-0/09/9/360/631/169_ea9d5539-9b58-443c-944c-a7481c38b035.jpg",
-            "height": 4284,
-            "width": 5712,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1720558320000,
-        "coordinates": {
-            "lat": 58.1018,
-            "lon": 7.95914
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360631169",
-        "extras": [],
-        "price": {
-            "amount": 121476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2017,
-        "mileage": 84060,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "PD59728",
-        "ad_id": 360631169
     },
     {
         "type": "motor",
@@ -3244,38 +4596,41 @@
     },
     {
         "type": "motor",
-        "id": "360602840",
+        "id": "360587244",
         "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Expert EXPERT 2.0-128 D 4X4",
-        "location": "Gvarv",
+        "heading": "Peugeot Partner 1,5 HDi 130hk L2/Automat/DAB/Cruise/Garanti",
+        "location": "Vestfossen",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/0/360/602/840_9ecac0f2-0e89-470d-ab34-fd1e682ed029.jpg",
-            "path": "2024/7/vertical-0/09/0/360/602/840_9ecac0f2-0e89-470d-ab34-fd1e682ed029.jpg",
-            "height": 2736,
-            "width": 3648,
-            "aspect_ratio": 1.3333333333333333
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/09/4/360/587/244_5d5826c6-0a5f-4833-9fc2-b0834367259f.jpg",
+            "path": "2024/7/vertical-0/09/4/360/587/244_5d5826c6-0a5f-4833-9fc2-b0834367259f.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1720549740000,
+        "timestamp": 1720536369221,
         "coordinates": {
-            "lat": 59.39012,
-            "lon": 9.17743
+            "lat": 59.73244,
+            "lon": 9.86817
         },
         "ad_type": 20,
         "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360602840",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360587244",
         "extras": [],
         "price": {
-            "amount": 49476,
+            "amount": 269999,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2013,
-        "mileage": 102990,
+        "year": 2022,
+        "mileage": 22500,
         "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "NV66034",
-        "ad_id": 360602840
+        "warranty_duration": 38,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "LJ84035",
+        "ad_id": 360587244
     },
     {
         "type": "motor",
@@ -3350,7 +4705,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360190740",
         "extras": [],
         "price": {
-            "amount": 30131,
+            "amount": 26131,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3434,7 +4789,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359781533",
         "extras": [],
         "price": {
-            "amount": 73845,
+            "amount": 66845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3797,7 +5152,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356003134",
         "extras": [],
         "price": {
-            "amount": 98305,
+            "amount": 94305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -3810,25 +5165,25 @@
     },
     {
         "type": "motor",
-        "id": "360037564",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 308 CC 1.6 e-HDi 112 hk",
-        "location": "Levanger",
+        "id": "348120656",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert 2,0 BlueHDI 120hk L2 man",
+        "location": "Alta",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/05/4/360/037/564_5b07cc3a-fb49-42ca-b24a-f5cc66badb55.jpg",
-            "path": "2024/7/vertical-0/05/4/360/037/564_5b07cc3a-fb49-42ca-b24a-f5cc66badb55.jpg",
-            "height": 4032,
-            "width": 3024,
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/06/6/348/120/656_cf79fd6a-8db3-45c9-a3f0-99de1b715739.jpg",
+            "path": "2024/7/vertical-0/06/6/348/120/656_cf79fd6a-8db3-45c9-a3f0-99de1b715739.jpg",
+            "height": 1600,
+            "width": 1200,
             "aspect_ratio": 0.75
         },
         "flags": [
             "user_verified",
             "smooth_trade"
         ],
-        "timestamp": 1720259520000,
+        "timestamp": 1720277119960,
         "coordinates": {
-            "lat": 63.7398,
-            "lon": 11.3064
+            "lat": 69.9723,
+            "lon": 23.35791
         },
         "ad_type": 20,
         "labels": [
@@ -3843,19 +5198,73 @@
                 "type": "PRIMARY"
             }
         ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=360037564",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=348120656",
         "extras": [],
         "price": {
-            "amount": 86845,
+            "amount": 221476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2011,
-        "mileage": 103100,
+        "year": 2019,
+        "mileage": 57000,
         "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "DN56391",
-        "ad_id": 360037564
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "PR52238",
+        "ad_id": 348120656
+    },
+    {
+        "type": "motor",
+        "id": "324163891",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Boxer BOXER 2.0-163 D 163hk L3H2, Webasto",
+        "location": "V\u00e5ler i \u00d8stfold",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2023/10/vertical-0/15/1/324/163/891_333586086.jpg",
+            "path": "2023/10/vertical-0/15/1/324/163/891_333586086.jpg",
+            "height": 930,
+            "width": 1242,
+            "aspect_ratio": 1.335483870967742
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720253520000,
+        "coordinates": {
+            "lat": 59.4783,
+            "lon": 10.86675
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=324163891",
+        "extras": [],
+        "price": {
+            "amount": 246422,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2019,
+        "mileage": 114000,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 6,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "YN64697",
+        "ad_id": 324163891
     },
     {
         "type": "motor",
@@ -3929,38 +5338,92 @@
     },
     {
         "type": "motor",
-        "id": "359954504",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot BIPPER 1.2-75 D",
-        "location": "Brattholmen",
+        "id": "359793622",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 Allure 1,5 BlueHDI 131hk",
+        "location": "Sortland",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/4/359/954/504_49fb6c81-f9e7-4b48-87ac-6540dfb925ec.jpg",
-            "path": "2024/7/vertical-0/04/4/359/954/504_49fb6c81-f9e7-4b48-87ac-6540dfb925ec.jpg",
-            "height": 4608,
-            "width": 3456,
-            "aspect_ratio": 0.75
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/03/2/359/793/622_6fb40a97-a94f-4278-a860-db530714c9f6.jpg",
+            "path": "2024/7/vertical-0/03/2/359/793/622_6fb40a97-a94f-4278-a860-db530714c9f6.jpg",
+            "height": 3000,
+            "width": 4000,
+            "aspect_ratio": 1.3333333333333333
         },
-        "flags": [],
-        "timestamp": 1720127116660,
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720119886418,
         "coordinates": {
-            "lat": 60.35511,
-            "lon": 5.15452
+            "lat": 68.75063,
+            "lon": 15.4885
         },
         "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359954504",
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359793622",
         "extras": [],
         "price": {
-            "amount": 19999,
+            "amount": 289305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2015,
-        "mileage": 210000,
+        "year": 2019,
+        "mileage": 79800,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 6,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "ZH57495",
+        "ad_id": 359793622
+    },
+    {
+        "type": "motor",
+        "id": "359896631",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 5008 GT Line, Panorama soltak, Parkvarmer, Adpt. Cruise +++",
+        "location": "Haugesund",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/04/1/359/896/631_fbe54945-17c9-4af1-be3b-0bde6683e440.jpg",
+            "path": "2024/7/vertical-0/04/1/359/896/631_fbe54945-17c9-4af1-be3b-0bde6683e440.jpg",
+            "height": 1527,
+            "width": 1103,
+            "aspect_ratio": 0.722331368696791
+        },
+        "flags": [],
+        "timestamp": 1720104623677,
+        "coordinates": {
+            "lat": 59.43788,
+            "lon": 5.28899
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359896631",
+        "extras": [],
+        "price": {
+            "amount": 399000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 36900,
         "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF67720",
-        "ad_id": 359954504
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "UN39556",
+        "ad_id": 359896631
     },
     {
         "type": "motor",
@@ -3996,6 +5459,58 @@
         "service_documents": [],
         "regno": "XK23731",
         "ad_id": 359806076
+    },
+    {
+        "type": "motor",
+        "id": "359530285",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner 1,5 HDi 131hk L2  Proff Cruise/Krok/Eber/Kamera",
+        "location": "Gvarv",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/5/359/530/285_43e56529-d6a5-40f8-948e-0b425caac503.jpg",
+            "path": "2024/7/vertical-0/01/5/359/530/285_43e56529-d6a5-40f8-948e-0b425caac503.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1720028300444,
+        "coordinates": {
+            "lat": 59.37949,
+            "lon": 9.21154
+        },
+        "ad_type": 20,
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359530285",
+        "extras": [],
+        "price": {
+            "amount": 215000,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2021,
+        "mileage": 56760,
+        "dealer_segment": "Privat - Smidig bilhandel",
+        "warranty_duration": 21062026,
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "NH11764",
+        "ad_id": 359530285
     },
     {
         "type": "motor",
@@ -4058,7 +5573,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359669178",
         "extras": [],
         "price": {
-            "amount": 60476,
+            "amount": 56476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4106,56 +5621,6 @@
     },
     {
         "type": "motor",
-        "id": "355504591",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner 1,5 HDi 130hk L2",
-        "location": "Randaberg",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/19/1/355/504/591_167b927b-1b47-459a-8301-34375203bc98.jpg",
-            "path": "2024/6/vertical-0/19/1/355/504/591_167b927b-1b47-459a-8301-34375203bc98.jpg",
-            "height": 4000,
-            "width": 3000,
-            "aspect_ratio": 0.75
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719946020000,
-        "coordinates": {
-            "lat": 58.98879,
-            "lon": 5.62746
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=355504591",
-        "extras": [],
-        "price": {
-            "amount": 181000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2020,
-        "mileage": 57000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "warranty_duration": 8,
-        "service_documents": [],
-        "regno": "BU13987",
-        "ad_id": 355504591
-    },
-    {
-        "type": "motor",
         "id": "359635782",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 3008 3008 1.6-111 D",
@@ -4191,43 +5656,6 @@
     },
     {
         "type": "motor",
-        "id": "359607234",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner PARTNER 1.6-90 D 4X4",
-        "location": "Drammen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/02/4/359/607/234_2bf1a3ab-d4c4-469c-9a57-1d6f722ebd6c.jpg",
-            "path": "2024/7/vertical-0/02/4/359/607/234_2bf1a3ab-d4c4-469c-9a57-1d6f722ebd6c.jpg",
-            "height": 4284,
-            "width": 5712,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719933006356,
-        "coordinates": {
-            "lat": 59.7394,
-            "lon": 10.1647
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359607234",
-        "extras": [],
-        "price": {
-            "amount": 64231,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 159000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "KH78606",
-        "ad_id": 359607234
-    },
-    {
-        "type": "motor",
         "id": "359613197",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 5008 5008 1.6-111 D",
@@ -4250,7 +5678,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359613197",
         "extras": [],
         "price": {
-            "amount": 59845,
+            "amount": 57845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4285,7 +5713,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358778091",
         "extras": [],
         "price": {
-            "amount": 111845,
+            "amount": 99845,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4330,92 +5758,6 @@
         "service_documents": [],
         "regno": "YF13041",
         "ad_id": 358682528
-    },
-    {
-        "type": "motor",
-        "id": "347273539",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 508 NY PRIS - 1.6-111 D",
-        "location": "Nesttun",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/21/9/347/273/539_33775f18-1546-4ab3-8c05-6d224a274cec.jpg",
-            "path": "2024/5/vertical-0/21/9/347/273/539_33775f18-1546-4ab3-8c05-6d224a274cec.jpg",
-            "height": 4284,
-            "width": 5712,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719847320000,
-        "coordinates": {
-            "lat": 60.31313,
-            "lon": 5.34353
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=347273539",
-        "extras": [],
-        "price": {
-            "amount": 29845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 205119,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "SV17854",
-        "ad_id": 347273539
-    },
-    {
-        "type": "motor",
-        "id": "359475034",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Boxer BOXER 2.0-131 D",
-        "location": "Larvik",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/4/359/475/034_d63cc21e-ba53-4062-b349-584c0af7145a.jpg",
-            "path": "2024/7/vertical-0/01/4/359/475/034_d63cc21e-ba53-4062-b349-584c0af7145a.jpg",
-            "height": 900,
-            "width": 1200,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719841684916,
-        "coordinates": {
-            "lat": 59.0542,
-            "lon": 10.02741
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359475034",
-        "extras": [],
-        "price": {
-            "amount": 73476,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2017,
-        "mileage": 282000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF74640",
-        "ad_id": 359475034
     },
     {
         "type": "motor",
@@ -4470,6 +5812,41 @@
     },
     {
         "type": "motor",
+        "id": "359439875",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot FIRST'EO 2.2-131 D Hestebil",
+        "location": "Mer\u00e5ker",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/7/vertical-0/01/5/359/439/875_5f57ef50-28c8-4b13-8f98-245b2e7c6ebf.jpg",
+            "path": "2024/7/vertical-0/01/5/359/439/875_5f57ef50-28c8-4b13-8f98-245b2e7c6ebf.jpg",
+            "height": 961,
+            "width": 720,
+            "aspect_ratio": 0.7492195629552549
+        },
+        "flags": [],
+        "timestamp": 1719827911816,
+        "coordinates": {
+            "lat": 63.4211,
+            "lon": 11.7601
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359439875",
+        "extras": [],
+        "price": {
+            "amount": 411476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2013,
+        "mileage": 80000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "AE39336",
+        "ad_id": 359439875
+    },
+    {
+        "type": "motor",
         "id": "269843147",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 508 SW Allure 1.6 e-HDi 115hk",
@@ -4519,41 +5896,6 @@
     },
     {
         "type": "motor",
-        "id": "359241924",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 208 208 1.4-68 D",
-        "location": "Eidsnes",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/29/4/359/241/924_325499a8-41be-4f0a-b397-0001cc3564ee.jpg",
-            "path": "2024/6/vertical-0/29/4/359/241/924_325499a8-41be-4f0a-b397-0001cc3564ee.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1719692580000,
-        "coordinates": {
-            "lat": 62.41869,
-            "lon": 6.31955
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359241924",
-        "extras": [],
-        "price": {
-            "amount": 49845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2012,
-        "mileage": 90500,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF56403",
-        "ad_id": 359241924
-    },
-    {
-        "type": "motor",
         "id": "359195571",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 2008 Active 1,5 BlueHDi 100hk",
@@ -4576,12 +5918,12 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=359195571",
         "extras": [],
         "price": {
-            "amount": 159305,
+            "amount": 154305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
         "year": 2020,
-        "mileage": 91935,
+        "mileage": 93000,
         "dealer_segment": "Privat",
         "service_documents": [
             "Service"
@@ -4771,7 +6113,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358717766",
         "extras": [],
         "price": {
-            "amount": 36476,
+            "amount": 26476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -4919,73 +6261,52 @@
     },
     {
         "type": "motor",
-        "id": "354210555",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 3008 3008 1.6-120 D Facelift",
-        "location": "Vang p\u00e5 Hedmarken",
+        "id": "358725153",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner 1,5 HDi 100hk L2 man",
+        "location": "Trondheim",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/24/5/354/210/555_ed1763b5-eab5-4585-9291-d9736936e498.jpg",
-            "path": "2024/5/vertical-0/24/5/354/210/555_ed1763b5-eab5-4585-9291-d9736936e498.jpg",
-            "height": 1200,
-            "width": 1600,
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/25/3/358/725/153_896ff354-438f-4c30-8a1f-b82b518a3855.jpg",
+            "path": "2024/6/vertical-0/25/3/358/725/153_896ff354-438f-4c30-8a1f-b82b518a3855.jpg",
+            "height": 360,
+            "width": 480,
             "aspect_ratio": 1.3333333333333333
         },
-        "flags": [],
-        "timestamp": 1719336600000,
+        "flags": [
+            "user_verified",
+            "smooth_trade"
+        ],
+        "timestamp": 1719329668764,
         "coordinates": {
-            "lat": 60.8451,
-            "lon": 11.1999
+            "lat": 63.40214,
+            "lon": 10.41051
         },
         "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354210555",
+        "labels": [
+            {
+                "id": "smidig_bilhandel",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            },
+            {
+                "id": "smooth_trade",
+                "text": "Smidig bilhandel",
+                "type": "PRIMARY"
+            }
+        ],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358725153",
         "extras": [],
         "price": {
-            "amount": 89305,
+            "amount": 267336,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2014,
-        "mileage": 164000,
-        "dealer_segment": "Privat",
+        "year": 2021,
+        "mileage": 35000,
+        "dealer_segment": "Privat - Smidig bilhandel",
         "service_documents": [],
-        "regno": "FT48830",
-        "ad_id": 354210555
-    },
-    {
-        "type": "motor",
-        "id": "332339616",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 3008 2.0-150 D",
-        "location": "\u00c5lg\u00e5rd",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2023/12/vertical-0/11/6/332/339/616_1794931793.jpg",
-            "path": "2023/12/vertical-0/11/6/332/339/616_1794931793.jpg",
-            "height": 1200,
-            "width": 1600,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1719319560000,
-        "coordinates": {
-            "lat": 58.76398,
-            "lon": 5.85282
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=332339616",
-        "extras": [],
-        "price": {
-            "amount": 109147,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2015,
-        "mileage": 174000,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "RK93266",
-        "ad_id": 332339616
+        "regno": "ZT54050",
+        "ad_id": 358725153
     },
     {
         "type": "motor",
@@ -5061,87 +6382,77 @@
     },
     {
         "type": "motor",
-        "id": "358649881",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Expert 2.0-120 D 4X4/ servicehistorikk/ takstativ/ 3 seters",
-        "location": "Drammen",
+        "id": "358531634",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 3008 3008 1.6-120 D",
+        "location": "Oslo",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/1/358/649/881_0aa62340-65c6-494b-be1a-5389843472f7.jpg",
-            "path": "2024/6/vertical-0/24/1/358/649/881_0aa62340-65c6-494b-be1a-5389843472f7.jpg",
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/24/4/358/531/634_26f92047-e4be-4bec-85c9-bbfdcf6885ca.jpg",
+            "path": "2024/6/vertical-0/24/4/358/531/634_26f92047-e4be-4bec-85c9-bbfdcf6885ca.jpg",
             "height": 1600,
             "width": 1200,
             "aspect_ratio": 0.75
         },
         "flags": [],
-        "timestamp": 1719265961699,
+        "timestamp": 1719213240000,
         "coordinates": {
-            "lat": 59.73674,
-            "lon": 10.21134
+            "lat": 59.92396,
+            "lon": 10.86691
         },
         "ad_type": 20,
         "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358649881",
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358531634",
         "extras": [],
         "price": {
-            "amount": 29990,
+            "amount": 213305,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2010,
-        "mileage": 170300,
+        "year": 2017,
+        "mileage": 125500,
         "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "DN34937",
-        "ad_id": 358649881
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "BE14925",
+        "ad_id": 358531634
     },
     {
         "type": "motor",
-        "id": "356719849",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 207 1.6 HDI 112 hk/Panorama/Delskinn/EU 09.25/Garanti",
-        "location": "Raufoss",
+        "id": "358467884",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Expert 2,0 BlueHDI 120hk L3",
+        "location": "R\u00e5holt",
         "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/9/356/719/849_141f79dd-07ae-4834-be04-dd481676a573.jpg",
-            "path": "2024/6/vertical-0/23/9/356/719/849_141f79dd-07ae-4834-be04-dd481676a573.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
+            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/23/4/358/467/884_8805f143-ad9d-450a-9932-495cf08fe0ca.jpg",
+            "path": "2024/6/vertical-0/23/4/358/467/884_8805f143-ad9d-450a-9932-495cf08fe0ca.jpg",
+            "height": 3024,
+            "width": 4032,
+            "aspect_ratio": 1.3333333333333333
         },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1719264431203,
+        "flags": [],
+        "timestamp": 1719163560000,
         "coordinates": {
-            "lat": 60.7261,
-            "lon": 10.6134
+            "lat": 60.25642,
+            "lon": 11.19505
         },
         "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356719849",
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=358467884",
         "extras": [],
         "price": {
-            "amount": 45000,
+            "amount": 256476,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
-        "year": 2010,
-        "mileage": 129000,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "KH71291",
-        "ad_id": 356719849
+        "year": 2020,
+        "mileage": 89273,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "CH13888",
+        "ad_id": 358467884
     },
     {
         "type": "motor",
@@ -5202,7 +6513,7 @@
         "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=353883699",
         "extras": [],
         "price": {
-            "amount": 35000,
+            "amount": 28000,
             "currency_code": "NOK",
             "price_unit": "kr"
         },
@@ -5214,6 +6525,43 @@
         ],
         "regno": "CV58183",
         "ad_id": 353883699
+    },
+    {
+        "type": "motor",
+        "id": "351148020",
+        "main_search_key": "SEARCH_ID_CAR_VAN",
+        "heading": "Peugeot Partner 1,5 HDi 130hk L2",
+        "location": "Str\u00f8mmen",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/01/0/351/148/020_fa71ac03-4a05-458e-8464-aaa11518c551.jpg",
+            "path": "2024/5/vertical-0/01/0/351/148/020_fa71ac03-4a05-458e-8464-aaa11518c551.jpg",
+            "height": 1600,
+            "width": 1200,
+            "aspect_ratio": 0.75
+        },
+        "flags": [],
+        "timestamp": 1718868240000,
+        "coordinates": {
+            "lat": 59.94005,
+            "lon": 11.0017
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=351148020",
+        "extras": [],
+        "price": {
+            "amount": 216476,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2020,
+        "mileage": 40500,
+        "dealer_segment": "Privat",
+        "service_documents": [
+            "Service"
+        ],
+        "regno": "DR86077",
+        "ad_id": 351148020
     },
     {
         "type": "motor",
@@ -5252,6 +6600,41 @@
     },
     {
         "type": "motor",
+        "id": "345837846",
+        "main_search_key": "SEARCH_ID_CAR_USED",
+        "heading": "Peugeot 508 SW GT Line 2,0 BlueHDi 163hk aut. UTSTYRSBOMBE!",
+        "location": "Husnes",
+        "image": {
+            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/10/6/345/837/846_9c7d8515-a24f-4200-b175-c8517c469e1d.jpg",
+            "path": "2024/4/vertical-0/10/6/345/837/846_9c7d8515-a24f-4200-b175-c8517c469e1d.jpg",
+            "height": 1200,
+            "width": 1600,
+            "aspect_ratio": 1.3333333333333333
+        },
+        "flags": [],
+        "timestamp": 1718452380000,
+        "coordinates": {
+            "lat": 59.8638,
+            "lon": 5.74532
+        },
+        "ad_type": 20,
+        "labels": [],
+        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=345837846",
+        "extras": [],
+        "price": {
+            "amount": 349900,
+            "currency_code": "NOK",
+            "price_unit": "kr"
+        },
+        "year": 2020,
+        "mileage": 63000,
+        "dealer_segment": "Privat",
+        "service_documents": [],
+        "regno": "TL33170",
+        "ad_id": 345837846
+    },
+    {
+        "type": "motor",
         "id": "352015206",
         "main_search_key": "SEARCH_ID_CAR_USED",
         "heading": "Peugeot 508 1.6-111 D",
@@ -5284,78 +6667,6 @@
         "service_documents": [],
         "regno": "SV19822",
         "ad_id": 352015206
-    },
-    {
-        "type": "motor",
-        "id": "356903061",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 5008 5008 1.6-111 D",
-        "location": "Vestfossen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/12/1/356/903/061_3c635055-f3d3-4755-a44e-e678b558dd90.jpg",
-            "path": "2024/6/vertical-0/12/1/356/903/061_3c635055-f3d3-4755-a44e-e678b558dd90.jpg",
-            "height": 768,
-            "width": 1024,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718214257111,
-        "coordinates": {
-            "lat": 59.73244,
-            "lon": 9.86817
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356903061",
-        "extras": [],
-        "price": {
-            "amount": 39845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2011,
-        "mileage": 249000,
-        "dealer_segment": "Privat",
-        "service_documents": [
-            "Service"
-        ],
-        "regno": "CF57813",
-        "ad_id": 356903061
-    },
-    {
-        "type": "motor",
-        "id": "356832283",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Boxer BOXER 2.2-110 D",
-        "location": "Halden",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/6/vertical-0/11/3/356/832/283_f45e6161-faed-40b2-8ced-85bed1037cb5.jpg",
-            "path": "2024/6/vertical-0/11/3/356/832/283_f45e6161-faed-40b2-8ced-85bed1037cb5.jpg",
-            "height": 1536,
-            "width": 2048,
-            "aspect_ratio": 1.3333333333333333
-        },
-        "flags": [],
-        "timestamp": 1718124376398,
-        "coordinates": {
-            "lat": 59.1307,
-            "lon": 11.3926
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=356832283",
-        "extras": [],
-        "price": {
-            "amount": 42000,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2013,
-        "mileage": 153432,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "UF58791",
-        "ad_id": 356832283
     },
     {
         "type": "motor",
@@ -5426,89 +6737,5 @@
         "service_documents": [],
         "regno": "AE37166",
         "ad_id": 353080629
-    },
-    {
-        "type": "motor",
-        "id": "349898485",
-        "main_search_key": "SEARCH_ID_CAR_USED",
-        "heading": "Peugeot 5008 5008 1.6-111 D",
-        "location": "Hamar",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/4/vertical-0/23/5/349/898/485_4e3fd2b2-c7dd-4ec3-989b-6d39694a8203.jpg",
-            "path": "2024/4/vertical-0/23/5/349/898/485_4e3fd2b2-c7dd-4ec3-989b-6d39694a8203.jpg",
-            "height": 2000,
-            "width": 900,
-            "aspect_ratio": 0.45
-        },
-        "flags": [
-            "user_verified",
-            "smooth_trade"
-        ],
-        "timestamp": 1716728546102,
-        "coordinates": {
-            "lat": 60.79567,
-            "lon": 11.07236
-        },
-        "ad_type": 20,
-        "labels": [
-            {
-                "id": "smidig_bilhandel",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            },
-            {
-                "id": "smooth_trade",
-                "text": "Smidig bilhandel",
-                "type": "PRIMARY"
-            }
-        ],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=349898485",
-        "extras": [],
-        "price": {
-            "amount": 41845,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2010,
-        "mileage": 190477,
-        "dealer_segment": "Privat - Smidig bilhandel",
-        "service_documents": [],
-        "regno": "BS15814",
-        "ad_id": 349898485
-    },
-    {
-        "type": "motor",
-        "id": "354278550",
-        "main_search_key": "SEARCH_ID_CAR_VAN",
-        "heading": "Peugeot Partner 1.6-90 D 4X4 Dangel/Webasto/2xSkyved\u00f8r",
-        "location": "Drammen",
-        "image": {
-            "url": "https://images.finncdn.no/dynamic/default/2024/5/vertical-0/24/0/354/278/550_e2dbac07-bc67-4039-a365-6128e67496d9.jpg",
-            "path": "2024/5/vertical-0/24/0/354/278/550_e2dbac07-bc67-4039-a365-6128e67496d9.jpg",
-            "height": 1600,
-            "width": 1200,
-            "aspect_ratio": 0.75
-        },
-        "flags": [],
-        "timestamp": 1716568210233,
-        "coordinates": {
-            "lat": 59.74253,
-            "lon": 10.15796
-        },
-        "ad_type": 20,
-        "labels": [],
-        "canonical_url": "https://www.finn.no/car/used/ad.html?finnkode=354278550",
-        "extras": [],
-        "price": {
-            "amount": 49976,
-            "currency_code": "NOK",
-            "price_unit": "kr"
-        },
-        "year": 2014,
-        "mileage": 147800,
-        "dealer_segment": "Privat",
-        "service_documents": [],
-        "regno": "JR31257",
-        "ad_id": 354278550
     }
 ]
