@@ -17,7 +17,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   const [currencyData, setCurrencyData] = useState([]);
 
   useEffect( () => {
-    axios.get('https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json')
+    const currentDate = new Date();
+    const formattedDate = currentDate.toISOString().split('T')[0].replace(/-/g, '');
+    const url = `https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=${formattedDate}`;
+
+    axios.get(url)
     .then(response => {
       setCurrencyData(response.data)
     })
