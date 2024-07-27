@@ -13,7 +13,7 @@ const PersonalCarList = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showAllPrices, setShowAllPrices] = useState({});
   const [sortBy, setSortBy] = useState('Calculated profit rate');
-  const [viewMode, setViewMode] = useState('simple');
+  const [viewMode, setViewMode] = useState('regular');
   const [currencyData, setCurrencyData] = useState([]);
 
   useEffect( () => {
@@ -216,7 +216,7 @@ const PersonalCarList = () => {
             )}
             {user && (
               <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
-                <button className="favorite-button">Remove</button>
+                <button style={{color: 'red'}} className="favorite-button">Remove</button>
               </div>
             )}
           </div>
@@ -231,6 +231,11 @@ const PersonalCarList = () => {
               {car.tax_return > 0 && (
                 <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
               )}
+              {user && (
+              <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
+                <button style={{color: 'red'}} className="favorite-button">Remove</button>
+              </div>
+            )}
             </div>
           </a>
         )

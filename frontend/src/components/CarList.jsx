@@ -4,6 +4,7 @@ import './CarList.css';
 import './PersonalCarList.css';
 import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
+import { NumericFormat } from 'react-number-format';
 
 const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }) => {
   const { user, favorites, addFavorite, removeFavorite, logout } = useContext(AuthContext);
@@ -15,6 +16,9 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   const [sortBy, setSortBy] = useState('Calculated profit rate');
   const [viewMode, setViewMode] = useState('regular');
   const [currencyData, setCurrencyData] = useState([]);
+  const [minPrice, setMinPrice] = useState(0);
+  const [maxPrice, setMaxPrice] = useState(1000000);
+
 
   useEffect( () => {
     const currentDate = new Date();
@@ -87,7 +91,25 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
     });
   };
 
-  const filteredCars = carData.filter(car => car.car_name.toLowerCase().includes(searchTerm));
+  const handleMinPriceChange = (values) => {
+    const value = values.floatValue || 0;
+    if (value <= 1000000) {
+      setMinPrice(value);
+    }
+  };
+  
+  const handleMaxPriceChange = (values) => {
+    const value = values.floatValue || 0;
+    if (value >= 0) {
+      setMaxPrice(value);
+    }
+  };
+
+  const filteredCars = carData.filter(car => 
+    car.car_name.toLowerCase().includes(searchTerm) &&
+    car.finn_price >= minPrice &&
+    car.finn_price <= maxPrice
+  );
   const sortedCarData = sortCarData(filteredCars, sortBy);
 
   const isFavorited = (carId) => {
@@ -200,17 +222,34 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
         </div>
       </div>
       <div className="sort-bar-container">
-        <div className="sort-bar">
-          <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
-          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
-          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
-          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
-          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
-          <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-            {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
-          </button>
-        </div>
-      </div>
+  <div className="sort-bar">
+    <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
+    <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
+    <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
+    <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
+    <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
+    <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
+      {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
+    </button>
+    <div className="price-filter">
+      <label style={{ marginRight: '10px' }}>Price in NOK:</label>
+      <NumericFormat
+        value={minPrice}
+        thousandSeparator=" "
+        onValueChange={handleMinPriceChange}
+        style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+        placeholder="Min"
+      />
+      <NumericFormat
+        value={maxPrice}
+        thousandSeparator=" "
+        onValueChange={handleMaxPriceChange}
+        style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+        placeholder="Max"
+      />
+    </div>
+  </div>
+</div>
       <div className="search-bar-container">
         <input
           type="text"
@@ -265,7 +304,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
             <div className="car-details-personal">
               <p><strong>{car.car_name}</strong></p>
               <p>Finn.no price: {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
-              <p>Average OLX.ba price: {Math.round(car.olx_prices.reduce((a, b) => a + b, 0) / car.olx_prices.length)} BAM</p>
+              <p>Average OLX.ba price: {car.olx_prices.filter(price => price !== 0).reduce((a, b) => a + b, 0) / (car.olx_prices.filter(price => price !== 0).length || 1)} BAM</p>
               <p>Year: {car.year}</p>
               {car.tax_return > 0 && (
                 <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>

@@ -5,7 +5,7 @@
   gap: 16px;
   justify-content: center;
   margin-bottom: 20px;
-  margin-top: 0px;
+  margin-top: 30px;
   width: 100%;
   min-height: 100vh;
 }
@@ -217,4 +217,27 @@
 
 .favorite-button:focus {
   outline: none;
+}
+
+.price-filter {
+  align-items: center;
+  margin-left: 20px;
+}
+
+.price-filter label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.price-filter input {
+  margin-right: 10px;
+  width: 80px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.price-filter span {
+  font-size: 16px;
 }
