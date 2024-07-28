@@ -244,7 +244,7 @@
   font-size: 16px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .filters {
     flex-direction: row;
     justify-content: center;
@@ -270,36 +270,6 @@
   .kilometers-filter input {
     margin-right: 5px;
     width: 60px;
-  }
-}
-
-@media (max-width: 600px) {
-  .filters {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .price-filter,
-  .year-filter,
-  .kilometers-filter {
-    margin-left: 0;
-    margin-bottom: 10px;
-    flex: 1 1 100%;
-  }
-
-  .price-filter label,
-  .year-filter label,
-  .kilometers-filter label {
-    margin-right: 0;
-    margin-bottom: 5px;
-  }
-
-  .price-filter input,
-  .year-filter input,
-  .kilometers-filter input {
-    margin-right: 0;
-    margin-bottom: 5px;
-    width: 100%;
   }
 }
 

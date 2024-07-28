@@ -38,13 +38,3 @@
   margin-top: 40px;
   margin-left: 630px
 }
-
-@media (max-width: 600px) {
-  .home-container {
-    text-align: center;
-    padding: 0px;
-    margin-top: 220px;
-    width: 100%;
-  }
-
-}
