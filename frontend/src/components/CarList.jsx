@@ -18,7 +18,9 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   const [currencyData, setCurrencyData] = useState([]);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(1000000);
-
+  const [minYear, setMinYear] = useState('2010');
+  const [maxYear, setMaxYear] = useState('2024');
+  //const [kilometers, setKilometers] = useState(''); later maybe
 
   useEffect( () => {
     const currentDate = new Date();
@@ -105,10 +107,26 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
     }
   };
 
+  const handleMinYearChange = (e) => {
+    setMinYear(e.target.value);
+  };
+
+  const handleMaxYearChange = (e) => {
+    setMaxYear(e.target.value);
+  };
+
+
+  //const handleKilometersChange = (e) => {
+  //  setKilometers(e.target.value); later
+  //};
+
   const filteredCars = carData.filter(car => 
     car.car_name.toLowerCase().includes(searchTerm) &&
     car.finn_price >= minPrice &&
-    car.finn_price <= maxPrice
+    car.finn_price <= maxPrice &&
+    car.year >= minYear &&
+    car.year <= maxYear &&
+    car.year >= minYear
   );
   const sortedCarData = sortCarData(filteredCars, sortBy);
 
@@ -222,34 +240,55 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
         </div>
       </div>
       <div className="sort-bar-container">
-  <div className="sort-bar">
-    <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
-    <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
-    <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
-    <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
-    <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
-    <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-      {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
-    </button>
-    <div className="price-filter">
-      <label style={{ marginRight: '10px' }}>Price in NOK:</label>
-      <NumericFormat
-        value={minPrice}
-        thousandSeparator=" "
-        onValueChange={handleMinPriceChange}
-        style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-        placeholder="Min"
-      />
-      <NumericFormat
-        value={maxPrice}
-        thousandSeparator=" "
-        onValueChange={handleMaxPriceChange}
-        style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-        placeholder="Max"
-      />
-    </div>
-  </div>
-</div>
+        <div className="sort-bar">
+          <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
+          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
+          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
+          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
+          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
+          <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
+            {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
+          </button>
+            <div className="filter-container">
+              <div className="filters">
+                <div className="price-filter">
+                  <label style={{ marginRight: '10px' }}>Price in NOK:</label>
+                  <NumericFormat
+                    value={minPrice}
+                    thousandSeparator=" "
+                    onValueChange={handleMinPriceChange}
+                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                    placeholder="Min"
+                  />
+                  <NumericFormat
+                    value={maxPrice}
+                    thousandSeparator=" "
+                    onValueChange={handleMaxPriceChange}
+                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                    placeholder="Max"
+                  />
+                </div>
+                <div className="year-filter">
+                  <label style={{ marginRight: '10px' }}>Year:</label>
+                  <input
+                    type="number"
+                    value={minYear}
+                    onChange={handleMinYearChange}
+                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                    placeholder="Min Year"
+                  />
+                  <input
+                    type="number"
+                    value={maxYear}
+                    onChange={handleMaxYearChange}
+                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                    placeholder="Max Year"
+                  />
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
       <div className="search-bar-container">
         <input
           type="text"
