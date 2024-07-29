@@ -343,7 +343,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
             <div className="car-details-personal">
               <p><strong>{car.car_name}</strong></p>
               <p>Finn.no price: {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
-              <p>Average OLX.ba price: {car.olx_prices.filter(price => price !== 0).reduce((a, b) => a + b, 0) / (car.olx_prices.filter(price => price !== 0).length || 1)} BAM</p>
+              <p>Average OLX.ba price: {(car.olx_prices.filter(price => price !== 0).reduce((a, b) => a + b, 0) / (car.olx_prices.filter(price => price !== 0).length || 1)).toFixed(0)} BAM</p>
               <p>Year: {car.year}</p>
               {car.tax_return > 0 && (
                 <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
