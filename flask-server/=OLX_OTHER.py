@@ -82,42 +82,37 @@ def pair_car_data(finn_data, olx_data):
         print("Error: Expected list format for API data")
         return car_pairs
 
-    #creating dictionaries with normalized names for finn api
     for car in finn_data:
-        car_name = normalize_name(car.get('heading', ''))
+        car_name = car.get('heading', '')
         car_price = car.get('price', {}).get('amount')
         car_link = car.get('canonical_url', '')
         car_year = car.get('year', 0)
-        car_original_name = car.get('heading', '')
         car_image_url = car.get('image', {}).get('url', '')
         car_regno = car.get('regno', '')
+        car_mileage = car.get('mileage', '')
         if car_name and car_price is not None:
-            if car_name not in car_pairs:
-                car_pairs[car_name] = {
-                    'finn_price': car_price,
-                    'olx_prices': [],
-                    'year': car_year,
-                    'link': car_link,
-                    'original_name': car_original_name,
-                    'image_url': car_image_url,
-                    'regno': car_regno,
-                    'olx_ids' : []
-                }
+            car_pairs[car_name] = {
+                'finn_price': car_price,
+                'olx_prices': [],
+                'year': car_year,
+                'link': car_link,
+                'image_url': car_image_url,
+                'regno': car_regno,
+                'olx_ids': [],
+                'mileage' : car_mileage,
+            }
 
-    #pairing with corresponding olx cars and their prices
     for car in olx_data:
-        if isinstance(car, dict):  # Ensure car is a dictionary
-            olx_name = normalize_name(car.get('title', ''))
+        if isinstance(car, dict):
+            olx_name = car.get('title', '')
             olx_price = car.get('price')
             olx_id = car.get('id')
 
             if olx_name and olx_price is not None:
-
                 for finn_name, data in car_pairs.items():
                     if match_car({'heading': finn_name, 'year': data['year']}, car):
                         car_pairs[finn_name]['olx_prices'].append(olx_price)
                         car_pairs[finn_name]['olx_ids'].append(olx_id)
-                        break
 
     return car_pairs
 
@@ -133,22 +128,21 @@ for car_name, data in paired_data.items():
         finn_price = data['finn_price']
         year = data['year']
         link = data['link']
-        original_name = data['original_name']
         image_url = data['image_url']
         regno = data['regno']
         olx_ids = data['olx_ids']
+        mileage = data['mileage']
 
-        #creating json entry for each car
         car_entry = {
-            'car_name': original_name,
-            'normalized_name': car_name,
+            'car_name': car_name,
             'year': year,
             'finn_price': finn_price,
             'finn_link': link,
             'image_url': image_url,
             'regno': regno,
             'olx_prices': olx_prices,
-            'olx_ids' : olx_ids
+            'olx_ids' : olx_ids,
+            'mileage' : mileage,
         }
         olx_finn_output.append(car_entry)
 
