@@ -248,13 +248,15 @@
   .filters {
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
+    margin-left: 72px;
   }
 
   .price-filter,
   .year-filter,
   .kilometers-filter {
-    margin-left: 0;
+    margin-left: 15px;
     margin-bottom: 10px;
     flex: 1 1 auto;
   }
