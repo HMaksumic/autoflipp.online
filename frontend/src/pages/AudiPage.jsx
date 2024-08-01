@@ -14,7 +14,7 @@ export default function AudiPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList url={URL} audi='bold' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none'></CarList>
+        <CarList url={URL} audi='bold' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='audi'></CarList>
       </main>
     </div>
   );

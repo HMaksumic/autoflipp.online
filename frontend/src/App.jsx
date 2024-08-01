@@ -11,6 +11,7 @@ import OtherPage from './pages/OtherPage';
 import { AuthProvider} from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import PersonalPage from './pages/PersonalPage';
+import CarDetail from './components/CarDetail/CarDetail';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/volvo" element={<VolvoPage />} />
           <Route path="/volkswagen" element={<VWPage />} />
           <Route path="/personal" element={<ProtectedRoute component={PersonalPage} />} />
+          <Route path="/:brand/:regno" element={<CarDetail />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

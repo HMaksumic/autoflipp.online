@@ -14,7 +14,7 @@ export default function PeugeotPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='bold' volvo='none' volkswagen='none'></CarList>
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='bold' volvo='none' volkswagen='none' brandName='peugeot'></CarList>
       </main>
     </div>
   );

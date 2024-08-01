@@ -14,7 +14,7 @@ export default function VolvoPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='bold' volkswagen='none'></CarList>
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='bold' volkswagen='none' brandName='volvo'></CarList>
       </main>
     </div>
   );

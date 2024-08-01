@@ -14,7 +14,7 @@ export default function VWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='bold'></CarList>
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='bold' brandName='vw'></CarList>
       </main>
     </div>
   );

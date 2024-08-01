@@ -14,7 +14,7 @@ export default function BMWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='bold' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none'></CarList>
+      <CarList url={URL} audi='none' bmw='bold' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='bmw'></CarList>
       </main>
     </div>
   );

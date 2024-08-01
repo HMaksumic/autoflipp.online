@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 import { NumericFormat } from 'react-number-format';
 
-const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }) => {
+const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, brandName }) => {
   const { user, favorites, addFavorite, removeFavorite, logout } = useContext(AuthContext);
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -34,15 +34,49 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   }, []);
 
   useEffect(() => {
+    let timeoutId;
+    
     axios.get(url)
       .then(response => {
         setCarData(response.data);
         setLoading(false);
+  
+        const scrollPosition = sessionStorage.getItem('scrollPosition');
+        if (scrollPosition) {
+          window.scrollTo({
+            top: parseInt(scrollPosition, 10),
+            behavior: 'smooth'
+          });
+
+          const savedState = sessionStorage.getItem('carListState');
+          if (savedState) {
+            const parsedState = JSON.parse(savedState);
+            setSearchTerm(parsedState.searchTerm);
+            setShowAllPrices(parsedState.showAllPrices);
+            setSortBy(parsedState.sortBy);
+            setViewMode(parsedState.viewMode);
+            setMinPrice(parsedState.minPrice);
+            setMaxPrice(parsedState.maxPrice);
+            setMinYear(parsedState.minYear);
+            setMaxYear(parsedState.maxYear);
+            setKilometers(parsedState.kilometers);
+          }
+          
+          //remove the scroll position from sessionStorage after scrolling
+          timeoutId = setTimeout(() => {
+            sessionStorage.removeItem('scrollPosition');
+            sessionStorage.removeItem('carListState');
+          }, 200); //small delay to ensure scroll is complete
+        }
       })
       .catch(error => {
         setError(error);
         setLoading(false);
       });
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+    };
   }, [url]);
 
   if (loading) return <p>This should not take more than 50 seconds...</p>;
@@ -73,6 +107,22 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
 
   const toggleShowPrices = (id) => {
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  const saveStateAndScrollPosition = () => {
+    const stateToSave = {
+      searchTerm,
+      showAllPrices,
+      sortBy,
+      viewMode,
+      minPrice,
+      maxPrice,
+      minYear,
+      maxYear,
+      kilometers
+    };
+    sessionStorage.setItem('carListState', JSON.stringify(stateToSave));
+    sessionStorage.setItem('scrollPosition', window.scrollY.toString());
   };
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
@@ -246,61 +296,69 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
       <div className="sort-bar-container">
         <div className="sort-bar">
           <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
-          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>Profit potential</button>
-          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>Highest tax-return</button>
-          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>Newest first</button>
-          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>Most matches</button>
+          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>
+            Profit potential
+          </button>
+          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>
+            Highest tax-return
+          </button>
+          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>
+            Newest first
+          </button>
+          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>
+            Most matches
+          </button>
           <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
             {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
           </button>
-            <div className="filter-container">
-              <div className="filters">
-                <div className="price-filter">
-                  <label style={{ marginRight: '10px' }}>Price in NOK:</label>
-                  <NumericFormat
-                    value={minPrice}
-                    thousandSeparator=" "
-                    onValueChange={handleMinPriceChange}
-                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                    placeholder="Min"
-                  />
-                  <NumericFormat
-                    value={maxPrice}
-                    thousandSeparator=" "
-                    onValueChange={handleMaxPriceChange}
-                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                    placeholder="Max"
-                  />
-                </div>
-                <div className="year-filter">
-                  <label style={{ marginRight: '10px' }}>Year:</label>
-                  <input
-                    type="number"
-                    value={minYear}
-                    onChange={handleMinYearChange}
-                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                    placeholder="Min Year"
-                  />
-                  <input
-                    type="number"
-                    value={maxYear}
-                    onChange={handleMaxYearChange}
-                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                    placeholder="Max Year"
-                  />
-                </div>
-                <div className='kilometers-filter'>
-                  <label style={{ marginRight: '10px' }}>Mileage limit:</label>
-                  <NumericFormat
-                    value={kilometers}
-                    thousandSeparator=" "
-                    onValueChange={handleKilometersChange}
-                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                    placeholder="Max"
-                  />
-                </div>
+          <div className="filter-container">
+            <div className="filters">
+              <div className="price-filter">
+                <label style={{ marginRight: '10px' }}>Price in NOK:</label>
+                <NumericFormat
+                  value={minPrice}
+                  thousandSeparator=" "
+                  onValueChange={handleMinPriceChange}
+                  style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                  placeholder="Min"
+                />
+                <NumericFormat
+                  value={maxPrice}
+                  thousandSeparator=" "
+                  onValueChange={handleMaxPriceChange}
+                  style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                  placeholder="Max"
+                />
+              </div>
+              <div className="year-filter">
+                <label style={{ marginRight: '10px' }}>Year:</label>
+                <input
+                  type="number"
+                  value={minYear}
+                  onChange={handleMinYearChange}
+                  style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                  placeholder="Min Year"
+                />
+                <input
+                  type="number"
+                  value={maxYear}
+                  onChange={handleMaxYearChange}
+                  style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                  placeholder="Max Year"
+                />
+              </div>
+              <div className="kilometers-filter">
+                <label style={{ marginRight: '10px' }}>Mileage limit:</label>
+                <NumericFormat
+                  value={kilometers}
+                  thousandSeparator=" "
+                  onValueChange={handleKilometersChange}
+                  style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                  placeholder="Max"
+                />
               </div>
             </div>
+          </div>
         </div>
       </div>
       <div className="search-bar-container">
@@ -315,14 +373,24 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
       </div>
       {sortedCarData.map((car, index) => (
         viewMode === 'regular' ? (
-          <div key={index} className="car-card">
-            <div className="car-name-container">
-              <h2 className="car-name">{car.car_name}</h2>
-            </div>
-            <img src={car.image_url} alt={car.car_name} className="car-image" />
-            <p><strong>Finn.no price:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM </a></p>
-            <p><strong>OLX.ba prices:</strong> {
-              car.olx_prices
+          <div className="car-card" key={car.regno}>
+            <Link 
+              to={`/${brandName}/${car.regno}`} 
+              className="car-link" 
+              onClick={saveStateAndScrollPosition}
+            >
+              <div className="car-name-container">
+                <h2 className="car-name">{car.car_name}</h2>
+              </div>
+              <img src={car.image_url} alt={car.car_name} className="car-image" />
+            </Link>
+            <p>
+              <strong>Finn.no price:</strong> 
+              <a href={car.finn_link} target="_blank" rel="noopener noreferrer" className='finn-link'>{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a>
+            </p>
+            <p>
+              <strong>OLX.ba prices:</strong> 
+              {car.olx_prices
                 .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
                 .sort((a, b) => b.price - a.price)
                 .slice(0, showAllPrices[car.car_name] ? car.olx_prices.length : 5)
@@ -334,7 +402,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
                     {i < arr.length - 1 && ', '}
                   </span>
                 ))
-            }
+              }
               {car.olx_prices.length > 5 && (
                 <button onClick={() => toggleShowPrices(car.car_name)} className="more-button">
                   {showAllPrices[car.car_name] ? 'Less' : 'Show more...'}
