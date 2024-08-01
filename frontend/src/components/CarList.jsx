@@ -20,7 +20,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   const [maxPrice, setMaxPrice] = useState(1000000);
   const [minYear, setMinYear] = useState('2010');
   const [maxYear, setMaxYear] = useState('2024');
-  //const [kilometers, setKilometers] = useState(''); later maybe
+  const [kilometers, setKilometers] = useState(500000);
 
   useEffect( () => {
     const currentDate = new Date();
@@ -116,9 +116,12 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
   };
 
 
-  //const handleKilometersChange = (e) => {
-  //  setKilometers(e.target.value); later
-  //};
+  const handleKilometersChange = (values) => {
+    const value = values.floatValue || 0;
+    if (value >= 0) {
+      setKilometers(value);
+    }
+  };
 
   const filteredCars = carData.filter(car => 
     car.car_name.toLowerCase().includes(searchTerm) &&
@@ -126,7 +129,8 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
     car.finn_price <= maxPrice &&
     car.year >= minYear &&
     car.year <= maxYear &&
-    car.year >= minYear
+    car.year >= minYear &&
+    car.mileage < kilometers
   );
   const sortedCarData = sortCarData(filteredCars, sortBy);
 
@@ -283,6 +287,16 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other }
                     onChange={handleMaxYearChange}
                     style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
                     placeholder="Max Year"
+                  />
+                </div>
+                <div className='kilometers-filter'>
+                  <label style={{ marginRight: '10px' }}>Mileage limit:</label>
+                  <NumericFormat
+                    value={kilometers}
+                    thousandSeparator=" "
+                    onValueChange={handleKilometersChange}
+                    style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
+                    placeholder="Max"
                   />
                 </div>
               </div>
