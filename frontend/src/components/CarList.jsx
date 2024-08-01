@@ -22,6 +22,21 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [maxYear, setMaxYear] = useState('2024');
   const [kilometers, setKilometers] = useState(500000);
 
+  const handlePageExit = () => {
+    const scrollPosition = window.scrollY.toString();
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('scrollPosition', scrollPosition);
+    currentUrl.searchParams.set('searchTerm', searchTerm);
+    currentUrl.searchParams.set('sortBy', sortBy);
+    currentUrl.searchParams.set('viewMode', viewMode);
+    currentUrl.searchParams.set('minPrice', minPrice);
+    currentUrl.searchParams.set('maxPrice', maxPrice);
+    currentUrl.searchParams.set('minYear', minYear);
+    currentUrl.searchParams.set('maxYear', maxYear);
+    currentUrl.searchParams.set('kilometers', kilometers);
+    window.history.replaceState({}, '', currentUrl);
+  };
+
   useEffect( () => {
     const currentDate = new Date();
     const formattedDate = currentDate.toISOString().split('T')[0].replace(/-/g, '');
@@ -41,40 +56,41 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         setCarData(response.data);
         setLoading(false);
   
-        const scrollPosition = sessionStorage.getItem('scrollPosition');
+        const urlParams = new URLSearchParams(window.location.search);
+        const scrollPosition = urlParams.get('scrollPosition');
+        
         if (scrollPosition) {
-          window.scrollTo({
-            top: parseInt(scrollPosition, 10),
-          });
-
-          const savedState = sessionStorage.getItem('carListState');
-          if (savedState) {
-            const parsedState = JSON.parse(savedState);
-            setSearchTerm(parsedState.searchTerm);
-            setShowAllPrices(parsedState.showAllPrices);
-            setSortBy(parsedState.sortBy);
-            setViewMode(parsedState.viewMode);
-            setMinPrice(parsedState.minPrice);
-            setMaxPrice(parsedState.maxPrice);
-            setMinYear(parsedState.minYear);
-            setMaxYear(parsedState.maxYear);
-            setKilometers(parsedState.kilometers);
-          }
-          
-          //remove the scroll position from sessionStorage after scrolling
-          timeoutId = setTimeout(() => {
-            sessionStorage.removeItem('scrollPosition');
-            sessionStorage.removeItem('carListState');
-          }, 200); //small delay to ensure scroll is complete
+          setTimeout(() => {
+            window.scrollTo({
+              top: parseInt(scrollPosition, 10),
+              behavior: 'smooth'
+            });
+          }, 100);
         }
+  
+        setSearchTerm(urlParams.get('searchTerm') || '');
+        setSortBy(urlParams.get('sortBy') || 'Calculated profit rate');
+        setViewMode(urlParams.get('viewMode') || 'regular');
+        setMinPrice(parseInt(urlParams.get('minPrice') || '0', 10));
+        setMaxPrice(parseInt(urlParams.get('maxPrice') || '1000000', 10));
+        setMinYear(urlParams.get('minYear') || '2010');
+        setMaxYear(urlParams.get('maxYear') || '2024');
+        setKilometers(parseInt(urlParams.get('kilometers') || '500000', 10));
+  
+        //remove all parameters from URL after reading
+        window.history.replaceState({}, '', window.location.pathname);
       })
       .catch(error => {
         setError(error);
         setLoading(false);
       });
-
+  
+    //event listener for page exit
+    window.addEventListener('beforeunload', handlePageExit);
+  
     return () => {
       if (timeoutId) clearTimeout(timeoutId);
+      window.removeEventListener('beforeunload', handlePageExit);
     };
   }, [url]);
 
@@ -108,21 +124,6 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
   };
 
-  const saveStateAndScrollPosition = () => {
-    const stateToSave = {
-      searchTerm,
-      showAllPrices,
-      sortBy,
-      viewMode,
-      minPrice,
-      maxPrice,
-      minYear,
-      maxYear,
-      kilometers
-    };
-    sessionStorage.setItem('carListState', JSON.stringify(stateToSave));
-    sessionStorage.setItem('scrollPosition', window.scrollY.toString());
-  };
 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
@@ -376,7 +377,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
             <Link 
               to={`/${brandName}/${car.regno}`} 
               className="car-link" 
-              onClick={saveStateAndScrollPosition}
+              onClick={handlePageExit}
             >
               <div className="car-name-container">
                 <h2 className="car-name">{car.car_name}</h2>
