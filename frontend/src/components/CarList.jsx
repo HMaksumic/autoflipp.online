@@ -45,7 +45,6 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         if (scrollPosition) {
           window.scrollTo({
             top: parseInt(scrollPosition, 10),
-            behavior: 'smooth'
           });
 
           const savedState = sessionStorage.getItem('carListState');
