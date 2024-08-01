@@ -18,7 +18,7 @@ Open your browser and navigate to *[autoflipp.online/home](https://autoflipp.onl
   *  **HTML**
   *  **CSS**
 
-### Backend
+### Backend - (check `aws_server` branch)
 
 #### `server.py`
 
