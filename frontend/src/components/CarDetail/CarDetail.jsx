@@ -74,7 +74,13 @@ export default function CarDetail() {
     .sort((a, b) => b.price - a.price);
 
     const handleGoBack = () => {
-      window.history.back();
+      if (window.history.length > 2) {
+        window.history.back();
+      } else {
+        const url = new URL(window.location.href);
+        const brandPage = url.origin + url.pathname.split('/').slice(0, 2).join('/');
+        window.location.href = brandPage;
+      }
     };
 
     const validOlxPrices = sortedOlxPrices.filter(car => car.price > 0); 
