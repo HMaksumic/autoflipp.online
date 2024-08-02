@@ -3,7 +3,7 @@ import CarList from "../components/CarList";
 import "../pages/Home.css";
 
 export default function VWPage() {
-  const URL = "https://autoflipp-backend.online/api/olx_vw"
+  const URL = "https://autoflipp-backend.online/api/olx_volkswagen"
 
   return (
     <div className="home-container">
@@ -14,7 +14,7 @@ export default function VWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='bold' brandName='vw'></CarList>
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='bold' brandName='volkswagen'></CarList>
       </main>
     </div>
   );
