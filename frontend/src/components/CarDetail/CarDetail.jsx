@@ -109,7 +109,7 @@ export default function CarDetail() {
               <img src={car.image_url} alt={car.car_name} className={styles.carDetailImage} />
               <h2>{car.car_name}</h2>
               <div className={styles.carInfo}>
-                <p style={{fontSize: '25px'}}><strong>Finn.no Price:</strong> {car.finn_price} NOK / {finnPriceBAM} BAM</p>
+                <p style={{fontSize: '25px'}}><strong>Finn.no Price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
                 <p><strong>Finn.no Link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">View on Finn.no</a></p>
                 <p><strong>Year:</strong> {car.year}</p>
                 <p><strong>Mileage:</strong> {car.mileage} km</p>
