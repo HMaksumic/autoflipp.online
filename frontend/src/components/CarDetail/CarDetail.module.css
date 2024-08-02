@@ -37,7 +37,7 @@
 }
 
 .olxPricesContainer {
-  margin-top: 1030px;
+  margin-top: 900px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -55,24 +55,34 @@
   width: 475px;
   font-size: 25px;
   margin-bottom: 10px;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
 }
 
 .olxCard:hover {
   border-color: #007bff;
+  background-color: #ebf5ff;
+  text-decoration: none;
+  transform: translateY(-5px);
 }
 
 .olxLink {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
 }
 
 .olxLink:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: inherit;
 }
 
 .olxImage {
   border-radius: 10px;
   width: 100%;
+  max-height: 340px;
+  object-fit: cover;
 }
 
 .backButton {
@@ -128,19 +138,43 @@
   align-items: center;
 }
 
-.comparisonBar {
-  margin-top: 20px;
-  width: 100%;
+.comparisonContainer {
+  margin-bottom: 15px;
 }
 
-.barContainer {
-  height: 20px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  overflow: hidden;
+.comparisonDifference {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
-.bar {
-  height: 100%;
-  transition: width 0.5s ease-in-out;
+.priceGain {
+  background-color: rgba(23, 177, 105, 0.2);
+  color: #17B169;
+}
+
+.priceLoss {
+  background-color: rgba(227, 38, 54, 0.2);
+  color: #E32636;
+}
+
+.mileageGain {
+  background-color: rgba(23, 177, 105, 0.2);
+  color: #17B169;
+}
+
+.mileageLoss {
+  background-color: rgba(227, 38, 54, 0.2);
+  color: #E32636;
+}
+
+.priceDifference {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
 }
