@@ -135,7 +135,7 @@ export default function CarDetail() {
               <div key={index} className={styles.olxCard}>
                 <a href={`https://olx.ba/artikal/${id}`} target="_blank" rel="noopener noreferrer" className={styles.olxLink}>
                   <img src={image} alt={name} className={styles.olxImage} />
-                  <p><strong>{name}</strong></p>
+                  <p><strong>{name.length > 20 ? `${name.substring(0, 20)}...` : name}</strong></p>
                   <p>{price === 0 ? 'Na upit' : `${price} BAM`}</p>
                   <p>{mileage} km</p>
                   {price > 0 && (
