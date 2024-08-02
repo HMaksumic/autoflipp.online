@@ -69,13 +69,25 @@ export default function CarDetail() {
       id: car.olx_ids[index],
       name: car.olx_names[index],
       image: car.olx_images[index],
-      mileage: car.olx_mileages[index]
+      mileage: parseInt(car.olx_mileages[index].replace(/\./g, ''))
     }))
     .sort((a, b) => b.price - a.price);
 
-  const handleGoBack = () => {
-    window.history.back();
-  };
+    const handleGoBack = () => {
+      window.history.back();
+    };
+
+    const validOlxPrices = sortedOlxPrices.filter(car => car.price > 0); 
+    const validOlxMileages = sortedOlxPrices.filter(car => car.mileage > 0 && car.mileage < 500000);
+    
+    const averageOlxMileage = validOlxMileages.reduce((sum, car) => sum + car.mileage, 0) / validOlxMileages.length;
+    
+    const finnPriceBAM = parseInt(TurnToBAM(car.finn_price));
+    const averageOlxPrice = validOlxPrices.reduce((sum, car) => sum + car.price, 0) / validOlxPrices.length;
+
+    const pricePercentage = (finnPriceBAM / (finnPriceBAM + averageOlxPrice)) * 100;
+    const mileagePercentage = (car.mileage / (car.mileage + averageOlxMileage)) * 100;
+
 
   return (
     <>
@@ -91,13 +103,41 @@ export default function CarDetail() {
             <img src={car.image_url} alt={car.car_name} className={styles.carDetailImage} />
             <h2>{car.car_name}</h2>
             <div className={styles.carInfo}>
-              <p><strong>Finn.no Price:</strong> {car.finn_price} NOK</p>
+              <p style={{fontSize: '25px'}}><strong>Finn.no Price:</strong> {car.finn_price} NOK / {finnPriceBAM} BAM          </p>
               <p><strong>Finn.no Link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">View on Finn.no</a></p>
               <p><strong>Year:</strong> {car.year}</p>
               <p><strong>Mileage:</strong> {car.mileage} km</p>
               {car.tax_return && (
-              <p><strong>Tax Return:</strong> {car.tax_return} NOK</p>
-            )}
+                <p><strong>Tax Return:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+              )}
+              
+              <div className={styles.comparisonBar}>
+              <h3>Price Comparison</h3>
+    <div className={styles.barContainer}>
+      <div 
+        className={styles.bar} 
+        style={{ 
+          width: `${pricePercentage}%`, 
+          backgroundColor: finnPriceBAM <= averageOlxPrice ? '#17B169' : '#E32636' 
+        }}
+      ></div>
+    </div>
+    <p>({(averageOlxPrice - finnPriceBAM).toFixed(0)} BAM Difference)</p>
+              </div>
+
+              <div className={styles.comparisonBar}>
+              <h3>Mileage Comparison</h3>
+    <div className={styles.barContainer}>
+      <div 
+        className={styles.bar} 
+        style={{ 
+          width: `${mileagePercentage}%`, 
+          backgroundColor: car.mileage <= averageOlxMileage ? '#17B169' : '#E32636' 
+        }}
+      ></div>
+    </div>
+    <p>({(car.mileage - averageOlxMileage).toFixed(0)} km Difference)</p>
+              </div>
             </div>
             <button className={styles.backButton} onClick={handleGoBack}>Back to List</button>
           </main>
@@ -109,10 +149,11 @@ export default function CarDetail() {
                 <img src={image} alt={name} className={styles.olxImage} />
                 <p><strong>{name}</strong></p>
                 <p>{price === 0 ? 'Na upit' : `${price} BAM`}</p>
-                <p>{parseInt(mileage.replace(/\./g, '')).toLocaleString()} km</p>
+                <p>{mileage} km</p>
               </a>
             </div>
           ))}
+          no more ads :(
         </div>
       </div>
     </>
