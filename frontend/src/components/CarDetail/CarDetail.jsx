@@ -159,7 +159,6 @@ export default function CarDetail() {
               </a>
             </div>
           ))}
-          no more ads :(
         </div>
       </div>
     </>
