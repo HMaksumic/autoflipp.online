@@ -115,12 +115,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   }
 
   const CalculateProfitRate = (olxPrices, finnPriceNOK, taxReturn = 0) => {
-    const validOlxPrices = olxPrices.filter(price => price !== 0);
-    const averageOLXPrice = validOlxPrices.reduce((sum, price) => sum + price, 0) / validOlxPrices.length;
-    const finnPriceBAM = TurnToBAM(finnPriceNOK) - (TurnToBAM(taxReturn));
-    return finnPriceBAM - averageOLXPrice;
-  };
-
+    const averageOLXPrice = olxPrices.reduce((sum, price) => sum + price, 0) / olxPrices.length;
+    const finnPriceBAM = TurnToBAM(finnPriceNOK) - TurnToBAM(taxReturn);
+    return finnPriceBAM / averageOLXPrice;
+  }
+  
   const toggleShowPrices = (id) => {
     setShowAllPrices(prev => ({ ...prev, [id]: !prev[id] }));
   };
