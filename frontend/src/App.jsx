@@ -12,6 +12,7 @@ import { AuthProvider} from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import PersonalPage from './pages/PersonalPage';
 import CarDetail from './components/CarDetail/CarDetail';
+import CarDetailProtected from './components/CarDetail/CarDetailProtected';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/volkswagen" element={<VWPage />} />
           <Route path="/personal" element={<ProtectedRoute component={PersonalPage} />} />
           <Route path="/:brand/:regno" element={<CarDetail />} />
+          <Route path="/personal/:regno" element={<ProtectedRoute component={CarDetailProtected} />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

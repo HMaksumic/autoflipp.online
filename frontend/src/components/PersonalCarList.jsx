@@ -12,15 +12,14 @@ const PersonalCarList = () => {
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [showAllPrices, setShowAllPrices] = useState({});
-  const [sortBy, setSortBy] = useState('Calculated profit rate');
   const [viewMode, setViewMode] = useState('regular');
   const [currencyData, setCurrencyData] = useState([]);
 
-  useEffect( () => {
+  useEffect(() => {
     axios.get('https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json')
-    .then(response => {
-      setCurrencyData(response.data)
-    })
+      .then(response => {
+        setCurrencyData(response.data)
+      })
   }, []);
 
   useEffect(() => {
@@ -76,7 +75,7 @@ const PersonalCarList = () => {
       console.error('Currency data not available, using "1 BAM = 5.85 NOK" estimate instead');
       return (parameter / 5.85);
     }
-    
+
     const nokToUsd = currencyData.conversions.USD.NOK;
     const eurToUsd = currencyData.conversions.USD.EUR;
     const bamToEurRate = 0.51; //BAM is a pinned currency
@@ -185,10 +184,12 @@ const PersonalCarList = () => {
       {filteredCars.map((car, index) => (
         viewMode === 'regular' ? (
           <div key={index} className="car-card">
-            <div className="car-name-container">
-              <h2 className="car-name">{car.car_name}</h2>
-            </div>
-            <img src={car.image_url} alt={car.car_name} className="car-image" />
+            <Link to={`/personal/${car.regno}`} className="car-link">
+              <div className="car-name-container">
+                <h2 className="car-name">{car.car_name}</h2>
+              </div>
+              <img src={car.image_url} alt={car.car_name} className="car-image" />
+            </Link>
             <p><strong>Finn.no price:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a></p>
             <p><strong>OLX.ba prices:</strong> {
               car.olx_prices
@@ -232,10 +233,10 @@ const PersonalCarList = () => {
                 <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
               )}
               {user && (
-              <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
-                <button style={{color: 'red'}} className="favorite-button">Remove</button>
-              </div>
-            )}
+                <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
+                  <button style={{color: 'red'}} className="favorite-button">Remove</button>
+                </div>
+              )}
             </div>
           </a>
         )

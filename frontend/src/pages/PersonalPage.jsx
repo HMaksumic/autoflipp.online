@@ -16,7 +16,7 @@ export default function PersonalPage() {
       </header>
       <h1 className="greeting">
       </h1>
-     <PersonalCarList/>
+     <PersonalCarList></PersonalCarList>
     </div>
 
 
