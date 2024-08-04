@@ -121,11 +121,14 @@ def pair_car_data(finn_data, olx_data):
             car_pairs[car_name] = {
                 'finn_price': car_price,
                 'olx_prices': [],
+                'olx_ids': [],
+                'olx_names': [],
+                'olx_mileages':[],
+                'olx_images':[],
                 'year': car_year,
                 'link': car_link,
                 'image_url': car_image_url,
                 'regno': car_regno,
-                'olx_ids': [],
                 'mileage' : car_mileage,
             }
 
@@ -134,12 +137,17 @@ def pair_car_data(finn_data, olx_data):
             olx_name = car.get('title', '')
             olx_price = car.get('price')
             olx_id = car.get('id')
+            olx_image = car.get('image')
+            olx_mileage = next((label["value"] for label in car["special_labels"] if label["label"] == "Kilometraža"), None)
 
             if olx_name and olx_price is not None:
                 for finn_name, data in car_pairs.items():
                     if match_car({'heading': finn_name, 'year': data['year']}, car):
                         car_pairs[finn_name]['olx_prices'].append(olx_price)
                         car_pairs[finn_name]['olx_ids'].append(olx_id)
+                        car_pairs[finn_name]['olx_names'].append(olx_name)
+                        car_pairs[finn_name]['olx_images'].append(olx_image)
+                        car_pairs[finn_name]['olx_mileages'].append(olx_mileage)
 
     return car_pairs
 
@@ -159,6 +167,9 @@ for car_name, data in paired_data.items():
         regno = data['regno']
         olx_ids = data['olx_ids']
         mileage = data['mileage']
+        olx_names = data['olx_names']
+        olx_images = data['olx_images']
+        olx_mileages = data['olx_mileages']
 
         car_entry = {
             'car_name': car_name,
@@ -167,9 +178,12 @@ for car_name, data in paired_data.items():
             'finn_link': link,
             'image_url': image_url,
             'regno': regno,
+            'mileage' : mileage,
             'olx_prices': olx_prices,
             'olx_ids' : olx_ids,
-            'mileage' : mileage,
+            'olx_names' : olx_names,
+            'olx_images' : olx_images,
+            'olx_mileages' : olx_mileages,
         }
         olx_finn_output.append(car_entry)
 
