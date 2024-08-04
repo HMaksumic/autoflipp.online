@@ -19,4 +19,4 @@
 - **GET /api/olx_mercedes**: Retrieves Mercedes car data from the "OLX_MERCEDES.json" file.
 - **GET /api/olx_peugeot**: Retrieves Peugeot car data from the "OLX_PEUGEOT.json" file.
 - **GET /api/olx_volvo**: Retrieves Volvo car data from the "OLX_VOLVO.json" file.
-- **GET /api/olx_vw**: Retrieves Volkswagen car data from the "OLX_VW.json" file.
+- **GET /api/olx_volkswagen**: Retrieves Volkswagen car data from the "OLX_VW.json" file.
