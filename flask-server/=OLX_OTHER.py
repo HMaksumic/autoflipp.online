@@ -2,7 +2,7 @@ import requests
 import re
 import json
 import TAX_RETURN
-
+import os
 def normalize_name(name):
     name = re.sub(r'(?i)\b(4matic|masse|utstyr|eu|ny|kontroll|service|oljeskift|cdi|tdi|dci|mpi|gdi|tdci|tfsi|tsi|td|cd|thp|blueefficiency|novi|model|triptonic|stanje|top|gtd|god|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|quattro|facelift|motion|tek|uvezana|uvoz|limited|edition|luxury|premium|base|sport|advanced|line|drive|paket|paket|edition|automatic|manual|diesel|sedan|hatchback|coupe|convertible|wagon|suv|compact|electric|hybrid|awd|fwd|rwd|l|xl|xxl|plus|pro|classic|comfort|executive|elegance|exclusive|design|performance|dynamic|style|active|emotion|innovation|limited|classic|supreme|highline|comfortline|trendline|elite|cosmo|prestige|cross|drive|line|connect|base|executive|essential|value|p|performance|track|trail|sportback|touring|all4|countryman|clubman|john|cooper|works|crosstrek|outback|forester|brz|wrx|sti|limited|touring|premium|black|edition|signature|select|preferred|standard|touring|cx|forester|sport|special|series|2dr|4dr|5dr|7dr|12dr|15dr|21dr|23dr|32dr|40dr|45dr|5seater|7seater|compact|mpv|minivan|roadster|crossover|gtline|cabrio|cabriolet|estate|estate|saloon|super|base|lifestyle|lux|xdrive|xdrive20d|d|rline|spaceback|vision|entry|entryline|life|light|ultimate|evo|ambiente|sve|sve|emotion|dynamic|action|line|tek|tronic|select|stand|entry|vtx|ls|dl|sx|hx|xe|xt|kt|xt|tm|hk|tl)\b', '', name)
 
@@ -72,7 +72,6 @@ def match_car(finn_car, olx_car):
         # Normalize and compare names if years are close
         finn_name = normalize_name(finn_car.get('heading', ''))
         olx_name = normalize_name(olx_car.get('title', ''))
-        print(f"Matching {finn_name} and {olx_name}")
         return finn_name in olx_name or olx_name in finn_name
     return False
 
@@ -83,42 +82,45 @@ def pair_car_data(finn_data, olx_data):
         print("Error: Expected list format for API data")
         return car_pairs
 
-    #creating dictionaries with normalized names for finn api
     for car in finn_data:
-        car_name = normalize_name(car.get('heading', ''))
+        car_name = car.get('heading', '')
         car_price = car.get('price', {}).get('amount')
         car_link = car.get('canonical_url', '')
         car_year = car.get('year', 0)
-        car_original_name = car.get('heading', '')
         car_image_url = car.get('image', {}).get('url', '')
         car_regno = car.get('regno', '')
+        car_mileage = car.get('mileage', '')
         if car_name and car_price is not None:
-            if car_name not in car_pairs:
-                car_pairs[car_name] = {
-                    'finn_price': car_price,
-                    'olx_prices': [],
-                    'year': car_year,
-                    'link': car_link,
-                    'original_name': car_original_name,
-                    'image_url': car_image_url,
-                    'regno': car_regno,
-                    'olx_ids' : []
-                }
+            car_pairs[car_name] = {
+                'finn_price': car_price,
+                'olx_prices': [],
+                'olx_ids': [],
+                'olx_names': [],
+                'olx_mileages':[],
+                'olx_images':[],
+                'year': car_year,
+                'link': car_link,
+                'image_url': car_image_url,
+                'regno': car_regno,
+                'mileage' : car_mileage,
+            }
 
-    #pairing with corresponding olx cars and their prices
     for car in olx_data:
-        if isinstance(car, dict):  # Ensure car is a dictionary
-            olx_name = normalize_name(car.get('title', ''))
+        if isinstance(car, dict):
+            olx_name = car.get('title', '')
             olx_price = car.get('price')
             olx_id = car.get('id')
+            olx_image = car.get('image')
+            olx_mileage = next((label["value"] for label in car["special_labels"] if label["label"] == "Kilometraža"), None)
 
             if olx_name and olx_price is not None:
-
                 for finn_name, data in car_pairs.items():
                     if match_car({'heading': finn_name, 'year': data['year']}, car):
                         car_pairs[finn_name]['olx_prices'].append(olx_price)
                         car_pairs[finn_name]['olx_ids'].append(olx_id)
-                        break
+                        car_pairs[finn_name]['olx_names'].append(olx_name)
+                        car_pairs[finn_name]['olx_images'].append(olx_image)
+                        car_pairs[finn_name]['olx_mileages'].append(olx_mileage)
 
     return car_pairs
 
@@ -134,22 +136,27 @@ for car_name, data in paired_data.items():
         finn_price = data['finn_price']
         year = data['year']
         link = data['link']
-        original_name = data['original_name']
         image_url = data['image_url']
         regno = data['regno']
         olx_ids = data['olx_ids']
+        mileage = data['mileage']
+        olx_names = data['olx_names']
+        olx_images = data['olx_images']
+        olx_mileages = data['olx_mileages']
 
-        #creating json entry for each car
         car_entry = {
-            'car_name': original_name,
-            'normalized_name': car_name,
+            'car_name': car_name,
             'year': year,
             'finn_price': finn_price,
             'finn_link': link,
             'image_url': image_url,
             'regno': regno,
+            'mileage' : mileage,
             'olx_prices': olx_prices,
-            'olx_ids' : olx_ids
+            'olx_ids' : olx_ids,
+            'olx_names' : olx_names,
+            'olx_images' : olx_images,
+            'olx_mileages' : olx_mileages,
         }
         olx_finn_output.append(car_entry)
 
@@ -162,8 +169,14 @@ for car in olx_finn_output:
     else:
         car['tax_return'] = None
 
-with open('data/olx_finn_before2015.json', 'w', encoding='utf-8') as json_file:
-    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, 'data')
+os.makedirs(data_dir, exist_ok=True)
+
+with open(os.path.join(data_dir, 'olx_finn_before2015.json'), 'w', encoding='utf-8') as json_file:
+	if olx_finn_output:
+	    json.dump(olx_finn_output, json_file, ensure_ascii=False, indent=4)
+
 
 import datetime
 with open('__LOG__.txt', 'a', encoding='utf-8') as file:

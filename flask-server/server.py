@@ -34,8 +34,12 @@ class Car(db.Model):
     finn_link = db.Column(db.String(200), nullable=False)
     image_url = db.Column(db.String(200), nullable=False)
     regno = db.Column(db.String(20), nullable=False)
+    mileage = db.Column(db.Integer, nullable=False)
     olx_prices = db.Column(db.ARRAY(db.Integer), nullable=False)
     olx_ids = db.Column(db.ARRAY(db.Integer), nullable=False)
+    olx_names = db.Column(db.ARRAY(db.String), nullable=False)
+    olx_images = db.Column(db.ARRAY(db.String), nullable=False)
+    olx_mileages = db.Column(db.ARRAY(db.String), nullable=False)
     tax_return = db.Column(db.Integer, nullable=True)
 
 class Favorite(db.Model):
@@ -56,16 +60,14 @@ def register():
     
     hashed_password = generate_password_hash(password)
     new_user = User(username=username, password=hashed_password)
-    db.session.add(new_user)
-
-    new_user = User(username=username, password=password)
+    
     db.session.add(new_user)
     try:
         db.session.commit()
         return jsonify({"success": True, "message": "User registered successfully"})
-    except Exception:
+    except Exception as e:
         db.session.rollback()
-        return jsonify({"success": False, "message": "Registration failed"}), 500
+        return jsonify({"success": False, "message": "Registration failed", "error": str(e)}), 500
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -102,21 +104,27 @@ def decode_jwt():
 def get_favorites():
     user_id = get_jwt_identity()
     favorites = Favorite.query.filter_by(user_id=user_id).all()
+    
     favorite_cars = [
         {
-            "id": fav.car.id, 
-            "car_name": fav.car.car_name, 
-            "image_url": fav.car.image_url, 
-            "year": fav.car.year, 
-            "finn_price": fav.car.finn_price, 
-            "finn_link": fav.car.finn_link, 
-            "regno": fav.car.regno, 
-            "olx_prices": fav.car.olx_prices, 
-            "olx_ids": fav.car.olx_ids, 
+            "id": fav.car.id,
+            "car_name": fav.car.car_name,
+            "image_url": fav.car.image_url,
+            "year": fav.car.year,
+            "finn_price": fav.car.finn_price,
+            "finn_link": fav.car.finn_link,
+            "regno": fav.car.regno,
+            "mileage": fav.car.mileage,
+            "olx_prices": fav.car.olx_prices,
+            "olx_ids": fav.car.olx_ids,
+            "olx_names": fav.car.olx_names,
+            "olx_images": fav.car.olx_images,
+            "olx_mileages": fav.car.olx_mileages,
             "tax_return": fav.car.tax_return
-        } 
+        }
         for fav in favorites
     ]
+    
     return jsonify({"success": True, "favorites": favorite_cars})
 
 @app.route('/favorites', methods=['POST'])
@@ -143,9 +151,13 @@ def add_favorite():
                 finn_link=car_data.get('finn_link'),
                 image_url=car_data.get('image_url'),
                 regno=car_data.get('regno'),
+                mileage=car_data.get('mileage'),
                 olx_prices=car_data.get('olx_prices'),
                 olx_ids=car_data.get('olx_ids'),
-                tax_return=car_data.get('tax_return', None) 
+                olx_names=car_data.get('olx_names'),
+                olx_images=car_data.get('olx_images'),
+                olx_mileages=car_data.get('olx_mileages'),
+                tax_return=car_data.get('tax_return', None)
             )
             db.session.add(new_car)
             db.session.commit()
@@ -162,9 +174,8 @@ def add_favorite():
         db.session.commit()
         return jsonify({"success": True, "message": "Car favorited successfully"})
     except Exception as e:
-        print(f"Error adding favorite: {str(e)}")  
+        print(f"Error adding favorite: {str(e)}")
         return jsonify({"success": False, "message": "An error occurred while favoriting the car"}), 500
-
 
 @app.route('/favorites/<int:car_id>', methods=['DELETE'])
 @jwt_required()
@@ -191,7 +202,7 @@ def finn_search_api():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-@app.route("/api/olx_finn_data")
+@app.route("/api/olx_other")
 def olx_finn_data():
     try:
         json_file_path = os.path.join(os.path.dirname(__file__), "data/olx_finn_before2015.json")
@@ -268,7 +279,7 @@ def olx_volvo():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-@app.route("/api/olx_vw")
+@app.route("/api/olx_volkswagen")
 def olx_vw():
     try:
         json_file_path = os.path.join(os.path.dirname(__file__), "data/=OLX_VW.json")

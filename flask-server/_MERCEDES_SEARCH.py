@@ -7,8 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
-
-
+from webdriver_manager.chrome import ChromeDriverManager
+import os
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--start-maximized')
@@ -17,10 +17,10 @@ options.add_argument('--disable-extensions')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 
-service = Service(executable_path="chromedriver.exe")
+service = Service('/home/ec2-user/autoflipp.online/flask-server/chromedriver')
 driver = webdriver.Chrome(service=service, options=options)
 
-base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.785&price_to=200000&sales_form=1&year_from=2010&page="
+base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.785&sales_form=1&year_from=2010&page="
 
 all_data = []
 
@@ -80,7 +80,7 @@ def remove_filler(data):
             remove_filler(item)
 
 #number of finn pages to fetch
-total_pages = 5
+total_pages = 7
 
 #fetching data from the first page
 url = base_url + str(1)
@@ -99,7 +99,11 @@ for page in range(2, total_pages + 1):
 
 
 #saving the collected data to JSON file.
-with open('data/MERCEDES_SEARCH.json', 'w', encoding='utf-8') as json_file:
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(current_dir, 'data')
+os.makedirs(data_dir, exist_ok=True)
+
+with open(os.path.join(data_dir, 'MERCEDES_SEARCH.json'), 'w', encoding='utf-8') as json_file:
     json.dump(all_data, json_file, indent=4)
 
 print(f"Data from {total_pages} pages saved to 'MERCEDES_SEARCH.json'")
