@@ -184,7 +184,7 @@ const PersonalCarList = () => {
       {filteredCars.map((car, index) => (
         viewMode === 'regular' ? (
           <div key={index} className="car-card">
-            <Link to={`/personal/${car.regno}`} className="car-link">
+            <Link to={`/personal/${car.regno ? car.regno : car.car_name}`} className="car-link">
               <div className="car-name-container">
                 <h2 className="car-name">{car.car_name}</h2>
               </div>

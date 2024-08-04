@@ -4,7 +4,7 @@ import axios from 'axios';
 import styles from './CarDetail.module.css';
 
 export default function CarDetail() {
-  const { brand, regno } = useParams();
+  const { brand, identifier } = useParams();
   const [car, setCar] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -25,7 +25,7 @@ export default function CarDetail() {
     const fetchCarDetail = async () => {
       try {
         const response = await axios.get(`https://autoflipp-backend.online/api/olx_${brand}`);
-        const foundCar = response.data.find(car => car.regno === regno);
+        const foundCar = response.data.find(car => car.regno === identifier || car.car_name === identifier);
         if (foundCar) {
           setCar(foundCar);
         } else {
@@ -40,7 +40,7 @@ export default function CarDetail() {
     };
 
     fetchCarDetail();
-  }, [brand, regno]);
+  }, [brand, identifier]);
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;

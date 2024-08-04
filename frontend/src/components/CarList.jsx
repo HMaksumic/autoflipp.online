@@ -373,9 +373,9 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
       </div>
       {sortedCarData.map((car, index) => (
         viewMode === 'regular' ? (
-          <div className="car-card" key={car.regno}>
+          <div className="car-card" key={index}>
             <Link 
-              to={`/${brandName}/${car.regno}`} 
+              to={`/${brandName}/${car.regno ? car.regno : car.car_name}`}
               className="car-link" 
               onClick={handlePageExit}
             >

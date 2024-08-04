@@ -14,7 +14,7 @@ export default function OtherPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='bold' peugeot='none' volvo='none' volkswagen='none' brandName='finn_data'></CarList>
+      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='bold' peugeot='none' volvo='none' volkswagen='none' brandName='other'></CarList>
       </main>
     </div>
   );

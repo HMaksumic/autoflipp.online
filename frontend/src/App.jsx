@@ -29,8 +29,8 @@ function App() {
           <Route path="/volvo" element={<VolvoPage />} />
           <Route path="/volkswagen" element={<VWPage />} />
           <Route path="/personal" element={<ProtectedRoute component={PersonalPage} />} />
-          <Route path="/:brand/:regno" element={<CarDetail />} />
-          <Route path="/personal/:regno" element={<ProtectedRoute component={CarDetailProtected} />} />
+          <Route path="/:brand/:identifier" element={<CarDetail />} />
+          <Route path="/personal/:identifier" element={<ProtectedRoute component={CarDetailProtected} />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

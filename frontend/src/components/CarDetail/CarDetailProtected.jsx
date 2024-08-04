@@ -5,7 +5,7 @@ import styles from './CarDetail.module.css';
 import AuthContext from '../../context/AuthContext.jsx';
 
 export default function CarDetailProtected() {
-  const { brand, regno } = useParams();
+  const { brand, identifier } = useParams();
   const [car, setCar] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -32,7 +32,7 @@ export default function CarDetailProtected() {
           },
         });
     
-        const foundCar = response.data.favorites.find(car => car.regno === regno);
+        const foundCar = response.data.favorites.find(car => car.regno === identifier || car.car_name === identifier);
         if (foundCar) {
           setCar(foundCar);
         } else {
@@ -47,7 +47,7 @@ export default function CarDetailProtected() {
     };
 
     fetchCarDetail();
-  }, [brand, regno, user.access_token]);
+  }, [brand, identifier, user.access_token]);
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
