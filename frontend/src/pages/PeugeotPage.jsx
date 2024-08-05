@@ -1,6 +1,7 @@
 import React from 'react';
 import CarList from "../components/CarList";
 import "../pages/Home.css";
+import { Link } from 'react-router-dom';
 
 export default function PeugeotPage() {
   const URL ="https://autoflipp-backend.online/api/olx_peugeot"
@@ -9,12 +10,14 @@ export default function PeugeotPage() {
     <div className="home-container">
       <header style={headerStyle}>
         <h1 style={titleStyle}>
-          autoflipp.online
-          <img src="/icon-white.png" alt="" style={logoStyle} />
+          <Link to='/home' style={linkStyle}>
+            autoflipp.online
+            <img src="/icon-white.png" alt="Home" style={logoStyle} />
+          </Link>
         </h1>
       </header>
       <main style={mainStyle}>
-      <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='bold' volvo='none' volkswagen='none' brandName='peugeot'></CarList>
+        <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='bold' volvo='none' volkswagen='none' brandName='peugeot' />
       </main>
     </div>
   );
@@ -35,7 +38,14 @@ const headerStyle = {
 const titleStyle = {
   margin: 0,
   fontSize: '24px',
-  color: "#FFF"
+  color: "#FFF",
+  fontWeight: 'bold',
+};
+
+const linkStyle = {
+  textDecoration: 'none',
+  color: "#FFF",
+  fontWeight: 'bold',
 };
 
 const logoStyle = {
