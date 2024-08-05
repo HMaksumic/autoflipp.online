@@ -13,7 +13,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [showAllPrices, setShowAllPrices] = useState({});
-  const [sortBy, setSortBy] = useState('Calculated profit rate');
+  const [sortBy, setSortBy] = useState('');
   const [viewMode, setViewMode] = useState('regular');
   const [currencyData, setCurrencyData] = useState([]);
   const [minPrice, setMinPrice] = useState(0);
@@ -21,6 +21,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [minYear, setMinYear] = useState('2010');
   const [maxYear, setMaxYear] = useState('2024');
   const [kilometers, setKilometers] = useState(500000);
+  const [isSorted, setIsSorted] = useState(false);
 
   const handlePageExit = () => {
     const scrollPosition = window.scrollY.toString();
@@ -28,6 +29,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
     currentUrl.searchParams.set('scrollPosition', scrollPosition);
     currentUrl.searchParams.set('searchTerm', searchTerm);
     currentUrl.searchParams.set('sortBy', sortBy);
+    currentUrl.searchParams.set('isSorted', isSorted);
     currentUrl.searchParams.set('viewMode', viewMode);
     currentUrl.searchParams.set('minPrice', minPrice);
     currentUrl.searchParams.set('maxPrice', maxPrice);
@@ -69,7 +71,8 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         }
   
         setSearchTerm(urlParams.get('searchTerm') || '');
-        setSortBy(urlParams.get('sortBy') || 'Calculated profit rate');
+        setIsSorted(urlParams.get('isSorted') === 'true');
+        setSortBy(urlParams.get('sortBy') || '');
         setViewMode(urlParams.get('viewMode') || 'regular');
         setMinPrice(parseInt(urlParams.get('minPrice') || '0', 10));
         setMaxPrice(parseInt(urlParams.get('maxPrice') || '1000000', 10));
@@ -128,6 +131,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const BaseOLXUrl = "https://olx.ba/artikal/";
 
   const sortCarData = (data, criteria) => {
+    if (!isSorted) return data;
     return data.sort((a, b) => {
       switch (criteria) {
         case 'Newest first':
@@ -296,21 +300,50 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
       <div className="sort-bar-container">
         <div className="sort-bar">
           <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
-          <button className={`sort-button ${sortBy === 'Calculated profit rate' ? 'selected' : ''}`} onClick={() => setSortBy('Calculated profit rate')}>
+          <button 
+            className={`sort-button ${isSorted && sortBy === 'Calculated profit rate' ? 'selected' : ''}`} 
+            onClick={() => {
+              setSortBy(sortBy === 'Calculated profit rate' ? '' : 'Calculated profit rate');
+              setIsSorted(!isSorted || sortBy !== 'Calculated profit rate');
+            }}
+          >
             Profit potential
           </button>
-          <button className={`sort-button ${sortBy === 'Highest tax-return' ? 'selected' : ''}`} onClick={() => setSortBy('Highest tax-return')}>
+          
+          <button 
+            className={`sort-button ${isSorted && sortBy === 'Highest tax-return' ? 'selected' : ''}`} 
+            onClick={() => {
+              setSortBy(sortBy === 'Highest tax-return' ? '' : 'Highest tax-return');
+              setIsSorted(!isSorted || sortBy !== 'Highest tax-return');
+            }}
+          >
             Highest tax-return
           </button>
-          <button className={`sort-button ${sortBy === 'Newest first' ? 'selected' : ''}`} onClick={() => setSortBy('Newest first')}>
+          
+          <button 
+            className={`sort-button ${isSorted && sortBy === 'Newest first' ? 'selected' : ''}`} 
+            onClick={() => {
+              setSortBy(sortBy === 'Newest first' ? '' : 'Newest first');
+              setIsSorted(!isSorted || sortBy !== 'Newest first');
+            }}
+          >
             Newest first
           </button>
-          <button className={`sort-button ${sortBy === 'Most matches' ? 'selected' : ''}`} onClick={() => setSortBy('Most matches')}>
+          
+          <button 
+            className={`sort-button ${isSorted && sortBy === 'Most matches' ? 'selected' : ''}`} 
+            onClick={() => {
+              setSortBy(sortBy === 'Most matches' ? '' : 'Most matches');
+              setIsSorted(!isSorted || sortBy !== 'Most matches');
+            }}
+          >
             Most matches
           </button>
+          
           <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
             {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
           </button>
+          
           <div className="filter-container">
             <div className="filters">
               <div className="price-filter">
@@ -330,6 +363,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
                   placeholder="Max"
                 />
               </div>
+              
               <div className="year-filter">
                 <label style={{ marginRight: '10px' }}>Year:</label>
                 <input
@@ -347,6 +381,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
                   placeholder="Max Year"
                 />
               </div>
+              
               <div className="kilometers-filter">
                 <label style={{ marginRight: '10px' }}>Mileage limit:</label>
                 <NumericFormat
@@ -361,6 +396,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
           </div>
         </div>
       </div>
+      
       <div className="search-bar-container">
         <input
           type="text"
@@ -371,6 +407,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         />
         <div className="result-count">Results: {sortedCarData.length}</div>
       </div>
+      
       {sortedCarData.map((car, index) => (
         viewMode === 'regular' ? (
           <div className="car-card" key={index}>
