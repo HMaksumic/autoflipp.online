@@ -13,6 +13,7 @@
   transform: translateX(-50%);
   width: 100%;
   max-width: 900px;
+  height:900px ;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,7 +38,7 @@
 }
 
 .olxPricesContainer {
-  margin-top: 900px;
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -57,6 +58,14 @@
   margin-bottom: 10px;
   position: relative;
   transition: transform 0.2s ease-in-out;
+}
+
+.olxListingsTitle {
+  width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 910px;  
 }
 
 .olxCard:hover {
@@ -86,6 +95,7 @@
 }
 
 .backButton {
+  position: absolute;
   height: auto;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -97,6 +107,7 @@
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
+  bottom: 35px;
 }
 
 .backButton:hover {
