@@ -419,7 +419,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               onClick={handlePageExit}
             >
               <div className="car-name-container">
-                <h2 className="car-name">{car.car_name}</h2>
+                <h2 className="car-name">
+                    {car.car_name.length > 40 
+                  ? `${car.car_name.substring(0, car.car_name.lastIndexOf(' ', 40))}` 
+                  : car.car_name}
+                </h2>
               </div>
               <img src={car.image_url} alt={car.car_name} className="car-image" />
             </Link>

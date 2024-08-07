@@ -116,7 +116,11 @@ export default function CarDetailProtected() {
         <div className={styles.carDetailContainer}>
           <main className={styles.mainStyle}>
             <img src={car.image_url} alt={car.car_name} className={styles.carDetailImage} />
-            <h2>{car.car_name}</h2>
+            <h2>
+              {car.car_name.length > 40 
+                ? `${car.car_name.substring(0, car.car_name.lastIndexOf(' ', 40))}` 
+                : car.car_name}
+            </h2>
             <div className={styles.carInfo}>
               <p style={{fontSize: '25px'}}><strong>{t('finn_price')}</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
               <p><strong>Finn.no link: </strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{t('view_on_finn_no')}</a></p>
@@ -139,6 +143,7 @@ export default function CarDetailProtected() {
             <button className={styles.backButton} onClick={handleGoBack}>{t('back_to_list')}</button>
           </main>
         </div>
+        <h2 className={styles.olxListingsTitle}> {t('olx_ba_listings')} </h2>
         <div className={styles.olxPricesContainer}>
           {sortedOlxPrices.map(({ price, id, name, image, mileage }, index) => (
             <div key={index} className={styles.olxCard}>
