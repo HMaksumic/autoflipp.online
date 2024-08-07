@@ -192,8 +192,8 @@ const PersonalCarList = () => {
               </div>
               <img src={car.image_url} alt={car.car_name} className="car-image" />
             </Link>
-            <p><strong>{t('finn_price')}:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a></p>
-            <p><strong>{t('olx_prices')}:</strong> {
+            <p><strong>{t('finn_price')}</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a></p>
+            <p><strong>{t('olx_prices')}</strong> {
               car.olx_prices
                 .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
                 .sort((a, b) => b.price - a.price)
@@ -213,9 +213,9 @@ const PersonalCarList = () => {
                 </button>
               )}
             </p>
-            <p><strong>{t('year')}:</strong> {car.year}</p>
+            <p><strong>{t('year')}</strong> {car.year}</p>
             {car.tax_return > 0 && (
-              <p><strong>{t('norwegian_tax_return_estimate')}:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+              <p><strong>{t('norwegian_tax_return_estimate')}</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
             )}
             {user && (
               <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>

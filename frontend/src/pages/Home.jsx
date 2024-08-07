@@ -24,7 +24,7 @@ export default function Home() {
   };
   
   return (
-    <div className="home-container">
+    <div className="actual_home-container">
   <header style={headerStyle}>
     <div style={headerContentStyle}>
       <div style={titleContainerStyle}>
