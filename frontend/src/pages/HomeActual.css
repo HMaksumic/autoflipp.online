@@ -37,6 +37,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    left: 0px;
   }
   
   .category-container {
@@ -59,12 +62,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
   }
   
   .category-card img {
     width: 100%;
-    height: 200px;
+    height: 230px;
     object-fit: cover;
+    border-radius: 10px;
+
   }
   
   .category-card .card-content {
@@ -75,6 +82,10 @@
   
   .category-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+    background-color: #ebf5ff;
+    text-decoration: none;
+    transform: translateY(-5px);
   }
   
   .category-card:focus,
@@ -97,7 +108,8 @@
   }
 
   .button_1 {
-    width: 400px;
+    width: 462px;
+    border-radius: 10px;
   }
 
   .auth-box-container {
@@ -155,4 +167,44 @@
   
   .auth-form span:hover {
     text-decoration: underline;
+  }
+
+  .langmenu {
+    position: fixed;
+    right: 5px;
+  }
+
+  @media (max-width: 600px) {
+    .category-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin-top: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      margin: 5px 0px; 
+    }
+
+    .category-card {
+      flex: 0 1 45%;
+      max-width: 45%;
+      margin: 0px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease-in-out;
+      border-radius: 10px;
+    }
+    
+    .category-card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+  
+    }
+
   }

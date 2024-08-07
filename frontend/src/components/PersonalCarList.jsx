@@ -2,9 +2,11 @@ import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import './PersonalCarList.css';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import AuthContext from '../context/AuthContext';
 
 const PersonalCarList = () => {
+  const { t } = useTranslation();
   const { user, removeFavorite, logout } = useContext(AuthContext);
   const [favorites, setFavorites] = useState([]);
   const [carData, setCarData] = useState([]);
@@ -52,19 +54,19 @@ const PersonalCarList = () => {
     }
   }, [user]);
 
-  if (loading) return <p>This should not take more than 50 seconds...</p>;
+  if (loading) return <p>{t('loading_message')}</p>;
   if (error) {
     if (error.response && error.response.status === 401) {
       return (
         <div>
-          <p>Session expired... You were logged out</p>
-          <p>Log in again at the <Link to="/home" onClick={logout}>home page</Link></p>
+          <p>{t('session_expired')}</p>
+          <p>{t('log_in_again')} <Link to="/home" onClick={logout}>{t('home_page')}</Link></p>
         </div>
       );
     } else {
       return (
         <div>
-          <p>Error loading data: {error.message}</p>
+          <p>{t('error_loading')}: {error.message}</p>
         </div>
       );
     }
@@ -103,12 +105,12 @@ const PersonalCarList = () => {
       );
       if (response.data.success) {
         setCarData(carData.filter(car => car.id !== carId));
-        console.log('Car unfavorited successfully');
+        console.log(t('car_unfavorited'));
       } else {
         console.error(response.data.message);
       }
     } catch (error) {
-      console.error('Error removing favorite:', error.response ? error.response.data : error.message);
+      console.error(t('error_removing_favorite'), error.response ? error.response.data : error.message);
     }
   };
 
@@ -159,12 +161,12 @@ const PersonalCarList = () => {
             <>
               <Link to="/personal" style={{ textDecoration: 'none' }}>
                 <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', fontWeight: 'bold' }}>
-                  Personal
+                  {t('personal')}
                 </button>
               </Link>
               <Link to="/home">
                 <button onClick={logout} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', backgroundColor: 'lightsteelblue' }}>
-                  Logout
+                  {t('logout')}
                 </button>
               </Link>
             </>
@@ -174,12 +176,12 @@ const PersonalCarList = () => {
       <div className="search-bar-container">
         <input
           type="text"
-          placeholder="Search"
+          placeholder={t('search')}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
           className="search-bar"
         />
-        <div className="result-count">Results: {filteredCars.length}</div>
+        <div className="result-count">{t('results')} {filteredCars.length}</div>
       </div>
       {filteredCars.map((car, index) => (
         viewMode === 'regular' ? (
@@ -190,8 +192,8 @@ const PersonalCarList = () => {
               </div>
               <img src={car.image_url} alt={car.car_name} className="car-image" />
             </Link>
-            <p><strong>Finn.no price:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a></p>
-            <p><strong>OLX.ba prices:</strong> {
+            <p><strong>{t('finn_price')}:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a></p>
+            <p><strong>{t('olx_prices')}:</strong> {
               car.olx_prices
                 .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
                 .sort((a, b) => b.price - a.price)
@@ -207,17 +209,17 @@ const PersonalCarList = () => {
             }
               {car.olx_prices.length > 5 && (
                 <button onClick={() => toggleShowPrices(car.car_name)} className="more-button">
-                  {showAllPrices[car.car_name] ? 'Less' : 'Show more...'}
+                  {showAllPrices[car.car_name] ? t('less') : t('show_more')}
                 </button>
               )}
             </p>
-            <p><strong>Year:</strong> {car.year}</p>
+            <p><strong>{t('year')}:</strong> {car.year}</p>
             {car.tax_return > 0 && (
-              <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+              <p><strong>{t('norwegian_tax_return_estimate')}:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
             )}
             {user && (
               <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
-                <button style={{color: 'red'}} className="favorite-button">Remove</button>
+                <button style={{color: 'red'}} className="favorite-button">{t('remove')}</button>
               </div>
             )}
           </div>
@@ -226,15 +228,15 @@ const PersonalCarList = () => {
             <img src={car.image_url} alt={car.car_name} />
             <div className="car-details-personal">
               <p><strong>{car.car_name}</strong></p>
-              <p>Finn.no price: {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
-              <p>Average OLX.ba price: {Math.round(car.olx_prices.reduce((a, b) => a + b, 0) / car.olx_prices.length)} BAM</p>
-              <p>Year: {car.year}</p>
+              <p>{t('finn_price')}: {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
+              <p>{t('average_olx_price')}: {Math.round(car.olx_prices.reduce((a, b) => a + b, 0) / car.olx_prices.length)} BAM</p>
+              <p>{t('year')}: {car.year}</p>
               {car.tax_return > 0 && (
-                <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+                <p>{t('tax_return_simple')}: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
               )}
               {user && (
                 <div className="favorite-button-container" onClick={() => handleRemoveFavorite(car.id)}>
-                  <button style={{color: 'red'}} className="favorite-button">Remove</button>
+                  <button style={{color: 'red'}} className="favorite-button">{t('remove')}</button>
                 </div>
               )}
             </div>
@@ -242,7 +244,7 @@ const PersonalCarList = () => {
         )
       ))}
       {filteredCars.length === 0 && (
-        <p>All saved cars will be displayed here</p>
+        <p>{t('no_saved_cars')}</p>
       )}
     </div>
   );

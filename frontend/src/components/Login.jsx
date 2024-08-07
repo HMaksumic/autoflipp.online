@@ -1,8 +1,10 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import AuthContext from '../context/AuthContext';
 
 const Login = ({ toggleForm }) => {
+    const { t } = useTranslation();
     const { login } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -16,29 +18,29 @@ const Login = ({ toggleForm }) => {
         try {
             const response = await login(username, password);
             if (response.success) {
-                setMessage('Login successful!');
+                setMessage(t('login_success'));
                 setError('');
                 navigate('/personal');
             } else {
-                setError(response.message || 'Login failed.');
+                setError(response.message || t('login_failure'));
                 setMessage('');
             }
         } catch (err) {
-            setError('An error occurred during login.');
+            setError(t('error_during_login'));
             setMessage('');
         }
     };
 
     return (
         <form onSubmit={handleSubmit} className="auth-form">
-            <h2>Login</h2>
+            <h2>{t('login_title')}</h2>
             {message && <p className="success-message">{message}</p>}
             {error && <p className="error-message">{error}</p>}
             <input
                 type="text"
                 id="login-username"
                 name="username"
-                placeholder="Username"
+                placeholder={t('username_placeholder')}
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
@@ -47,7 +49,7 @@ const Login = ({ toggleForm }) => {
                 type={showPassword ? "text" : "password"}
                 id="login-password"
                 name="password"
-                placeholder="Password"
+                placeholder={t('password_placeholder')}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
@@ -57,10 +59,10 @@ const Login = ({ toggleForm }) => {
                     type="checkbox"
                     checked={showPassword}
                     onChange={() => setShowPassword(!showPassword)}
-                /> Show Password
+                /> {t('show_password')}
             </label>
-            <button type="submit">Log In</button>
-            <p>Don't have an account? <span onClick={toggleForm}>Register</span></p>
+            <button type="submit">{t('login_button')}</button>
+            <p>{t('no_account')} <span onClick={toggleForm}>{t('switch_to_register')}</span></p>
         </form>
     );
 };

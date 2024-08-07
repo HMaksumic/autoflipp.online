@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import styles from './CarDetail.module.css';
+import { useTranslation } from 'react-i18next';
 
 export default function CarDetail() {
   const { brand, identifier } = useParams();
@@ -9,6 +10,7 @@ export default function CarDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currencyData, setCurrencyData] = useState([]);
+  const { t } = useTranslation();
 
   useEffect( () => {
     const currentDate = new Date();
@@ -42,9 +44,9 @@ export default function CarDetail() {
     fetchCarDetail();
   }, [brand, identifier]);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div>{t('car_list_intro')}</div>;
   if (error) return <div>{error}</div>;
-  if (!car) return <div>No car found</div>;
+  if (!car) return <div> {t('no_car_found')} </div>;
 
   function TurnToBAM(parameter) {
     if (!currencyData) {
@@ -109,16 +111,16 @@ export default function CarDetail() {
               <img src={car.image_url} alt={car.car_name} className={styles.carDetailImage} />
               <h2>{car.car_name}</h2>
               <div className={styles.carInfo}>
-                <p style={{fontSize: '25px'}}><strong>Finn.no Price:</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
-                <p><strong>Finn.no Link:</strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">View on Finn.no</a></p>
-                <p><strong>Year:</strong> {car.year}</p>
-                <p><strong>Mileage:</strong> {car.mileage} km</p>
+                <p style={{fontSize: '25px'}}><strong>{t('finn_price')}</strong> {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
+                <p><strong>Finn.no link: </strong> <a href={car.finn_link} target="_blank" rel="noopener noreferrer">{t('view_on_finn_no')}</a></p>
+                <p><strong>{t('year')}</strong> {car.year}</p>
+                <p><strong>{t('mileage')}</strong> {car.mileage} km</p>
                 {car.tax_return && (
-                  <p><strong>Tax Return:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+                  <p><strong>{t('tax_return_simple')}</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
                 )}
                 
                 <div className={styles.comparisonContainer}>
-                  <h3>Compared against all matches on OLX.ba</h3>
+                  <h3>{t('compare_all_matches')}</h3>
                   <p className={`${styles.comparisonDifference} ${averageOlxPrice - finnPriceBAM > 0 ? styles.priceGain : styles.priceLoss}`}>
                     {averageOlxPrice - finnPriceBAM > 0 ? '+' : ''}{(averageOlxPrice - finnPriceBAM).toFixed(0)} BAM
                   </p>
@@ -127,7 +129,7 @@ export default function CarDetail() {
                   </p>
                 </div>
               </div>
-              <button className={styles.backButton} onClick={handleGoBack}>Back to List</button>
+              <button className={styles.backButton} onClick={handleGoBack}>{t('back_to_list')}</button>
             </main>
           </div>
           <div className={styles.olxPricesContainer}>

@@ -1,4 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import './i18n';
+import React, {useEffect} from 'react';
+import { useTranslation } from 'react-i18next';
 import Home from './pages/Home'
 import NoPage from './pages/NoPage'
 import AudiPage from './pages/AudiPage';
@@ -15,6 +18,15 @@ import CarDetail from './components/CarDetail/CarDetail';
 import CarDetailProtected from './components/CarDetail/CarDetailProtected';
 
 function App() {
+    const { i18n } = useTranslation();
+  
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage) {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
+
   return (
     <AuthProvider>
       <BrowserRouter>

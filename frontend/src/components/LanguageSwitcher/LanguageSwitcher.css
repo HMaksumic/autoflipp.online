@@ -1,0 +1,19 @@
+.language-switcher {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-switcher button {
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0 !important;
+    margin: 0 5px !important; 
+    box-shadow: none !important;
+  }
+  
+  .language-switcher img {
+    width: 40px;
+    height: 25px; 
+  }
+  

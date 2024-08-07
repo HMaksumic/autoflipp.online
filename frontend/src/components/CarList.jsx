@@ -5,6 +5,7 @@ import './PersonalCarList.css';
 import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 import { NumericFormat } from 'react-number-format';
+import { useTranslation } from 'react-i18next';
 
 const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, brandName }) => {
   const { user, favorites, addFavorite, removeFavorite, logout } = useContext(AuthContext);
@@ -22,6 +23,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [maxYear, setMaxYear] = useState('2024');
   const [kilometers, setKilometers] = useState(500000);
   const [isSorted, setIsSorted] = useState(false);
+  const { t } = useTranslation();
 
   const handlePageExit = () => {
     const scrollPosition = window.scrollY.toString();
@@ -97,8 +99,8 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
     };
   }, [url]);
 
-  if (loading) return <p>This should not take more than 50 seconds...</p>;
-  if (error) return <p>Error loading data: {error.message}</p>;
+  if (loading) return <p>{t('car_list_intro')}</p>;
+  if (error) return <p>{t('error_loading')}{error.message}</p>;
 
   function TurnToBAM(parameter) {
     if (!currencyData) {
@@ -277,7 +279,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
 
           <Link to="/other" style={{ textDecoration: 'none' }}>
             <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' , fontWeight: other  }}>
-              Other
+              {t('other')}
             </button>
           </Link>
 
@@ -285,12 +287,12 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
             <>
               <Link to="/personal" style={{ textDecoration: 'none' }}>
                 <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky' }}>
-                  Personal
+                  {t('personal')}
                 </button>
               </Link>
               <Link to="/home">
                 <button onClick={logout} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', position: 'sticky', backgroundColor: 'lightsteelblue' }}>
-                  Logout
+                  {t('logout')}
                 </button>
               </Link>
             </>
@@ -299,7 +301,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
       </div>
       <div className="sort-bar-container">
         <div className="sort-bar">
-          <label style={{ marginRight: '20px', fontSize: '17px' }}>Sort by:</label>
+          <label style={{ marginRight: '20px', fontSize: '17px' }}>{t('sort_by')}</label>
           <button 
             className={`sort-button ${isSorted && sortBy === 'Calculated profit rate' ? 'selected' : ''}`} 
             onClick={() => {
@@ -307,7 +309,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               setIsSorted(!isSorted || sortBy !== 'Calculated profit rate');
             }}
           >
-            Profit potential
+            {t('profit_potential')}
           </button>
           
           <button 
@@ -317,7 +319,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               setIsSorted(!isSorted || sortBy !== 'Highest tax-return');
             }}
           >
-            Highest tax-return
+            {t('highest_tax_return')}
           </button>
           
           <button 
@@ -327,7 +329,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               setIsSorted(!isSorted || sortBy !== 'Newest first');
             }}
           >
-            Newest first
+            {t('newest_first')}
           </button>
           
           <button 
@@ -337,17 +339,17 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               setIsSorted(!isSorted || sortBy !== 'Most matches');
             }}
           >
-            Most matches
+            {t('most_matches')}
           </button>
           
           <button className="favorite-button" onClick={() => setViewMode(viewMode === 'regular' ? 'simple' : 'regular')} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-            {viewMode === 'regular' ? 'Switch to Simple View' : 'Switch to Regular View'}
+            {viewMode === 'regular' ? t('switch_to_simple_view') : t('switch_to_regular_view')}
           </button>
           
           <div className="filter-container">
             <div className="filters">
               <div className="price-filter">
-                <label style={{ marginRight: '10px' }}>Price in NOK:</label>
+                <label style={{ marginRight: '10px' }}>{t('price_in_nok')}</label>
                 <NumericFormat
                   value={minPrice}
                   thousandSeparator=" "
@@ -360,36 +362,36 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
                   thousandSeparator=" "
                   onValueChange={handleMaxPriceChange}
                   style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                  placeholder="Max"
+                  placeholder={t('max')}
                 />
               </div>
               
               <div className="year-filter">
-                <label style={{ marginRight: '10px' }}>Year:</label>
+                <label style={{ marginRight: '10px' }}>{t('year')}</label>
                 <input
                   type="number"
                   value={minYear}
                   onChange={handleMinYearChange}
                   style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                  placeholder="Min Year"
+                  placeholder={t('min_year')}
                 />
                 <input
                   type="number"
                   value={maxYear}
                   onChange={handleMaxYearChange}
                   style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                  placeholder="Max Year"
+                  placeholder={t('max_year')}
                 />
               </div>
               
               <div className="kilometers-filter">
-                <label style={{ marginRight: '10px' }}>Mileage limit:</label>
+                <label style={{ marginRight: '10px' }}>{t('mileage_limit')}</label>
                 <NumericFormat
                   value={kilometers}
                   thousandSeparator=" "
                   onValueChange={handleKilometersChange}
                   style={{ marginRight: '10px', width: '80px', padding: '5px', fontSize: '14px', border: '1px solid #ccc', borderRadius: '4px' }}
-                  placeholder="Max"
+                  placeholder={t('max')}
                 />
               </div>
             </div>
@@ -400,12 +402,12 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
       <div className="search-bar-container">
         <input
           type="text"
-          placeholder="Search"
+          placeholder={t('search')}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
           className="search-bar"
         />
-        <div className="result-count">Results: {sortedCarData.length}</div>
+        <div className="result-count">{t('results')} {sortedCarData.length}</div>
       </div>
       
       {sortedCarData.map((car, index) => (
@@ -422,11 +424,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               <img src={car.image_url} alt={car.car_name} className="car-image" />
             </Link>
             <p>
-              <strong>Finn.no price:</strong> 
+              <strong>{t('finn_price')}</strong> 
               <a href={car.finn_link} target="_blank" rel="noopener noreferrer" className='finn-link'>{car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</a>
             </p>
             <p>
-              <strong>OLX.ba prices:</strong> 
+              <strong>{t('olx_prices')}</strong> 
               {car.olx_prices
                 .map((price, i) => ({ price, url: `${BaseOLXUrl}${car.olx_ids[i]}` }))
                 .sort((a, b) => b.price - a.price)
@@ -442,17 +444,17 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
               }
               {car.olx_prices.length > 5 && (
                 <button onClick={() => toggleShowPrices(car.car_name)} className="more-button">
-                  {showAllPrices[car.car_name] ? 'Less' : 'Show more...'}
+                  {showAllPrices[car.car_name] ? t('less') : t('show_more')}                
                 </button>
               )}
             </p>
-            <p><strong>Year:</strong> {car.year}</p>
+            <p><strong>{t('year')}</strong> {car.year}</p>
             {car.tax_return > 0 && (
-              <p><strong>Norwegian tax return estimate:</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+              <p><strong>{t('norwegian_tax_return_estimate')}</strong> {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
             )}
             {user && (
               <div className="favorite-button-container" onClick={() => handleFavoriteClick(car)}>
-                <button className="favorite-button"> Save </button>
+                <button className="favorite-button"> {t('save')} </button>
               </div>
             )}
           </div>
@@ -461,11 +463,11 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
             <img src={car.image_url} alt={car.car_name} />
             <div className="car-details-personal">
               <p><strong>{car.car_name}</strong></p>
-              <p>Finn.no price: {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
-              <p>Average OLX.ba price: {(car.olx_prices.filter(price => price !== 0).reduce((a, b) => a + b, 0) / (car.olx_prices.filter(price => price !== 0).length || 1)).toFixed(0)} BAM</p>
-              <p>Year: {car.year}</p>
+              <p>{t('finn_price')} {car.finn_price} NOK / {TurnToBAM(car.finn_price)} BAM</p>
+              <p> {t('average_olx_price')} {(car.olx_prices.filter(price => price !== 0).reduce((a, b) => a + b, 0) / (car.olx_prices.filter(price => price !== 0).length || 1)).toFixed(0)} BAM</p>
+              <p> {t('year')} {car.year}</p>
               {car.tax_return > 0 && (
-                <p>Tax return: {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
+                <p> {t('tax_return_simple')} {car.tax_return} NOK / {TurnToBAM(car.tax_return)} BAM</p>
               )}
             </div>
           </a>

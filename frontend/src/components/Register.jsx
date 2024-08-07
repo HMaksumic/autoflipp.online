@@ -1,7 +1,9 @@
 import React, { useState, useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 import AuthContext from '../context/AuthContext';
 
 const Register = ({ toggleForm }) => {
+    const { t } = useTranslation();
     const { register } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -14,25 +16,25 @@ const Register = ({ toggleForm }) => {
         e.preventDefault();
 
         if (password !== confirmPassword) {
-            setError('Passwords do not match.');
+            setError(t('error_password_mismatch'));
             return;
         }
 
         try {
             const response = await register(username, password);
             if (response.success) {
-                setMessage('Registration successful! You can now log in.');
+                setMessage(t('register_success'));
                 setError('');
                 toggleForm();
             } else {
-                setError(response.message || 'Registration failed.');
+                setError(response.message || t('register_failure'));
                 setMessage('');
             }
         } catch (err) {
             if (err.response && err.response.status === 400) {
-                setError('Username is taken.');
+                setError(t('error_username_taken'));
             } else {
-                setError('An error occurred during registration.');
+                setError(t('error_during_registration'));
             }
             setMessage('');
         }
@@ -40,26 +42,26 @@ const Register = ({ toggleForm }) => {
 
     return (
         <form onSubmit={handleSubmit} className="auth-form">
-            <h2>Register</h2>
+            <h2>{t('register_title')}</h2>
             {message && <p className="success-message">{message}</p>}
             {error && <p className="error-message">{error}</p>}
             <input
                 type="text"
-                placeholder="Username"
+                placeholder={t('username_placeholder')}
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
             />
             <input
                 type={showPassword ? "text" : "password"}
-                placeholder="Password"
+                placeholder={t('password_placeholder')}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
             />
             <input
                 type={showPassword ? "text" : "password"}
-                placeholder="Confirm Password"
+                placeholder={t('confirm_password_placeholder')}
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 required
@@ -69,10 +71,10 @@ const Register = ({ toggleForm }) => {
                     type="checkbox"
                     checked={showPassword}
                     onChange={() => setShowPassword(!showPassword)}
-                /> Show Passwords
+                /> {t('show_password')}
             </label>
-            <button type="submit">Register</button>
-            <p>Already have an account? <span onClick={toggleForm}>Log In</span></p>
+            <button type="submit">{t('register_button')}</button>
+            <p>{t('have_account')} <span onClick={toggleForm}>{t('switch_to_login')}</span></p>
         </form>
     );
 };
