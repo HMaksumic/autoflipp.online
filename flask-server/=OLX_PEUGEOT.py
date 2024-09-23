@@ -34,12 +34,17 @@ def fetch_olx_data(max_pages=38):
             'page': 1,
             'per_page': 175
         }
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Referer': 'https://olx.ba/'
+    }
     
     olx_data = []
     
     while params['page'] <= max_pages:
         try:
-            response = requests.get(olx_url, params=params)
+            response = requests.get(olx_url, params=params,headers=headers)
             response.raise_for_status()
             data = response.json()
             

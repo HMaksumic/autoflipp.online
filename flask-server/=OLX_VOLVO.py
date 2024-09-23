@@ -36,6 +36,11 @@ def fetch_olx_data(max_pages=12):
             'page': 1,
             'per_page': 175
         }
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Referer': 'https://olx.ba/'
+    }
     
     session = requests.Session()
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504])
@@ -45,7 +50,7 @@ def fetch_olx_data(max_pages=12):
     olx_data = []
     while params['page'] <= max_pages:
         try:
-            response = session.get(olx_url, params=params)
+            response = session.get(olx_url, params=params,headers=headers)
             response.raise_for_status()  # Will not raise for 502, 503, 504 if retried
             data = response.json()
             page_data = data.get('data', [])
