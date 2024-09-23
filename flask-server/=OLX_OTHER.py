@@ -28,7 +28,7 @@ def fetch_finn_data():
         return []
 
 #fetching from olx (several pages of JSON)
-def fetch_olx_data(max_pages=60):
+def fetch_olx_data(max_pages=10):
     olx_url = 'https://olx.ba/api/search'
     params = {
         'attr': '3228323031302d393939393939293a372844697a656c29',
@@ -91,6 +91,7 @@ def pair_car_data(finn_data, olx_data):
         car_original_name = car.get('heading', '')
         car_image_url = car.get('image', {}).get('url', '')
         car_regno = car.get('regno', '')
+        car_mileage = car.get('mileage', '')
         if car_name and car_price is not None:
             if car_name not in car_pairs:
                 car_pairs[car_name] = {
@@ -101,7 +102,8 @@ def pair_car_data(finn_data, olx_data):
                     'original_name': car_original_name,
                     'image_url': car_image_url,
                     'regno': car_regno,
-                    'olx_ids' : []
+                    'olx_ids' : [],
+                    'mileage' : car_mileage,
                 }
 
     #pairing with corresponding olx cars and their prices
@@ -137,6 +139,7 @@ for car_name, data in paired_data.items():
         image_url = data['image_url']
         regno = data['regno']
         olx_ids = data['olx_ids']
+        mileage = data['mileage']
 
         #creating json entry for each car
         car_entry = {
@@ -148,10 +151,11 @@ for car_name, data in paired_data.items():
             'image_url': image_url,
             'regno': regno,
             'olx_prices': olx_prices,
-            'olx_ids' : olx_ids
+            'olx_ids' : olx_ids,
+            'mileage' : mileage,
         }
         olx_finn_output.append(car_entry)
-
+'''
 for car in olx_finn_output:
     if car['year'] >= 2015 and car.get('regno'):
             registration_number = car['regno'] 
@@ -160,7 +164,7 @@ for car in olx_finn_output:
     
     else:
         car['tax_return'] = None
-
+'''
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(current_dir, 'data')
 os.makedirs(data_dir, exist_ok=True)

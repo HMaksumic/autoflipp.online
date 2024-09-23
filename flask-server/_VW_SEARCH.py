@@ -17,7 +17,7 @@ options.add_argument('--disable-extensions')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 
-service = Service('/home/ec2-user/autoflipp.online/flask-server/chromedriver')
+service = Service('chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=options)
 
 base_url = "https://www.finn.no/car/used/search.html?dealer_segment=3&fuel=2&make=0.817&sales_form=1&year_from=2010&page="
