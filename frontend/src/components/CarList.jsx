@@ -100,7 +100,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   }, [url]);
 
   if (loading) return <p>{t('car_list_intro')}</p>;
-  if (error) return <p>{t('error_loading')}{error.message}</p>;
+  if (error) return <h3>{t('error_loading')}</h3>;
 
   function TurnToBAM(parameter) {
     if (!currencyData) {
