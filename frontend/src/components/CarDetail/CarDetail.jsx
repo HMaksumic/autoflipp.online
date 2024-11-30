@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import styles from './CarDetail.module.css';
 import { useTranslation } from 'react-i18next';
@@ -99,12 +99,14 @@ export default function CarDetail() {
 
     return (
       <>
-        <header className={styles.headerStyle}>
-          <h1 className={styles.titleStyle}>
+      <header style={headerStyle}>
+        <h1 style={titleStyle}>
+          <Link to='/home' style={linkStyle}>
             autoflipp.online
-            <img src="/icon-white.png" alt="" className={styles.logoStyle} />
-          </h1>
-        </header>
+            <img src="/icon-white.png" alt="Home" style={logoStyle} />
+          </Link>
+        </h1>
+      </header>
         <div className={styles.pageContainer}>
           <div className={styles.carDetailContainer}>
             <main className={styles.mainStyle}>
@@ -158,3 +160,38 @@ export default function CarDetail() {
       </>
     );
   }
+
+  const headerStyle = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    backgroundColor: '#007bff',
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+    zIndex: 1000,
+    padding: '10px',
+    textAlign: 'center',
+  };
+  
+  const titleStyle = {
+    margin: 0,
+    fontSize: '24px',
+    color: "#FFF",
+    fontWeight: 'bold',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none',
+    color: "#FFF",
+    fontWeight: 'bold',
+  };
+  
+  const logoStyle = {
+    marginLeft: '0px',
+    height: '35px',
+  };
+  
+  const mainStyle = {
+    paddingTop: '35px', 
+  };
+  
