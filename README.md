@@ -1,15 +1,11 @@
-# autoflipp.online
+# autoflipp.online - (not maintained since sept 2024)
 
-*[autoflipp.online](https://autoflipp.online/)* is designed to idenfify profitable export opportunities for diesel cars. As Western countries, like Norway, phase out diesel vehicles, the used car market shrinks, driving prices down. This creates an opportunity for savvy buyers to capitalize on undervalued vehicles and export them to markets where demand remains strong.
-
-What makes autoflipp.online unique is its data-driven comparison of car advertisements in Norway and Bosnia, two markets with significantly different demands and price trends for diesel vehicles. By analyzing these differences, the platform identifies undervalued cars in Norway that can be sold for a profit in Bosnia, helping users uncover highly profitable export opportunities with minimal effort.
+*[autoflipp.online](https://autoflipp.online/)* is designed to idenfify profitable export opportunities for diesel cars. As Western countries, like Norway, phase out diesel vehicles, the used car market shrinks, driving prices down. The app compares car-ads in Norway and Bosnia, highlighting cars where the price-difference is large.
 
 ## Usage
 ![ezgif-2-78e35e01a9](https://github.com/user-attachments/assets/72870f08-fd3d-47aa-9954-f819d262565e) 
 
 Open your browser and navigate to *[autoflipp.online/home](https://autoflipp.online/home)* to access the interface. From there, you can register and sign in using your account to access personalized features, or browse cars without logging in. The platform allows you to search for cars using various filters and parameters. Once you identify a potential export opportunity, you can save the car ad for future reference if logged in.
-- Simplifies the process of finding undervalued cars by making all relevant information accessible regarding taxes, average-price differences etc.
-- Highlights lucrative export opportunities by comparing cars ads in Norway and Bosnia.
 
 ## Technologies Used
 
