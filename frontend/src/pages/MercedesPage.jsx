@@ -4,8 +4,6 @@ import "../pages/Home.css";
 import { Link } from 'react-router-dom';
 
 export default function MercedesPage() {
-  const URL = "https://autoflipp-backend.online/api/olx_mercedes"
-
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -17,7 +15,7 @@ export default function MercedesPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList url={URL} audi='none' bmw='none' mercedes='bold' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='mercedes' />
+        <CarList audi='none' bmw='none' mercedes='bold' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='mercedes' />
       </main>
     </div>
   );

@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 import { NumericFormat } from 'react-number-format';
 import { useTranslation } from 'react-i18next';
+import { getCarDataUrl } from '../data/carData';
+import { turnToBAM } from '../utils/currency';
 
-const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, brandName }) => {
+const CarList = ({ audi, bmw, mercedes, peugeot, volvo, volkswagen, other, brandName }) => {
   const { user, favorites, addFavorite, removeFavorite, logout } = useContext(AuthContext);
   const [carData, setCarData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,7 +18,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [showAllPrices, setShowAllPrices] = useState({});
   const [sortBy, setSortBy] = useState('');
   const [viewMode, setViewMode] = useState('regular');
-  const [currencyData, setCurrencyData] = useState([]);
+  const [currencyData, setCurrencyData] = useState(null);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(1000000);
   const [minYear, setMinYear] = useState('2010');
@@ -24,6 +26,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   const [kilometers, setKilometers] = useState(500000);
   const [isSorted, setIsSorted] = useState(false);
   const { t } = useTranslation();
+  const url = getCarDataUrl(brandName);
 
   const handlePageExit = () => {
     const scrollPosition = window.scrollY.toString();
@@ -50,6 +53,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
     .then(response => {
       setCurrencyData(response.data)
     })
+    .catch(() => setCurrencyData(null));
   }, []);
 
   useEffect(() => {
@@ -103,25 +107,12 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
   if (error) return <h3>{t('error_loading')}</h3>;
 
   function TurnToBAM(parameter) {
-    if (!currencyData) {
-      console.error('Currency data not available, using "1 BAM = 5.85 NOK" estimate instead');
-      return (parameter / 5.85);
-    }
-
-    const nokToUsd = currencyData.conversions.USD.NOK;
-    const eurToUsd = currencyData.conversions.USD.EUR;
-    const bamToEurRate = 0.51; //BAM is a pinned currency
-
-    const nokToEur = nokToUsd / eurToUsd;
-    const bamToNok = bamToEurRate * nokToEur;
-    const resultInBAM = parameter / bamToNok;
-
-    return resultInBAM.toFixed(0);
+    return turnToBAM(parameter, currencyData);
   }
 
   const CalculateProfitRate = (olxPrices, finnPriceNOK, taxReturn = 0) => {
     const averageOLXPrice = olxPrices.reduce((sum, price) => sum + price, 0) / olxPrices.length;
-    const finnPriceBAM = TurnToBAM(finnPriceNOK) - TurnToBAM(taxReturn);
+    const finnPriceBAM = TurnToBAM(finnPriceNOK) - TurnToBAM(taxReturn ?? 0);
     return finnPriceBAM / averageOLXPrice;
   }
   
@@ -141,7 +132,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         case 'Most matches':
           return b.olx_prices.length - a.olx_prices.length;
         case 'Highest tax-return':
-          return b.tax_return - a.tax_return;
+          return (b.tax_return ?? 0) - (a.tax_return ?? 0);
         case 'Calculated profit rate':
         default:
           return CalculateProfitRate(a.olx_prices, a.finn_price, a.tax_return) - CalculateProfitRate(b.olx_prices, b.finn_price, b.tax_return);
@@ -185,8 +176,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
     car.finn_price <= maxPrice &&
     car.year >= minYear &&
     car.year <= maxYear &&
-    car.year >= minYear &&
-    car.mileage < kilometers
+    (car.mileage == null || car.mileage < kilometers)
   );
   const sortedCarData = sortCarData(filteredCars, sortBy);
 
@@ -414,7 +404,7 @@ const CarList = ({ url, audi, bmw, mercedes, peugeot, volvo, volkswagen, other, 
         viewMode === 'regular' ? (
           <div className="car-card" key={index}>
             <Link 
-              to={`/${brandName}/${car.regno ? car.regno : car.car_name}`}
+              to={`/${brandName}/${encodeURIComponent(car.regno || car.car_name)}`}
               className="car-link" 
               onClick={handlePageExit}
             >

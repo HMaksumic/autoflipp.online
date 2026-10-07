@@ -4,8 +4,6 @@ import "../pages/Home.css";
 import { Link } from 'react-router-dom';
 
 export default function OtherPage() {
-  const URL = "https://autoflipp-backend.online/api/olx_other"
-
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -17,7 +15,7 @@ export default function OtherPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList url={URL} audi='none' bmw='none' mercedes='none' other='bold' peugeot='none' volvo='none' volkswagen='none' brandName='other' />
+        <CarList audi='none' bmw='none' mercedes='none' other='bold' peugeot='none' volvo='none' volkswagen='none' brandName='other' />
       </main>
     </div>
   );

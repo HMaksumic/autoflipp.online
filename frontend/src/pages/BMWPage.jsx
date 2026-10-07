@@ -4,8 +4,6 @@ import "../pages/Home.css";
 import { Link } from 'react-router-dom';
 
 export default function BMWPage() {
-  const URL = "https://autoflipp-backend.online/api/olx_bmw"
-
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -17,7 +15,7 @@ export default function BMWPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList url={URL} audi='none' bmw='bold' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='bmw' />
+        <CarList audi='none' bmw='bold' mercedes='none' other='none' peugeot='none' volvo='none' volkswagen='none' brandName='bmw' />
       </main>
     </div>
   );

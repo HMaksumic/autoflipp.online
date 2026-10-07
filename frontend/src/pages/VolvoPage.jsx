@@ -4,8 +4,6 @@ import "../pages/Home.css";
 import { Link } from 'react-router-dom';
 
 export default function VolvoPage() {
-  const URL = "https://autoflipp-backend.online/api/olx_volvo"
-
   return (
     <div className="home-container">
       <header style={headerStyle}>
@@ -17,7 +15,7 @@ export default function VolvoPage() {
         </h1>
       </header>
       <main style={mainStyle}>
-        <CarList url={URL} audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='bold' volkswagen='none' brandName='volvo' />
+        <CarList audi='none' bmw='none' mercedes='none' other='none' peugeot='none' volvo='bold' volkswagen='none' brandName='volvo' />
       </main>
     </div>
   );
